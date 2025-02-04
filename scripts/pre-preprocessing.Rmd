@@ -20,7 +20,7 @@ library(ggplot2)
 # Load data
 Downloading the bulk data from humet.org as either a csv or an excel file was simple, but the names were swapped, making the files unable to be processed by rstudio. Simply changing the extension solved this issue.
 ```{r}
-data_path <-"../data/raw/postprandial_imputed.csv"
+data_path <-"../data/raw/postprandial_non_imputed.csv"
 info_path <- "../data/raw/postprandial_info.csv"
 data <- read.csv(data_path, sep = ";", header = TRUE)
 info <- read.csv(info_path, sep = ";", header = TRUE)
@@ -30,7 +30,8 @@ data <- subset(data, select = -X)
 info <- subset(info, select = -X)
 
 # Check for missing data
-sum(is.na(data)) # no missing values
+sum(is.na(data)) # 4465 missing values, check where they are
+data_with_na <- data[apply(is.na(data), 1, any), ] # some timepoints missing, to be imputed later
 sum(is.na(info)) # fifteen missing values, check where they are
 info_with_na <- info[apply(is.na(info), 1, any), ] # only missing sub-pathways, no action necessary
 
@@ -51,6 +52,7 @@ data <- data %>%
 Downloaded data was already imputed using missForest.
 Next, filter for time points measured after the first 30 minutes of a study challenge. Then, filter for outliers defined as data points beyond four standard deviations from the mean. The order is crucial, as filtering first for outliers and then for time points could exclude to many time points that are outliers simply *because* they stem from the first thirty minutes.
 ```{r}
+# First 30mins Then 4 SD from mean
 # Filter for time points within first 30 mins
 data_after_30min <- data %>% filter(challenge_time > 30)
 
@@ -67,14 +69,41 @@ identify_outliers <- function(metabolite_data){
 
 # Apply outliers function to each metabolite column, excluding subject and challenge_time
 outliers_data_after_30min <- data_after_30min %>%
-  select(-data_after_30min$subject, -data_after_30min$challenge_time) %>% # remove subject and challenge_time
+  select(-subject, -challenge_time, -challenge) %>% # remove subject and challenge_time
   apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
 
 # Check how many outliers (TRUE)
 table(outliers_data_after_30min)
+
 ```
-124 data points fit both time and outlier criteria and require manual inspection.
+122 data points fit both time and outlier criteria and require manual inspection.
 ```{r}
+# First 4 SD from mean Then 30mins
+
+# Apply outliers function to each metabolite column, excluding subject and challenge_time
+outliers_data <- data %>%
+  select(-subject, -challenge_time, -challenge) %>% # remove subject and challenge_time
+  apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
+outliers_data <- as.data.frame(outliers_data)
+outliers_data$challenge_time <- data$challenge_time
+
+# Filter for time points within first 30 mins
+after_30min_outliers_data <- outliers_data %>% filter(challenge_time > 30)
+
+# Check how many outliers (TRUE)
+dim(after_30min_outliers_data)
+table(after_30min_outliers_data)
+```
+
+```{r}
+# Combine outlier data with subject and challenge time for manual inspection
+outliers_data_df <- as.data.frame(outliers_data_after_30min) # convert to dataframe
+
+metabolite_columns <- data_after_30min %>%
+  select(-subject, -challenge_time) %>%
+  colnames()
+colnames(outliers_data_df) <- metabolite_columns #colnames(data_after_30min)[-c(1,2)] # 
+
 # Manual inspection of the 124 data points identified above
 
 
