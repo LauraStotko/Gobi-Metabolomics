@@ -19,16 +19,17 @@ library(dplyr)
 # Load data
 Downloading the bulk data from humet.org as either a csv or an excel file was simple, but the names were swapped, making the files unable to be processed by rstudio. Simply changing the extension solved this issue.
 ```{r}
-data_path <-"../data/raw/humet_data_zscore_none_subjects15_tp57.csv"
-info_path <- "../data/raw/humet_info.csv"
-data <- read.csv(data_path)
-info <- read.csv(info_path)
+data_path <-"../data/raw/postprandial_non_imputed.csv"
+info_path <- "../data/raw/postprandial_info.csv"
+data <- read.csv(data_path, sep = ";")
+info <- read.csv(info_path, sep = ";")
 
-# Filter out unnecessary data
-info_plasma <- info %>% filter(fluid == "plasma")
+# Filter out non-plasma data points from info
+info_plasma <- info %>% filter(Fluid == "plasma")
 
-# Remove [P, nt-ms] from column names of metabolites in data
-colnames(data) <- gsub(" \\[P, nt-ms\\]$", "", colnames(data))
+# Add targeted / non-targeted column in info
+info_plasma <- cbind(targeted = )
+
 
 
 
