@@ -92,7 +92,16 @@ after_30min_outliers_data <- outliers_data %>% filter(challenge_time > 30)
 
 # Check how many outliers (TRUE)
 dim(after_30min_outliers_data)
-table(after_30min_outliers_data)
+#table(after_30min_outliers_data)
+true_count_total <- sum(after_30min_outliers_data == TRUE, na.rm = TRUE)
+
+# Count FALSE values for each column
+false_count_total <- sum(after_30min_outliers_data == FALSE, na.rm = TRUE)
+
+# Print results
+cat("Total FALSE values:", false_count_total, "\n")
+cat("Total TRUE values:", true_count_total, "\n")
+
 ```
 
 ```{r}
