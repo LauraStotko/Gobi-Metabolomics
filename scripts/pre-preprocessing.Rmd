@@ -15,17 +15,19 @@ library(readr)
 library(tidyr)
 library(dplyr)
 library(ggplot2)
+library(missForest)
+library(doParallel)
 ```
 
 # Load data
 ```{r}
 data_path <-"../data/raw/humet_data_raw_none_subjects15_tp57.csv"
 info_path <- "../data/raw/humet_info.csv"
-data <- read.csv(data_path, sep = ",", header = TRUE)
+data_raw <- read.csv(data_path, sep = ",", header = TRUE)
 info <- read.csv(info_path, sep = ",", header = TRUE)
 
 # Add challenge column depending on time
-data <- data %>%
+data_raw <- data_raw %>%
   mutate(challenge = case_when(
     time >= 1 & time <= 10 ~ "fasting",      # time 1-10 corresponds to fasting
     time >= 33 & time <= 39 ~ "exercise",    # time 33-39 corresponds to exercise
@@ -45,114 +47,169 @@ Next, filter for time points measured after the first 30 minutes of a study chal
 
 #todoxxx: identify minutes data. Oder sowieso schon auf outlier getreated wgene 'concentrations and relative abundances'? Dann nur missForest
 
+# SKIP OUTLIER IDENTIFICATION FOR NOW
+
 ## First 30mins Then 4 SD from mean #todo: for each challenge separately
 ```{r}
-# Filter for time points within first 30 mins
-data_after_30min <- data %>% filter(time > 30)
-
-# Filter for outliers based on standard deviation
-identify_outliers <- function(metabolite_data){
-  mean_value <- mean(metabolite_data, na.rm = TRUE)
-  sd_value <- sd(metabolite_data, na.rm = TRUE)
-  
-  # Outliers defined as data points beyond 4 SD from mean
-  outliers <- metabolite_data > (mean_value + 4 * sd_value) | metabolite_data < (mean_value - 4 * sd_value)
-  
-  return(outliers)
-}
-
-# Apply outliers function to each metabolite column, excluding subject and challenge_time
-outliers_data_after_30min <- data_after_30min %>%
-  select(-subject, -time, -challenge) %>% # remove subject and challenge_time
-  apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
-
-# Check how many outliers (TRUE)
-table(outliers_data_after_30min)
+# # Filter for time points within first 30 mins
+# data_after_30min <- data %>% filter(time > 30)
+# 
+# # Filter for outliers based on standard deviation
+# identify_outliers <- function(metabolite_data){
+#   mean_value <- mean(metabolite_data, na.rm = TRUE)
+#   sd_value <- sd(metabolite_data, na.rm = TRUE)
+#   
+#   # Outliers defined as data points beyond 4 SD from mean
+#   outliers <- metabolite_data > (mean_value + 4 * sd_value) | metabolite_data < (mean_value - 4 * sd_value)
+#   
+#   return(outliers)
+# }
+# 
+# # Apply outliers function to each metabolite column, excluding subject and challenge_time
+# outliers_data_after_30min <- data_after_30min %>%
+#   select(-subject, -time, -challenge) %>% # remove subject and challenge_time
+#   apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
+# 
+# # Check how many outliers (TRUE)
+# table(outliers_data_after_30min)
 
 ```
 122 data points fit both time and outlier criteria and require manual inspection.
 
+## SKIP FOR NOW
 
 ## First 4 SD from mean Then 30mins
 ```{r}
-# Apply outliers function to each metabolite column, excluding subject and challenge_time
-outliers_data <- data %>%
-  select(-subject, -time, -challenge) %>% # remove subject and challenge_time
-  apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
-outliers_data <- as.data.frame(outliers_data)
-outliers_data$time <- data$time
-
-# Filter for time points within first 30 mins
-after_30min_outliers_data <- outliers_data %>% filter(time > 30)
-
-# Check how many outliers (TRUE)
-dim(after_30min_outliers_data)
-#table(after_30min_outliers_data)
-true_count_total <- sum(after_30min_outliers_data == TRUE, na.rm = TRUE)
-
-# Count FALSE values for each column
-false_count_total <- sum(after_30min_outliers_data == FALSE, na.rm = TRUE)
-
-# Print results
-cat("Total FALSE values:", false_count_total, "\n")
-cat("Total TRUE values:", true_count_total, "\n")
+# # Apply outliers function to each metabolite column, excluding subject and challenge_time
+# outliers_data <- data %>%
+#   select(-subject, -time, -challenge) %>% # remove subject and challenge_time
+#   apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
+# outliers_data <- as.data.frame(outliers_data)
+# outliers_data$time <- data$time
+# 
+# # Filter for time points within first 30 mins
+# after_30min_outliers_data <- outliers_data %>% filter(time > 30)
+# 
+# # Check how many outliers (TRUE)
+# dim(after_30min_outliers_data)
+# #table(after_30min_outliers_data)
+# true_count_total <- sum(after_30min_outliers_data == TRUE, na.rm = TRUE)
+# 
+# # Count FALSE values for each column
+# false_count_total <- sum(after_30min_outliers_data == FALSE, na.rm = TRUE)
+# 
+# # Print results
+# cat("Total FALSE values:", false_count_total, "\n")
+# cat("Total TRUE values:", true_count_total, "\n")
 
 ```
 Using outliers_data_after_30min for now, with 122 True
 
+## SKIP FOR NOW
 
 ## Manual inspection
 ```{r}
-# Combine outlier data with subject and challenge time for manual inspection
-outliers_data_df <- as.data.frame(outliers_data_after_30min) # convert to dataframe
-
-metabolite_columns <- data_after_30min %>%
-  select(-subject, -time, -challenge) %>%
-  colnames()
-colnames(outliers_data_df) <- metabolite_columns
-
-table(unlist(outliers_data_df))
+# # Combine outlier data with subject and challenge time for manual inspection
+# outliers_data_df <- as.data.frame(outliers_data_after_30min) # convert to dataframe
+# 
+# metabolite_columns <- data_after_30min %>%
+#   select(-subject, -time, -challenge) %>%
+#   colnames()
+# colnames(outliers_data_df) <- metabolite_columns
+# 
+# table(unlist(outliers_data_df))
 ```
+## SKIP FOR NOW
+
 ## Check for unique subjects per time point, challenge, and metabolite
 ```{r}
-outliers_data_df <- outliers_data_df %>%
-  mutate(across(everything(), ~ as.logical(.))) # ensure rue/false values
-
-# Add non-metabolite columns back
-outliers_data_df$subject <- data_after_30min$subject
-outliers_data_df$time <- data_after_30min$time
-outliers_data_df$challenge <- data_after_30min$challenge
-
-# Pivot dataframe into long format
-outliers_long <- outliers_data_df %>%
-  mutate(subject = data_after_30min$subject,
-         time = data_after_30min$time,
-         challenge = data_after_30min$challenge) %>%
-  pivot_longer(
-    cols = -c(subject, time, challenge), # keep subject, time, and challenge; make all metabolites long
-    names_to = "metabolite",
-    values_to = "is_outlier"
-  ) %>%
-  filter(is_outlier == TRUE) # keep only outlier rows
-
-# Count unique subjects for each metabolite, time, and challenge
-outlier_counts <- outliers_long %>%
-  group_by(metabolite, time, challenge) %>%
-  summarise(unique_subjects = n_distinct(subject), .groups = "drop") %>% # count unique subjects; "drop" for clean dataframe
-  arrange(metabolite, time, challenge) # order results
-
-# Identify individual subjects that had an outlier at each time for given metabolite
-single_subject_outliers <- outlier_counts %>%
-  filter(unique_subjects == 1) # keep only cases where **one** subject has outlier
+# outliers_data_df <- outliers_data_df %>%
+#   mutate(across(everything(), ~ as.logical(.))) # ensure rue/false values
+# 
+# # Add non-metabolite columns back
+# outliers_data_df$subject <- data_after_30min$subject
+# outliers_data_df$time <- data_after_30min$time
+# outliers_data_df$challenge <- data_after_30min$challenge
+# 
+# # Pivot dataframe into long format
+# outliers_long <- outliers_data_df %>%
+#   mutate(subject = data_after_30min$subject,
+#          time = data_after_30min$time,
+#          challenge = data_after_30min$challenge) %>%
+#   pivot_longer(
+#     cols = -c(subject, time, challenge), # keep subject, time, and challenge; make all metabolites long
+#     names_to = "metabolite",
+#     values_to = "is_outlier"
+#   ) %>%
+#   filter(is_outlier == TRUE) # keep only outlier rows
+# 
+# # Count unique subjects for each metabolite, time, and challenge
+# outlier_counts <- outliers_long %>%
+#   group_by(metabolite, time, challenge) %>%
+#   summarise(unique_subjects = n_distinct(subject), .groups = "drop") %>% # count unique subjects; "drop" for clean dataframe
+#   arrange(metabolite, time, challenge) # order results
+# 
+# # Identify individual subjects that had an outlier at each time for given metabolite
+# single_subject_outliers <- outlier_counts %>%
+#   filter(unique_subjects == 1) # keep only cases where **one** subject has outlier
 ```
 Exclude (i.e. set to missing) the identified unique subjects per time point, challenge, and metabolite from further analysis.
-```{r}
 
+
+
+
+# Impute missing values using missForest
+
+```{r}
+# Prepare data
+#data <- data %>%
+ # mutate(across(where(is.character), as.factor))
+
+data <- data_raw %>%
+  mutate(
+    challenge = as.factor(challenge),
+    time = as.factor(time),
+    subject = as.factor(subject)
+    ) %>%
+  mutate(across(where(is.character), as.factor)) # should not make a difference. #del if possible
+```
+#todo: "per platform"
+```{r}
+# # Set up parallel backend using all available cores minus one
+# cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+# registerDoParallel(cl)
+# 
+# # Perform missForest imputation
+# set.seed(123)  # Ensures reproducibility
+# imputed_data <- missForest(data, ntree = 10, parallelize = "variables") # default ntree = 100                # ACHTUNG: DAUERT LANGE!!
+# 
+# stopCluster(cl)  # Stop  cluster after imputation
+# 
+# # Check imputation error
+# imputed_data$error
+# 
+# # Extract imputed dataset
+# data_imputed <- imputed_data$ximp
 ```
 
 ```{r}
 
 ```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
 
 ```{r}
 
