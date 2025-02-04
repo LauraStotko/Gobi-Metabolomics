@@ -1,7 +1,7 @@
 ---
 title: "Gobi"
 author: "Marie Hackenberg"
-date: "2025-02-04"
+date: "2025-02-03"
 output: html_document
 ---
 
@@ -9,22 +9,65 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+# Load libraries
+```{r}
+library(readr)
+library(tidyr)
+library(dplyr)
 ```
 
-## Including Plots
+# Load data
+Downloading the bulk data from humet.org as either a csv or an excel file was simple, but the names were swapped, making the files unable to be processed by rstudio. Simply changing the extension solved this issue.
+```{r}
+data_path <-"/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/humet_data.csv" #Marie
+info_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/humet_info.csv" #Marie
+data <- read_csv(data_path)
+info <- read_csv(info_path)
 
-You can also embed plots, for example:
+# Filter out unnecessary data
+info_plasma <- info %>% filter(fluid == "plasma")
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+# Remove [P, nt-ms] from column names of metabolites in data
+colnames(data) <- gsub(" \\[P, nt-ms\\]$", "", colnames(data))
+
+
+
+# Merge data and info by metabolite
+#merged_data <- merge(data, info, by = "metabolite")
+
+#data_long <- data %>% pivot_longer(cols = -c(time, subject), # exclude time and subject columns
+ #                                  names_to = "metabolite", # name for the metabolite column
+  #                                 values_to = "value") # name for the metabolite values
+
+#merged_data <- left_join(data_long, info, by = "metabolite")
+
+
+
+```
+## Impute missing data (assuming 'data' contains missing values)
+```{r}
+library(missForest)
+imputed_data <- missForest(data)
+data_imputed <- imputed_data$ximp
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
