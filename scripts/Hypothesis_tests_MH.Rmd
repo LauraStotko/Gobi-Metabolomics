@@ -64,6 +64,10 @@ for (metabolite in colnames(data)[3:ncol(data)]) {
 
 
 ```{r}
+humet_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/humet_data.csv" #Marie
+humet <- read_csv(humet_path)
+bulk_info_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/humet_info.csv" #Marie
+bulk_info <- read_csv(bulk_info_path)
 ```
 
 

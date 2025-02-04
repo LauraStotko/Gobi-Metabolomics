@@ -49,10 +49,10 @@ data <- data %>%
 # Pre-processing
 
 Downloaded data was already imputed using missForest.
-Next, filter for time points measured after the first 30 minutes of a study challenge. Then, filter for outliers defined as data points beyond four standard deviations from the mean. The order is crucial, as filtering first for outliers and then for time points could exclude to many time points that are outliers simply *because* they stem from the first thirty minutes.
+Next, filter for time points measured after the first 30 minutes of a study challenge. Then, filter for outliers defined as data points beyond four standard deviations from the mean. The order is crucial, as filtering first for outliers and then for time points could exclude too many time points that are outliers simply *because* they stem from the first thirty minutes.
 
 
-## First 30mins Then 4 SD from mean
+## First 30mins Then 4 SD from mean #todo: for each challenge separately
 ```{r}
 # Filter for time points within first 30 mins
 data_after_30min <- data %>% filter(challenge_time > 30)

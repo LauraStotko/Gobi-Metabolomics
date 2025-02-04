@@ -1,0 +1,152 @@
+---
+title: "Gobi: Clustering"
+author: "Marie Hackenberg"
+date: "2025-02-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Install and load libraries
+```{r}
+library(readr)
+library(Mfuzz)
+library(tidyverse)
+library(Biobase)
+library(nparLD)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+```
+
+# Load data
+```{r}
+data_path <- "../data/raw/postprandial_imputed.csv"
+#info_path <- "../data/raw/postprandial_info.csv"
+data <- read.csv(data_path, sep = ";", header = TRUE)
+#info <- read.csv(info_path, sep = ";", header = TRUE)
+
+# Remove numbering columns
+data <- subset(data, select = -X)
+#info <- subset(info, select = -X)
+```
+# Fuzzy c-means clustering
+
+## Prepare data for Mfuzz
+```{r}
+# Convert value types
+options(digits = 14) # set decimal precision to original precision in raw data
+convert_to_numeric <- function(x) {
+  as.numeric(gsub(",", ".", x)) # R uses . for decimal numbers
+}
+data <- data %>%
+  mutate(across(
+    -c(subject, challenge_time, challenge), # exclude subject, challenge_time, and challenge
+    convert_to_numeric # apply conversion function
+  ))
+
+# Convert challenge time to categorical
+#data$challenge_time <- as.factor(data$challenge_time)
+```
+## Normalize metabolite data
+```{r}
+# Z-score transformation
+z_score <- function(x){
+  (x - mean(x, na.rm = TRUE)) / sd(x, na.rm = TRUE)
+}
+
+# Apply z-score function to all metabolite columns
+metabolite_columns <- names(data)[4:ncol(data)]
+data[metabolite_columns] <- data[metabolite_columns] %>% apply(2, z_score)
+
+```
+## Reshape data for Mfuzz
+rows = metabolites, columns = time points (concatenated across subjects & challenges)
+```{r}
+# Convert challenge_time to numeric
+data <- data %>% mutate(challenge_time = as.numeric(challenge_time))
+
+ver <- data %>%
+  count(subject, challenge, challenge_time) %>%
+  print(n = 20)
+
+data_long <- data %>%
+  pivot_longer(
+    cols = all_of(metabolite_columns),  # Convert metabolite columns into rows
+    names_to = "metabolite",
+    values_to = "value"
+  )
+
+# Pivot data to wide format
+data_wide <- data_long %>%
+  pivot_wider( # remove non-numeric columns by itself
+    names_from = c(subject, challenge, challenge_time),
+    values_from = value,
+    names_sep = "_"
+    )
+dim(data_wide)
+```
+```{r}
+# Convert to matrix
+data_matrix <- as.matrix(data_wide)
+rownames(data_matrix) <- data_wide$metabolite  # assign metabolite names
+data_matrix <- data_matrix[, -1]
+
+eset <- new("ExpressionSet", exprs = data_matrix)
+```
+## Estimate fuzzification parameter (m)
+```{r}
+m <- mestimate(eset)
+print(m)
+```
+## Perform fuzzy c-means clustering
+```{r}
+set.seed(123)  # for reproducibility
+clusters <- mfuzz(eset, c = 5, m = m)  # "c" is number of clusters (experiment with different values) #todo
+```
+## Visualise clustering results
+```{r}
+#plot(clusters) doesn't work so plot manually
+
+membership <- clusters$membership
+
+# Plot the cluster membership
+matplot(t(membership), type = "l", lty = 1, col = 1:ncol(membership),
+        xlab = "Metabolites", ylab = "Membership", main = "Cluster Membership")
+legend("topright", legend = paste("Cluster", 1:ncol(membership)), col = 1:ncol(membership), lty = 1)
+
+```
+## Inspect cluster assignments
+```{r}
+# Get cluster assignments for each metabolite
+cluster_results <- data.frame(metabolite = rownames(data_matrix), cluster = clusters$cluster)
+
+# Check number of metabolites in each cluster
+table(cluster_results$cluster)
+
+```
+
+## Visualize temporal profiles for each cluster
+```{r}
+# Plot temporal profiles of metabolites in each cluster
+for (cluster_num in 1:max(cluster_results$cluster)) {
+  metabolites_in_cluster <- rownames(data_matrix)[cluster_results$cluster == cluster_num]
+  cluster_data <- data_matrix[metabolites_in_cluster, ]
+  
+  # Plot the temporal profiles for the metabolites in the current cluster
+  matplot(t(cluster_data), type = "l", col = 1:nrow(cluster_data), lty = 1, 
+          xlab = "Time", ylab = "Metabolite Level", 
+          main = paste("Temporal Profiles of Cluster", cluster_num))
+}
+
+```
+
+```{r}
+# Save cluster results to a CSV file
+write.csv(cluster_results, "../figures/metabolite_clusters.csv", row.names = FALSE)
+```
+
+```{r}
+```
