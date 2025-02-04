@@ -1,0 +1,75 @@
+---
+title: "Gobi: Hypothesis Tests"
+author: "Marie Hackenberg"
+date: "2025-02-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Install and load libraries
+```{r}
+#install.packages("nparLD")
+
+library(readr)
+library(nparLD)
+library(tidyr)
+#library(dplyr)
+#library(ggplot2)
+
+```
+
+# Load data
+```{r}
+data_path <-"../data/raw/postprandial_imputed.csv"
+info_path <- "../data/raw/postprandial_info.csv"
+data <- read.csv(data_path, sep = ";", header = TRUE)
+info <- read.csv(info_path, sep = ";", header = TRUE)
+
+# Remove numbering columns
+data <- subset(data, select = -X)
+info <- subset(info, select = -X)
+```
+
+# Hypothesis tests
+
+## Prepare for ld.f1
+```{r}
+# Convert challenge time to categorical for ld.f1
+data$challenge_time <- as.factor(data$challenge_time)
+```
+
+## Apply ld.f1 for each metabolite
+```{r}
+# Define threshold
+p_threshold <- 0.05 / ncol(data) - 3 # / number of metabolites
+
+# Create dataframe to store results
+results <- data.frame(Metabolite = character(), P_value = numeric(), stringsAsFactors = FALSE)
+
+# Identify metabolite columns
+for (metabolite in colnames(data)[3:ncol(data)]) {
+  test_result <- ld.f1(y = data[[metabolite]], time = data$challenge_time, subject = data$subject)
+  
+  p_value <- test_result$ANOVA.test[3] # extract p_value
+  results <- rbind(results, data.frame(Metabolite = metabolite, p_value = p_value))
+}
+  
+```
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```

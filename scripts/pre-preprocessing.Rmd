@@ -1,5 +1,5 @@
 ---
-title: "Gobi"
+title: "Gobi: Pre-processing"
 author: "Marie Hackenberg"
 date: "2025-02-03"
 output: html_document
@@ -18,7 +18,6 @@ library(ggplot2)
 ```
 
 # Load data
-Downloading the bulk data from humet.org as either a csv or an excel file was simple, but the names were swapped, making the files unable to be processed by rstudio. Simply changing the extension solved this issue.
 ```{r}
 data_path <-"../data/raw/postprandial_non_imputed.csv"
 info_path <- "../data/raw/postprandial_info.csv"
