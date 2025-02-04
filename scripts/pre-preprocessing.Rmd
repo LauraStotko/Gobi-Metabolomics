@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(tidyr)
 library(dplyr)
+library(ggplot2)
 ```
 
 # Load data
@@ -28,32 +29,55 @@ info <- read.csv(info_path, sep = ";", header = TRUE)
 data <- subset(data, select = -X)
 info <- subset(info, select = -X)
 
-# Add targeted / non-targeted column in info
-#info_plasma <- cbind(targeted = )
+# Check for missing data
+sum(is.na(data)) # no missing values
+sum(is.na(info)) # fifteen missing values, check where they are
+info_with_na <- info[apply(is.na(info), 1, any), ] # only missing sub-pathways, no action necessary
 
-
-
-
-# Merge data and info by metabolite
-#merged_data <- merge(data, info, by = "metabolite")
-
-#data_long <- data %>% pivot_longer(cols = -c(time, subject), # exclude time and subject columns
- #                                  names_to = "metabolite", # name for the metabolite column
-  #                                 values_to = "value") # name for the metabolite values
-
-#merged_data <- left_join(data_long, info, by = "metabolite")
-
-
+# Convert value types
+options(digits = 14) # set decimal precision to original precision in raw data
+convert_to_numeric <- function(x) {
+  as.numeric(gsub(",", ".", x)) # R uses . for decimal numbers
+}
+data <- data %>%
+  mutate(across(
+    -c(subject, challenge_time, challenge), # exclude subject, challenge_time, and challenge
+    convert_to_numeric # apply conversion function
+  ))
 
 ```
-## Impute missing data (assuming 'data' contains missing values)
-```{r}
-library(missForest)
-imputed_data <- missForest(data)
-data_imputed <- imputed_data$ximp
-```
+# Pre-processing
 
+Downloaded data was already imputed using missForest.
+Next, filter for time points measured after the first 30 minutes of a study challenge. Then, filter for outliers defined as data points beyond four standard deviations from the mean. The order is crucial, as filtering first for outliers and then for time points could exclude to many time points that are outliers simply *because* they stem from the first thirty minutes.
 ```{r}
+# Filter for time points within first 30 mins
+data_after_30min <- data %>% filter(challenge_time > 30)
+
+# Filter for outliers based on standard deviation
+identify_outliers <- function(metabolite_data){
+  mean_value <- mean(metabolite_data, na.rm = TRUE)
+  sd_value <- sd(metabolite_data, na.rm = TRUE)
+  
+  # Outliers defined as data points beyond 4 SD from mean
+  outliers <- metabolite_data > (mean_value + 4 * sd_value) | metabolite_data < (mean_value - 4 * sd_value)
+  
+  return(outliers)
+}
+
+# Apply outliers function to each metabolite column, excluding subject and challenge_time
+outliers_data_after_30min <- data_after_30min %>%
+  select(-data_after_30min$subject, -data_after_30min$challenge_time) %>% # remove subject and challenge_time
+  apply(2, identify_outliers) # apply outlier detection for each metabolite, "2" for column
+
+# Check how many outliers (TRUE)
+table(outliers_data_after_30min)
+```
+124 data points fit both time and outlier criteria and require manual inspection.
+```{r}
+# Manual inspection of the 124 data points identified above
+
+
 
 ```
 
