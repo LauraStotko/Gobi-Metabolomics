@@ -240,7 +240,7 @@ keep_sub_30 <- function(dataset) {
   
   # Identify columns with more than 30% missing values
   missing_threshold <- 0.3  # 30% threshold
-  cols_to_keep <- colMeans(is.na(dataset)) < missing_threshold
+  cols_to_keep <- colMeans(is.na(dataset)) < missing_threshold | colnames(dataset) == "challenge" # keep challenge column
   
   # Count total columns after filtering
   total_cols_after <- sum(cols_to_keep)
@@ -336,7 +336,7 @@ mF_function <- function(dataset) {
     
     # Perform missForest imputation
     set.seed(42)  # Ensures reproducibility
-    imputed_dataset <- missForest(dataset, ntree = 3, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+    imputed_dataset <- missForest(dataset, ntree = 1, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
     
     stopCluster(cl)  # Stop  cluster after imputation
     
@@ -356,12 +356,12 @@ mF_function <- function(dataset) {
 }
 
 imputed_metabolon_filtered_first <- mF_function(data_metabolon_filtered_first)
-#imputed_biocrates_filtered_first <- mF_function(data_biocrates_filtered_first)
-#imputed_inhouse_filtered_first <- mF_function(data_inhouse_filtered_first_first)
+imputed_biocrates_filtered_first <- mF_function(data_biocrates_filtered_first)
+imputed_inhouse_filtered_first <- mF_function(data_inhouse_filtered_first)
 
-#imputed_metabolon_filtered_last <- mF_function(data_metabolon_filtered_last)
-#imputed_biocrates_filtered_last <- mF_function(data_biocrates_filtered_last)
-#imputed_inhouse_filtered_last <- mF_function(data_inhouse_filtered_last)
+imputed_metabolon_filtered_last <- mF_function(data_metabolon_filtered_last)
+imputed_biocrates_filtered_last <- mF_function(data_biocrates_filtered_last)
+imputed_inhouse_filtered_last <- mF_function(data_inhouse_filtered_last)
 
 
 ```
@@ -572,12 +572,12 @@ log2_transformed <- function(dataset) {
 }
 
 log2_imputed_metabolon_filtered_first <- log2_transformed(imputed_metabolon_filtered_first)
-# log2_imputed_biocrates_filtered_first <- log2_transformed(imputed_biocrates_filtered_first)
-# log2_imputed_inhouse_filtered_first <- log2_transformed(imputed_inhouse_filtered_first)
-# 
-# log2_imputed_metabolon_filtered_last <- log2_transformed(imputed_metabolon_filtered_last)
-# log2_imputed_biocrates_filtered_last <- log2_transformed(imputed_biocrates_filtered_last)
-# log2_imputed_inhouse_filtered_last <- log2_transformed(imputed_inhouse_filtered_last)
+log2_imputed_biocrates_filtered_first <- log2_transformed(imputed_biocrates_filtered_first)
+log2_imputed_inhouse_filtered_first <- log2_transformed(imputed_inhouse_filtered_first)
+
+log2_imputed_metabolon_filtered_last <- log2_transformed(imputed_metabolon_filtered_last)
+log2_imputed_biocrates_filtered_last <- log2_transformed(imputed_biocrates_filtered_last)
+log2_imputed_inhouse_filtered_last <- log2_transformed(imputed_inhouse_filtered_last)
 ```
 
 # Filter unfiltered data for relevant timepoints
@@ -587,9 +587,9 @@ relevant_timepoints <- function(dataset) {
     filter(!is.na(challenge))  # remove rows where 'challenge' is NA
 }
 
-#log2_imputed_data_metabolon_filtered_last <- log2_imputed_data_metabolon_filtered_last
-# data_biocrates_filtered_last <- log2_imputed_data_biocrates_filtered_last
-# log2_imputed_data_inhouse_filtered_last <- log2_imputed_data_inhouse_filtered_last
+log2_imputed_metabolon_filtered_last <- relevant_timepoints(log2_imputed_metabolon_filtered_last)
+log2_imputed_biocrates_filtered_last <- relevant_timepoints(log2_imputed_biocrates_filtered_last)
+log2_imputed_inhouse_filtered_last <- relevant_timepoints(log2_imputed_inhouse_filtered_last)
 ```
 
 
@@ -602,11 +602,11 @@ relevant_timepoints <- function(dataset) {
 ```{r}
 # Save to a CSV file
 write.csv(log2_imputed_metabolon_filtered_first, "../figures/log2_imputed_metabolon_filtered_first.csv", row.names = FALSE)
-# write.csv(log2_imputed_biocrates_filtered_first, "../figures/log2_imputed_biocrates_filtered_first.csv", row.names = FALSE)
-# write.csv(log2_imputed_inhouse_filtered_first, "../figures/log2_imputed_inhouse_filtered_first.csv", row.names = FALSE)
-# write.csv(log2_imputed_metabolon_filtered_last, "../figures/log2_imputed_metabolon_filtered_last.csv", row.names = FALSE)
-# write.csv(log2_imputed_biocrates_filtered_last, "../figures/log2_imputed_biocrates_filtered_last.csv", row.names = FALSE)
-# write.csv(log2_imputed_inhouse_filtered_last, "../figures/log2_imputed_inhouse_filtered_last.csv", row.names = FALSE)
+write.csv(log2_imputed_biocrates_filtered_first, "../figures/log2_imputed_biocrates_filtered_first.csv", row.names = FALSE)
+write.csv(log2_imputed_inhouse_filtered_first, "../figures/log2_imputed_inhouse_filtered_first.csv", row.names = FALSE)
+write.csv(log2_imputed_metabolon_filtered_last, "../figures/log2_imputed_metabolon_filtered_last.csv", row.names = FALSE)
+write.csv(log2_imputed_biocrates_filtered_last, "../figures/log2_imputed_biocrates_filtered_last.csv", row.names = FALSE)
+write.csv(log2_imputed_inhouse_filtered_last, "../figures/log2_imputed_inhouse_filtered_last.csv", row.names = FALSE)
 
 ```
 
