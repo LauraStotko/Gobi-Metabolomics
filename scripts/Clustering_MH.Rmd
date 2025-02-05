@@ -27,46 +27,59 @@ data_path <- "../data/processed/humet_data_zscore_none_subjects15_tp57.csv"
 #info_path <- "../data/raw/humet_info.csv"
 data <- read.csv(data_path, sep = ",", header = TRUE)
 #info <- read.csv(info_path, sep = ";", header = TRUE)
+
+data[is.na(data)] <- 0
+data <- data %>%
+  mutate(challenge = case_when(
+    time >= 1 & time <= 9 ~ "fasting",      # time 1-10 corresponds to fasting
+    time >= 33 & time <= 39 ~ "exercise",    # time 33-39 corresponds to exercise
+    time >= 40 & time <= 49 ~ "oltt",        # time 40-48 corresponds to OLTT
+    TRUE ~ NA_character_                                            # assign NA for any time outside ranges
+    )) %>%
+  filter(!is.na(challenge)) %>%  # remove rows where 'challenge' is NA
+  dplyr::select(challenge, everything()) # make challenge the first column
 ```
 # Fuzzy c-means clustering
 
 ## Prepare data for Mfuzz
 ```{r}
-# Convert value types
-options(digits = 14) # set decimal precision to original precision in raw data
-convert_to_numeric <- function(x) {
-  as.numeric(gsub(",", ".", x)) # R uses . for decimal numbers
-}
+# # Convert value types
+# options(digits = 14) # set decimal precision to original precision in raw data
+# convert_to_numeric <- function(x) {
+#   as.numeric(gsub(",", ".", x)) # R uses . for decimal numbers
+# }
 
 data <- data %>%
   mutate(across(
-    -c(subject, challenge_time, challenge), # exclude subject, challenge_time, and challenge
+    -c(subject, time, challenge), # exclude subject, challenge_time, and challenge
     convert_to_numeric # apply conversion function
   ))
 
 # Convert challenge time to categorical
 #data$challenge_time <- as.factor(data$challenge_time)
 ```
-## Normalize metabolite data
+## Normalize metabolite data already done in downloaded dataset
 ```{r}
-# Z-score transformation
-z_score <- function(x){
-  (x - mean(x, na.rm = TRUE)) / sd(x, na.rm = TRUE)
-}
-
-# Apply z-score function to all metabolite columns
-metabolite_columns <- names(data)[4:ncol(data)]
-data[metabolite_columns] <- data[metabolite_columns] %>% apply(2, z_score)
+# SKIP
+# # Z-score transformation
+# z_score <- function(x){
+#   (x - mean(x, na.rm = TRUE)) / sd(x, na.rm = TRUE)
+# }
+# 
+# # Apply z-score function to all metabolite columns
+# metabolite_columns <- names(data)[4:ncol(data)]
+# data[metabolite_columns] <- data[metabolite_columns] %>% apply(2, z_score)
 
 ```
+
 ## Reshape data for Mfuzz
 rows = metabolites, columns = time points (concatenated across subjects & challenges)
 ```{r}
 # Convert challenge_time to numeric
-data <- data %>% mutate(challenge_time = as.numeric(challenge_time))
+data <- data %>% mutate(time = as.numeric(time))
 
 ver <- data %>%
-  count(subject, challenge, challenge_time) %>%
+  count(subject, challenge, time) %>%
   print(n = 20)
 
 data_long <- data %>%
@@ -79,7 +92,7 @@ data_long <- data %>%
 # Pivot data to wide format
 data_wide <- data_long %>%
   pivot_wider( # remove non-numeric columns by itself
-    names_from = c(subject, challenge, challenge_time),
+    names_from = c(subject, challenge, time),
     values_from = value,
     names_sep = "_"
     )
