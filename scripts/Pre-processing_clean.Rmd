@@ -9,6 +9,12 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r}
+# Show overall start time
+start_time_overall <- Sys.time()
+cat("Starting re-processing at ", format(start_time_overall, "%H:%M:%S"), "\n")
+```
+
 # Load libraries
 ```{r}
 library(readr)
@@ -25,15 +31,21 @@ library(purrr)
 paths <- list(
   metabolon = "../data/raw/humet_data_raw_none_metablon.csv",
   biocrates = "../data/raw/humet_data_raw_none_biocrates.csv",
-  inhouse = "../data/raw/humet_data_raw_none_in_house_biochemistry.csv"
+  inhouse = "../data/raw/humet_data_raw_none_in_house_biochemistry.csv",
+  z_metabolon = "../data/processed/humet_data_zscore_none_subjects15_tp57_m.csv",
+  z_biocrates = "../data/processed/humet_data_zscore_none_subjects15_tp57_b.csv",
+  z_inhouse = "../data/processed/humet_data_zscore_none_subjects15_tp57_i.csv"
 )
 
 # Read data into a list using purrr::map
 data <- map(paths, read.csv, sep = ",", header = TRUE)
-names(data) <- c("data_metabolon", "data_biocrates", "data_inhouse")
+names(data) <- c("data_metabolon", "data_biocrates", "data_inhouse", "z_metabolon", "z_biocrates", "z_inhouse")
 
 # Define platform names for each dataset
 platform_names <- c(
+  "Metabolon HD4 [nt-ms]",
+  "Biocrates p150 [t-ms]",
+  "In-house biochemistry [chem.]",
   "Metabolon HD4 [nt-ms]",
   "Biocrates p150 [t-ms]",
   "In-house biochemistry [chem.]"
@@ -65,8 +77,7 @@ relevant_timepoints <- function(dataset) {
     filter(!is.na(challenge))  # remove rows where 'challenge' is NA
 }
 
-data_filtered_first <- map(data, relevant_timepoints)
-data_filtered_last <- data
+data <- c(map(data[1:3], relevant_timepoints), data[1:3], map(data[4:6], relevant_timepoints), data[4:6])
 ```
 
 # Identify and remove artefacts
@@ -85,8 +96,7 @@ to_factor <- function(dataset) {
     )
 }
 
-data_filtered_first <- map(data_filtered_first, to_factor)
-data_filtered_last <- map(data_filtered_last, to_factor)
+data <- map(data, to_factor)
 ```
 
 ## Exclude metabolites with more than 30% missing data points
@@ -114,56 +124,91 @@ keep_sub_30 <- function(dataset) {
   return(dataset)
 }
 
-data_filtered_first <- map(data_filtered_first, keep_sub_30)
-data_filtered_last <- map(data_filtered_last, keep_sub_30)
+data <- map(data, keep_sub_30)
 ```
 
 # Performing missForest
 ```{r}
-mF_function <- function(dataset) {
-  cat("NA in ",  deparse(substitute(dataset)), " before missForest:", sum(is.na(dataset)), "\n")
+# mF_function <- function(dataset) {
+#   cat("NA in ",  deparse(substitute(dataset)), " before missForest:", sum(is.na(dataset)), "\n")
+#   
+#   if(!sum(is.na(dataset)) == 0) {
+#     # Set up parallel backend using all available cores minus one
+#     cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+#     registerDoParallel(cl)
+#     
+#     # Perform missForest imputation
+#     set.seed(42)  # Ensures reproducibility
+#     imputed_dataset <- missForest(dataset, ntree = 1, parallelize = "variables", verbose = "FALSE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+#     
+#     stopCluster(cl)  # Stop  cluster after imputation
+#     
+#     # Extract imputed dataset
+#     imputed_dataset <- imputed_dataset$ximp
+#   } else {
+#     imputed_dataset <- dataset
+#   }
+#   cat("NA in ",  deparse(substitute(dataset)), " after missForest:", sum(is.na(imputed_dataset)), "\n\n\n")
+#   
+#   return(imputed_dataset)
+# }
+# 
+# data <- map(data, mF_function)
+
+
+
+mF_function <- function(dataset, name) {
+  start_time <- Sys.time()
+  cat(format(start_time, "%H:%M:%S"), "- NA in", name, "before:", sum(is.na(dataset)), "\n")
   
-  if(!sum(is.na(dataset)) == 0) {
-    # Set up parallel backend using all available cores minus one
-    cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
-    registerDoParallel(cl)
-    
-    # Perform missForest imputation
-    set.seed(42)  # Ensures reproducibility
-    imputed_dataset <- missForest(dataset, ntree = 450, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
-    
-    stopCluster(cl)  # Stop  cluster after imputation
-    
-    # Extract imputed dataset
-    imputed_dataset <- imputed_dataset$ximp
-  } else {
-    imputed_dataset <- dataset
+  if (sum(is.na(dataset)) > 0) {
+    cl <- makeCluster(detectCores() - 1, type = "FORK"); registerDoParallel(cl)
+    dataset <- missForest(dataset, ntree = 100, parallelize = "variables", verbose = FALSE)$ximp
+    stopCluster(cl)
   }
-  cat("NA in ",  deparse(substitute(dataset)), " after missForest:", sum(is.na(imputed_dataset)), "\n")
   
-  return(imputed_dataset)
+  end_time <- Sys.time()
+  cat(format(end_time, "%H:%M:%S"), "- NA in", name, "- after:", sum(is.na(dataset)), " (Time elapsed:", round(difftime(end_time, start_time, units = "secs"), 2), "sec)\n\n")
+  
+  return(dataset)
 }
 
-#data_filtered_first[[1]] <- mF_function(data_filtered_first[[1]]) # data_metabolon_filtered_first
-#data_filtered_first<- <- mF_function(data_filtered_first[2]) # data_biocrates_filtered_first # Marie
-#data_filtered_first[[3]] <- mF_function(data_filtered_first[3]) # data_inhouse_filtered_first # Anna
+# # missForest for fewer #del
+# fewer <- data[[7]]
+# empty_cols <- colSums(is.na(fewer)) == nrow(fewer)  # identify columns with all NA values
+# print(names(fewer)[empty_cols])
+# fewer <- imap(fewer, mF_function)
+# data <- fewer
 
-#data_filtered_last[[1]] <- mF_function(data_filtered_last[[1]]) # data_metabolon_filtered_last
-#filtered_last[[2]]- mF_function(data_filtered_last[2]) # data_biocrates_filtered_last # Laura
-#filtered_last[[3]] <- mF_function(data_filtered_last[3]) # data_inhouse_filtered_last # Diana
 
-# # alternative to individually
-#data_filtered_first <- map(data_filtered_first, mF_function)
-#data_filtered_last <- map(data_filtered_last, mF_function)
+
+# Show start time
+start_time_mF <- Sys.time()
+cat("Starting missForest at ", format(start_time_mF, "%H:%M:%S"), "\n")
+
+# Impute
+data <- imap(data, mF_function)
+
+# Show finish time and elasped time
+end_time_mF <- Sys.time()
+cat("Finished missForest at ", format(end_time_mF, "%H:%M:%S"), " (Time elapsed:", round(difftime(end_time_mF, start_time_mF, units = "mins"), 2), "min)\n")
 ```
 
-# Log2 Transform
+# Log2 transform only the non-zscore data
 ```{r}
+# log2_transformed <- function(dataset) {
+#   dataset %>%
+#     mutate(time = as.factor(time)) %>% # refactor time column as factor to exclude from log2_transformation
+#     mutate(across(where(is.numeric), ~ ifelse(. > 0, log2(.), NA))) # robust against zero/negative values
+# }
+
 log2_transformed <- function(dataset) {
   dataset %>%
     mutate(time = as.factor(time)) %>% # refactor time column as factor to exclude from log2_transformation
     mutate(across(where(is.numeric), log2))
 }
+
+data <- c(map(data[1:6], log2_transformed), data[7:12])
 
 #data_filtered_first[[1]] <- log2_transformed(data_filtered_first[[1]]) # imputed_metabolon_filtered_first
 #data_filtered_first[[2]] <- log2_transformed(data_filtered_first[2]) # imputed_biiocrates_filtered_first # Marie
@@ -186,6 +231,8 @@ relevant_timepoints <- function(dataset) {
     filter(!is.na(challenge))  # remove rows where 'challenge' is NA
 }
 
+data <- c(map(data[1:3], relevant_timepoints), data[4:6], map(data[7:9], relevant_timepoints), data[10:12])
+
 #data_filtered_last[[1]] <- relevant_timepoints(data_filtered_last[[1]]) # log2_imputed_metabolon_filtered_last
 #data_filtered_last[[2]] <- relevant_timepoints(data_filtered_last[2]) # log2_imputed_biocrates_filtered_last # Laura
 #data_filtered_last[[3]] <- relevant_timepoints(data_filtered_last[3]) # log2_imputed_inhouse_filtered_last # Diana
@@ -206,16 +253,37 @@ relevant_timepoints <- function(dataset) {
 #write.csv(data_filtered_last[[3]], "../figures/preproc_inhouse_filtered_last.csv", row.names = FALSE) # Diana
 
 
-# # alternative to individually
-# output_paths <- c(
-#   "../figures/preproc_metabolon_filtered_first.csv",
-#   "../figures/preproc_biocrates_filtered_first.csv",
-#   "../figures/preproc_inhouse_filtered_first.csv",
-#   "../figures/preproc_metabolon_filtered_last.csv",
-#   "../figures/preproc_biocrates_filtered_last.csv",
-#   "../figures/preproc_inhouse_filtered_last.csv"
-# )
-# preproc_datasets <- c(data_filtered_first, data_filtered_last)
-# map2(preproc_datasets, output_paths, ~ write.csv(.x, .y, row.names = FALSE)) # row.names=false to only use existing rownames from here
+# alternative to individually
+output_paths <- c(
+  "../figures/preproc_metabolon_filtered_first.csv",
+  "../figures/preproc_biocrates_filtered_first.csv",
+  "../figures/preproc_inhouse_filtered_first.csv",
+  "../figures/preproc_metabolon_filtered_last.csv",
+  "../figures/preproc_biocrates_filtered_last.csv",
+  "../figures/preproc_inhouse_filtered_last.csv",
+
+  "../figures/preproc_z_metabolon_filtered_first.csv",
+  "../figures/preproc_z_biocrates_filtered_first.csv",
+  "../figures/preproc_z_inhouse_filtered_first.csv",
+  "../figures/preproc_z_metabolon_filtered_last.csv",
+  "../figures/preproc_z_biocrates_filtered_last.csv",
+  "../figures/preproc_z_inhouse_filtered_last.csv"
+)
+# Assuming 'data' is a list of lists
+#flattened_data <- unlist(data, recursive = FALSE)
+#map2(flattened_data, output_paths, ~ write.csv(.x, .y, row.names = FALSE))
+
+for (i in 1:length(data)) {
+  write.csv(data[[i]], output_paths[i], row.names = FALSE)
+}
+
+  
+#map2(data, output_paths, ~ write.csv(.x, .y, row.names = FALSE)) # row.names=false to only use existing rownames from here
+```
+
+```{r}
+# Show overall finish time and elasped time
+end_time_overall <- Sys.time()
+cat("Finished re-processing at ", format(end_time_overall, "%H:%M:%S"), " (Time elapsed:", round(difftime(end_time_overall, start_time_overall, units = "mins"), 2), "min)\n")
 ```
 # End
