@@ -173,23 +173,82 @@ data <- data_raw %>%
     ) %>%
   mutate(across(where(is.character), as.factor)) # should not make a difference. #del if possible
 ```
-#todo: "per platform"
+
 ```{r}
-# # Set up parallel backend using all available cores minus one
-# cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
-# registerDoParallel(cl)
-# 
-# # Perform missForest imputation
-# set.seed(123)  # Ensures reproducibility
-# imputed_data <- missForest(data, ntree = 10, parallelize = "variables") # default ntree = 100                # ACHTUNG: DAUERT LANGE!!
-# 
-# stopCluster(cl)  # Stop  cluster after imputation
-# 
-# # Check imputation error
-# imputed_data$error
-# 
-# # Extract imputed dataset
-# data_imputed <- imputed_data$ximp
+# Separate data by platform
+data_fasting <- data %>% filter(challenge == "fasting")
+data_exercise <- data %>% filter(challenge == "exercise")
+data_oltt <- data %>% filter(challenge == "oltt")
+
+```
+
+## Perform missforest on FASTING data
+```{r}
+# Set up parallel backend using all available cores minus one
+cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+registerDoParallel(cl)
+
+# Perform missForest imputation
+set.seed(42)  # Ensures reproducibility
+imputed_fasting <- missForest(data_fasting, ntree = 25, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+
+stopCluster(cl)  # Stop  cluster after imputation
+
+# Check imputation error
+imputed_fasting$error
+summary(imputed_fasting)
+sum(is.na(imputed_fasting)) 
+
+# Extract imputed dataset
+imputed_fasting <- imputed_fasting$ximp
+```
+```{r}
+data_rf_path <- "../data/processed/humet_data_raw_rf_subjects15_tp57.csv"
+data_rf <- read.csv(data_rf_path, sep = ",", header = TRUE)
+```
+
+
+
+## Perform missforest on EXERCISE data
+```{r}
+# Set up parallel backend using all available cores minus one
+cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+registerDoParallel(cl)
+
+# Perform missForest imputation
+set.seed(42)  # Ensures reproducibility
+imputed_exercise <- missForest(data_exercise, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+
+stopCluster(cl)  # Stop  cluster after imputation
+
+# Check imputation error
+imputed_exercise$error
+summary(imputed_exercise)
+sum(is.na(imputed_exercise)) 
+
+# Extract imputed dataset
+imputed_exercise <- imputed_exercise$ximp
+```
+
+## Perform missforest on OLTT data
+```{r}
+# Set up parallel backend using all available cores minus one
+cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+registerDoParallel(cl)
+
+# Perform missForest imputation
+set.seed(42)  # Ensures reproducibility
+imputed_oltt <- missForest(data_oltt, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+
+stopCluster(cl)  # Stop  cluster after imputation
+
+# Check imputation error
+imputed_oltt$error
+summary(imputed_oltt)
+sum(is.na(imputed_oltt)) 
+
+# Extract imputed dataset
+imputed_oltt <- imputed_oltt$ximp
 ```
 
 ```{r}
