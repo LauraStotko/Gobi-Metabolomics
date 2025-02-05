@@ -218,11 +218,18 @@ keep_sub_30 <- function(dataset) {
   
   # Print number of removed columns
   cat("Number of removed columns:", removed_cols, "\n")
+  
+  return(dataset)
 }
 
 data_metabolon <- keep_sub_30(data_metabolon)
 data_biocrates <- keep_sub_30(data_biocrates)
 data_inhouse <- keep_sub_30(data_inhouse)
+
+cat("Number of NA in data_metabolon:", sum(is.na(data_metabolon)), "\n")
+cat("Number of NA in data_biocrates:", sum(is.na(data_biocrates)), "\n")
+cat("Number of NA in data_inhouse:", sum(is.na(data_inhouse)), "\n")
+
 ```
 
 ```{r}
@@ -263,6 +270,7 @@ data_inhouse <- keep_sub_30(data_inhouse)
 
 ## Perform missforest on METABOLON data
 ```{r}
+cat("NA in metabolon before missForest:", sum(is.na(data_metabolon)), "\n")
 if(!sum(is.na(data_metabolon)) == 0) {
   # Set up parallel backend using all available cores minus one
   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
@@ -284,24 +292,20 @@ if(!sum(is.na(data_metabolon)) == 0) {
 } else {
   imputed_metabolon <- data_metabolon
 }
-
-
-
-# TEMPORARY
-  # Save result to a CSV file
-  write.csv(imputed_metabolon, "../figures/imputed_metabolon.csv", row.names = FALSE)
+cat("NA in metabolon after missForest:", sum(is.na(imputed_metabolon)), "\n")
 ```
 
 ```{r}
-# TEMPORARY
-data_rf_path <- "../data/processed/humet_data_raw_rf_subjects15_tp57.csv"
-data_rf <- read.csv(data_rf_path, sep = ",", header = TRUE)
+# # TEMPORARY
+# data_rf_path <- "../data/processed/humet_data_raw_rf_subjects15_tp57.csv"
+# data_rf <- read.csv(data_rf_path, sep = ",", header = TRUE)
 ```
 
 
 
 ## Perform missforest on BIOCRATES data
 ```{r}
+cat("NA in biocrates before missForest:", sum(is.na(data_biocrates)), "\n")
 if(!sum(is.na(data_biocrates)) == 0) {
   # Set up parallel backend using all available cores minus one
   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
@@ -323,10 +327,12 @@ if(!sum(is.na(data_biocrates)) == 0) {
 } else {
   imputed_biocrates <- data_biocrates
 }
+cat("NA in biocrates after missForest:", sum(is.na(imputed_biocrates)), "\n")
 ```
 
 ## Perform missforest on IN-HOUSE data
 ```{r}
+cat("NA in in-house before missForest:", sum(is.na(data_inhouse)), "\n")
 if(!sum(is.na(data_inhouse)) == 0) {
   # Set up parallel backend using all available cores minus one
   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
@@ -348,13 +354,24 @@ if(!sum(is.na(data_inhouse)) == 0) {
 } else {
   imputed_inhouse <- data_inhouse
 }
+cat("NA in in-house after missForest:", sum(is.na(imputed_inhouse)), "\n")
 ```
 
-## Recombine three challenges into one dataset
+# Recombine three challenges into one dataset
 ```{r}
 # Combine imputed challenge datasets
 imputed_data_complete <- bind_rows(imputed_metabolon, imputed_biocrates, imputed_inhouse)
-sum(is.na(imputed_data_complete))
+sum(is.na(imputed_data_complete)) #todo: NAs
+```
+
+# Log2 Transform
+```{r}
+imputed_log2_data_complete <- imputed_data_complete %>%
+  mutate(across(where(is.numeric), log2))
+```
+
+
+```{r}
 
 # Save to a CSV file
 write.csv(imputed_data_complete, "../figures/imputed_complete.csv", row.names = FALSE)
