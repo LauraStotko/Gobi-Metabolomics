@@ -23,14 +23,10 @@ library(ggplot2)
 
 # Load data
 ```{r}
-data_path <- "../data/raw/postprandial_imputed.csv"
-#info_path <- "../data/raw/postprandial_info.csv"
-data <- read.csv(data_path, sep = ";", header = TRUE)
+data_path <- "../data/processed/humet_data_zscore_none_subjects15_tp57.csv"
+#info_path <- "../data/raw/humet_info.csv"
+data <- read.csv(data_path, sep = ",", header = TRUE)
 #info <- read.csv(info_path, sep = ";", header = TRUE)
-
-# Remove numbering columns
-data <- subset(data, select = -X)
-#info <- subset(info, select = -X)
 ```
 # Fuzzy c-means clustering
 
@@ -41,6 +37,7 @@ options(digits = 14) # set decimal precision to original precision in raw data
 convert_to_numeric <- function(x) {
   as.numeric(gsub(",", ".", x)) # R uses . for decimal numbers
 }
+
 data <- data %>%
   mutate(across(
     -c(subject, challenge_time, challenge), # exclude subject, challenge_time, and challenge
