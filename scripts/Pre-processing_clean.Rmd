@@ -224,7 +224,7 @@ data <- c(map(data[1:6], log2_transformed), data[7:12])
 ```
 
 
-# Filter unfiltered data for relevant timepoints
+# Filter unfiltered data for relevant timepoints #todo: not working within list
 ```{r}
 relevant_timepoints <- function(dataset) {
   dataset %>%
@@ -284,6 +284,6 @@ for (i in 1:length(data)) {
 ```{r}
 # Show overall finish time and elasped time
 end_time_overall <- Sys.time()
-cat("Finished re-processing at ", format(end_time_overall, "%H:%M:%S"), " (Time elapsed:", round(difftime(end_time_overall, start_time_overall, units = "mins"), 2), "min)\n")
+cat("Finished pre-processing at ", format(end_time_overall, "%H:%M:%S"), " (Time elapsed:", round(difftime(end_time_overall, start_time_overall, units = "mins"), 2), "min)\n")
 ```
 # End

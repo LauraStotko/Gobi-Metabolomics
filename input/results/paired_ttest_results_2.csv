@@ -1,0 +1,636 @@
+Metabolite,Super_Pathway,Sub_Pathway,Mean_Diff(SLD_OGTT),pvalue(SLD_OGTT),Mean_Diff(OLTT_OGTT),pvalue(OLTT_OGTT),Significant_Response
+C10 (decanoylcarnitine)_biocrates,N/A,N/A,-0.368979,0.0146388751,0.244222,0.2352190071,False
+C10:1 (decenoylcarnitine)_biocrates,N/A,N/A,-0.186394,0.1096843524,0.506104,0.0019918241,False
+C12 (dodecanoylcarnitine)_biocrates,N/A,N/A,-0.596693,0.0002973374,-0.066181,0.7219431991,False
+C12:1 (dodecenoylcarnitine)_biocrates,N/A,N/A,-0.184033,0.1007948072,0.266044,0.0924803124,False
+C14 (tetradecanoylcarnitine)_biocrates,N/A,N/A,-0.454577,0.0001099499,-0.253386,0.0158368036,False
+C14:1 (tetradecenoylcarnitine)_biocrates,N/A,N/A,-0.105614,0.3098974243,0.413216,0.0120238441,False
+C14:1-OH (hydroxytetradecenoylcarnitine)_biocrates,N/A,N/A,-0.291663,0.0038897675,0.276747,0.0457871526,False
+C14:2 (tetradecadienylcarnitine)_biocrates,N/A,N/A,-0.350431,0.0323345694,0.711056,0.0022359583,False
+C16 (hexadecanoylcarnitine)_biocrates,N/A,N/A,-0.526897,8.538e-07,-0.401296,0.0007828213,True
+C16-OH (hydroxyhexadecanoylcarnitine)_biocrates,N/A,N/A,0.001697,0.980991074,0.11028,0.3125993957,False
+C16:1-OH (hexadecenoylcarnitine)_biocrates,N/A,N/A,-0.155046,0.0287257044,0.074445,0.4390456892,False
+C16:2 (hexadecadienylcarnitine)_biocrates,N/A,N/A,-0.114735,0.4516327193,0.546816,0.0083834074,False
+C16:2-OH (hydroxyhexadecadienylcarnitine)_biocrates,N/A,N/A,-0.161417,0.0929948203,0.025797,0.7822830791,False
+C18 (octadecanoylcarnitine)_biocrates,N/A,N/A,-0.256715,0.0003631681,-0.189049,0.0242223809,False
+C18:1 (octadecenoylcarnitine)_biocrates,N/A,N/A,-0.020358,0.7997025252,0.393298,0.000559331,False
+C18:2 (octadecadienylcarnitine)_biocrates,N/A,N/A,-0.041101,0.5435358872,0.310577,0.0023059115,False
+C2 (acetylcarnitine)_biocrates,N/A,N/A,-0.292096,0.005289453,0.269743,0.0407123586,False
+C3 (propionylcarnitine)_biocrates,N/A,N/A,0.06615,0.241212903,-0.010714,0.8953381368,False
+C4 (butyrylcarnitine)_biocrates,N/A,N/A,0.050575,0.2982952313,0.044454,0.584545308,False
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine)_biocrates,N/A,N/A,-0.245901,0.0033486393,0.150492,0.2176698456,False
+C5 (valerylcarnitine)_biocrates,N/A,N/A,0.03396,0.762764609,-0.16078,0.0244102813,False
+C5:1-DC (glutaconylcarnitine)_biocrates,N/A,N/A,-0.111422,0.3715894058,0.019484,0.7998752632,False
+C5:1( tiglylcarnitine)_biocrates,N/A,N/A,-0.129285,0.0546679014,-0.035933,0.5844110436,False
+C6-OH (glutarylcarnitine) and C5-DC (hydroxyhexanoylcarnitine)_biocrates,N/A,N/A,-0.085384,0.4596437015,0.152839,0.019391685,False
+C7-DC (pimelylcarnitine)_biocrates,N/A,N/A,-0.590917,0.0008842558,0.280042,0.0989655085,False
+C8 (octanoylcarnitine)_biocrates,N/A,N/A,-0.357349,0.0041444371,0.209389,0.2121530828,False
+C8:1 (octenoylcarnitine)_biocrates,N/A,N/A,0.213744,0.000502434,1.173772,5e-10,True
+C0 (carnitine)_biocrates,N/A,N/A,-0.072379,0.132862077,-0.019997,0.6709828744,False
+arginine_biocrates,N/A,N/A,-0.192441,0.0002293036,-0.339787,2.81053e-05,True
+glutamine_biocrates,N/A,N/A,-0.009461,0.8064637519,-0.092685,0.0338313907,False
+glycine_biocrates,N/A,N/A,-0.2256,5.56458e-05,-0.337291,8.421e-07,True
+histidine_biocrates,N/A,N/A,-0.049953,0.1556344626,-0.056849,0.1581793547,False
+leucine or isoleucine_biocrates,N/A,N/A,-0.046896,0.2195230238,-0.097361,0.087889043,False
+methionine_biocrates,N/A,N/A,-0.208888,0.0007157438,-0.186502,0.0064566018,False
+ornithine_biocrates,N/A,N/A,-0.040954,0.3162703339,-0.190865,0.0055412105,False
+phenylalanine_biocrates,N/A,N/A,-0.013658,0.6787881614,-0.02126,0.6506954039,False
+proline_biocrates,N/A,N/A,0.065938,0.1112533045,-0.015113,0.7696789587,False
+serine_biocrates,N/A,N/A,-0.187037,0.0018088686,-0.176083,0.0090102089,False
+threonine_biocrates,N/A,N/A,-0.19106,0.0011264381,-0.333033,0.0001218091,False
+tryptophan_biocrates,N/A,N/A,-0.129747,0.0016639057,-0.147368,0.003394135,False
+tyrosine_biocrates,N/A,N/A,0.117286,0.0070282033,-0.002247,0.9580966595,False
+valine_biocrates,N/A,N/A,-0.028992,0.4261316166,-0.143762,0.0113573429,False
+lysoPC a C14:0_biocrates,N/A,N/A,-0.142617,0.0001172246,-0.394792,8.21e-08,True
+lysoPC a C16:0_biocrates,N/A,N/A,0.005215,0.877589321,-0.231605,8.0083e-06,True
+lysoPC a C16:1_biocrates,N/A,N/A,-0.064855,0.18437406,-0.323186,3.86151e-05,True
+lysoPC a C17:0_biocrates,N/A,N/A,0.01752,0.6433407936,-0.251438,0.0008488146,False
+lysoPC a C18:0_biocrates,N/A,N/A,0.006917,0.8709265907,-0.218123,7.18445e-05,True
+lysoPC a C18:2_biocrates,N/A,N/A,0.098225,0.1327334115,0.07303,0.4574807317,False
+lysoPC a C20:3_biocrates,N/A,N/A,-0.041869,0.5336072146,-0.279607,0.0008932404,False
+lysoPC a C20:4_biocrates,N/A,N/A,-0.005203,0.9219781269,-0.149848,0.0229705162,False
+PC aa C28:1_biocrates,N/A,N/A,0.055586,0.1960610283,0.012478,0.697548319,False
+PC aa C30:0_biocrates,N/A,N/A,-0.219791,0.0006300719,-0.57136,7.68e-08,True
+PC aa C32:0_biocrates,N/A,N/A,-0.050944,0.2487092971,-0.185955,0.0009531165,False
+PC aa C32:1_biocrates,N/A,N/A,-0.171452,0.0052075878,-0.517326,7.6182e-06,True
+PC aa C32:2_biocrates,N/A,N/A,-0.338454,1.6329e-06,-0.894754,2.9e-09,True
+PC aa C32:3_biocrates,N/A,N/A,-0.08118,0.0316522517,-0.190862,7.1928e-06,True
+PC aa C34:1_biocrates,N/A,N/A,-0.009967,0.7892829132,0.015965,0.7430273088,False
+PC aa C34:2_biocrates,N/A,N/A,-0.00544,0.8708363806,-0.000922,0.9750724078,False
+PC aa C34:3_biocrates,N/A,N/A,0.010859,0.8121183253,0.031961,0.5151994405,False
+PC aa C34:4_biocrates,N/A,N/A,-0.182781,0.0012968217,-0.591866,3.38e-08,True
+PC aa C36:0_biocrates,N/A,N/A,-0.003971,0.9411186117,-0.130611,0.0090019142,False
+PC aa C36:1_biocrates,N/A,N/A,0.054019,0.1483700771,0.077438,0.1478878054,False
+PC aa C36:2_biocrates,N/A,N/A,0.039224,0.2682194445,0.07874,0.0252309065,False
+PC aa C36:3_biocrates,N/A,N/A,0.028869,0.401838509,0.100897,0.0053009416,False
+PC aa C36:4_biocrates,N/A,N/A,0.027999,0.4767896957,0.04135,0.2485401584,False
+PC aa C36:5_biocrates,N/A,N/A,0.018731,0.6719698085,-0.075947,0.1544302272,False
+PC aa C36:6_biocrates,N/A,N/A,-0.00307,0.9461082926,-0.329409,8.3966e-06,True
+PC aa C38:0_biocrates,N/A,N/A,0.036535,0.4006274547,0.042499,0.3619719803,False
+PC aa C38:3_biocrates,N/A,N/A,0.066698,0.0855831789,0.01163,0.7911072687,False
+PC aa C38:4_biocrates,N/A,N/A,0.073425,0.0904283234,0.126286,0.0146270814,False
+PC aa C38:5_biocrates,N/A,N/A,0.041675,0.3121446808,0.083435,0.0758453194,False
+PC aa C38:6_biocrates,N/A,N/A,0.058313,0.2066727081,0.112301,0.0413838514,False
+PC aa C40:1_biocrates,N/A,N/A,0.069063,0.0625159147,0.15625,0.0011486785,False
+PC aa C40:2_biocrates,N/A,N/A,0.158242,0.0330936961,0.245777,4.60612e-05,True
+PC aa C40:3_biocrates,N/A,N/A,0.108393,0.0494954169,0.128238,0.0091538547,False
+PC aa C40:4_biocrates,N/A,N/A,0.085774,0.0621418962,0.039762,0.462653308,False
+PC aa C40:5_biocrates,N/A,N/A,0.070376,0.136823744,0.074867,0.1630180258,False
+PC aa C40:6_biocrates,N/A,N/A,0.090781,0.0435354006,0.110184,0.0780712779,False
+PC aa C42:0_biocrates,N/A,N/A,0.08494,0.0637961493,0.137493,0.0161556406,False
+PC aa C42:1_biocrates,N/A,N/A,0.077458,0.1037781645,0.163437,0.0049464495,False
+PC aa C42:2_biocrates,N/A,N/A,0.079054,0.1087729888,0.16816,0.0010264945,False
+PC aa C42:4_biocrates,N/A,N/A,0.063867,0.2755440931,0.099277,0.0269075908,False
+PC aa C42:5_biocrates,N/A,N/A,0.101128,0.0197796976,0.098216,0.0480871843,False
+PC aa C42:6_biocrates,N/A,N/A,0.08767,0.0054804102,0.065339,0.0725048926,False
+PC ae C30:0_biocrates,N/A,N/A,0.03074,0.5945283238,-0.231398,0.0010594396,False
+PC ae C32:1_biocrates,N/A,N/A,0.025669,0.5634175553,-0.048482,0.2302584383,False
+PC ae C32:2_biocrates,N/A,N/A,0.085777,0.0865226806,-0.002414,0.9501892166,False
+PC ae C34:0_biocrates,N/A,N/A,-0.043199,0.2801738918,-0.281969,0.0002873755,False
+PC ae C34:1_biocrates,N/A,N/A,-0.004432,0.9115065552,-0.099387,0.0579400737,False
+PC ae C34:2_biocrates,N/A,N/A,-0.035564,0.4088221063,-0.250046,4.89599e-05,True
+PC ae C34:3_biocrates,N/A,N/A,-0.016297,0.7178569457,-0.218427,0.0005761088,False
+PC ae C36:1_biocrates,N/A,N/A,0.066084,0.148065905,-0.003021,0.9528834728,False
+PC ae C36:2_biocrates,N/A,N/A,0.04236,0.2500071266,-0.004257,0.920877055,False
+PC ae C36:3_biocrates,N/A,N/A,-0.012329,0.7773796021,-0.181127,0.0006061465,False
+PC ae C36:4_biocrates,N/A,N/A,0.002392,0.9578925926,-0.104225,0.0513598702,False
+PC ae C36:5_biocrates,N/A,N/A,-0.016025,0.7238492729,-0.092848,0.0582391499,False
+PC ae C38:0_biocrates,N/A,N/A,0.006,0.9082403483,-0.042401,0.3669287083,False
+PC ae C38:2_biocrates,N/A,N/A,0.106642,0.0642990655,-0.015427,0.7294276719,False
+PC ae C38:3_biocrates,N/A,N/A,0.083553,0.0582419334,-0.003869,0.9392531953,False
+PC ae C38:4_biocrates,N/A,N/A,0.0585,0.1552943478,0.075331,0.1122010761,False
+PC ae C38:5_biocrates,N/A,N/A,0.025035,0.5804093128,0.014115,0.7454148603,False
+PC ae C38:6_biocrates,N/A,N/A,0.005053,0.9135747896,-0.07617,0.111119346,False
+PC ae C40:1_biocrates,N/A,N/A,0.044554,0.1978859458,0.027922,0.4722045718,False
+PC ae C40:2_biocrates,N/A,N/A,0.071881,0.0872665268,0.055321,0.3073182723,False
+PC ae C40:3_biocrates,N/A,N/A,0.07805,0.1280962997,0.068487,0.1707988483,False
+PC ae C40:4_biocrates,N/A,N/A,0.067296,0.1668340793,0.092194,0.0426294034,False
+PC ae C40:5_biocrates,N/A,N/A,0.076494,0.1111595419,0.099393,0.0262528094,False
+PC ae C40:6_biocrates,N/A,N/A,0.063721,0.1539719592,0.084501,0.1335869746,False
+PC ae C42:0_biocrates,N/A,N/A,0.066794,0.1759703303,0.130318,0.0194168577,False
+PC ae C42:1_biocrates,N/A,N/A,0.109264,0.0714936714,0.096497,0.03353284,False
+PC ae C42:2_biocrates,N/A,N/A,0.070465,0.1207193548,0.066959,0.0381195914,False
+PC ae C42:3_biocrates,N/A,N/A,0.066088,0.0645307386,0.083012,0.0287608552,False
+PC ae C42:4_biocrates,N/A,N/A,0.080498,0.1373205048,0.104736,0.0370801471,False
+PC ae C42:5_biocrates,N/A,N/A,0.05436,0.1391697039,0.126412,0.0060246604,False
+PC ae C44:3_biocrates,N/A,N/A,0.171329,0.046706823,0.029299,0.5999048941,False
+PC ae C44:4_biocrates,N/A,N/A,0.063943,0.2518049803,0.066359,0.1497679725,False
+PC ae C44:5_biocrates,N/A,N/A,0.068151,0.1169448885,0.116131,0.0255148187,False
+PC ae C44:6_biocrates,N/A,N/A,0.059392,0.1503499053,0.135903,0.0095950642,False
+H1 (hexose)_biocrates,N/A,N/A,-0.129356,0.0094845209,-0.055709,0.1561695144,False
+SM (OH) C14:1_biocrates,N/A,N/A,0.023526,0.5645903495,0.026291,0.5676039972,False
+SM (OH) C16:1_biocrates,N/A,N/A,0.028949,0.4641547498,0.007394,0.8933439801,False
+SM (OH) C22:1_biocrates,N/A,N/A,0.042718,0.2578084529,0.031916,0.5232619425,False
+SM (OH) C22:2_biocrates,N/A,N/A,0.039406,0.3292758972,0.048469,0.2975932875,False
+SM (OH) C24:1_biocrates,N/A,N/A,0.04853,0.4362015321,-0.017133,0.7728569193,False
+SM C16:0_biocrates,N/A,N/A,0.022556,0.5680614216,0.027098,0.5534360207,False
+SM C16:1_biocrates,N/A,N/A,0.00926,0.8211944405,0.013922,0.7687774252,False
+SM C18:0_biocrates,N/A,N/A,0.024454,0.4876889667,0.008276,0.8763634577,False
+SM C18:1_biocrates,N/A,N/A,0.024947,0.538063433,0.012793,0.823712396,False
+SM C20:2_biocrates,N/A,N/A,0.03685,0.6016229741,0.077121,0.5160174624,False
+SM C24:0_biocrates,N/A,N/A,0.003989,0.9193644299,0.025835,0.5970032581,False
+SM C24:1_biocrates,N/A,N/A,0.036463,0.412635748,0.054391,0.2641836148,False
+SM C26:1_biocrates,N/A,N/A,-0.000565,0.9903790666,-0.011117,0.8612714987,False
+insulin_biochemistry,N/A,N/A,-0.472163,0.0558751232,0.070136,0.7258431203,False
+1-methylguanidine_metabolon,N/A,N/A,-0.408758,0.0163313361,-0.221131,0.0805161646,False
+1-methylhistidine_metabolon,N/A,N/A,-0.381467,0.0001799619,-0.564515,1.8934e-06,True
+1-methylimidazoleacetate_metabolon,N/A,N/A,0.044151,0.5779937666,0.069847,0.4183380483,False
+2-aminoadipate_metabolon,N/A,N/A,0.236076,0.1899190659,0.011024,0.9621557265,False
+2-aminobutyrate_metabolon,N/A,N/A,-0.317842,7.69327e-05,0.084561,0.2353307808,True
+2-hydroxy-3-methylvalerate_metabolon,N/A,N/A,-0.279528,0.0097923148,0.250594,0.0025148826,False
+2-hydroxybutyrate/2-hydroxyisobutyrate_metabolon,N/A,N/A,-0.176353,0.0775169401,0.479676,0.0043033014,False
+2-hydroxyphenylacetate_metabolon,N/A,N/A,0.217173,0.3231978067,0.191723,0.2906314387,False
+2-methylbutyrylcarnitine (C5)_metabolon,N/A,N/A,0.056854,0.6712717458,-0.006912,0.9382153559,False
+3-(4-hydroxyphenyl)lactate_metabolon,N/A,N/A,0.021485,0.8216878161,0.167222,0.0270126672,False
+3-hydroxy-2-ethylpropionate_metabolon,N/A,N/A,-0.258125,0.0082018609,0.246238,0.0239868692,False
+3-hydroxyisobutyrate_metabolon,N/A,N/A,0.17985,0.1383677393,0.22575,0.1117934028,False
+3-indoxyl sulfate_metabolon,N/A,N/A,0.205137,0.0228526065,0.293028,0.0853662096,False
+3-methoxytyrosine_metabolon,N/A,N/A,0.03095,0.6630385892,0.175303,0.0325028484,False
+3-methyl-2-oxobutyrate_metabolon,N/A,N/A,-0.265811,0.0251852977,-0.034661,0.7268426827,False
+3-methyl-2-oxovalerate_metabolon,N/A,N/A,-0.213117,0.0028504569,0.021614,0.7730691038,False
+3-methylglutarylcarnitine (2)_metabolon,N/A,N/A,0.044923,0.6644331973,0.150777,0.2418496862,False
+3-methylhistidine_metabolon,N/A,N/A,-0.774025,4e-10,-1.610762,1.8868e-06,True
+3-phenylpropionate (hydrocinnamate)_metabolon,N/A,N/A,-0.545213,0.0020353216,-0.80627,0.0028126582,False
+4-acetamidobutanoate_metabolon,N/A,N/A,0.065894,0.5427072372,-0.019683,0.8749786015,False
+4-guanidinobutanoate_metabolon,N/A,N/A,0.477374,0.0011367865,0.132281,0.313656201,False
+4-hydroxyphenylacetatoylcarnitine_metabolon,N/A,N/A,0.332054,0.0690387312,0.395897,0.0651459633,False
+4-hydroxyphenylpyruvate_metabolon,N/A,N/A,0.436516,0.0036618097,0.333279,0.0740438144,False
+4-methyl-2-oxopentanoate_metabolon,N/A,N/A,-0.021245,0.8120552146,0.112903,0.2720173353,False
+5-hydroxyindoleacetate_metabolon,N/A,N/A,-0.071357,0.4310825394,0.010523,0.9045052357,False
+5-hydroxylysine_metabolon,N/A,N/A,-0.222512,0.029429227,-0.135717,0.0805095027,False
+5-methylthioadenosine (MTA)_metabolon,N/A,N/A,0.010706,0.9279724115,0.149399,0.143240762,False
+5-oxoproline_metabolon,N/A,N/A,-0.037625,0.6966162157,0.077323,0.3811955837,False
+6-oxopiperidine-2-carboxylic acid_metabolon,N/A,N/A,0.408567,0.0015477719,0.495351,0.0028542619,False
+acisoga_metabolon,N/A,N/A,-0.415271,0.0128600738,-0.614383,0.0002907016,False
+alanine_metabolon,N/A,N/A,0.16014,0.0638351556,0.161266,0.0562435539,False
+alpha-hydroxyisocaproate_metabolon,N/A,N/A,-0.036367,0.6855713632,0.123824,0.0293552645,False
+alpha-hydroxyisovalerate_metabolon,N/A,N/A,-0.105054,0.2034468891,0.494263,0.0001427812,False
+alpha-ketobutyrate_metabolon,N/A,N/A,-0.056497,0.7522933596,0.546539,0.0064004916,False
+arginine_metabolon,N/A,N/A,-0.148409,0.0298940005,-0.157642,0.0174041754,False
+argininosuccinate_metabolon,N/A,N/A,-0.161175,0.468469998,0.170542,0.2565519632,False
+asparagine_metabolon,N/A,N/A,-0.169807,0.0119003515,-0.088198,0.0812856949,False
+aspartate_metabolon,N/A,N/A,0.126787,0.31464763,0.297508,0.0013129823,False
+beta-hydroxyisovalerate_metabolon,N/A,N/A,-0.157555,0.1239569247,0.142091,0.1306435289,False
+betaine_metabolon,N/A,N/A,-0.024617,0.6379567682,-0.066742,0.1522321903,False
+C-glycosyltryptophan_metabolon,N/A,N/A,0.145581,0.2496009748,0.485629,0.0030535129,False
+citrulline_metabolon,N/A,N/A,-0.045384,0.6366680199,-0.420127,0.0003517258,False
+creatine_metabolon,N/A,N/A,-0.107387,0.1684394045,-0.11141,0.0603629342,False
+creatinine_metabolon,N/A,N/A,-0.021329,0.7251215164,0.11116,0.0623353276,False
+"cys-gly, oxidized_metabolon",N/A,N/A,-0.034431,0.8188192465,0.168889,0.2775276243,False
+cystathionine_metabolon,N/A,N/A,0.391812,0.0184378164,0.126972,0.1103135915,False
+cysteine_metabolon,N/A,N/A,-0.060128,0.7639188203,-0.02443,0.8816139567,False
+cysteine s-sulfate_metabolon,N/A,N/A,-0.042829,0.7410637976,0.007505,0.9622861631,False
+cysteine sulfinic acid_metabolon,N/A,N/A,-0.027222,0.8125331686,0.008841,0.9416494175,False
+cysteine-glutathione disulfide_metabolon,N/A,N/A,-0.076052,0.6490325292,0.094764,0.5732858087,False
+cysteinylglycine_metabolon,N/A,N/A,-0.060422,0.8521753044,-0.017205,0.9463943822,False
+cystine_metabolon,N/A,N/A,-0.100579,0.3254434508,-0.301528,0.0138247826,False
+dimethylarginine (SDMA + ADMA)_metabolon,N/A,N/A,-0.147467,0.1471529729,0.030499,0.6727858217,False
+dimethylglycine_metabolon,N/A,N/A,-0.09016,0.2553989927,-0.081363,0.3213295691,False
+dopamine sulfate (2)_metabolon,N/A,N/A,0.774479,9.97347e-05,0.782456,0.0017180348,False
+ethylmalonate_metabolon,N/A,N/A,-0.455577,0.0002366374,-0.075326,0.5181748212,False
+gamma-carboxyglutamate_metabolon,N/A,N/A,0.037908,0.8275997613,0.299417,0.0411855491,False
+glutamate_metabolon,N/A,N/A,-0.199994,0.4161035799,0.145915,0.3103087393,False
+glutamine_metabolon,N/A,N/A,-0.004023,0.9558190315,0.029613,0.6028303965,False
+glutarate (pentanedioate)_metabolon,N/A,N/A,0.051722,0.8007335459,0.095103,0.7257333615,False
+glutarylcarnitine (C5)_metabolon,N/A,N/A,-0.067595,0.5410407539,0.23143,0.0059688497,False
+glycine_metabolon,N/A,N/A,-0.252027,0.0017169669,-0.247704,0.003148462,False
+guanidinoacetate_metabolon,N/A,N/A,-0.167229,0.0032769599,-0.439511,1.26e-06,True
+histidine_metabolon,N/A,N/A,0.024544,0.7137166038,0.016067,0.8452046192,False
+homoarginine_metabolon,N/A,N/A,-0.074467,0.5114375961,0.006101,0.9443950079,False
+homocitrulline_metabolon,N/A,N/A,0.520501,1.04896e-05,0.418254,5.44914e-05,True
+hydantoin-5-propionic acid_metabolon,N/A,N/A,0.574124,0.0010537198,0.774609,0.0006054361,False
+hypotaurine_metabolon,N/A,N/A,-0.011701,0.9165951945,0.008663,0.9338192679,False
+imidazole lactate_metabolon,N/A,N/A,-0.032319,0.7226213685,0.206804,0.0225548115,False
+imidazole propionate_metabolon,N/A,N/A,0.087639,0.5327177395,-0.061384,0.6330416921,False
+indoleacetate_metabolon,N/A,N/A,-0.311294,0.0077514551,-0.477499,0.0494423943,False
+indoleacetylglutamine_metabolon,N/A,N/A,-0.603222,0.0002391984,-1.061529,0.0005510224,False
+indolelactate_metabolon,N/A,N/A,-0.181161,0.0754312334,-0.012017,0.8490769783,False
+indolepropionate_metabolon,N/A,N/A,-0.206911,0.1326494518,-1.062818,0.0013084009,False
+isobutyrylcarnitine_metabolon,N/A,N/A,0.306493,0.0015630101,0.183305,0.0685517631,False
+isobutyrylglycine_metabolon,N/A,N/A,0.441845,0.0010149026,0.309739,0.0213895963,False
+isoleucine_metabolon,N/A,N/A,0.025769,0.6513665673,0.085458,0.1988094832,False
+isovalerate_metabolon,N/A,N/A,0.049949,0.8185677034,-0.1061,0.4893745686,False
+isovalerylcarnitine_metabolon,N/A,N/A,0.063998,0.6983056744,-0.131492,0.1429201322,False
+isovalerylglycine_metabolon,N/A,N/A,0.692373,3.07247e-05,0.199733,0.0766480147,True
+kynurenate_metabolon,N/A,N/A,-0.107744,0.3506109185,0.198631,0.0828077989,False
+kynurenine_metabolon,N/A,N/A,-0.161994,0.0546425854,0.042537,0.6319368846,False
+leucine_metabolon,N/A,N/A,0.019522,0.7861216286,0.012144,0.8602413009,False
+lysine_metabolon,N/A,N/A,0.113118,0.151932352,0.14911,0.018533853,False
+methionine_metabolon,N/A,N/A,-0.187599,0.0382785655,-0.063277,0.3667437151,False
+methionine sulfone_metabolon,N/A,N/A,0.124548,0.2246475607,0.107593,0.3142973538,False
+methionine sulfoxide_metabolon,N/A,N/A,0.692278,6.7688e-06,0.659522,2.389e-07,True
+methylsuccinate_metabolon,N/A,N/A,-0.424209,0.0036818767,-0.048476,0.7407628171,False
+methylsuccinoylcarnitine (1)_metabolon,N/A,N/A,0.02653,0.8661825309,-0.512482,0.0113557263,False
+N-acetyl-1-methylhistidine*_metabolon,N/A,N/A,-0.110811,0.3597229672,-0.260273,0.0799270774,False
+N-acetyl-3-methylhistidine*_metabolon,N/A,N/A,-0.247961,0.1466418608,-1.257212,5.598e-07,True
+N-acetyl-aspartyl-glutamate (NAAG)_metabolon,N/A,N/A,0.419628,0.0545354301,0.441982,0.0573774387,False
+N-acetyl-cadaverine_metabolon,N/A,N/A,-0.146754,0.4761678056,-0.408123,0.1480361424,False
+N-acetylalanine_metabolon,N/A,N/A,-0.249327,0.0135155175,0.036888,0.600725081,False
+N-acetylarginine_metabolon,N/A,N/A,0.219817,0.0198365876,0.067172,0.3757942461,False
+N-acetylaspartate (NAA)_metabolon,N/A,N/A,-0.006939,0.9309677197,0.062286,0.610341449,False
+N-acetylcitrulline_metabolon,N/A,N/A,0.681803,0.0037034955,0.193155,0.3594555866,False
+N-acetylglutamate_metabolon,N/A,N/A,0.441673,0.0001029891,0.711897,1.25657e-05,True
+N-acetylglutamine_metabolon,N/A,N/A,-0.056574,0.5447058764,-0.048614,0.6344598639,False
+N-acetylglycine_metabolon,N/A,N/A,-0.349574,0.0315605887,0.170076,0.3815605228,False
+N-acetylhistidine_metabolon,N/A,N/A,0.222548,0.0549715909,0.022726,0.8743186303,False
+N-acetylisoleucine_metabolon,N/A,N/A,0.131575,0.1476888957,0.169209,0.1767114268,False
+N-acetylkynurenine (2)_metabolon,N/A,N/A,0.029338,0.8028975424,-0.035944,0.8416176286,False
+N-acetylleucine_metabolon,N/A,N/A,0.099358,0.0669872546,0.119573,0.1755905942,False
+N-acetylmethionine_metabolon,N/A,N/A,-0.105335,0.1996321876,0.08411,0.1371247059,False
+N-acetylphenylalanine_metabolon,N/A,N/A,0.125548,0.0981980292,0.066796,0.3971608722,False
+N-acetylputrescine_metabolon,N/A,N/A,-0.017107,0.8834002724,-0.115365,0.2298299443,False
+N-acetylserine_metabolon,N/A,N/A,-0.09993,0.1310432591,-0.043878,0.2916616816,False
+N-acetyltaurine_metabolon,N/A,N/A,0.015179,0.8115132878,0.066707,0.4749693142,False
+N-acetylthreonine_metabolon,N/A,N/A,-0.081016,0.4486776405,0.238584,0.0634277946,False
+N-acetyltryptophan_metabolon,N/A,N/A,-0.125555,0.1418295596,-0.264666,0.066910087,False
+N-acetyltyrosine_metabolon,N/A,N/A,0.007467,0.9603971379,-0.175645,0.1673038137,False
+N-acetylvaline_metabolon,N/A,N/A,-0.03636,0.741538971,0.064497,0.2920167637,False
+N-delta-acetylornithine_metabolon,N/A,N/A,-0.057482,0.3260976711,0.154865,0.317759576,False
+N-formylmethionine_metabolon,N/A,N/A,-0.093033,0.3303658002,0.0434,0.4826939884,False
+N-formylphenylalanine_metabolon,N/A,N/A,0.341098,0.1332666498,0.189027,0.4199636118,False
+N-methyl-4-aminobutyric acid_metabolon,N/A,N/A,0.252164,0.2920637229,0.363808,0.2342365543,False
+N-methylproline_metabolon,N/A,N/A,-0.082041,0.3362877904,-0.080557,0.684834433,False
+"N2,N5-diacetylornithine_metabolon",N/A,N/A,-0.420293,0.0009457663,-0.529243,0.0014301903,False
+N6-acetyllysine_metabolon,N/A,N/A,0.10724,0.2647072715,0.253784,0.0102667208,False
+"N6,N6,N6-trimethyllysine_metabolon",N/A,N/A,-0.430716,9.09943e-05,-0.263018,0.0010157745,False
+O-acetylhomoserine_metabolon,N/A,N/A,-2.262163,1e-10,-3.229453,1.925e-07,True
+o-cresol sulfate_metabolon,N/A,N/A,-0.017392,0.9141601816,-0.153559,0.5456298824,False
+ornithine_metabolon,N/A,N/A,-0.038225,0.5856292106,-0.0232,0.6661622328,False
+p-cresol sulfate_metabolon,N/A,N/A,0.352918,0.0280038112,1.031411,0.0003632181,False
+p-cresol-glucuronide*_metabolon,N/A,N/A,0.154668,0.5853758796,0.822502,0.0529501783,False
+phenol sulfate_metabolon,N/A,N/A,0.132604,0.3123402317,0.560953,0.0465780137,False
+phenylacetylcarnitine_metabolon,N/A,N/A,0.390992,0.002284797,0.757824,0.0011694147,False
+phenylacetylglutamate_metabolon,N/A,N/A,0.206355,0.1971083469,0.98371,0.0001219263,False
+phenylacetylglutamine_metabolon,N/A,N/A,0.108887,0.2417750573,0.428706,0.0035576308,False
+phenylalanine_metabolon,N/A,N/A,0.020574,0.8097095403,0.097523,0.2392740457,False
+phenyllactate (PLA)_metabolon,N/A,N/A,-0.097075,0.2963411088,0.244364,0.0003924411,False
+phenylpyruvate_metabolon,N/A,N/A,-0.077788,0.4569541596,-0.062233,0.6960078487,False
+pipecolate_metabolon,N/A,N/A,0.015545,0.8623371153,0.033095,0.7197716884,False
+pro-hydroxy-pro_metabolon,N/A,N/A,-0.915395,3.36e-08,-0.677337,4.175e-07,True
+proline_metabolon,N/A,N/A,0.07797,0.2011646656,0.086555,0.1325190414,False
+pyroglutamine*_metabolon,N/A,N/A,8.3e-05,0.9991021563,0.035376,0.6210321436,False
+S-1-pyrroline-5-carboxylate_metabolon,N/A,N/A,0.185019,0.0667060166,0.097374,0.3094464521,False
+S-adenosylhomocysteine (SAH)_metabolon,N/A,N/A,0.022501,0.8548190591,0.195578,0.0531147668,False
+S-methylcysteine_metabolon,N/A,N/A,-0.184227,0.0547661763,-0.369339,0.0006083149,False
+sarcosine (N-Methylglycine)_metabolon,N/A,N/A,-0.010632,0.9083994761,0.012876,0.8789041726,False
+serine_metabolon,N/A,N/A,-0.304097,0.0002793603,-0.159455,0.0213033661,False
+serotonin_metabolon,N/A,N/A,0.349742,0.0273938821,0.722171,0.000126928,False
+spermidine_metabolon,N/A,N/A,-0.270826,0.1213804054,0.072446,0.6481506903,False
+taurine_metabolon,N/A,N/A,0.017349,0.8190583596,0.144311,0.0126899134,False
+threonine_metabolon,N/A,N/A,-0.204336,0.0086274424,-0.248205,0.0004076629,False
+thyroxine_metabolon,N/A,N/A,0.056943,0.4007724772,0.241776,0.0024187254,False
+tigloylglycine_metabolon,N/A,N/A,0.11755,0.4426327979,-0.085772,0.5284580124,False
+tiglylcarnitine_metabolon,N/A,N/A,-0.152366,0.0349715247,-0.04178,0.7823229381,False
+trans-4-hydroxyproline_metabolon,N/A,N/A,-0.403029,0.0001139448,-0.706802,2.158e-07,True
+trans-urocanate_metabolon,N/A,N/A,0.128552,0.5429375458,0.045853,0.7271239895,False
+tryptophan_metabolon,N/A,N/A,-0.124625,0.1737909626,-0.027547,0.7522100246,False
+tryptophan betaine_metabolon,N/A,N/A,-0.018025,0.8461727504,0.108306,0.305187953,False
+tyramine O-sulfate_metabolon,N/A,N/A,0.659807,0.0004045994,0.211402,0.3672708721,False
+tyrosine_metabolon,N/A,N/A,0.063275,0.4085667879,0.034714,0.5871563769,False
+urea_metabolon,N/A,N/A,-0.07939,0.2851762001,0.13745,0.1835487638,False
+valine_metabolon,N/A,N/A,-0.045044,0.5920067926,0.015471,0.8023039416,False
+vanillylmandelate (VMA)_metabolon,N/A,N/A,0.032686,0.7738754643,0.315842,0.0002455316,False
+xanthurenate_metabolon,N/A,N/A,0.37809,0.0107308009,0.37828,0.0186867023,False
+"1,5-anhydroglucitol (1,5-AG)_metabolon",N/A,N/A,-0.010779,0.9006019459,0.072802,0.1155365739,False
+3-phosphoglycerate_metabolon,N/A,N/A,0.860439,0.0001423478,0.888914,0.0046515892,False
+arabitol/xylitol_metabolon,N/A,N/A,0.110533,0.1084495011,-0.07909,0.3021006422,False
+arabonate/xylonate_metabolon,N/A,N/A,0.234285,0.0287886983,-0.074355,0.5922405968,False
+erythronate*_metabolon,N/A,N/A,0.131153,0.0782203304,0.22231,0.0121003142,False
+fructose_metabolon,N/A,N/A,0.073223,0.5938769616,-0.013048,0.944331268,False
+glucose_metabolon,N/A,N/A,-0.179181,0.0299598365,-0.073937,0.3218541597,False
+glucuronate_metabolon,N/A,N/A,0.078732,0.4231580319,0.120688,0.2977069527,False
+glycerate_metabolon,N/A,N/A,0.149092,0.1003807031,0.329986,0.0057289463,False
+lactate_metabolon,N/A,N/A,0.2496,0.0007155276,0.271636,0.0272697023,False
+maltose_metabolon,N/A,N/A,0.730629,1.9731e-06,0.719589,5.23004e-05,True
+maltotriose_metabolon,N/A,N/A,0.143939,0.4292162761,0.51621,0.0001941698,False
+mannitol/sorbitol_metabolon,N/A,N/A,-0.685899,0.0003141593,-1.082068,6.05424e-05,True
+mannose_metabolon,N/A,N/A,-0.775539,1.19064e-05,-0.556636,0.0001183079,True
+N-acetylglucosaminylasparagine_metabolon,N/A,N/A,0.102008,0.4736673038,0.182757,0.1854482454,False
+N-acetylneuraminate_metabolon,N/A,N/A,0.103246,0.4100667754,0.202673,0.0730046747,False
+pyruvate_metabolon,N/A,N/A,-0.056757,0.4128481262,0.060955,0.5078963879,False
+ribitol_metabolon,N/A,N/A,-0.093785,0.3245586655,-0.135161,0.0821236319,False
+ribonate_metabolon,N/A,N/A,-0.388285,0.0331034537,-0.090272,0.5368375274,False
+1-methylnicotinamide_metabolon,N/A,N/A,-0.083243,0.6865855941,0.035687,0.8508236877,False
+alpha-tocopherol_metabolon,N/A,N/A,0.039025,0.592043387,0.16487,0.0483804505,False
+"bilirubin (E,E)*_metabolon",N/A,N/A,-0.211641,0.2598427332,0.015041,0.9445589082,False
+"bilirubin (E,Z or Z,E)*_metabolon",N/A,N/A,-0.076407,0.5994285728,-0.114214,0.4105194369,False
+"bilirubin (Z,Z)_metabolon",N/A,N/A,-0.167515,0.3861454142,-0.149141,0.4500241315,False
+biliverdin_metabolon,N/A,N/A,-0.177858,0.4471783184,-0.04417,0.8488289413,False
+flavin adenine dinucleotide (FAD)_metabolon,N/A,N/A,-0.168516,0.1333413886,0.042201,0.7996942188,False
+gamma-CEHC_metabolon,N/A,N/A,0.569687,0.0004355135,1.408871,5.9524e-06,True
+gamma-tocopherol/beta-tocopherol_metabolon,N/A,N/A,0.147582,0.031780058,0.391743,0.0032334209,False
+N1-Methyl-2-pyridone-5-carboxamide_metabolon,N/A,N/A,0.329704,0.0003900961,0.588565,8.9348e-06,True
+nicotinamide_metabolon,N/A,N/A,-0.425027,0.0037069006,0.032615,0.8386293736,False
+nicotinamide riboside_metabolon,N/A,N/A,-0.241085,0.1348241189,-0.190743,0.2154023235,False
+oxalate (ethanedioate)_metabolon,N/A,N/A,0.30452,2.1394e-06,0.436119,1.53734e-05,True
+pantothenate_metabolon,N/A,N/A,0.257427,0.0038355583,0.421742,5.088e-07,True
+pyridoxate_metabolon,N/A,N/A,0.584413,8.28918e-05,0.859117,2.408e-07,True
+quinolinate_metabolon,N/A,N/A,-0.040039,0.7830212745,0.217041,0.0889972068,False
+retinol (Vitamin A)_metabolon,N/A,N/A,0.059486,0.4289904318,0.166877,0.012961543,False
+threonate_metabolon,N/A,N/A,0.376752,0.000296913,0.500679,9.04342e-05,False
+trigonelline (N'-methylnicotinate)_metabolon,N/A,N/A,-0.791548,2.9574e-06,-1.816109,1.4e-09,True
+alpha-ketoglutarate_metabolon,N/A,N/A,-0.08663,0.3611467629,-0.02426,0.8394347136,False
+cis-aconitate_metabolon,N/A,N/A,0.044849,0.7578626683,0.428648,0.011184756,False
+citrate_metabolon,N/A,N/A,-0.10282,0.3738973894,0.210172,0.0166907669,False
+fumarate_metabolon,N/A,N/A,-0.137563,0.2108268253,-0.185658,0.038177357,False
+malate_metabolon,N/A,N/A,-0.025877,0.6890378908,0.145254,0.0966976167,False
+phosphate_metabolon,N/A,N/A,0.305072,0.0043340281,-0.021427,0.7897392037,False
+succinate_metabolon,N/A,N/A,0.183398,0.2562991095,0.093509,0.5176469534,False
+succinylcarnitine_metabolon,N/A,N/A,0.199594,0.0609927087,0.101467,0.0812544802,False
+1-(1-enyl-oleoyl)-GPC (P-18:1)*_metabolon,N/A,N/A,0.097504,0.4119823401,-0.23045,0.0034872121,False
+1-(1-enyl-oleoyl)-GPE (P-18:1)*_metabolon,N/A,N/A,-0.056174,0.6790490051,-0.17281,0.1874217336,False
+1-(1-enyl-palmitoyl)-GPC (P-16:0)*_metabolon,N/A,N/A,0.067805,0.5558335254,-0.15295,0.1116736179,False
+1-(1-enyl-palmitoyl)-GPE (P-16:0)*_metabolon,N/A,N/A,0.083777,0.5089620346,-0.065651,0.4640974578,False
+1-(1-enyl-stearoyl)-GPC (P-18:0) *_metabolon,N/A,N/A,0.146653,0.2257744898,-0.086876,0.3484308198,False
+1-(1-enyl-stearoyl)-GPE (P-18:0)*_metabolon,N/A,N/A,-0.102201,0.5292876834,-0.11747,0.4619846416,False
+1-adrenoyl-GPC (22:4)*_metabolon,N/A,N/A,0.108711,0.300193644,-0.035916,0.7602536024,False
+1-arachidonoyl-GPC (20:4n6)*_metabolon,N/A,N/A,0.060235,0.4486447535,0.042482,0.6445847126,False
+1-arachidonoyl-GPE (20:4n6)*_metabolon,N/A,N/A,0.276873,0.0081342947,0.091661,0.3550692825,False
+1-arachidonoyl-GPI (20:4)*_metabolon,N/A,N/A,-0.087051,0.4266696169,0.179343,0.1994379984,False
+1-arachidonylglycerol (20:4)_metabolon,N/A,N/A,0.189648,0.3445972988,-0.078515,0.7255023935,False
+1-arachidoyl-GPC (20:0)_metabolon,N/A,N/A,0.116934,0.3054487422,0.337023,0.0175448858,False
+1-behenoyl-GPC (22:0)_metabolon,N/A,N/A,0.01754,0.8258025649,0.065358,0.5704720636,False
+1-dihomo-linolenoyl-GPC (20:3n3 or 6)*_metabolon,N/A,N/A,0.061217,0.470013549,-0.0385,0.7284828204,False
+1-dihomo-linolenoyl-GPE (20:3n3 or 6)*_metabolon,N/A,N/A,0.140021,0.5063766581,0.011368,0.9606632111,False
+1-dihomo-linoleoyl-GPC (20:2)*_metabolon,N/A,N/A,-0.047173,0.6344304491,-0.283604,0.0055595427,False
+1-docosahexaenoyl-GPC (22:6)*_metabolon,N/A,N/A,0.15473,0.1351060866,0.199205,0.1024583012,False
+1-docosahexaenoyl-GPE (22:6)*_metabolon,N/A,N/A,0.043705,0.6719412155,-0.10285,0.4381408478,False
+1-docosapentaenoyl-GPC (22:5n3)*_metabolon,N/A,N/A,0.02309,0.8075801322,0.01885,0.8685541477,False
+1-docosapentaenoyl-GPC (22:5n6)*_metabolon,N/A,N/A,0.02604,0.6677230372,0.002413,0.9819204006,False
+1-eicosapentaenoyl-GPC (20:5)*_metabolon,N/A,N/A,-0.004497,0.9654417677,-0.087569,0.5445356381,False
+1-eicosapentaenoyl-GPE (20:5)*_metabolon,N/A,N/A,0.261677,0.0946912146,-0.096564,0.6994945788,False
+1-eicosenoyl-GPC (20:1)*_metabolon,N/A,N/A,0.117374,0.3447243192,0.221985,0.0080691199,False
+1-linolenoyl-GPC (18:3)*_metabolon,N/A,N/A,0.49709,0.000351566,0.53033,0.0029692432,False
+1-linoleoyl-GPC (18:2)_metabolon,N/A,N/A,0.134771,0.0962118805,0.210798,0.0373277937,False
+1-linoleoyl-GPE (18:2)*_metabolon,N/A,N/A,0.766039,1.0486e-06,0.716005,0.0001044641,True
+1-linoleoyl-GPI (18:2)*_metabolon,N/A,N/A,-0.20935,0.1010173377,0.217356,0.2418697907,False
+1-linoleoylglycerol (18:2)_metabolon,N/A,N/A,0.259609,0.2250760232,0.199917,0.4642244826,False
+1-margaroyl-GPC (17:0)_metabolon,N/A,N/A,0.068016,0.548006245,-0.116453,0.2231049956,False
+1-myristoyl-GPC (14:0)_metabolon,N/A,N/A,-0.193939,0.1180567546,-0.697339,1.57702e-05,True
+1-nonadecanoyl-GPC (19:0)_metabolon,N/A,N/A,0.022287,0.8539370565,-0.170702,0.1469306563,False
+1-oleoyl-GPC (18:1)_metabolon,N/A,N/A,0.061161,0.4983035829,0.144754,0.0534070354,False
+1-oleoyl-GPE (18:1)_metabolon,N/A,N/A,1.312863,5e-10,1.680707,5e-10,True
+1-oleoyl-GPI (18:1)*_metabolon,N/A,N/A,-0.200999,0.2773010422,0.518184,0.0525016925,False
+1-palmitoleoyl-GPC (16:1)*_metabolon,N/A,N/A,-0.035826,0.7047016961,-0.247239,0.0139973901,False
+1-palmitoyl-GPC (16:0)_metabolon,N/A,N/A,0.032762,0.7241709233,-0.134842,0.0815707207,False
+1-palmitoyl-GPE (16:0)_metabolon,N/A,N/A,0.102951,0.3255490183,-0.238009,0.0062180275,False
+1-palmitoyl-GPG (16:0)*_metabolon,N/A,N/A,0.087849,0.4802419544,0.172959,0.3437948362,False
+1-palmitoyl-GPI (16:0)*_metabolon,N/A,N/A,0.240454,0.0903542623,0.058649,0.7530351866,False
+1-palmitoylglycerol (16:0)_metabolon,N/A,N/A,0.011616,0.9514113906,-0.183537,0.2798446742,False
+1-palmityl-GPC (O-16:0)_metabolon,N/A,N/A,0.106613,0.4042730668,-0.064901,0.4879495082,False
+1-pentadecanoyl-GPC (15:0)*_metabolon,N/A,N/A,-0.002,0.9835128207,-0.293017,0.0042751487,False
+1-stearoyl-GPC (18:0)_metabolon,N/A,N/A,0.064815,0.5555477314,-0.020406,0.79300687,False
+1-stearoyl-GPE (18:0)_metabolon,N/A,N/A,0.168691,0.0862036517,-0.080703,0.2743123013,False
+1-stearoyl-GPI (18:0)_metabolon,N/A,N/A,0.231608,0.1176663877,0.144762,0.4558187722,False
+1-stearyl-GPC (O-18:0)*_metabolon,N/A,N/A,0.105608,0.3714100207,0.116805,0.2656761633,False
+10-undecenoate (11:1n1)_metabolon,N/A,N/A,-0.420441,0.0008540077,0.262165,0.0740275274,False
+12-HETE_metabolon,N/A,N/A,1.464329,0.0009640769,1.416495,0.0013737487,False
+13-HODE + 9-HODE_metabolon,N/A,N/A,-0.663914,0.0424741628,-0.51286,0.0757693437,False
+15-methylpalmitate_metabolon,N/A,N/A,-0.566012,0.0042964386,-0.441861,0.030093852,False
+16-hydroxypalmitate_metabolon,N/A,N/A,0.152053,0.1829413554,0.090888,0.4934546645,False
+16a-hydroxy DHEA 3-sulfate_metabolon,N/A,N/A,-0.172131,0.0259509474,0.133376,0.202572852,False
+17-methylstearate_metabolon,N/A,N/A,-0.788585,9.88581e-05,-0.389724,0.0266342876,False
+17alpha-hydroxypregnenolone sulfate_metabolon,N/A,N/A,-0.529806,0.0120159075,-0.566277,0.0216336404,False
+2-aminoheptanoate_metabolon,N/A,N/A,-0.297175,0.0008933166,-0.747012,4.05929e-05,True
+2-aminooctanoate_metabolon,N/A,N/A,-0.265297,0.002231698,0.404995,0.0045416853,False
+2-arachidonoyl-GPC (20:4)*_metabolon,N/A,N/A,0.176612,0.3564366236,0.113891,0.5014444517,False
+2-arachidonoyl-GPE (20:4)*_metabolon,N/A,N/A,0.189896,0.271486749,0.156961,0.3796732048,False
+2-docosahexaenoyl-GPC (22:6)*_metabolon,N/A,N/A,0.170749,0.2378678484,0.126669,0.5375677406,False
+2-docosahexaenoyl-GPE (22:6)*_metabolon,N/A,N/A,-0.242733,0.227553267,-0.285208,0.3083659046,False
+2-hydroxydecanoate_metabolon,N/A,N/A,0.676756,3.44433e-05,1.406776,6.45e-08,True
+2-hydroxyglutarate_metabolon,N/A,N/A,-0.004138,0.9733185196,0.065039,0.6974717997,False
+2-hydroxyoctanoate_metabolon,N/A,N/A,0.893443,9.8251e-06,1.239118,5.885e-06,True
+2-hydroxypalmitate_metabolon,N/A,N/A,-0.266619,0.0735932143,0.001076,0.9927355075,False
+2-hydroxystearate_metabolon,N/A,N/A,-0.218945,0.1596119232,0.105392,0.4613852885,False
+2-linoleoyl-GPC (18:2)*_metabolon,N/A,N/A,0.112783,0.2873579069,0.104623,0.4298976551,False
+2-linoleoyl-GPE (18:2)*_metabolon,N/A,N/A,0.830306,0.0003460029,0.789529,0.0038770855,False
+2-linoleoylglycerol (18:2)_metabolon,N/A,N/A,0.190057,0.2822660137,0.041053,0.8066253527,False
+2-methylmalonyl carnitine_metabolon,N/A,N/A,-0.142512,0.4417726155,0.041544,0.7935545853,False
+2-myristoyl-GPC (14:0)*_metabolon,N/A,N/A,-0.237193,0.0947517267,-0.772589,9.85195e-05,False
+2-oleoyl-GPC (18:1)*_metabolon,N/A,N/A,-0.054938,0.6205509312,0.025697,0.8484758227,False
+2-oleoyl-GPE (18:1)*_metabolon,N/A,N/A,1.053379,6.85402e-05,1.44246,1.49013e-05,True
+2-palmitoyl-GPC (16:0)*_metabolon,N/A,N/A,-0.018333,0.8706106206,-0.178511,0.0670438675,False
+2-palmitoyl-GPE (16:0)*_metabolon,N/A,N/A,-0.085287,0.6608474186,-0.23326,0.2666092042,False
+2-stearoyl-GPE (18:0)*_metabolon,N/A,N/A,-0.030147,0.8496518694,-0.133286,0.3614547818,False
+21-hydroxypregnenolone disulfate_metabolon,N/A,N/A,-0.009662,0.8941046826,0.229857,0.0184900889,False
+21-hydroxypregnenolone monosulfate (1)_metabolon,N/A,N/A,-0.284978,0.0581238803,-0.061913,0.7410895542,False
+3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)_metabolon,N/A,N/A,0.003565,0.96412359,0.299174,0.0139102967,False
+3-hydroxy-3-methylglutarate_metabolon,N/A,N/A,0.847071,6.4933e-06,0.603805,5.3211e-06,True
+3-hydroxybutyrate (BHBA)_metabolon,N/A,N/A,-0.036257,0.8987508647,0.679321,0.1152495992,False
+3-hydroxybutyrylcarnitine (1)_metabolon,N/A,N/A,-0.695967,0.0005969264,0.26867,0.1470207804,False
+3-hydroxybutyrylcarnitine (2)_metabolon,N/A,N/A,-0.553522,0.0117478747,0.283967,0.0764886109,False
+3-hydroxydecanoate_metabolon,N/A,N/A,-0.415845,0.0325858543,0.554613,0.0337906794,False
+3-hydroxylaurate_metabolon,N/A,N/A,-0.73101,0.0052825637,0.115917,0.6651054497,False
+3-hydroxymyristate_metabolon,N/A,N/A,-0.280941,0.0632349481,-0.122756,0.431782046,False
+3-hydroxyoctanoate_metabolon,N/A,N/A,-0.005932,0.9648943817,1.151291,2.29534e-05,True
+3b-hydroxy-5-cholenoic acid_metabolon,N/A,N/A,0.076333,0.3582346629,0.340068,0.0043857887,False
+"3beta,7alpha-dihydroxy-5-cholestenoate_metabolon",N/A,N/A,0.116206,0.255148768,0.344424,0.0486749356,False
+"4-androsten-3alpha,17alpha-diol monosulfate (2)_metabolon",N/A,N/A,-0.593014,9.81484e-05,-0.608631,3.28119e-05,True
+"4-androsten-3alpha,17alpha-diol monosulfate (3)_metabolon",N/A,N/A,0.122501,0.1140621732,0.32779,0.0005624915,False
+"4-androsten-3beta,17beta-diol disulfate (1)_metabolon",N/A,N/A,-0.026754,0.6385926852,0.057271,0.2453559203,False
+"4-androsten-3beta,17beta-diol disulfate (2)_metabolon",N/A,N/A,0.01929,0.7962171827,0.124913,0.0975953035,False
+"4-androsten-3beta,17beta-diol monosulfate (1)_metabolon",N/A,N/A,0.012254,0.8298419201,0.034786,0.5762569961,False
+"4-androsten-3beta,17beta-diol monosulfate (2)_metabolon",N/A,N/A,-0.156731,0.0814001418,-0.187632,0.012515099,False
+5-dodecenoate (12:1n7)_metabolon,N/A,N/A,-0.574991,0.0253772474,-0.341831,0.2408082564,False
+"5alpha-androstan-3alpha, 17beta-diol-17-glucosiduronate_metabolon",N/A,N/A,-0.417255,0.0315534893,-0.252774,0.0758995815,False
+"5alpha-androstan-3alpha,17alpha-diol disulfate_metabolon",N/A,N/A,0.389633,0.0241320785,0.728125,0.0002382186,False
+"5alpha-androstan-3alpha,17alpha-diol monosulfate_metabolon",N/A,N/A,0.320507,0.0002046926,0.512477,6.352e-07,True
+"5alpha-androstan-3alpha,17beta-diol disulfate_metabolon",N/A,N/A,0.107998,0.1850485822,0.073962,0.6992795036,False
+"5alpha-androstan-3alpha,17beta-diol monosulfate (1)_metabolon",N/A,N/A,-0.048234,0.4726650537,-0.090282,0.1203858244,False
+"5alpha-androstan-3alpha,17beta-diol monosulfate (2)_metabolon",N/A,N/A,0.059156,0.5364973959,-0.196829,0.3358024918,False
+"5alpha-androstan-3beta,17alpha-diol disulfate_metabolon",N/A,N/A,0.060666,0.5827159476,0.340119,0.0074904698,False
+"5alpha-androstan-3beta,17beta-diol disulfate_metabolon",N/A,N/A,0.010858,0.8832246769,0.125244,0.2394342215,False
+"5alpha-androstan-3beta,17beta-diol monosulfate (2)_metabolon",N/A,N/A,-0.040263,0.6484118916,-0.182103,0.092427513,False
+"5alpha-pregnan-3(alpha or beta),20beta-diol disulfate_metabolon",N/A,N/A,0.130401,0.5076273669,0.732866,0.0053546676,False
+"5alpha-pregnan-3beta,20alpha-diol disulfate_metabolon",N/A,N/A,0.099746,0.1998397532,0.205491,0.1754207418,False
+"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)_metabolon",N/A,N/A,0.173817,0.0386172695,0.004981,0.9623096306,False
+"5alpha-pregnan-3beta,20beta-diol monosulfate (1)_metabolon",N/A,N/A,0.24896,0.0015493267,0.45177,0.0001819431,False
+7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)_metabolon,N/A,N/A,0.274557,0.0272163628,0.148374,0.1229476597,False
+"9,10-DiHOME_metabolon",N/A,N/A,0.23111,0.1681707942,1.208933,4.35755e-05,True
+acetoacetate_metabolon,N/A,N/A,0.259194,0.4198196965,1.152731,0.0003581619,False
+acetylcarnitine_metabolon,N/A,N/A,-0.193799,0.1377808534,0.33456,0.0110487394,False
+adipoylcarnitine_metabolon,N/A,N/A,-0.556557,0.0005635505,0.277774,0.058637247,False
+andro steroid monosulfate (1)*_metabolon,N/A,N/A,-0.152777,0.2052281726,0.117637,0.29521565,False
+androsterone sulfate_metabolon,N/A,N/A,-0.087661,0.1644125358,0.085584,0.3681348116,False
+azelate (nonanedioate)_metabolon,N/A,N/A,0.052938,0.710624518,1.081974,6.3884e-06,True
+butyrylcarnitine_metabolon,N/A,N/A,-0.30966,0.0177474375,-0.087452,0.229159557,False
+caprate (10:0)_metabolon,N/A,N/A,-0.272632,0.0774511885,-0.154039,0.2967676755,False
+caproate (6:0)_metabolon,N/A,N/A,-0.060636,0.4769206123,0.086284,0.2991253268,False
+caprylate (8:0)_metabolon,N/A,N/A,-0.085135,0.516921475,0.336918,0.0020489703,False
+carnitine_metabolon,N/A,N/A,-0.008405,0.8586057308,0.076613,0.0962968002,False
+cholate_metabolon,N/A,N/A,-0.740431,0.0909262652,-0.853359,0.0736056378,False
+cholesterol_metabolon,N/A,N/A,0.117719,0.1778058798,0.231721,0.0074703626,False
+choline_metabolon,N/A,N/A,0.032109,0.6740666115,-0.058637,0.3607060678,False
+choline phosphate_metabolon,N/A,N/A,0.219406,0.0965969212,0.108433,0.2530185496,False
+cis-4-decenoyl carnitine_metabolon,N/A,N/A,-0.344611,0.0693987156,0.663736,0.0066234021,False
+cortisol_metabolon,N/A,N/A,-1.412102,7.811e-07,-1.143205,3.1756e-06,True
+cortisone_metabolon,N/A,N/A,-0.67519,8.02592e-05,-0.772938,0.0001106259,False
+decanoylcarnitine_metabolon,N/A,N/A,-0.574007,0.0318774108,0.293972,0.3120616851,False
+dehydroisoandrosterone sulfate (DHEA-S)_metabolon,N/A,N/A,-0.074919,0.2219625428,0.075588,0.2092825168,False
+deoxycarnitine_metabolon,N/A,N/A,-0.075293,0.3693009425,0.073483,0.295227904,False
+deoxycholate_metabolon,N/A,N/A,0.005411,0.9836218761,0.132846,0.6613614837,False
+dodecanedioate_metabolon,N/A,N/A,-0.243571,0.1419285066,0.582257,0.0003655517,False
+epiandrosterone sulfate_metabolon,N/A,N/A,-0.05558,0.340368372,0.132334,0.2455180187,False
+etiocholanolone glucuronide_metabolon,N/A,N/A,-0.628787,7.12347e-05,-0.418372,0.0029967151,True
+glycerol_metabolon,N/A,N/A,-0.004886,0.9779665129,0.247766,0.0711210327,False
+glycerol 3-phosphate_metabolon,N/A,N/A,0.146002,0.1887112052,-0.31085,0.0021857192,False
+glycerophosphoethanolamine_metabolon,N/A,N/A,0.176284,0.0886574812,0.094368,0.1895951677,False
+glycerophosphorylcholine (GPC)_metabolon,N/A,N/A,0.028475,0.8019261904,-0.191863,0.2126285359,False
+glycochenodeoxycholate_metabolon,N/A,N/A,2.048731,1.15029e-05,2.83516,3.257e-07,True
+glycochenodeoxycholate glucuronide (1)_metabolon,N/A,N/A,1.29565,1.41848e-05,1.274409,5.33531e-05,True
+glycochenodeoxycholate sulfate_metabolon,N/A,N/A,0.958948,0.0001639,1.22156,0.000207907,False
+glycocholate_metabolon,N/A,N/A,1.922599,1.65231e-05,2.753211,1.823e-07,True
+glycocholenate sulfate*_metabolon,N/A,N/A,0.00971,0.9206249304,0.216638,0.0404156138,False
+glycodeoxycholate sulfate_metabolon,N/A,N/A,1.291419,9.8108e-06,1.751928,3.09661e-05,True
+glycohyocholate_metabolon,N/A,N/A,1.025463,0.0016293045,1.571989,3.60386e-05,True
+glycolithocholate_metabolon,N/A,N/A,0.679009,0.0553549358,1.671757,8.28445e-05,False
+glycolithocholate sulfate*_metabolon,N/A,N/A,1.059987,3.32455e-05,1.064454,0.0014797506,True
+glycoursodeoxycholate_metabolon,N/A,N/A,1.551038,2.42657e-05,2.556223,3.907e-07,True
+hexadecanedioate_metabolon,N/A,N/A,-0.234391,0.0363101855,0.406342,0.0042605112,False
+hexanoylcarnitine_metabolon,N/A,N/A,-0.372777,0.0135046774,0.326618,0.0697487271,False
+hyocholate_metabolon,N/A,N/A,-0.527059,0.0396885831,-0.369409,0.1434101541,False
+laurate (12:0)_metabolon,N/A,N/A,-0.160446,0.4430374984,-0.217609,0.2771316149,False
+laurylcarnitine_metabolon,N/A,N/A,-1.023983,0.0006497003,-0.05187,0.8545779187,False
+linoleamide (18:2n6)_metabolon,N/A,N/A,0.020227,0.8104757292,0.31057,0.0116019471,False
+linoleoylcarnitine*_metabolon,N/A,N/A,-0.054865,0.6878859223,0.302411,0.1224225146,False
+maleate_metabolon,N/A,N/A,-0.154047,0.1908599253,-0.262039,0.0141053108,False
+malonate_metabolon,N/A,N/A,-0.150292,0.1606529396,-0.180398,0.6645570402,False
+malonylcarnitine_metabolon,N/A,N/A,-0.01107,0.9261238044,0.046148,0.6852616763,False
+methylmalonate (MMA)_metabolon,N/A,N/A,-0.017798,0.8590394912,0.005505,0.9610653493,False
+myo-inositol_metabolon,N/A,N/A,-0.029479,0.8023763362,0.027963,0.8597037025,False
+myristoleoylcarnitine*_metabolon,N/A,N/A,-0.105007,0.5748154812,0.915436,0.0026937161,False
+myristoylcarnitine_metabolon,N/A,N/A,-0.823939,7.54805e-05,-0.483636,0.028398015,True
+N-palmitoyl glycine_metabolon,N/A,N/A,-0.70688,0.0002226145,-0.415163,0.0057505153,False
+octadecanedioate_metabolon,N/A,N/A,-0.319876,0.033960711,0.44205,0.012023123,False
+octanoylcarnitine_metabolon,N/A,N/A,-0.563876,0.0096508145,0.306428,0.2759796251,False
+oleamide_metabolon,N/A,N/A,-0.074075,0.405165805,0.143964,0.149148145,False
+oleoyl ethanolamide_metabolon,N/A,N/A,-0.391961,0.0957008317,-0.121556,0.4623726337,False
+oleoylcarnitine_metabolon,N/A,N/A,0.053643,0.6766467383,0.409678,0.0207390312,False
+palmitic amide_metabolon,N/A,N/A,-0.022883,0.8071140529,0.139392,0.1469844994,False
+palmitoyl ethanolamide_metabolon,N/A,N/A,-0.506103,0.0117004347,-0.359432,0.0207005542,False
+palmitoylcarnitine_metabolon,N/A,N/A,-0.464736,0.0028619369,-0.356724,0.0222742638,False
+palmitoylcholine_metabolon,N/A,N/A,0.762451,0.0060989306,0.497951,0.1785579296,False
+phosphoethanolamine_metabolon,N/A,N/A,0.178694,0.1207273949,0.07406,0.4734500911,False
+pregn steroid monosulfate*_metabolon,N/A,N/A,-0.044555,0.4562835366,0.052077,0.6318477169,False
+pregnanediol-3-glucuronide_metabolon,N/A,N/A,-0.147399,0.1124200928,0.019995,0.8981478001,False
+pregnanolone/allopregnanolone sulfate_metabolon,N/A,N/A,-0.134597,0.4107518081,0.097812,0.3504972312,False
+pregnen-diol disulfate*_metabolon,N/A,N/A,0.122016,0.0868727489,0.337802,0.0075233455,False
+pregnenolone sulfate_metabolon,N/A,N/A,-0.220317,0.0867344674,-0.267182,0.022241958,False
+pristanate_metabolon,N/A,N/A,-0.800812,7.08686e-05,-0.644231,0.0104936339,True
+propionylcarnitine_metabolon,N/A,N/A,0.072784,0.4497826054,0.011015,0.8874426296,False
+propionylglycine_metabolon,N/A,N/A,0.191513,0.1802308364,-0.018169,0.8797182202,False
+sebacate (decanedioate)_metabolon,N/A,N/A,0.037707,0.9095153472,0.588543,0.1231882984,False
+sphinganine-1-phosphate_metabolon,N/A,N/A,0.064602,0.6423272506,0.27533,0.0870876774,False
+sphingosine_metabolon,N/A,N/A,0.188239,0.063896004,0.322721,0.0046044357,False
+sphingosine 1-phosphate_metabolon,N/A,N/A,0.020018,0.8315705124,0.172789,0.1066949991,False
+stearoylcarnitine_metabolon,N/A,N/A,-0.222528,0.0853661432,-0.194002,0.0780213237,False
+suberoyl carnitine_metabolon,N/A,N/A,-0.48042,0.0040923487,0.246791,0.2287311033,False
+taurochenodeoxycholate_metabolon,N/A,N/A,1.950819,1.74878e-05,3.318964,9.9e-09,True
+taurocholate_metabolon,N/A,N/A,1.39635,0.0125905144,2.596431,3.35941e-05,True
+taurocholenate sulfate_metabolon,N/A,N/A,0.596088,0.0004686375,1.069235,0.0001619203,False
+taurolithocholate 3-sulfate_metabolon,N/A,N/A,1.115874,3.14187e-05,1.483138,0.0001752095,True
+tetradecanedioate_metabolon,N/A,N/A,-0.174135,0.2103236867,0.38134,0.0083575394,False
+trimethylamine N-oxide_metabolon,N/A,N/A,-0.402101,0.0260782726,-0.900486,0.0013916195,False
+ursodeoxycholate_metabolon,N/A,N/A,0.012551,0.9668654575,0.403376,0.3681328201,False
+2'-deoxyuridine_metabolon,N/A,N/A,-0.02533,0.820234012,0.094114,0.5223493528,False
+3-aminoisobutyrate_metabolon,N/A,N/A,-0.485768,0.0006812834,-0.062917,0.6363513773,False
+3-methylcytidine_metabolon,N/A,N/A,0.011977,0.8994059396,0.067569,0.4567375214,False
+3-ureidopropionate_metabolon,N/A,N/A,-0.531038,0.0007198435,-0.341583,0.0201139243,False
+5-methyluridine (ribothymidine)_metabolon,N/A,N/A,-0.174552,0.0042269479,-0.059994,0.2214430644,False
+"5,6-dihydrothymine_metabolon",N/A,N/A,-0.075712,0.4164168952,-0.054143,0.3901093483,False
+7-methylguanine_metabolon,N/A,N/A,-0.019483,0.8409536228,0.061765,0.4299966064,False
+adenine_metabolon,N/A,N/A,-0.146699,0.2669605027,0.048843,0.7213000851,False
+adenosine_metabolon,N/A,N/A,-0.015744,0.9045700547,0.102177,0.3046631273,False
+"adenosine 3',5'-cyclic monophosphate (cAMP)_metabolon",N/A,N/A,-0.033681,0.8023816532,0.093429,0.6538427346,False
+adenosine 5'-monophosphate (AMP)_metabolon,N/A,N/A,0.269796,0.1469873472,-0.085403,0.8546126715,False
+allantoin_metabolon,N/A,N/A,0.030979,0.5866619962,0.088902,0.1514503316,False
+beta-alanine_metabolon,N/A,N/A,0.000504,0.9952832932,0.003977,0.9626894588,False
+dihydroorotate_metabolon,N/A,N/A,-0.11313,0.19152949,-0.355213,0.0272819184,False
+hypoxanthine_metabolon,N/A,N/A,-0.392152,0.0460355267,-0.149876,0.5253911038,False
+inosine_metabolon,N/A,N/A,-0.127595,0.5463253782,-0.146343,0.6002016053,False
+N-acetyl-beta-alanine_metabolon,N/A,N/A,-0.405802,0.0012814156,-0.10438,0.3534766033,False
+N1-methyladenosine_metabolon,N/A,N/A,-0.004185,0.9635125502,0.12054,0.183664396,False
+"N2,N2-dimethylguanosine_metabolon",N/A,N/A,-0.14842,0.2159042648,-0.026328,0.7955463295,False
+N4-acetylcytidine_metabolon,N/A,N/A,-0.054245,0.2848702978,0.163841,0.1994590392,False
+N6-carbamoylthreonyladenosine_metabolon,N/A,N/A,-0.166315,0.0768283437,0.012655,0.8803613888,False
+N6-succinyladenosine_metabolon,N/A,N/A,0.145302,0.3267889364,0.382896,0.0373217076,False
+orotate_metabolon,N/A,N/A,0.24239,0.0065274083,0.497802,7.23007e-05,True
+orotidine_metabolon,N/A,N/A,0.068117,0.1562405935,0.136142,0.1689432938,False
+pseudouridine_metabolon,N/A,N/A,-0.192062,0.0023265157,0.035225,0.4064221581,False
+urate_metabolon,N/A,N/A,-0.176974,0.0068457959,-0.063024,0.214207026,False
+uridine_metabolon,N/A,N/A,-0.988672,3.4e-09,-0.588015,1.258e-07,True
+xanthine_metabolon,N/A,N/A,-0.655985,6.39435e-05,-0.526273,2.402e-06,True
+xanthosine_metabolon,N/A,N/A,0.058413,0.7005608103,0.111351,0.3952058535,False
+DSGEGDFXAEGGGVR*_metabolon,N/A,N/A,-0.624868,0.1243275782,-0.564672,0.2579967434,False
+gamma-glutamyl-2-aminobutyrate_metabolon,N/A,N/A,-0.336046,0.0212935365,-0.067821,0.7444266852,False
+gamma-glutamyl-epsilon-lysine_metabolon,N/A,N/A,0.231195,0.0558272894,0.301947,0.0013467451,False
+gamma-glutamylalanine_metabolon,N/A,N/A,0.126973,0.210886285,0.227993,0.0233039163,False
+gamma-glutamylglutamate_metabolon,N/A,N/A,0.16097,0.3482296704,0.273495,0.0838861758,False
+gamma-glutamylglutamine_metabolon,N/A,N/A,-0.082729,0.388283586,0.017575,0.8426553813,False
+gamma-glutamylglycine_metabolon,N/A,N/A,-0.29223,0.0077475597,-0.122666,0.1204200453,False
+gamma-glutamylhistidine_metabolon,N/A,N/A,-0.048552,0.6411080608,0.12456,0.096912705,False
+gamma-glutamylisoleucine*_metabolon,N/A,N/A,0.190993,0.0561634093,0.259914,0.005224771,False
+gamma-glutamylleucine_metabolon,N/A,N/A,0.253632,0.0156106571,0.222319,0.013492408,False
+gamma-glutamylmethionine_metabolon,N/A,N/A,-0.113994,0.3817424065,0.116661,0.1814842168,False
+gamma-glutamylphenylalanine_metabolon,N/A,N/A,0.027352,0.7502347921,0.265239,0.0038215643,False
+gamma-glutamylthreonine*_metabolon,N/A,N/A,-0.104401,0.3816930697,-0.131034,0.2356295732,False
+gamma-glutamyltryptophan_metabolon,N/A,N/A,-0.484439,0.002523532,-0.115333,0.2894604422,False
+gamma-glutamyltyrosine_metabolon,N/A,N/A,0.184551,0.0553842203,0.26655,0.016273401,False
+gamma-glutamylvaline_metabolon,N/A,N/A,-0.07138,0.2625411592,0.055428,0.3721282927,False
+N-acetylcarnosine_metabolon,N/A,N/A,0.010258,0.8890105465,0.31262,0.0056992195,False
+prolylglycine_metabolon,N/A,N/A,0.017466,0.8970469193,-0.084808,0.5080487093,False
+1-methylurate_metabolon,N/A,N/A,-0.341983,0.0322542895,-1.211724,0.0038895156,False
+1-methylxanthine_metabolon,N/A,N/A,-0.473081,0.0001787037,-1.234965,7.62615e-05,True
+"1,7-dimethylurate_metabolon",N/A,N/A,-0.603169,0.0035648326,-1.125137,0.0012870468,False
+2-aminophenol sulfate_metabolon,N/A,N/A,-1.758264,9.18e-08,-3.465617,6.525e-07,True
+2-piperidinone_metabolon,N/A,N/A,0.055417,0.80564776,-0.501722,0.2671535983,False
+2-pyrrolidinone_metabolon,N/A,N/A,-0.170864,0.3135210248,-0.143486,0.2970117305,False
+"2,3-dihydroxyisovalerate_metabolon",N/A,N/A,0.38966,0.0521682697,0.154513,0.5610675409,False
+3-hydroxyhippurate_metabolon,N/A,N/A,-1.430632,5.92876e-05,-1.311469,0.0006752388,True
+3-hydroxypyridine sulfate_metabolon,N/A,N/A,0.271367,0.1876524949,-0.712211,0.0167234757,False
+3-methylxanthine_metabolon,N/A,N/A,1.814077,4.3956e-06,2.735478,6.84e-08,True
+"3,7-dimethylurate_metabolon",N/A,N/A,1.52485,1.1126e-06,1.923731,1.8e-09,True
+4-allylphenol sulfate_metabolon,N/A,N/A,-0.064786,0.3515398889,-0.616357,0.033223357,False
+4-ethylphenylsulfate_metabolon,N/A,N/A,0.140837,0.4538228736,0.119469,0.762459913,False
+4-hydroxychlorothalonil_metabolon,N/A,N/A,0.121129,0.4188753776,0.096115,0.3543254948,False
+4-hydroxyhippurate_metabolon,N/A,N/A,-0.590405,0.0001750079,-0.514439,0.0633642826,False
+4-methylcatechol sulfate_metabolon,N/A,N/A,-0.424919,0.0002113652,-0.085796,0.7826817765,False
+4-vinylphenol sulfate_metabolon,N/A,N/A,-0.56531,2.334e-07,-1.681661,3.116e-07,True
+5-acetylamino-6-amino-3-methyluracil_metabolon,N/A,N/A,-0.681528,0.0101332567,-1.261343,0.0057293178,False
+6-hydroxyindole sulfate_metabolon,N/A,N/A,0.177255,0.072926676,0.232302,0.1657645792,False
+7-methylxanthine_metabolon,N/A,N/A,2.226057,1.4514e-06,2.877789,2.46e-08,True
+alliin_metabolon,N/A,N/A,-0.759957,1.048e-06,-2.369636,8.04e-08,True
+benzoate_metabolon,N/A,N/A,0.115646,0.1763664081,0.182835,0.2962509363,False
+betonicine_metabolon,N/A,N/A,-0.380154,0.0025691031,-0.544724,0.0135926008,False
+caffeine_metabolon,N/A,N/A,0.757679,0.0638142,0.042112,0.9265725215,False
+catechol sulfate_metabolon,N/A,N/A,-0.406208,0.0244355469,-0.249669,0.2771447369,False
+cinnamoylglycine_metabolon,N/A,N/A,-0.611773,0.0739198803,-0.979824,0.024408651,False
+dimethyl sulfone_metabolon,N/A,N/A,0.225578,0.1396627389,0.196262,0.2681338007,False
+EDTA_metabolon,N/A,N/A,0.038351,0.6655573358,0.118343,0.1062241468,False
+ergothioneine_metabolon,N/A,N/A,0.066843,0.5553763029,0.206365,0.0377146352,False
+erythritol_metabolon,N/A,N/A,0.066831,0.4934849578,0.158259,0.0827848905,False
+gluconate_metabolon,N/A,N/A,-0.207346,0.2063213534,-0.235228,0.1653131689,False
+hippurate_metabolon,N/A,N/A,-0.914176,2.658e-07,-1.451064,1.35094e-05,True
+homostachydrine*_metabolon,N/A,N/A,0.055906,0.8650514956,-0.044746,0.8901591183,False
+iminodiacetate (IDA)_metabolon,N/A,N/A,0.107599,0.2264953979,0.206445,0.0148062731,False
+indolin-2-one_metabolon,N/A,N/A,0.324675,0.0055218447,0.175303,0.4085426433,False
+lanthionine_metabolon,N/A,N/A,1.361429,4.2522e-06,0.987654,2.85008e-05,True
+methyl glucopyranoside (alpha + beta)_metabolon,N/A,N/A,-0.448978,3.24312e-05,-0.875419,2.29149e-05,True
+methyl indole-3-acetate_metabolon,N/A,N/A,-0.314613,0.0752084071,-0.590864,0.0414634704,False
+methyl-4-hydroxybenzoate sulfate_metabolon,N/A,N/A,-0.885154,0.0026956131,-0.233666,0.3131377037,False
+N-acetylalliin_metabolon,N/A,N/A,-0.751762,3.606e-07,-2.115722,9.92e-08,True
+N-methylpipecolate_metabolon,N/A,N/A,-0.133138,0.1111424561,0.013629,0.8089406693,False
+O-methylcatechol sulfate_metabolon,N/A,N/A,-0.4568,0.0245565307,-0.003388,0.984923345,False
+O-sulfo-L-tyrosine_metabolon,N/A,N/A,-0.49375,3.4956e-06,-0.343269,5.94741e-05,True
+paraxanthine_metabolon,N/A,N/A,-0.60375,0.008480297,-0.949551,0.0102706884,False
+phytanate_metabolon,N/A,N/A,-1.914354,6.2e-09,-1.190674,5.12312e-05,True
+piperine_metabolon,N/A,N/A,-0.433604,0.0046487023,-2.471666,1.07e-07,True
+quinate_metabolon,N/A,N/A,-0.763928,1.04162e-05,-1.978891,3.1969e-06,True
+S-allylcysteine_metabolon,N/A,N/A,-0.805014,3.89e-08,-3.00427,6.9e-09,True
+stachydrine_metabolon,N/A,N/A,-0.179881,0.0147520693,-0.213438,0.0020555301,False
+sulfate*_metabolon,N/A,N/A,-0.07455,0.2244644058,0.080054,0.1465890167,False
+tartarate_metabolon,N/A,N/A,0.295541,0.0079507809,0.280628,0.0186033851,False
+tartronate (hydroxymalonate)_metabolon,N/A,N/A,0.322075,0.0018021735,0.397929,0.0076994303,False
+theobromine_metabolon,N/A,N/A,2.352074,1.5725e-06,2.559044,1.412e-07,True
+theophylline_metabolon,N/A,N/A,-0.612203,1.89932e-05,-1.130406,0.0002505365,True
+thymol sulfate_metabolon,N/A,N/A,-0.827632,7.7e-09,-1.638506,0.0003932049,True
