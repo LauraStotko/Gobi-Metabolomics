@@ -18,35 +18,68 @@ library(ggplot2)
 library(missForest)
 library(doParallel)
 ```
+## Notiz: Ich benutze die drei verschiedenen wie gehabt, ohne challenge column, platform>platform_name. Anna transformiert und führt sie danach zusammen.#todo
+
 
 # Load data
 ```{r}
-data_path <-"../data/raw/humet_data_raw_none_subjects15_tp57.csv"
-info_path <- "../data/raw/humet_info.csv"
-data_raw <- read.csv(data_path, sep = ",", header = TRUE)
-info <- read.csv(info_path, sep = ",", header = TRUE)
+#data_path <- "../data/raw/humet_data_raw_none_subjects15_tp57.csv"
+#data_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/data_transformed.csv" #Marie
+path_metabolon <- "../data/raw/humet_data_raw_none_metablon.csv"
+path_biocrates <- "../data/raw/humet_data_raw_none_biocrates.csv"
+path_inhouse <- "../data/raw/humet_data_raw_none_in_house_biochemistry.csv"
+#info_path <- "../data/raw/humet_info.csv"
+#data_trans <- read.csv(data_path, sep = ",", header = TRUE)
+data_metabolon <- read.csv(path_metabolon, sep = ",", header = TRUE)
+data_biocrates <- read.csv(path_biocrates, sep = ",", header = TRUE)
+data_inhouse <- read.csv(path_inhouse, sep = ",", header = TRUE)
+#info <- read.csv(info_path, sep = ",", header = TRUE)
 
-# Add challenge column depending on time
-data_raw <- data_raw %>%
+# Add platform column
+data_metabolon <- cbind(platform_name = "Metabolon HD4 [nt-ms]", data_metabolon)
+data_biocrates <- cbind(platform_name = "Biocrates p150 [t-ms]", data_biocrates)
+data_inhouse <- cbind(platform_name = "In-house biochemistry [chem.]", data_inhouse)
+
+
+# Add challenge column depending on time to one version
+add_challenge <- function(dataset) {
+  dataset %>%
   mutate(challenge = case_when(
-    time >= 1 & time <= 10 ~ "fasting",      # time 1-10 corresponds to fasting
+    time >= 1 & time <= 9 ~ "fasting",      # time 1-10 corresponds to fasting
     time >= 33 & time <= 39 ~ "exercise",    # time 33-39 corresponds to exercise
-    time >= 40 & time <= 48 ~ "oltt",        # time 40-48 corresponds to OLTT
+    time >= 40 & time <= 49 ~ "oltt",        # time 40-48 corresponds to OLTT
     TRUE ~ NA_character_                                            # assign NA for any time outside ranges
     )) %>%
-  filter(!is.na(challenge)) %>%  # remove rows where 'challenge' is NA
-  select(challenge, everything()) # make challenge the first column
+  dplyr::select(challenge, everything()) # make challenge the first column
+}
 
+data_metabolon <- add_challenge(data_metabolon)
+data_biocrates <- add_challenge(data_biocrates)
+data_inhouse <- add_challenge(data_inhouse)
+
+
+# Filter half the data for relevant timepoints only
+relevant_timepoints <- function(dataset) {
+  dataset %>%
+    filter(!is.na(challenge))  # remove rows where 'challenge' is NA
+}
+
+data_metabolon_filtered_first <- relevant_timepoints(data_metabolon)
+data_biocrates_filtered_first <- relevant_timepoints(data_biocrates)
+data_inhouse_filtered_first <- relevant_timepoints(data_inhouse)
+
+data_metabolon_filtered_last <- data_metabolon
+data_biocrates_filtered_last <- data_biocrates
+data_inhouse_filtered_last <- data_inhouse
 
 # Keep only plasma info
-info <- info %>% filter(fluid == "plasma")
+#info <- info %>% filter(fluid == "plasma")
 ```
 # Pre-processing
 
 Next, filter for time points measured after the first 30 minutes of a study challenge. Then, filter for outliers defined as data points beyond four standard deviations from the mean. The order is crucial, as filtering first for outliers and then for time points could exclude too many time points that are outliers simply *because* they stem from the first thirty minutes.
 
 #todoxxx: identify minutes data. Oder sowieso schon auf outlier getreated wgene 'concentrations and relative abundances'? Dann nur missForest
-
 # SKIP OUTLIER IDENTIFICATION FOR NOW
 
 ## First 30mins Then 4 SD from mean #todo: for each challenge separately
@@ -158,100 +191,422 @@ Exclude (i.e. set to missing) the identified unique subjects per time point, cha
 
 
 
-# Impute missing values using missForest
+
+
+# Impute missing values using missForest FOR THREE SEPARATE data_[]
 
 ```{r}
 # Prepare data
-#data <- data %>%
- # mutate(across(where(is.character), as.factor))
+# chr_as_factor <- function(dataset) {
+#   dataset %>%
+#     mutate(across(where(is.character), as.factor)) %>%
+#     mutate(as.numeric(as.character(time)))
+# }
+# 
+# data_metabolon_filtered_first <- chr_as_factor(data_metabolon_filtered_first)
+# data_biocrates_filtered_first <- chr_as_factor(data_biocrates_filtered_first)
+# data_inhouse_filtered_first <- chr_as_factor(data_inhouse_filtered_first)
+# 
+# data_metabolon_filtered_last <- chr_as_factor(data_metabolon_filtered_last)
+# data_biocrates_filtered_last <- chr_as_factor(data_biocrates_filtered_last)
+# data_inhouse_filtered_last <- chr_as_factor(data_inhouse_filtered_last)
 
-data <- data_raw %>%
+
+to_factor <- function(dataset) {
+  dataset %>%
   mutate(
     challenge = as.factor(challenge),
-    time = as.factor(time),
-    subject = as.factor(subject)
-    ) %>%
-  mutate(across(where(is.character), as.factor)) # should not make a difference. #del if possible
+    platform_name = as.factor(platform_name),
+    time = as.numeric(as.character((time))),
+    subject = as.factor(subject),
+    ) #%>%
+  #mutate(across(where(is.character), as.factor)) # should not make a difference. #del if possible
+}
+
+data_metabolon_filtered_first <- to_factor(data_metabolon_filtered_first)
+data_biocrates_filtered_first <- to_factor(data_biocrates_filtered_first)
+data_inhouse_filtered_first <- to_factor(data_inhouse_filtered_first)
+
+data_metabolon_filtered_last <- to_factor(data_metabolon_filtered_last)
+data_biocrates_filtered_last <- to_factor(data_biocrates_filtered_last)
+data_inhouse_filtered_last <- to_factor(data_inhouse_filtered_last)
+```
+
+## Exclude metabolites with more than 30% missing data points
+```{r}
+keep_sub_30 <- function(dataset) {
+  # Count total columns before filtering
+  total_cols_before <- ncol(dataset)
+  
+  # Identify columns with more than 30% missing values
+  missing_threshold <- 0.3  # 30% threshold
+  cols_to_keep <- colMeans(is.na(dataset)) < missing_threshold | colnames(dataset) == "challenge" # keep challenge column
+  
+  # Count total columns after filtering
+  total_cols_after <- sum(cols_to_keep)
+  
+  # Filter the dataset to exclude high-missing-value columns
+  dataset <- dataset[, cols_to_keep]
+  
+  # Calculate  number of removed columns
+  removed_cols <- total_cols_before - total_cols_after
+  
+  # Print number of removed columns
+  cat("Number of removed columns:", removed_cols, "\n")
+  
+  return(dataset)
+}
+
+data_metabolon_filtered_first <- keep_sub_30(data_metabolon_filtered_first)
+data_biocrates_filtered_first <- keep_sub_30(data_biocrates_filtered_first)
+data_inhouse_filtered_first <- keep_sub_30(data_inhouse_filtered_first)
+
+data_metabolon_filtered_last <- keep_sub_30(data_metabolon_filtered_last)
+data_biocrates_filtered_last <- keep_sub_30(data_biocrates_filtered_last)
+data_inhouse_filtered_last <- keep_sub_30(data_inhouse_filtered_last)
+
+cat("Number of NA in data_metabolon_filtered_first:", sum(is.na(data_metabolon_filtered_first)), "\n")
+cat("Number of NA in data_biocrates_filtered_first:", sum(is.na(data_biocrates_filtered_first)), "\n")
+cat("Number of NA in data_inhouse_filtered_first:", sum(is.na(data_inhouse_filtered_first)), "\n")
+
+cat("Number of NA in data_metabolon:", sum(is.na(data_metabolon_filtered_last)), "\n")
+cat("Number of NA in data_biocrates:", sum(is.na(data_biocrates_filtered_last)), "\n")
+cat("Number of NA in data_inhouse:", sum(is.na(data_inhouse_filtered_last)), "\n")
+
 ```
 
 ```{r}
-# Separate data by platform
-data_fasting <- data %>% filter(challenge == "fasting")
-data_exercise <- data %>% filter(challenge == "exercise")
-data_oltt <- data %>% filter(challenge == "oltt")
+# # Clean up metabolite names
+# 
+# # Remove everything starting from '(' and after, including any spaces before '('
+# info$metabolite_clean <- gsub("\\s\\([^)]*\\)\\s?\\*?", "", info$metabolite)
+# info$metabolite_clean <- gsub("\\s?\\*?", "", info$metabolite_clean)
+# info$metabolite_clean <- gsub("-", "\\.", info$metabolite_clean)
+# info$metabolite_clean <- gsub("\\(", "\\.", info$metabolite_clean)
+# info$metabolite_clean <- gsub("\\)", "\\.", info$metabolite_clean)
+# 
+# # Reorder columns to make 'metabolite_clean' the first column
+# info <- info[, c("metabolite_clean", setdiff(names(info), "metabolite_clean"))]
+# 
+# col_name <- "X3.carboxy.4.methyl.5.propyl.2.furanpropanoate..CMPF...P..nt.ms."
+# new_col_name <- gsub("\\.\\.P\\.1?.*", "", col_name)
+# new_col_name <- gsub("X", "", new_col_name)
+# new_col_name
 
 ```
 
-## Perform missforest on FASTING data
+
 ```{r}
-# Set up parallel backend using all available cores minus one
-cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
-registerDoParallel(cl)
+# 
+# 
+# # Map metabolite column names in data to platform name
+# metabolite_columns <- colnames(data[, 4:ncol(data)])
+# platform_info <- info %>% 
+#   filter(metabolite %in% metabolite_columns)
+# 
+# # Separate data by platform
+# data_fasting <- data %>% filter(challenge == "fasting")
+# data_exercise <- data %>% filter(challenge == "exercise")
+# data_oltt <- data %>% filter(challenge == "oltt")
 
-# Perform missForest imputation
-set.seed(42)  # Ensures reproducibility
-imputed_fasting <- missForest(data_fasting, ntree = 25, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
-
-stopCluster(cl)  # Stop  cluster after imputation
-
-# Check imputation error
-imputed_fasting$error
-summary(imputed_fasting)
-sum(is.na(imputed_fasting)) 
-
-# Extract imputed dataset
-imputed_fasting <- imputed_fasting$ximp
-```
-```{r}
-data_rf_path <- "../data/processed/humet_data_raw_rf_subjects15_tp57.csv"
-data_rf <- read.csv(data_rf_path, sep = ",", header = TRUE)
-```
-
-
-
-## Perform missforest on EXERCISE data
-```{r}
-# Set up parallel backend using all available cores minus one
-cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
-registerDoParallel(cl)
-
-# Perform missForest imputation
-set.seed(42)  # Ensures reproducibility
-imputed_exercise <- missForest(data_exercise, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
-
-stopCluster(cl)  # Stop  cluster after imputation
-
-# Check imputation error
-imputed_exercise$error
-summary(imputed_exercise)
-sum(is.na(imputed_exercise)) 
-
-# Extract imputed dataset
-imputed_exercise <- imputed_exercise$ximp
-```
-
-## Perform missforest on OLTT data
-```{r}
-# Set up parallel backend using all available cores minus one
-cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
-registerDoParallel(cl)
-
-# Perform missForest imputation
-set.seed(42)  # Ensures reproducibility
-imputed_oltt <- missForest(data_oltt, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
-
-stopCluster(cl)  # Stop  cluster after imputation
-
-# Check imputation error
-imputed_oltt$error
-summary(imputed_oltt)
-sum(is.na(imputed_oltt)) 
-
-# Extract imputed dataset
-imputed_oltt <- imputed_oltt$ximp
 ```
 
 ```{r}
+# # TEMP
+# high_cardinality_cols <- sapply(data_metabolon_filtered_last, function(col)
+#   if (is.factor(col) || is.character(col)) length(unique(col)) else NA)
+# 
+# # Filter only columns exceeding 53 unique values
+# high_cardinality_cols <- high_cardinality_cols[!is.na(high_cardinality_cols) & high_cardinality_cols > 53]
+# 
+# print(high_cardinality_cols)
+# data_metabolon_filtered_last$time <- as.numeric(as.character(data_metabolon_filtered_last$time))
+
+```
+
+missForest Function
+```{r}
+mF_function <- function(dataset) {
+  cat("NA in ",  deparse(substitute(dataset)), " before missForest:", sum(is.na(dataset)), "\n")
+  
+  if(!sum(is.na(dataset)) == 0) {
+    # Set up parallel backend using all available cores minus one
+    cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+    registerDoParallel(cl)
+    
+    # Perform missForest imputation
+    set.seed(42)  # Ensures reproducibility
+    imputed_dataset <- missForest(dataset, ntree = 1, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+    
+    stopCluster(cl)  # Stop  cluster after imputation
+    
+    # Check imputation error
+    #imputed_dataset$error
+    #summary(imputed_dataset)
+    #sum(is.na(imputed_dataset))
+    
+    # Extract imputed dataset
+    imputed_dataset <- imputed_dataset$ximp
+  } else {
+    imputed_dataset <- dataset
+  }
+  cat("NA in ",  deparse(substitute(dataset)), " after missForest:", sum(is.na(imputed_dataset)), "\n")
+  
+  return(imputed_dataset)
+}
+
+imputed_metabolon_filtered_first <- mF_function(data_metabolon_filtered_first)
+imputed_biocrates_filtered_first <- mF_function(data_biocrates_filtered_first)
+imputed_inhouse_filtered_first <- mF_function(data_inhouse_filtered_first)
+
+imputed_metabolon_filtered_last <- mF_function(data_metabolon_filtered_last)
+imputed_biocrates_filtered_last <- mF_function(data_biocrates_filtered_last)
+imputed_inhouse_filtered_last <- mF_function(data_inhouse_filtered_last)
+
+
+```
+# Perform missForest on platforms individually
+## Perform missforest on METABOLON data
+```{r}
+# cat("NA in metabolon before missForest:", sum(is.na(data_metabolon)), "\n")
+# if(!sum(is.na(data_metabolon)) == 0) {
+#   # Set up parallel backend using all available cores minus one
+#   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+#   registerDoParallel(cl)
+#   
+#   # Perform missForest imputation
+#   set.seed(42)  # Ensures reproducibility
+#   imputed_metabolon <- missForest(data_metabolon, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+#   
+#   stopCluster(cl)  # Stop  cluster after imputation
+#   
+#   # Check imputation error
+#   imputed_metabolon$error
+#   summary(imputed_metabolon)
+#   sum(is.na(imputed_metabolon))
+#   
+#   # Extract imputed dataset
+#   imputed_metabolon <- imputed_metabolon$ximp
+# } else {
+#   imputed_metabolon <- data_metabolon
+# }
+# cat("NA in metabolon after missForest:", sum(is.na(imputed_metabolon)), "\n")
+```
+
+```{r}
+# # TEMPORARY
+# data_rf_path <- "../data/processed/humet_data_raw_rf_subjects15_tp57.csv"
+# data_rf <- read.csv(data_rf_path, sep = ",", header = TRUE)
+```
+
+
+
+## Perform missforest on BIOCRATES data
+```{r}
+# cat("NA in biocrates before missForest:", sum(is.na(data_biocrates)), "\n")
+# if(!sum(is.na(data_biocrates)) == 0) {
+#   # Set up parallel backend using all available cores minus one
+#   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+#   registerDoParallel(cl)
+#   
+#   # Perform missForest imputation
+#   set.seed(42)  # Ensures reproducibility
+#   imputed_biocrates <- missForest(data_biocrates, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+#   
+#   stopCluster(cl)  # Stop  cluster after imputation
+#   
+#   # Check imputation error
+#   imputed_biocrates$error
+#   summary(imputed_biocrates)
+#   sum(is.na(imputed_biocrates)) 
+#   
+#   # Extract imputed dataset
+#   imputed_biocrates <- imputed_biocrates$ximp
+# } else {
+#   imputed_biocrates <- data_biocrates
+# }
+# cat("NA in biocrates after missForest:", sum(is.na(imputed_biocrates)), "\n")
+```
+
+## Perform missforest on IN-HOUSE data
+```{r}
+# cat("NA in in-house before missForest:", sum(is.na(data_inhouse)), "\n")
+# if(!sum(is.na(data_inhouse)) == 0) {
+#   # Set up parallel backend using all available cores minus one
+#   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+#   registerDoParallel(cl)
+#   
+#   # Perform missForest imputation
+#   set.seed(42)  # Ensures reproducibility
+#   imputed_inhouse <- missForest(data_inhouse, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+#   
+#   stopCluster(cl)  # Stop  cluster after imputation
+#   
+#   # Check imputation error
+#   imputed_inhouse$error
+#   summary(imputed_inhouse)
+#   sum(is.na(imputed_inhouse)) 
+#   
+#   # Extract imputed dataset
+#   imputed_inhouse <- imputed_inhouse$ximp
+# } else {
+#   imputed_inhouse <- data_inhouse
+# }
+# cat("NA in in-house after missForest:", sum(is.na(imputed_inhouse)), "\n")
+```
+
+## Recombine three platforms into one dataset
+```{r}
+# # Combine imputed platforms datasets
+# imputed_data_complete <- bind_rows(imputed_metabolon, imputed_biocrates, imputed_inhouse)
+# sum(is.na(imputed_data_complete)) #todo: NAs
+```
+
+
+# Impute missing values using missForest FOR TRANSFORMED data
+
+```{r}
+# # Prepare data
+# #data <- data %>%
+#  # mutate(across(where(is.character), as.factor))
+# 
+# to_factor <- function(dataset) {
+#   dataset %>%
+#   mutate(
+#     metabolite = as.factor(metabolite),
+#     platform_name = as.factor(platform_name),
+#     time = as.factor(time),
+#     subject = as.factor(subject),
+#     challenge = as.factor(challenge),
+#     super_pathway = as.factor(super_pathway),
+#     sub_pathway = as.factor(sub_pathway)
+#     ) %>%
+#   mutate(across(where(is.character), as.factor)) # should not make a difference. #del if possible
+# }
+# 
+# data_trans <- to_factor(data_trans)
+# 
+# 
+# # Split the data by platform
+# data_split_by_platform <- split(data_trans, data_trans$platform_name)
+```
+
+## Exclude metabolites with more than 30% missing data points
+```{r}
+# keep_sub_30 <- function(dataset) {
+#   # Count total columns before filtering
+#   total_cols_before <- ncol(dataset)
+#   
+#   # Identify columns with more than 30% missing values
+#   missing_threshold <- 0.3  # 30% threshold
+#   cols_to_keep <- colMeans(is.na(dataset)) < missing_threshold
+#   
+#   # Count total columns after filtering
+#   total_cols_after <- sum(cols_to_keep)
+#   
+#   # Filter the dataset to exclude high-missing-value columns
+#   dataset <- dataset[, cols_to_keep]
+#   
+#   # Calculate  number of removed columns
+#   removed_cols <- total_cols_before - total_cols_after
+#   
+#   # Print number of removed columns
+#   cat("Number of removed columns:", removed_cols, "\n")
+#   
+#   return(dataset)
+# }
+# 
+# data_trans <- keep_sub_30(data_trans)
+# 
+# cat("Number of NA in data_trans:", sum(is.na(data_trans)), "\n")
+
+```
+
+```{r}
+# high_cardinality_cols <- sapply(data_metabolon, function(col) 
+#   if (is.factor(col) || is.character(col)) length(unique(col)) else NA)
+# 
+# # Filter only columns exceeding 53 unique values
+# high_cardinality_cols <- high_cardinality_cols[!is.na(high_cardinality_cols) & high_cardinality_cols > 53]
+# 
+# print(high_cardinality_cols)
+
+```
+
+## Perform missforest
+```{r}
+# cat("NA in metabolon before missForest:", sum(is.na(data_metabolon)), "\n")
+# if(!sum(is.na(data_metabolon)) == 0) {
+#   # Set up parallel backend using all available cores minus one
+#   cl <- makeCluster(detectCores() - 1, type = "FORK")  # Use one less core to avoid overloading; Mac-specific "FORK" cluster type
+#   registerDoParallel(cl)
+#   
+#   # Perform missForest imputation
+#   set.seed(42)  # Ensures reproducibility
+#   imputed_metabolon <- missForest(data_metabolon, ntree = 10, parallelize = "variables", verbose = "TRUE") # default ntree = 100; verbose=True to get progress messages              # ACHTUNG: DAUERT LANGE!!
+#   
+#   stopCluster(cl)  # Stop  cluster after imputation
+#   
+#   # Check imputation error
+#   imputed_metabolon$error
+#   summary(imputed_metabolon)
+#   sum(is.na(imputed_metabolon))
+#   
+#   # Extract imputed dataset
+#   imputed_metabolon <- imputed_metabolon$ximp
+# } else {
+#   imputed_metabolon <- data_metabolon
+# }
+# cat("NA in metabolon after missForest:", sum(is.na(imputed_metabolon)), "\n")
+```
+
+
+
+
+# Log2 Transform
+```{r}
+log2_transformed <- function(dataset) {
+  dataset %>%
+    mutate(time = as.factor(time)) %>% # refactor time column as factor to exclude from log2_transformation
+    mutate(across(where(is.numeric), log2))
+}
+
+log2_imputed_metabolon_filtered_first <- log2_transformed(imputed_metabolon_filtered_first)
+log2_imputed_biocrates_filtered_first <- log2_transformed(imputed_biocrates_filtered_first)
+log2_imputed_inhouse_filtered_first <- log2_transformed(imputed_inhouse_filtered_first)
+
+log2_imputed_metabolon_filtered_last <- log2_transformed(imputed_metabolon_filtered_last)
+log2_imputed_biocrates_filtered_last <- log2_transformed(imputed_biocrates_filtered_last)
+log2_imputed_inhouse_filtered_last <- log2_transformed(imputed_inhouse_filtered_last)
+```
+
+# Filter unfiltered data for relevant timepoints
+```{r}
+relevant_timepoints <- function(dataset) {
+  dataset %>%
+    filter(!is.na(challenge))  # remove rows where 'challenge' is NA
+}
+
+log2_imputed_metabolon_filtered_last <- relevant_timepoints(log2_imputed_metabolon_filtered_last)
+log2_imputed_biocrates_filtered_last <- relevant_timepoints(log2_imputed_biocrates_filtered_last)
+log2_imputed_inhouse_filtered_last <- relevant_timepoints(log2_imputed_inhouse_filtered_last)
+```
+
+
+
+```{r}
+# double_glucose <- cbind(imputed_log2_data_complete[, 1:4], imputed_log2_data_complete$glucose..P..nt.ms., imputed_log2_data_complete$Glucose..P..chem..)
+```
+
+
+```{r}
+# Save to a CSV file
+write.csv(log2_imputed_metabolon_filtered_first, "../figures/log2_imputed_metabolon_filtered_first.csv", row.names = FALSE)
+write.csv(log2_imputed_biocrates_filtered_first, "../figures/log2_imputed_biocrates_filtered_first.csv", row.names = FALSE)
+write.csv(log2_imputed_inhouse_filtered_first, "../figures/log2_imputed_inhouse_filtered_first.csv", row.names = FALSE)
+write.csv(log2_imputed_metabolon_filtered_last, "../figures/log2_imputed_metabolon_filtered_last.csv", row.names = FALSE)
+write.csv(log2_imputed_biocrates_filtered_last, "../figures/log2_imputed_biocrates_filtered_last.csv", row.names = FALSE)
+write.csv(log2_imputed_inhouse_filtered_last, "../figures/log2_imputed_inhouse_filtered_last.csv", row.names = FALSE)
 
 ```
 
