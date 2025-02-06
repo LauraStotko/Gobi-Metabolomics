@@ -65,14 +65,24 @@
 "fasting","In-house biochemistry [chem.]",8,"2",0.120529790367533,-0.570617606492887,-0.111576346784918
 "fasting","In-house biochemistry [chem.]",9,"2",0.527633907483046,-0.628393523178395,0.325620767147821
 "fasting","In-house biochemistry [chem.]",10,"2",-0.113997581449013,-0.551514279201711,-0.0204936147155973
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",11,"2",2.29765180798528,0.271326598754797,0.80835924711522
+=======
+"fasting","In-house biochemistry [chem.]",11,"2",2.29765180798528,0.271326598754797,0.80835924711522
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",12,"2",-0.799879517893627,0.20656165988959,-0.0569267075433254
 "fasting","In-house biochemistry [chem.]",13,"2",-0.290999371499236,0.231722139736505,-0.257308718095831
 "fasting","In-house biochemistry [chem.]",14,"2",2.51890404554805,3.06600360101025,-0.16622598602651
 "fasting","In-house biochemistry [chem.]",15,"2",2.20915091296016,3.48581086660414,0.116130483388384
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "exercise","In-house biochemistry [chem.]",16,"2",2.60740494057317,4.08593490443426,0.425811772424074
 "oltt","In-house biochemistry [chem.]",17,"2",1.14714017265883,1.40634380073784,0.7172765150459
 "exercise","In-house biochemistry [chem.]",18,"2",0.748886145045825,2.23570776606207,0.535111050907259
+=======
+"fasting","In-house biochemistry [chem.]",16,"2",2.60740494057317,4.08593490443426,0.425811772424074
+"fasting","In-house biochemistry [chem.]",17,"2",1.14714017265883,1.40634380073784,0.7172765150459
+"fasting","In-house biochemistry [chem.]",18,"2",0.748886145045825,2.23570776606207,0.535111050907259
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",19,"2",-0.954756084187572,-0.401949204556162,-0.193550805647306
 "exercise","In-house biochemistry [chem.]",20,"2",-1.07865733722273,-0.445281142070293,0.999632984460793
 "exercise","In-house biochemistry [chem.]",21,"2",0.0276038505911659,-0.430371228086936,0.49867795807953
@@ -188,12 +198,21 @@
 "fasting","In-house biochemistry [chem.]",19,"4",-0.454726027295692,-0.45972512124167,-0.293741810923559
 "fasting","In-house biochemistry [chem.]",20,"4",-0.693678443863493,-0.597641825587721,-0.421257635820608
 "fasting","In-house biochemistry [chem.]",21,"4",0.262131222407711,-0.583663781228324,-0.311958357337423
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",22,"4",2.78440673062339,0.836039590874438,-0.776480290890958
 "oltt","In-house biochemistry [chem.]",23,"4",3.35966254828661,0.262473837327178,-0.712722378442434
 "oltt","In-house biochemistry [chem.]",24,"4",2.49677882179178,0.553217160002638,-0.266416991302763
 "oltt","In-house biochemistry [chem.]",25,"4",1.14714017265883,-0.0273376157243208,-0.448582455441404
 "oltt","In-house biochemistry [chem.]",26,"4",1.47901852900299,-0.409870096359821,-0.211767352061171
 "oltt","In-house biochemistry [chem.]",27,"4",0.48338345997049,-0.640507828289872,-0.421257635820608
+=======
+"exercise","In-house biochemistry [chem.]",22,"4",2.78440673062339,0.836039590874438,-0.776480290890958
+"exercise","In-house biochemistry [chem.]",23,"4",3.35966254828661,0.262473837327178,-0.712722378442434
+"exercise","In-house biochemistry [chem.]",24,"4",2.49677882179178,0.553217160002638,-0.266416991302763
+"exercise","In-house biochemistry [chem.]",25,"4",1.14714017265883,-0.0273376157243208,-0.448582455441404
+"exercise","In-house biochemistry [chem.]",26,"4",1.47901852900299,-0.409870096359821,-0.211767352061171
+"exercise","In-house biochemistry [chem.]",27,"4",0.48338345997049,-0.640507828289872,-0.421257635820608
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "exercise","In-house biochemistry [chem.]",28,"4",-0.751204025629816,-0.704340897531119,-0.485015548269132
 "exercise","In-house biochemistry [chem.]",29,"4",-0.264449102991702,-0.612551739571078,-0.275525264509695
 "oltt","In-house biochemistry [chem.]",30,"4",0.925887935096048,1.3238733390174,-0.239092171681967
@@ -232,6 +251,7 @@
 "fasting","In-house biochemistry [chem.]",7,"5",-0.136122805205291,-0.565026388749128,-0.321066630544355
 "fasting","In-house biochemistry [chem.]",8,"5",0.1736303273826,-0.616745152878897,-0.289187674320093
 "fasting","In-house biochemistry [chem.]",9,"5",0.48338345997049,-0.667997982196686,-0.257308718095831
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "exercise","In-house biochemistry [chem.]",10,"5",-0.105147491946501,-0.353957918922232,0.362053859975549
 "oltt","In-house biochemistry [chem.]",11,"5",2.16490046544761,1.81636643528015,0.689951695425103
 "fasting","In-house biochemistry [chem.]",12,"5",-0.689253399112237,-0.483487796652645,0.198104942250772
@@ -241,6 +261,17 @@
 "exercise","In-house biochemistry [chem.]",16,"5",0.394882564945379,0.190253941470294,0.562435870528055
 "oltt","In-house biochemistry [chem.]",17,"5",0.970138382608603,0.945534271689715,0.790142700701356
 "exercise","In-house biochemistry [chem.]",18,"5",0.970138382608603,1.19247972203906,0.434920045631006
+=======
+"fasting","In-house biochemistry [chem.]",10,"5",-0.105147491946501,-0.353957918922232,0.362053859975549
+"fasting","In-house biochemistry [chem.]",11,"5",2.16490046544761,1.81636643528015,0.689951695425103
+"fasting","In-house biochemistry [chem.]",12,"5",-0.689253399112237,-0.483487796652645,0.198104942250772
+"fasting","In-house biochemistry [chem.]",13,"5",1.54539420027183,1.44408452050821,0.18899666904384
+"fasting","In-house biochemistry [chem.]",14,"5",1.54539420027183,1.24186881210893,0.179888395836908
+"fasting","In-house biochemistry [chem.]",15,"5",0.350632117432823,0.426482891144104,0.480461411665666
+"fasting","In-house biochemistry [chem.]",16,"5",0.394882564945379,0.190253941470294,0.562435870528055
+"fasting","In-house biochemistry [chem.]",17,"5",0.970138382608603,0.945534271689715,0.790142700701356
+"fasting","In-house biochemistry [chem.]",18,"5",0.970138382608603,1.19247972203906,0.434920045631006
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",19,"5",-0.392775400778114,-0.481158122592746,-0.0478184343363934
 "fasting","In-house biochemistry [chem.]",20,"5",-0.313124595255514,-0.404278878616062,0.025047751319063
 "fasting","In-house biochemistry [chem.]",21,"5",-0.184798297469102,-0.431303097710896,0.0341560245259952
@@ -294,15 +325,25 @@
 "fasting","In-house biochemistry [chem.]",13,"6",1.19139062017138,1.65282331627521,-0.293741810923559
 "fasting","In-house biochemistry [chem.]",14,"6",1.19139062017138,3.37258870729303,0.0341560245259952
 "fasting","In-house biochemistry [chem.]",15,"6",0.439133012457934,1.28753042368296,0.298295947527025
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",16,"6",0.704635697533269,0.480531329333773,0.644410329390443
+=======
+"fasting","In-house biochemistry [chem.]",16,"6",0.704635697533269,0.480531329333773,0.644410329390443
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",17,"6",0.262131222407711,0.448847762119139,0.343837313561685
 "fasting","In-house biochemistry [chem.]",18,"6",0.1736303273826,-0.101887185641105,0.0432642977329273
 "fasting","In-house biochemistry [chem.]",19,"6",-0.383925311275603,-0.635382545358093,-0.421257635820608
 "fasting","In-house biochemistry [chem.]",20,"6",-1.00343157645138,-0.64936058971749,-0.485015548269132
 "fasting","In-house biochemistry [chem.]",21,"6",-0.233473789732913,-0.503057058755801,-0.603423099959249
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",22,"6",1.54539420027183,1.08298504122379,-0.521448641096861
 "oltt","In-house biochemistry [chem.]",23,"6",0.0630042086012104,1.80937741310045,-0.393932816199812
 "oltt","In-house biochemistry [chem.]",24,"6",0.262131222407711,1.36394373284767,-0.129792893198782
+=======
+"exercise","In-house biochemistry [chem.]",22,"6",1.54539420027183,1.08298504122379,-0.521448641096861
+"exercise","In-house biochemistry [chem.]",23,"6",0.0630042086012104,1.80937741310045,-0.393932816199812
+"exercise","In-house biochemistry [chem.]",24,"6",0.262131222407711,1.36394373284767,-0.129792893198782
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "exercise","In-house biochemistry [chem.]",25,"6",-1.07423229247147,0.323977232508526,-0.0387101611294613
 "exercise","In-house biochemistry [chem.]",26,"6",-0.521101698564526,0.605401858944387,-0.175334259233442
 "exercise","In-house biochemistry [chem.]",27,"6",-0.990156442197617,-0.0492365518873762,-0.0751432539571896
@@ -357,7 +398,11 @@
 "fasting","In-house biochemistry [chem.]",20,"7",-1.05210706871519,-0.610688000323159,-0.16622598602651
 "fasting","In-house biochemistry [chem.]",21,"7",-1.02555680020766,-0.487681209960464,-0.612531373166181
 "exercise","In-house biochemistry [chem.]",22,"7",-0.229048744981657,0.103590066442032,-0.539665187510725
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",23,"7",0.837387040070936,2.40391023318681,-0.576098280338453
+=======
+"exercise","In-house biochemistry [chem.]",23,"7",0.837387040070936,2.40391023318681,-0.576098280338453
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "exercise","In-house biochemistry [chem.]",24,"7",2.05427434666622,0.934817771014178,0.261862854699297
 "oltt","In-house biochemistry [chem.]",25,"7",2.82865717813595,1.15800054595255,-0.239092171681967
 "oltt","In-house biochemistry [chem.]",26,"7",0.0497290743474438,0.187458332598414,0.025047751319063
@@ -412,8 +457,13 @@
 "fasting","In-house biochemistry [chem.]",19,"8",-0.892805457669994,-0.237940150739237,0.152563576216112
 "fasting","In-house biochemistry [chem.]",20,"8",-0.861830144411205,-0.531479082286575,-0.175334259233442
 "fasting","In-house biochemistry [chem.]",21,"8",-1.01670671070515,-0.6050967825794,-0.38482454299288
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",22,"8",0.616134802508157,1.02054977641848,-0.521448641096861
 "oltt","In-house biochemistry [chem.]",23,"8",0.306381669920267,0.337489342055943,-0.548773460717657
+=======
+"exercise","In-house biochemistry [chem.]",22,"8",0.616134802508157,1.02054977641848,-0.521448641096861
+"exercise","In-house biochemistry [chem.]",23,"8",0.306381669920267,0.337489342055943,-0.548773460717657
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "exercise","In-house biochemistry [chem.]",24,"8",-1.44151100682569,0.740988889230538,-0.239092171681967
 "exercise","In-house biochemistry [chem.]",25,"8",-0.498976474808248,-0.0781245102301301,-0.357499723372083
 "exercise","In-house biochemistry [chem.]",26,"8",-1.55213712560707,-0.209984062020443,-0.257308718095831
@@ -461,8 +511,13 @@
 "fasting","In-house biochemistry [chem.]",12,"9",0.262131222407711,-0.496533971388082,-0.16622598602651
 "fasting","In-house biochemistry [chem.]",13,"9",1.6781455428095,1.43569769389257,-0.521448641096861
 "fasting","In-house biochemistry [chem.]",14,"9",2.03214912290994,2.68719859887059,-0.0387101611294613
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",15,"9",2.74015628311083,1.2101852448943,0.598868963355783
 "oltt","In-house biochemistry [chem.]",16,"9",0.660385250020713,1.63325405417205,0.781034427494424
+=======
+"fasting","In-house biochemistry [chem.]",15,"9",2.74015628311083,1.2101852448943,0.598868963355783
+"fasting","In-house biochemistry [chem.]",16,"9",0.660385250020713,1.63325405417205,0.781034427494424
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",17,"9",0.0408789848449325,0.689736059912749,-0.393932816199812
 "fasting","In-house biochemistry [chem.]",18,"9",-0.490126385305737,1.21391272339014,-0.0204936147155973
 "fasting","In-house biochemistry [chem.]",19,"9",-1.02555680020766,-0.463452599737509,-0.311958357337423
@@ -470,9 +525,15 @@
 "fasting","In-house biochemistry [chem.]",21,"9",0.0143287163373993,-0.641905632725812,-0.393932816199812
 "exercise","In-house biochemistry [chem.]",22,"9",2.91715807316106,-0.422450336283278,-0.412149362613676
 "exercise","In-house biochemistry [chem.]",23,"9",3.58091478584939,1.56569350643497,-0.202659078854238
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",24,"9",2.4746535980355,0.44605215324726,1.12714880935784
 "oltt","In-house biochemistry [chem.]",25,"9",-0.282149281996724,2.3717607311602,0.0523725709398593
 "oltt","In-house biochemistry [chem.]",26,"9",0.660385250020713,-0.577606628672585,-0.00227706830173305
+=======
+"exercise","In-house biochemistry [chem.]",24,"9",2.4746535980355,0.44605215324726,1.12714880935784
+"exercise","In-house biochemistry [chem.]",25,"9",-0.282149281996724,2.3717607311602,0.0523725709398593
+"exercise","In-house biochemistry [chem.]",26,"9",0.660385250020713,-0.577606628672585,-0.00227706830173305
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "exercise","In-house biochemistry [chem.]",27,"9",-0.711378622868515,1.01449262386274,-0.503232094682996
 "exercise","In-house biochemistry [chem.]",28,"9",-1.39726055931313,0.181401180042675,0.0523725709398593
 "exercise","In-house biochemistry [chem.]",29,"9",-0.131697760454035,-0.55477582288557,-0.284633537716627
@@ -520,7 +581,11 @@
 "fasting","In-house biochemistry [chem.]",15,"10",1.36839241022161,3.80497621281038,-0.0113853415086651
 "fasting","In-house biochemistry [chem.]",16,"10",1.10288972514627,2.09080203953632,0.0523725709398593
 "fasting","In-house biochemistry [chem.]",17,"10",0.48338345997049,1.74368060461129,-0.0204936147155973
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "exercise","In-house biochemistry [chem.]",18,"10",0.0674292533524657,0.517340179480185,0.0888056637675876
+=======
+"fasting","In-house biochemistry [chem.]",18,"10",0.0674292533524657,0.517340179480185,0.0888056637675876
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",19,"10",-1.48576145433824,-0.416393183727539,-0.503232094682996
 "fasting","In-house biochemistry [chem.]",20,"10",-1.24680903777044,-0.522160386046977,-0.439474182234472
 "fasting","In-house biochemistry [chem.]",21,"10",-0.538801877569548,-0.442951468010394,-0.630747919580045
@@ -630,9 +695,15 @@
 "fasting","In-house biochemistry [chem.]",13,"12",1.27989151519649,0.870984701772931,-0.403041089406744
 "fasting","In-house biochemistry [chem.]",14,"12",1.76664643783461,2.32982659808201,-0.184442532440374
 "fasting","In-house biochemistry [chem.]",15,"12",1.94364822788483,2.88149341546621,-0.0569267075433254
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "exercise","In-house biochemistry [chem.]",16,"12",0.660385250020713,1.32713488270126,0.261862854699297
 "exercise","In-house biochemistry [chem.]",17,"12",1.23564106768394,0.645938187586638,0.49867795807953
 "exercise","In-house biochemistry [chem.]",18,"12",0.217880774895156,-0.326001830203438,0.134347029802248
+=======
+"fasting","In-house biochemistry [chem.]",16,"12",0.660385250020713,1.32713488270126,0.261862854699297
+"fasting","In-house biochemistry [chem.]",17,"12",1.23564106768394,0.645938187586638,0.49867795807953
+"fasting","In-house biochemistry [chem.]",18,"12",0.217880774895156,-0.326001830203438,0.134347029802248
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",19,"12",-0.0387718206776678,-0.540331843714193,-0.321066630544355
 "fasting","In-house biochemistry [chem.]",20,"12",-0.693678443863493,-0.598107760399701,-0.00227706830173305
 "fasting","In-house biochemistry [chem.]",21,"12",-0.251173968737935,-0.571549476116847,-0.403041089406744
@@ -737,7 +808,11 @@
 "fasting","In-house biochemistry [chem.]",8,"14",-0.578627280330848,-0.570617606492887,-0.371162133182482
 "fasting","In-house biochemistry [chem.]",9,"14",-0.66712817535596,-0.576208824236646,-0.585206553545385
 "fasting","In-house biochemistry [chem.]",10,"14",-0.66712817535596,-0.574811019800706,-0.38482454299288
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "exercise","In-house biochemistry [chem.]",11,"14",0.616134802508157,2.85446919637138,0.416703499217142
+=======
+"fasting","In-house biochemistry [chem.]",11,"14",0.616134802508157,2.85446919637138,0.416703499217142
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",12,"14",-0.503401519559503,-0.437826185078615,-0.512340367889928
 "fasting","In-house biochemistry [chem.]",13,"14",0.970138382608603,1.05223334363311,-0.439474182234472
 "fasting","In-house biochemistry [chem.]",14,"14",1.63389509529694,2.22312752613861,-0.211767352061171
@@ -794,6 +869,7 @@
 "fasting","In-house biochemistry [chem.]",9,"15",0.439133012457934,-0.647030915657591,-0.321066630544355
 "fasting","In-house biochemistry [chem.]",10,"15",-1.06095715821771,-0.582265976792385,-0.193550805647306
 "fasting","In-house biochemistry [chem.]",11,"15",1.32414196270905,1.98130735872104,-0.457690728648336
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "exercise","In-house biochemistry [chem.]",12,"15",-1.10963265048152,-0.583663781228324,1.01784953087466
 "exercise","In-house biochemistry [chem.]",13,"15",0.925887935096048,0.278781555746475,0.307404220733957
 "exercise","In-house biochemistry [chem.]",14,"15",2.0763995704225,1.0130948194268,0.270971127906229
@@ -803,14 +879,30 @@
 "exercise","In-house biochemistry [chem.]",18,"15",1.05863927763371,1.07785975829201,1.30931427349648
 "exercise","In-house biochemistry [chem.]",19,"15",-1.42381082782066,-0.497465841012042,0.45313659204487
 "exercise","In-house biochemistry [chem.]",20,"15",-0.817579696898649,-0.596244021151782,1.00874125766773
+=======
+"fasting","In-house biochemistry [chem.]",12,"15",-1.10963265048152,-0.583663781228324,1.01784953087466
+"fasting","In-house biochemistry [chem.]",13,"15",0.925887935096048,0.278781555746475,0.307404220733957
+"fasting","In-house biochemistry [chem.]",14,"15",2.0763995704225,1.0130948194268,0.270971127906229
+"fasting","In-house biochemistry [chem.]",15,"15",2.78440673062339,1.61601446612879,0.416703499217142
+"fasting","In-house biochemistry [chem.]",16,"15",1.72239599032205,1.76837514964622,0.753709607873628
+"fasting","In-house biochemistry [chem.]",17,"15",1.81089688534716,1.74135093055139,1.51880455725592
+"fasting","In-house biochemistry [chem.]",18,"15",1.05863927763371,1.07785975829201,1.30931427349648
+"fasting","In-house biochemistry [chem.]",19,"15",-1.42381082782066,-0.497465841012042,0.45313659204487
+"fasting","In-house biochemistry [chem.]",20,"15",-0.817579696898649,-0.596244021151782,1.00874125766773
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "fasting","In-house biochemistry [chem.]",21,"15",0.704635697533269,-0.570617606492887,-0.485015548269132
 "oltt","In-house biochemistry [chem.]",22,"15",0.79313659255838,-0.245395107730915,-0.585206553545385
 "oltt","In-house biochemistry [chem.]",23,"15",2.38615270301039,-0.0319969638441198,-0.585206553545385
 "oltt","In-house biochemistry [chem.]",24,"15",1.01438883012116,0.11104502343371,-0.175334259233442
 "exercise","In-house biochemistry [chem.]",25,"15",-1.12290778473528,-0.613949544007018,0.025047751319063
 "exercise","In-house biochemistry [chem.]",26,"15",-0.839704920654927,0.258746358831339,-0.248200444888899
+<<<<<<< HEAD:output/preproc_z_inhouse_fl_1.csv
 "oltt","In-house biochemistry [chem.]",27,"15",-0.0785972234389682,-0.669861721444606,-0.512340367889928
 "oltt","In-house biochemistry [chem.]",28,"15",0.394882564945379,-0.51051201574748,-0.348391450165151
+=======
+"exercise","In-house biochemistry [chem.]",27,"15",-0.0785972234389682,-0.669861721444606,-0.512340367889928
+"exercise","In-house biochemistry [chem.]",28,"15",0.394882564945379,-0.51051201574748,-0.348391450165151
+>>>>>>> d7792ce8f1b271f5d18449ac4acb9a76e6ecd389:figures/preproc_z_inhouse_filtered_last.csv
 "exercise","In-house biochemistry [chem.]",29,"15",-0.529951788067037,-0.581800041980405,-0.466799001855268
 "oltt","In-house biochemistry [chem.]",30,"15",1.58964464778438,0.651063470518417,-0.330174903751287
 "oltt","In-house biochemistry [chem.]",31,"15",0.571884354995602,0.320715688824666,-0.321066630544355

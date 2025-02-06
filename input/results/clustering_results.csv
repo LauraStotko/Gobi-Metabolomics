@@ -1,0 +1,637 @@
+Metabolite,Cluster
+Unnamed: 0,6
+C10 (decanoylcarnitine)_biocrates,4
+C10:1 (decenoylcarnitine)_biocrates,4
+C12 (dodecanoylcarnitine)_biocrates,4
+C12:1 (dodecenoylcarnitine)_biocrates,4
+C14 (tetradecanoylcarnitine)_biocrates,4
+C14:1 (tetradecenoylcarnitine)_biocrates,4
+C14:1-OH (hydroxytetradecenoylcarnitine)_biocrates,4
+C14:2 (tetradecadienylcarnitine)_biocrates,4
+C16 (hexadecanoylcarnitine)_biocrates,7
+C16-OH (hydroxyhexadecanoylcarnitine)_biocrates,2
+C16:1-OH (hexadecenoylcarnitine)_biocrates,4
+C16:2 (hexadecadienylcarnitine)_biocrates,4
+C16:2-OH (hydroxyhexadecadienylcarnitine)_biocrates,4
+C18 (octadecanoylcarnitine)_biocrates,5
+C18:1 (octadecenoylcarnitine)_biocrates,4
+C18:2 (octadecadienylcarnitine)_biocrates,3
+C2 (acetylcarnitine)_biocrates,4
+C3 (propionylcarnitine)_biocrates,0
+C4 (butyrylcarnitine)_biocrates,6
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine)_biocrates,4
+C5 (valerylcarnitine)_biocrates,6
+C5:1-DC (glutaconylcarnitine)_biocrates,7
+C5:1( tiglylcarnitine)_biocrates,7
+C6-OH (glutarylcarnitine) and C5-DC (hydroxyhexanoylcarnitine)_biocrates,7
+C7-DC (pimelylcarnitine)_biocrates,4
+C8 (octanoylcarnitine)_biocrates,4
+C8:1 (octenoylcarnitine)_biocrates,6
+C0 (carnitine)_biocrates,5
+arginine_biocrates,6
+glutamine_biocrates,0
+glycine_biocrates,0
+histidine_biocrates,6
+leucine or isoleucine_biocrates,6
+methionine_biocrates,6
+ornithine_biocrates,0
+phenylalanine_biocrates,6
+proline_biocrates,6
+serine_biocrates,6
+threonine_biocrates,0
+tryptophan_biocrates,6
+tyrosine_biocrates,6
+valine_biocrates,6
+lysoPC a C14:0_biocrates,0
+lysoPC a C16:0_biocrates,5
+lysoPC a C16:1_biocrates,5
+lysoPC a C17:0_biocrates,5
+lysoPC a C18:0_biocrates,5
+lysoPC a C18:2_biocrates,0
+lysoPC a C20:3_biocrates,5
+lysoPC a C20:4_biocrates,5
+PC aa C28:1_biocrates,5
+PC aa C30:0_biocrates,5
+PC aa C32:0_biocrates,5
+PC aa C32:1_biocrates,5
+PC aa C32:2_biocrates,5
+PC aa C32:3_biocrates,5
+PC aa C34:1_biocrates,5
+PC aa C34:2_biocrates,5
+PC aa C34:3_biocrates,5
+PC aa C34:4_biocrates,5
+PC aa C36:0_biocrates,2
+PC aa C36:1_biocrates,5
+PC aa C36:2_biocrates,5
+PC aa C36:3_biocrates,5
+PC aa C36:4_biocrates,5
+PC aa C36:5_biocrates,5
+PC aa C36:6_biocrates,5
+PC aa C38:0_biocrates,2
+PC aa C38:3_biocrates,5
+PC aa C38:4_biocrates,5
+PC aa C38:5_biocrates,5
+PC aa C38:6_biocrates,5
+PC aa C40:1_biocrates,2
+PC aa C40:2_biocrates,2
+PC aa C40:3_biocrates,2
+PC aa C40:4_biocrates,5
+PC aa C40:5_biocrates,5
+PC aa C40:6_biocrates,5
+PC aa C42:0_biocrates,2
+PC aa C42:1_biocrates,2
+PC aa C42:2_biocrates,2
+PC aa C42:4_biocrates,2
+PC aa C42:5_biocrates,2
+PC aa C42:6_biocrates,2
+PC ae C30:0_biocrates,5
+PC ae C32:1_biocrates,2
+PC ae C32:2_biocrates,2
+PC ae C34:0_biocrates,5
+PC ae C34:1_biocrates,5
+PC ae C34:2_biocrates,5
+PC ae C34:3_biocrates,2
+PC ae C36:1_biocrates,5
+PC ae C36:2_biocrates,5
+PC ae C36:3_biocrates,2
+PC ae C36:4_biocrates,5
+PC ae C36:5_biocrates,2
+PC ae C38:0_biocrates,5
+PC ae C38:2_biocrates,2
+PC ae C38:3_biocrates,5
+PC ae C38:4_biocrates,5
+PC ae C38:5_biocrates,2
+PC ae C38:6_biocrates,2
+PC ae C40:1_biocrates,5
+PC ae C40:2_biocrates,2
+PC ae C40:3_biocrates,2
+PC ae C40:4_biocrates,2
+PC ae C40:5_biocrates,2
+PC ae C40:6_biocrates,2
+PC ae C42:0_biocrates,2
+PC ae C42:1_biocrates,2
+PC ae C42:2_biocrates,2
+PC ae C42:3_biocrates,2
+PC ae C42:4_biocrates,2
+PC ae C42:5_biocrates,2
+PC ae C44:3_biocrates,2
+PC ae C44:4_biocrates,2
+PC ae C44:5_biocrates,2
+PC ae C44:6_biocrates,2
+H1 (hexose)_biocrates,0
+SM (OH) C14:1_biocrates,5
+SM (OH) C16:1_biocrates,5
+SM (OH) C22:1_biocrates,5
+SM (OH) C22:2_biocrates,2
+SM (OH) C24:1_biocrates,2
+SM C16:0_biocrates,2
+SM C16:1_biocrates,2
+SM C18:0_biocrates,5
+SM C18:1_biocrates,5
+SM C20:2_biocrates,2
+SM C24:0_biocrates,2
+SM C24:1_biocrates,2
+SM C26:1_biocrates,2
+insulin_biochemistry,0
+1-methylguanidine_metabolon,7
+1-methylhistidine_metabolon,3
+1-methylimidazoleacetate_metabolon,3
+2-aminoadipate_metabolon,6
+2-aminobutyrate_metabolon,4
+2-hydroxy-3-methylvalerate_metabolon,4
+2-hydroxybutyrate/2-hydroxyisobutyrate_metabolon,4
+2-hydroxyphenylacetate_metabolon,6
+2-methylbutyrylcarnitine (C5)_metabolon,3
+3-(4-hydroxyphenyl)lactate_metabolon,6
+3-hydroxy-2-ethylpropionate_metabolon,4
+3-hydroxyisobutyrate_metabolon,6
+3-indoxyl sulfate_metabolon,0
+3-methoxytyrosine_metabolon,3
+3-methyl-2-oxobutyrate_metabolon,4
+3-methyl-2-oxovalerate_metabolon,6
+3-methylglutarylcarnitine (2)_metabolon,1
+3-methylhistidine_metabolon,0
+3-phenylpropionate (hydrocinnamate)_metabolon,0
+4-acetamidobutanoate_metabolon,7
+4-guanidinobutanoate_metabolon,7
+4-hydroxyphenylacetatoylcarnitine_metabolon,0
+4-hydroxyphenylpyruvate_metabolon,6
+4-methyl-2-oxopentanoate_metabolon,6
+5-hydroxyindoleacetate_metabolon,6
+5-hydroxylysine_metabolon,3
+5-methylthioadenosine (MTA)_metabolon,3
+5-oxoproline_metabolon,3
+6-oxopiperidine-2-carboxylic acid_metabolon,6
+acisoga_metabolon,0
+alanine_metabolon,3
+alpha-hydroxyisocaproate_metabolon,4
+alpha-hydroxyisovalerate_metabolon,4
+alpha-ketobutyrate_metabolon,4
+arginine_metabolon,3
+argininosuccinate_metabolon,3
+asparagine_metabolon,3
+aspartate_metabolon,3
+beta-hydroxyisovalerate_metabolon,4
+betaine_metabolon,3
+C-glycosyltryptophan_metabolon,3
+citrulline_metabolon,7
+creatine_metabolon,0
+creatinine_metabolon,3
+"cys-gly, oxidized_metabolon",3
+cystathionine_metabolon,3
+cysteine_metabolon,3
+cysteine s-sulfate_metabolon,0
+cysteine sulfinic acid_metabolon,1
+cysteine-glutathione disulfide_metabolon,4
+cysteinylglycine_metabolon,3
+cystine_metabolon,2
+dimethylarginine (SDMA + ADMA)_metabolon,3
+dimethylglycine_metabolon,3
+dopamine sulfate (2)_metabolon,6
+ethylmalonate_metabolon,4
+gamma-carboxyglutamate_metabolon,3
+glutamate_metabolon,3
+glutamine_metabolon,3
+glutarate (pentanedioate)_metabolon,0
+glutarylcarnitine (C5)_metabolon,3
+glycine_metabolon,3
+guanidinoacetate_metabolon,5
+histidine_metabolon,3
+homoarginine_metabolon,3
+homocitrulline_metabolon,6
+hydantoin-5-propionic acid_metabolon,6
+hypotaurine_metabolon,3
+imidazole lactate_metabolon,1
+imidazole propionate_metabolon,1
+indoleacetate_metabolon,7
+indoleacetylglutamine_metabolon,0
+indolelactate_metabolon,3
+indolepropionate_metabolon,0
+isobutyrylcarnitine_metabolon,6
+isobutyrylglycine_metabolon,6
+isoleucine_metabolon,6
+isovalerate_metabolon,6
+isovalerylcarnitine_metabolon,3
+isovalerylglycine_metabolon,6
+kynurenate_metabolon,3
+kynurenine_metabolon,3
+leucine_metabolon,6
+lysine_metabolon,3
+methionine_metabolon,6
+methionine sulfone_metabolon,3
+methionine sulfoxide_metabolon,6
+methylsuccinate_metabolon,4
+methylsuccinoylcarnitine (1)_metabolon,1
+N-acetyl-1-methylhistidine*_metabolon,0
+N-acetyl-3-methylhistidine*_metabolon,0
+N-acetyl-aspartyl-glutamate (NAAG)_metabolon,1
+N-acetyl-cadaverine_metabolon,0
+N-acetylalanine_metabolon,7
+N-acetylarginine_metabolon,0
+N-acetylaspartate (NAA)_metabolon,1
+N-acetylcitrulline_metabolon,0
+N-acetylglutamate_metabolon,6
+N-acetylglutamine_metabolon,0
+N-acetylglycine_metabolon,4
+N-acetylhistidine_metabolon,0
+N-acetylisoleucine_metabolon,6
+N-acetylkynurenine (2)_metabolon,6
+N-acetylleucine_metabolon,6
+N-acetylmethionine_metabolon,7
+N-acetylphenylalanine_metabolon,6
+N-acetylputrescine_metabolon,3
+N-acetylserine_metabolon,3
+N-acetyltaurine_metabolon,1
+N-acetylthreonine_metabolon,7
+N-acetyltryptophan_metabolon,7
+N-acetyltyrosine_metabolon,0
+N-acetylvaline_metabolon,3
+N-delta-acetylornithine_metabolon,3
+N-formylmethionine_metabolon,7
+N-formylphenylalanine_metabolon,6
+N-methyl-4-aminobutyric acid_metabolon,1
+N-methylproline_metabolon,1
+"N2,N5-diacetylornithine_metabolon",0
+N6-acetyllysine_metabolon,6
+"N6,N6,N6-trimethyllysine_metabolon",3
+O-acetylhomoserine_metabolon,0
+o-cresol sulfate_metabolon,0
+ornithine_metabolon,3
+p-cresol sulfate_metabolon,6
+p-cresol-glucuronide*_metabolon,4
+phenol sulfate_metabolon,3
+phenylacetylcarnitine_metabolon,6
+phenylacetylglutamate_metabolon,6
+phenylacetylglutamine_metabolon,6
+phenylalanine_metabolon,3
+phenyllactate (PLA)_metabolon,6
+phenylpyruvate_metabolon,6
+pipecolate_metabolon,3
+pro-hydroxy-pro_metabolon,7
+proline_metabolon,6
+pyroglutamine*_metabolon,7
+S-1-pyrroline-5-carboxylate_metabolon,3
+S-adenosylhomocysteine (SAH)_metabolon,7
+S-methylcysteine_metabolon,0
+sarcosine (N-Methylglycine)_metabolon,3
+serine_metabolon,3
+serotonin_metabolon,1
+spermidine_metabolon,3
+taurine_metabolon,1
+threonine_metabolon,3
+thyroxine_metabolon,3
+tigloylglycine_metabolon,6
+tiglylcarnitine_metabolon,3
+trans-4-hydroxyproline_metabolon,0
+trans-urocanate_metabolon,0
+tryptophan_metabolon,3
+tryptophan betaine_metabolon,2
+tyramine O-sulfate_metabolon,6
+tyrosine_metabolon,6
+urea_metabolon,3
+valine_metabolon,6
+vanillylmandelate (VMA)_metabolon,6
+xanthurenate_metabolon,6
+"1,5-anhydroglucitol (1,5-AG)_metabolon",1
+3-phosphoglycerate_metabolon,1
+arabitol/xylitol_metabolon,0
+arabonate/xylonate_metabolon,0
+erythronate*_metabolon,6
+fructose_metabolon,6
+glucose_metabolon,0
+glucuronate_metabolon,3
+glycerate_metabolon,6
+lactate_metabolon,6
+maltose_metabolon,1
+maltotriose_metabolon,1
+mannitol/sorbitol_metabolon,0
+mannose_metabolon,4
+N-acetylglucosaminylasparagine_metabolon,3
+N-acetylneuraminate_metabolon,3
+pyruvate_metabolon,6
+ribitol_metabolon,0
+ribonate_metabolon,6
+1-methylnicotinamide_metabolon,2
+alpha-tocopherol_metabolon,7
+"bilirubin (E,E)*_metabolon",7
+"bilirubin (E,Z or Z,E)*_metabolon",7
+"bilirubin (Z,Z)_metabolon",7
+biliverdin_metabolon,7
+flavin adenine dinucleotide (FAD)_metabolon,3
+gamma-CEHC_metabolon,6
+gamma-tocopherol/beta-tocopherol_metabolon,0
+N1-Methyl-2-pyridone-5-carboxamide_metabolon,6
+nicotinamide_metabolon,4
+nicotinamide riboside_metabolon,4
+oxalate (ethanedioate)_metabolon,6
+pantothenate_metabolon,6
+pyridoxate_metabolon,6
+quinolinate_metabolon,3
+retinol (Vitamin A)_metabolon,5
+threonate_metabolon,1
+trigonelline (N'-methylnicotinate)_metabolon,0
+alpha-ketoglutarate_metabolon,4
+cis-aconitate_metabolon,4
+citrate_metabolon,4
+fumarate_metabolon,4
+malate_metabolon,4
+phosphate_metabolon,3
+succinate_metabolon,7
+succinylcarnitine_metabolon,3
+1-(1-enyl-oleoyl)-GPC (P-18:1)*_metabolon,1
+1-(1-enyl-oleoyl)-GPE (P-18:1)*_metabolon,1
+1-(1-enyl-palmitoyl)-GPC (P-16:0)*_metabolon,1
+1-(1-enyl-palmitoyl)-GPE (P-16:0)*_metabolon,1
+1-(1-enyl-stearoyl)-GPC (P-18:0) *_metabolon,1
+1-(1-enyl-stearoyl)-GPE (P-18:0)*_metabolon,1
+1-adrenoyl-GPC (22:4)*_metabolon,1
+1-arachidonoyl-GPC (20:4n6)*_metabolon,1
+1-arachidonoyl-GPE (20:4n6)*_metabolon,6
+1-arachidonoyl-GPI (20:4)*_metabolon,4
+1-arachidonylglycerol (20:4)_metabolon,1
+1-arachidoyl-GPC (20:0)_metabolon,1
+1-behenoyl-GPC (22:0)_metabolon,1
+1-dihomo-linolenoyl-GPC (20:3n3 or 6)*_metabolon,1
+1-dihomo-linolenoyl-GPE (20:3n3 or 6)*_metabolon,1
+1-dihomo-linoleoyl-GPC (20:2)*_metabolon,1
+1-docosahexaenoyl-GPC (22:6)*_metabolon,1
+1-docosahexaenoyl-GPE (22:6)*_metabolon,1
+1-docosapentaenoyl-GPC (22:5n3)*_metabolon,1
+1-docosapentaenoyl-GPC (22:5n6)*_metabolon,5
+1-eicosapentaenoyl-GPC (20:5)*_metabolon,1
+1-eicosapentaenoyl-GPE (20:5)*_metabolon,1
+1-eicosenoyl-GPC (20:1)*_metabolon,1
+1-linolenoyl-GPC (18:3)*_metabolon,1
+1-linoleoyl-GPC (18:2)_metabolon,1
+1-linoleoyl-GPE (18:2)*_metabolon,6
+1-linoleoyl-GPI (18:2)*_metabolon,1
+1-linoleoylglycerol (18:2)_metabolon,1
+1-margaroyl-GPC (17:0)_metabolon,7
+1-myristoyl-GPC (14:0)_metabolon,0
+1-nonadecanoyl-GPC (19:0)_metabolon,1
+1-oleoyl-GPC (18:1)_metabolon,1
+1-oleoyl-GPE (18:1)_metabolon,6
+1-oleoyl-GPI (18:1)*_metabolon,1
+1-palmitoleoyl-GPC (16:1)*_metabolon,5
+1-palmitoyl-GPC (16:0)_metabolon,1
+1-palmitoyl-GPE (16:0)_metabolon,1
+1-palmitoyl-GPG (16:0)*_metabolon,7
+1-palmitoyl-GPI (16:0)*_metabolon,1
+1-palmitoylglycerol (16:0)_metabolon,7
+1-palmityl-GPC (O-16:0)_metabolon,1
+1-pentadecanoyl-GPC (15:0)*_metabolon,7
+1-stearoyl-GPC (18:0)_metabolon,1
+1-stearoyl-GPE (18:0)_metabolon,1
+1-stearoyl-GPI (18:0)_metabolon,1
+1-stearyl-GPC (O-18:0)*_metabolon,1
+10-undecenoate (11:1n1)_metabolon,4
+12-HETE_metabolon,0
+13-HODE + 9-HODE_metabolon,4
+15-methylpalmitate_metabolon,4
+16-hydroxypalmitate_metabolon,4
+16a-hydroxy DHEA 3-sulfate_metabolon,7
+17-methylstearate_metabolon,4
+17alpha-hydroxypregnenolone sulfate_metabolon,4
+2-aminoheptanoate_metabolon,0
+2-aminooctanoate_metabolon,3
+2-arachidonoyl-GPC (20:4)*_metabolon,1
+2-arachidonoyl-GPE (20:4)*_metabolon,6
+2-docosahexaenoyl-GPC (22:6)*_metabolon,1
+2-docosahexaenoyl-GPE (22:6)*_metabolon,1
+2-hydroxydecanoate_metabolon,6
+2-hydroxyglutarate_metabolon,3
+2-hydroxyoctanoate_metabolon,6
+2-hydroxypalmitate_metabolon,4
+2-hydroxystearate_metabolon,4
+2-linoleoyl-GPC (18:2)*_metabolon,1
+2-linoleoyl-GPE (18:2)*_metabolon,6
+2-linoleoylglycerol (18:2)_metabolon,1
+2-methylmalonyl carnitine_metabolon,1
+2-myristoyl-GPC (14:0)*_metabolon,0
+2-oleoyl-GPC (18:1)*_metabolon,1
+2-oleoyl-GPE (18:1)*_metabolon,6
+2-palmitoyl-GPC (16:0)*_metabolon,1
+2-palmitoyl-GPE (16:0)*_metabolon,1
+2-stearoyl-GPE (18:0)*_metabolon,1
+21-hydroxypregnenolone disulfate_metabolon,7
+21-hydroxypregnenolone monosulfate (1)_metabolon,4
+3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)_metabolon,1
+3-hydroxy-3-methylglutarate_metabolon,6
+3-hydroxybutyrate (BHBA)_metabolon,4
+3-hydroxybutyrylcarnitine (1)_metabolon,4
+3-hydroxybutyrylcarnitine (2)_metabolon,4
+3-hydroxydecanoate_metabolon,4
+3-hydroxylaurate_metabolon,4
+3-hydroxymyristate_metabolon,4
+3-hydroxyoctanoate_metabolon,4
+3b-hydroxy-5-cholenoic acid_metabolon,4
+"3beta,7alpha-dihydroxy-5-cholestenoate_metabolon",4
+"4-androsten-3alpha,17alpha-diol monosulfate (2)_metabolon",4
+"4-androsten-3alpha,17alpha-diol monosulfate (3)_metabolon",7
+"4-androsten-3beta,17beta-diol disulfate (1)_metabolon",7
+"4-androsten-3beta,17beta-diol disulfate (2)_metabolon",7
+"4-androsten-3beta,17beta-diol monosulfate (1)_metabolon",7
+"4-androsten-3beta,17beta-diol monosulfate (2)_metabolon",7
+5-dodecenoate (12:1n7)_metabolon,4
+"5alpha-androstan-3alpha, 17beta-diol-17-glucosiduronate_metabolon",7
+"5alpha-androstan-3alpha,17alpha-diol disulfate_metabolon",7
+"5alpha-androstan-3alpha,17alpha-diol monosulfate_metabolon",7
+"5alpha-androstan-3alpha,17beta-diol disulfate_metabolon",7
+"5alpha-androstan-3alpha,17beta-diol monosulfate (1)_metabolon",7
+"5alpha-androstan-3alpha,17beta-diol monosulfate (2)_metabolon",7
+"5alpha-androstan-3beta,17alpha-diol disulfate_metabolon",7
+"5alpha-androstan-3beta,17beta-diol disulfate_metabolon",7
+"5alpha-androstan-3beta,17beta-diol monosulfate (2)_metabolon",7
+"5alpha-pregnan-3(alpha or beta),20beta-diol disulfate_metabolon",7
+"5alpha-pregnan-3beta,20alpha-diol disulfate_metabolon",7
+"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)_metabolon",7
+"5alpha-pregnan-3beta,20beta-diol monosulfate (1)_metabolon",7
+7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)_metabolon,1
+"9,10-DiHOME_metabolon",6
+acetoacetate_metabolon,4
+acetylcarnitine_metabolon,4
+adipoylcarnitine_metabolon,4
+andro steroid monosulfate (1)*_metabolon,7
+androsterone sulfate_metabolon,7
+azelate (nonanedioate)_metabolon,6
+butyrylcarnitine_metabolon,4
+caprate (10:0)_metabolon,4
+caproate (6:0)_metabolon,4
+caprylate (8:0)_metabolon,4
+carnitine_metabolon,7
+cholate_metabolon,0
+cholesterol_metabolon,1
+choline_metabolon,3
+choline phosphate_metabolon,1
+cis-4-decenoyl carnitine_metabolon,4
+cortisol_metabolon,4
+cortisone_metabolon,4
+decanoylcarnitine_metabolon,4
+dehydroisoandrosterone sulfate (DHEA-S)_metabolon,7
+deoxycarnitine_metabolon,3
+deoxycholate_metabolon,6
+dodecanedioate_metabolon,4
+epiandrosterone sulfate_metabolon,7
+etiocholanolone glucuronide_metabolon,4
+glycerol_metabolon,4
+glycerol 3-phosphate_metabolon,3
+glycerophosphoethanolamine_metabolon,3
+glycerophosphorylcholine (GPC)_metabolon,1
+glycochenodeoxycholate_metabolon,6
+glycochenodeoxycholate glucuronide (1)_metabolon,6
+glycochenodeoxycholate sulfate_metabolon,6
+glycocholate_metabolon,6
+glycocholenate sulfate*_metabolon,3
+glycodeoxycholate sulfate_metabolon,6
+glycohyocholate_metabolon,6
+glycolithocholate_metabolon,6
+glycolithocholate sulfate*_metabolon,6
+glycoursodeoxycholate_metabolon,6
+hexadecanedioate_metabolon,4
+hexanoylcarnitine_metabolon,4
+hyocholate_metabolon,0
+laurate (12:0)_metabolon,4
+laurylcarnitine_metabolon,4
+linoleamide (18:2n6)_metabolon,3
+linoleoylcarnitine*_metabolon,3
+maleate_metabolon,5
+malonate_metabolon,0
+malonylcarnitine_metabolon,1
+methylmalonate (MMA)_metabolon,0
+myo-inositol_metabolon,0
+myristoleoylcarnitine*_metabolon,4
+myristoylcarnitine_metabolon,4
+N-palmitoyl glycine_metabolon,4
+octadecanedioate_metabolon,4
+octanoylcarnitine_metabolon,4
+oleamide_metabolon,3
+oleoyl ethanolamide_metabolon,4
+oleoylcarnitine_metabolon,4
+palmitic amide_metabolon,3
+palmitoyl ethanolamide_metabolon,4
+palmitoylcarnitine_metabolon,7
+palmitoylcholine_metabolon,1
+phosphoethanolamine_metabolon,1
+pregn steroid monosulfate*_metabolon,7
+pregnanediol-3-glucuronide_metabolon,4
+pregnanolone/allopregnanolone sulfate_metabolon,7
+pregnen-diol disulfate*_metabolon,7
+pregnenolone sulfate_metabolon,4
+pristanate_metabolon,4
+propionylcarnitine_metabolon,6
+propionylglycine_metabolon,0
+sebacate (decanedioate)_metabolon,4
+sphinganine-1-phosphate_metabolon,1
+sphingosine_metabolon,1
+sphingosine 1-phosphate_metabolon,1
+stearoylcarnitine_metabolon,7
+suberoyl carnitine_metabolon,4
+taurochenodeoxycholate_metabolon,6
+taurocholate_metabolon,6
+taurocholenate sulfate_metabolon,4
+taurolithocholate 3-sulfate_metabolon,6
+tetradecanedioate_metabolon,4
+trimethylamine N-oxide_metabolon,0
+ursodeoxycholate_metabolon,6
+2'-deoxyuridine_metabolon,3
+3-aminoisobutyrate_metabolon,7
+3-methylcytidine_metabolon,3
+3-ureidopropionate_metabolon,3
+5-methyluridine (ribothymidine)_metabolon,7
+"5,6-dihydrothymine_metabolon",7
+7-methylguanine_metabolon,3
+adenine_metabolon,3
+adenosine_metabolon,1
+"adenosine 3',5'-cyclic monophosphate (cAMP)_metabolon",4
+adenosine 5'-monophosphate (AMP)_metabolon,1
+allantoin_metabolon,1
+beta-alanine_metabolon,3
+dihydroorotate_metabolon,3
+hypoxanthine_metabolon,1
+inosine_metabolon,0
+N-acetyl-beta-alanine_metabolon,7
+N1-methyladenosine_metabolon,3
+"N2,N2-dimethylguanosine_metabolon",3
+N4-acetylcytidine_metabolon,7
+N6-carbamoylthreonyladenosine_metabolon,7
+N6-succinyladenosine_metabolon,7
+orotate_metabolon,6
+orotidine_metabolon,7
+pseudouridine_metabolon,7
+urate_metabolon,7
+uridine_metabolon,7
+xanthine_metabolon,4
+xanthosine_metabolon,4
+DSGEGDFXAEGGGVR*_metabolon,0
+gamma-glutamyl-2-aminobutyrate_metabolon,4
+gamma-glutamyl-epsilon-lysine_metabolon,3
+gamma-glutamylalanine_metabolon,3
+gamma-glutamylglutamate_metabolon,3
+gamma-glutamylglutamine_metabolon,4
+gamma-glutamylglycine_metabolon,3
+gamma-glutamylhistidine_metabolon,3
+gamma-glutamylisoleucine*_metabolon,3
+gamma-glutamylleucine_metabolon,6
+gamma-glutamylmethionine_metabolon,6
+gamma-glutamylphenylalanine_metabolon,6
+gamma-glutamylthreonine*_metabolon,3
+gamma-glutamyltryptophan_metabolon,6
+gamma-glutamyltyrosine_metabolon,6
+gamma-glutamylvaline_metabolon,6
+N-acetylcarnosine_metabolon,7
+prolylglycine_metabolon,3
+1-methylurate_metabolon,0
+1-methylxanthine_metabolon,0
+"1,7-dimethylurate_metabolon",0
+2-aminophenol sulfate_metabolon,0
+2-piperidinone_metabolon,0
+2-pyrrolidinone_metabolon,7
+"2,3-dihydroxyisovalerate_metabolon",0
+3-hydroxyhippurate_metabolon,0
+3-hydroxypyridine sulfate_metabolon,0
+3-methylxanthine_metabolon,6
+"3,7-dimethylurate_metabolon",6
+4-allylphenol sulfate_metabolon,0
+4-ethylphenylsulfate_metabolon,0
+4-hydroxychlorothalonil_metabolon,1
+4-hydroxyhippurate_metabolon,0
+4-methylcatechol sulfate_metabolon,0
+4-vinylphenol sulfate_metabolon,0
+5-acetylamino-6-amino-3-methyluracil_metabolon,0
+6-hydroxyindole sulfate_metabolon,0
+7-methylxanthine_metabolon,6
+alliin_metabolon,0
+benzoate_metabolon,7
+betonicine_metabolon,1
+caffeine_metabolon,5
+catechol sulfate_metabolon,0
+cinnamoylglycine_metabolon,0
+dimethyl sulfone_metabolon,1
+EDTA_metabolon,3
+ergothioneine_metabolon,0
+erythritol_metabolon,6
+gluconate_metabolon,0
+hippurate_metabolon,0
+homostachydrine*_metabolon,3
+iminodiacetate (IDA)_metabolon,3
+indolin-2-one_metabolon,3
+lanthionine_metabolon,3
+methyl glucopyranoside (alpha + beta)_metabolon,0
+methyl indole-3-acetate_metabolon,7
+methyl-4-hydroxybenzoate sulfate_metabolon,1
+N-acetylalliin_metabolon,0
+N-methylpipecolate_metabolon,3
+O-methylcatechol sulfate_metabolon,6
+O-sulfo-L-tyrosine_metabolon,7
+paraxanthine_metabolon,0
+phytanate_metabolon,4
+piperine_metabolon,0
+quinate_metabolon,0
+S-allylcysteine_metabolon,0
+stachydrine_metabolon,1
+sulfate*_metabolon,3
+tartarate_metabolon,1
+tartronate (hydroxymalonate)_metabolon,1
+theobromine_metabolon,6
+theophylline_metabolon,0
+thymol sulfate_metabolon,0
