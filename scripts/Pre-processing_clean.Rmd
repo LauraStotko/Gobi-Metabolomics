@@ -246,6 +246,22 @@ for (i in 1:length(data)) {
 }
 ```
 
+# Merge z-score data into combined inputs for clustering
+```{r}
+# Merge by columns time and subject
+preproc_z_merged_ff <- get(output_names[7]) %>%
+  full_join(get(output_names[8]), by = c("challenge", "platform_name", "time", "subject")) %>%
+  full_join(get(output_names[9]), by = c("challenge", "platform_name", "time", "subject"))
+
+preproc_z_merged_fl <- get(output_names[10]) %>%
+  full_join(get(output_names[9]), by = c("challenge", "platform_name", "time", "subject")) %>%
+  full_join(get(output_names[12]), by = c("challenge", "platform_name", "time", "subject"))
+  
+# Save to CSV
+write.csv(preproc_z_merged_ff, paste0("../output/preproc_z_merged_ff_", n_trees, ".csv"), row.names = FALSE)
+write.csv(preproc_z_merged_fl, paste0("../output/preproc_z_merged_fl_", n_trees, ".csv"), row.names = FALSE)
+```
+
 ```{r}
 # Show overall finish time and elasped time
 end_time_overall <- Sys.time()
