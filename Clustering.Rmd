@@ -73,7 +73,7 @@ membership_df <- as.data.frame(cl$membership)
 membership_df$Metabolite <- rownames(expr_set)
 
 # Speichern der Ergebnisse als CSV
-write.csv(membership_df, "mfuzz_clustering_results.csv", row.names = FALSE)
+write.csv(membership_df, "/Users/laura.stotko/Downloads/mfuzz_clustering_results.csv", row.names = FALSE)
 
 # Erste Zeilen ausgeben
 head(membership_df)

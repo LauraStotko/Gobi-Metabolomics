@@ -6,4 +6,4 @@
 .Rhistory
 .RData
 .Ruserdata
-data/processed/*.csv
+data/processed/*.csv.DS_Store
