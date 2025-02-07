@@ -37,6 +37,8 @@ paths <- list(
   metabolon = "../input/raw/humet_data_raw_none_metablon.csv",
   biocrates = "../input/raw/humet_data_raw_none_biocrates.csv",
   inhouse = "../input/raw/humet_data_raw_none_in_house_biochemistry.csv",
+#)
+#paths_zscore <- list(
   z_metabolon = "../input/processed/humet_data_zscore_none_subjects15_tp57_m.csv",
   z_biocrates = "../input/processed/humet_data_zscore_none_subjects15_tp57_b.csv",
   z_inhouse = "../input/processed/humet_data_zscore_none_subjects15_tp57_i.csv"
@@ -44,7 +46,7 @@ paths <- list(
 
 # Read data into a list using purrr::map
 data <- map(paths, read.csv, sep = ",", header = TRUE)
-names(data) <- c("data_metabolon_ff", "data_biocrates_ff", "data_inhouse_ff", "z_metabolon_fl", "z_biocrates_fl", "z_inhouse_fl")
+names(data) <- c("data_metabolon", "data_biocrates", "data_inhouse", "z_metabolon", "z_biocrates", "z_inhouse")
 
 # Define platform names for each dataset
 platform_names <- c(
@@ -66,9 +68,9 @@ data <- map2(data, platform_names, ~.x %>%
                select(platform_name, everything()) # platform name as first column
              )
 
-# Add challenge column depending on time to one version
-add_challenge <- function(dataset) {
-  dataset <- dataset %>%
+# Add challenge column depending on time
+add_challenge <- function(mydataset) {
+  mydataset <- mydataset %>%
   mutate(challenge = case_when(
     time >= 1 & time <= 9 ~ "fasting",
     time >= 33 & time <= 39 ~ "exercise",
@@ -77,38 +79,57 @@ add_challenge <- function(dataset) {
     )) %>%
   dplyr::select(challenge, everything()) # make challenge the first column
   
-  return(dataset)
+  return(mydataset)
 }
 
 data <- map(data, add_challenge)
 
 # Filter half the data for relevant timepoints only
-relevant_timepoints <- function(dataset) {
+relevant_timepoints <- function(mydataset) {
   
-  challenge_col <- names(dataset)[1] 
+  #challenge_col <- names(mydataset)[1] 
   
   # Count the number of rows with NA in 'challenge' column before filtering
-  rows_before <- nrow(dataset)
-  rows_with_na <- sum(is.na(dataset[[challenge_col]]))
+  rows_before <- nrow(mydataset)
+  #rows_with_na <- sum(is.na(mydataset[[challenge_col]]))
   
   # Print the number of rows with NA (optional)
-  cat("Rows with NA in 'challenge' column:", rows_with_na, "\n")
+  #cat("Rows with NA in 'challenge' column:", rows_with_na, "\n")
   
-
-  dataset <- dataset %>%
-    filter(!is.na(.data[[challenge_col]]))  # remove rows where 'challenge' (column 4 in pp) is NA
+  # mydataset <- mydataset %>%
+  #   filter(!is.na(mydataset[[challenge_col]]))  # remove rows where 'challenge' (column 4 in pp) is NA
+  
+  mydataset$time <- as.numeric(as.character(mydataset$time))
+  
+  mydataset <- mydataset %>%
+    filter(
+      (time >= 1 & time <= 9) |   # fasting
+      (time >= 33 & time <= 39) | # exercise
+      (time >= 40 & time <= 49)   # oltt
+    )
   
   # Calculate how many rows were removed
-  rows_removed <- rows_before - nrow(dataset)
+  rows_removed <- rows_before - nrow(mydataset)
   
   # Print the number of rows removed (optional)
   cat("Rows removed for dataset:", rows_removed, "\n")
   
   # Return the filtered dataset
-  return(dataset)
+  return(mydataset)
 }
 
-data <- c(map(data[1:3], relevant_timepoints), data[1:3], map(data[4:6], relevant_timepoints), data[4:6])
+data[7:9] <- data[4:6]
+data[10:12] <- data[4:6]
+data[4:6] <- data[1:3]
+
+data[1:3] <- map(data[1:3], relevant_timepoints)
+data[7:9] <- map(data[7:9], relevant_timepoints)
+
+names(data) <- c(
+  "data_metabolon_ff", "data_biocrates_ff", "data_inhouse_ff",
+  "data_metabolon_fl", "data_biocrates_fl", "data_inhouse_fl",
+  "z_metabolon_ff", "z_biocrates_ff", "z_inhouse_ff",
+  "z_metabolon_fl", "z_biocrates_fl", "z_inhouse_fl")
 ```
 
 # Identify and remove artefacts
@@ -116,8 +137,8 @@ Filtering for outliers defined as data points beyond four standard deviations fr
 
 ```{r}
 # Prepare data
-to_factor <- function(dataset) {
-  dataset <- dataset %>%
+to_factor <- function(mydataset) {
+  mydataset <- mydataset %>%
   mutate(
     challenge = as.factor(challenge),
     platform_name = as.factor(platform_name),
@@ -125,7 +146,7 @@ to_factor <- function(dataset) {
     subject = as.factor(subject),
     )
   
-  return(dataset)
+  return(mydataset)
 }
 
 data <- map(data, to_factor)
@@ -133,19 +154,19 @@ data <- map(data, to_factor)
 
 ## Exclude metabolites with more than 30% missing data points
 ```{r}
-keep_sub_30 <- function(dataset) {
+keep_sub_30 <- function(mydataset) {
   # Count total columns before filtering
-  total_cols_before <- ncol(dataset)
+  total_cols_before <- ncol(mydataset)
   
   # Identify columns with more than 30% missing values
   missing_threshold <- 0.3  # 30% threshold
-  cols_to_keep <- colMeans(is.na(dataset)) < missing_threshold | colnames(dataset) == "challenge" # keep challenge column
+  cols_to_keep <- colMeans(is.na(mydataset)) < missing_threshold | colnames(mydataset) == "challenge" # keep challenge column
   
   # Count total columns after filtering
   total_cols_after <- sum(cols_to_keep)
   
   # Filter the dataset to exclude high-missing-value columns
-  dataset <- dataset[, cols_to_keep]
+  mydataset <- mydataset[, cols_to_keep]
   
   # Calculate  number of removed columns
   removed_cols <- total_cols_before - total_cols_after
@@ -153,7 +174,7 @@ keep_sub_30 <- function(dataset) {
   # Print number of removed columns
   cat("Number of removed columns:", removed_cols, "\n")
   
-  return(dataset)
+  return(mydataset)
 }
 
 data <- map(data, keep_sub_30)
@@ -161,9 +182,9 @@ data <- map(data, keep_sub_30)
 
 # Performing missForest
 ```{r}
-mF_function <- function(dataset, name) {
+mF_function <- function(mydataset, name) {
   start_time <- Sys.time()
-  na_before <- sum(is.na(dataset))
+  na_before <- sum(is.na(mydataset))
   cat(format(start_time, "%H:%M:%S"), "- NA in", name, "before:", na_before, "\n")
   
   # NECESSARY?
@@ -174,14 +195,14 @@ mF_function <- function(dataset, name) {
   
   if (na_before > 0) {
     cl <- makeCluster(detectCores() - 1, type = "FORK"); registerDoParallel(cl)
-    dataset <- missForest(dataset, ntree = n_trees, parallelize = "variables", verbose = FALSE)$ximp
+    mydataset <- missForest(mydataset, ntree = n_trees, parallelize = "variables", verbose = FALSE)$ximp
     stopCluster(cl)
   }
   
   end_time <- Sys.time()
-  cat(format(end_time, "%H:%M:%S"), "- NA in", name, "- after:", sum(is.na(dataset)), " (Time elapsed:", round(difftime(end_time, start_time, units = "secs"), 2), "sec)\n\n")
+  cat(format(end_time, "%H:%M:%S"), "- NA in", name, "- after:", sum(is.na(mydataset)), " (Time elapsed:", round(difftime(end_time, start_time, units = "mins"), 2), "min)\n\n")
   
-  return(dataset)
+  return(mydataset)
 }
 
 # Show start time
@@ -198,21 +219,24 @@ cat("Finished missForest at ", format(end_time_mF, "%H:%M:%S"), " (Time elapsed:
 
 # Log2 transform only the non-zscore data
 ```{r}
-log2_transformed <- function(dataset) {
-  dataset <- dataset %>%
+log2_transformed <- function(mydataset) {
+  mydataset <- mydataset %>%
     mutate(time = as.factor(time)) %>% # refactor time column as factor to exclude from log2_transformation
     mutate(across(-c(1:4), log2))
   
-  return(dataset)
+  return(mydataset)
 }
 
-data <- c(map(data[1:6], log2_transformed), data[7:12])
+data[1:6] <- map(data[1:6], log2_transformed)
 ```
 
 # Filter unfiltered data for relevant timepoints
 ```{r}
+
+
 # Function already created in the beginning
-data <- c(map(data[1:3], relevant_timepoints), data[4:6], map(data[7:9], relevant_timepoints), data[10:12])
+data[4:6] <- map(data[4:6], relevant_timepoints)
+data[10:12] <- map(data[10:12], relevant_timepoints)
 ```
 
 # Save to a CSV file
@@ -246,16 +270,32 @@ for (i in 1:length(data)) {
 }
 ```
 
+# Merge non-z data into combined inputs for clustering
+```{r}
+# Merge by columns time and subject
+preproc_raw_merged_ff <- get(output_names[1])[, -2] %>% # remove platform_name column for merging
+  full_join(get(output_names[2])[, -2], by = c("challenge", "time", "subject")) %>%
+  full_join(get(output_names[3])[, -2], by = c("challenge", "time", "subject"))
+
+preproc_raw_merged_fl <- get(output_names[4])[, -2] %>%
+  full_join(get(output_names[5])[, -2], by = c("challenge", "time", "subject")) %>%
+  full_join(get(output_names[6])[, -2], by = c("challenge", "time", "subject"))
+  
+# Save to CSV
+write.csv(preproc_raw_merged_ff, paste0("../output/preproc_raw_merged_ff_", n_trees, ".csv"), row.names = FALSE)
+write.csv(preproc_raw_merged_fl, paste0("../output/preproc_raw_merged_fl_", n_trees, ".csv"), row.names = FALSE)
+```
+
 # Merge z-score data into combined inputs for clustering
 ```{r}
 # Merge by columns time and subject
-preproc_z_merged_ff <- get(output_names[7]) %>%
-  full_join(get(output_names[8]), by = c("challenge", "platform_name", "time", "subject")) %>%
-  full_join(get(output_names[9]), by = c("challenge", "platform_name", "time", "subject"))
+preproc_z_merged_ff <- get(output_names[7])[, -2] %>% # remove platform_name column for merging
+  full_join(get(output_names[8])[, -2], by = c("challenge", "time", "subject")) %>%
+  full_join(get(output_names[9])[, -2], by = c("challenge", "time", "subject"))
 
-preproc_z_merged_fl <- get(output_names[10]) %>%
-  full_join(get(output_names[9]), by = c("challenge", "platform_name", "time", "subject")) %>%
-  full_join(get(output_names[12]), by = c("challenge", "platform_name", "time", "subject"))
+preproc_z_merged_fl <- get(output_names[10])[, -2] %>%
+  full_join(get(output_names[11])[, -2], by = c("challenge", "time", "subject")) %>%
+  full_join(get(output_names[12])[, -2], by = c("challenge", "time", "subject"))
   
 # Save to CSV
 write.csv(preproc_z_merged_ff, paste0("../output/preproc_z_merged_ff_", n_trees, ".csv"), row.names = FALSE)
