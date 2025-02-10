@@ -1,0 +1,16 @@
+---
+title: "Gobi: Individuality"
+author: "Marie Hackenberg"
+date: "2025-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Show overall start time
+start_time_overall <- Sys.time()
+cat("Starting pre-processing at ", format(start_time_overall, "%H:%M:%S"), "\n")
+```
