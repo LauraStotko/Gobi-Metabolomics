@@ -97,17 +97,19 @@ pp <- pp %>%
 # Separate by platform
 ```{r}
 metabolon_only <- function(dataset) {
-  dataset <- bind_cols(platform_name = "Metabolon HD4 [nt-ms]", dataset[1:3], dataset %>%
-  select(contains("_metabolon")) %>%
-  rename_with(~ gsub("_metabolon$", "", .))) %>%
-  mutate(
-    platform_name = as.factor(platform_name)
-  )
+  dataset <- bind_cols(
+    platform_name = "Metabolon HD4 [nt-ms]",
+    dataset[1:3], dataset %>%
+      dplyr::select(contains("_metabolon")) %>%
+      rename_with(~ gsub("_metabolon$", "", .))) %>%
+    mutate(
+      platform_name = as.factor(platform_name)
+      )
   return(dataset)
 }
 biocrates_only <- function(dataset) {
   dataset <- bind_cols(platform_name = "Biocrates p150 [t-ms]", dataset[1:3], dataset %>%
-  select(contains("_biocrates")) %>%
+  dplyr::select(contains("_biocrates")) %>%
   rename_with(~ gsub("_biocrates$", "", .))) %>%
   mutate(
     platform_name = as.factor(platform_name)
@@ -116,7 +118,7 @@ biocrates_only <- function(dataset) {
 }
 inhouse_only <- function(dataset) {
   dataset <- bind_cols(platform_name = "In-house biochemistry [chem.]", dataset[1:3], dataset %>%
-  select(contains("_biochemistry")) %>%
+  dplyr::select(contains("_biochemistry")) %>%
   rename_with(~ gsub("_biochemistry$", "", .))) %>%
   mutate(
     platform_name = as.factor(platform_name)
@@ -371,6 +373,17 @@ for (i in 1:length(data)) {
   # View(as.data.frame(data[[i]]))
   write.csv(data[[i]], paste0("../output/", output_names[i], ".csv"), row.names = FALSE) # row.names=false to only use existing rownames from here
 }
+```
+
+# Merge IMPUTED data into combined inputs for clustering
+```{r}
+# Merge by columns time and subject
+pp_imp_merged <- get(imp_output_names[1]) %>% # remove platform_name column for merging
+  full_join(get(imp_output_names[2]), by = c("challenge", "time", "subject")) %>%
+  full_join(get(imp_output_names[3]), by = c("challenge", "time", "subject"))
+  
+# Save to CSV
+write.csv(pp_imp_merged, "../output/pp_imp_merged.csv", row.names = FALSE)
 ```
 
 ```{r}

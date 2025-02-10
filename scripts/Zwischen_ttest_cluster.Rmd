@@ -1,0 +1,116 @@
+---
+title: "Zwischen t-test and cluster"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(Mfuzz)
+library(pheatmap)
+library(ggplot2)
+library(tidyverse)
+library(data.table)
+```
+
+## Load Data
+```{r}
+library(readxl)
+library(dplyr)
+
+data_goal <- read.csv("../input/processed/humet_data_zscore_none_subjects15_tp57.csv")
+
+
+# data_from_ttest_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/Data Sheet 2.xlsx" #Marie
+# data_from_ttest <- read_xlsx(data_from_ttest_path, "TABLE S8 clean", col_names = TRUE)
+
+data_from_ttest_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/hypothesis_anova_results_all_challenges_no_insulin.csv" #Marie
+data_from_ttest <- read.csv(data_from_ttest_path)
+
+data_from_before_anova_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/metabolite_info_merged.csv" #Marie
+data_from_before_anova <- read.csv(data_from_before_anova_path)
+
+sig_89_metabolites_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/Data Sheet 2.xlsx" #Marie
+sig_89_metabolites <- read_xlsx(sig_89_metabolites_path, "TABLE S4 clean", col_names = TRUE)
+sig_89_metabolites <- sig_89_metabolites$metabolite
+
+# filter for only 89 significant metabolites
+data_from_before_anova_filtered <- # todo: only 84 but should have 90
+  data_from_before_anova %>%
+    filter(metabolite %in% sig_89_metabolites)
+
+length(unique(data_from_before_anova_filtered$metabolite))
+length(sig_89_metabolites)
+
+sig_89_metabolites_clean <- tolower(trimws(sig_89_metabolites))
+data_metabolites_clean <- tolower(trimws(data_metabolites))
+setdiff(sig_89_metabolites, data_from_before_anova_filtered$metabolite)
+
+```
+
+```{r}
+
+# # Create a new column that combines subject, time, and challenge for the row identifiers
+# data_from_before_anova_filtered <- data_from_before_anova_filtered %>%
+#   mutate(id = paste("s", subject, "_t", challenge_time, sep = ""))
+# 
+# # Reshape the data into a wide format using pivot_wider
+# data_wide <- data_from_before_anova_filtered %>%
+#   pivot_wider(
+#     names_from = metabolite,    # Create columns based on the 'metabolite' names
+#     values_from = response,     # Fill the values with the 'response' data
+#     values_fn = list(response = ~first(.)),  # Ensure that existing values are kept
+#     names_sort = TRUE           # Optional, sorts metabolite columns alphabetically
+#   )
+
+
+data_from_before_anova_filtered <- data_from_before_anova_filtered %>%
+  mutate(id = paste("s", subject, "_t", challenge_time, "_p", platform, sep = ""))
+
+# Reshape the data into a wide format considering subject, platform, and challenge_time
+data_wide <- data_from_before_anova_filtered %>%
+  pivot_wider(
+    names_from = metabolite,    # Each unique metabolite becomes a column
+    values_from = response,     # Values come from the response column
+    values_fn = list(response = ~mean(.)),  # Handle duplicates (use mean, first, or another function)
+    names_sort = TRUE           # Optional: sort metabolite columns alphabetically
+  )
+
+
+
+
+# data_wide <- data_from_before_anova_filtered %>%
+#   select(id, metabolite, response) %>%  # Keep only relevant columns
+#   pivot_wider(
+#     names_from = metabolite,    # Create columns based on the 'metabolite' names
+#     values_from = response,     # Fill the values with the 'response' data
+#     values_fn = list(response = ~mean(.)),  # Handle duplicates using mean (or use first(.))
+#     names_sort = TRUE           # Ensures alphabetical ordering of columns
+#   )# %>%
+#   #select(id, subject, challenge_time, challenge, platform, super_pathway, sub_pathway, everything())  # Keep the necessary columns
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

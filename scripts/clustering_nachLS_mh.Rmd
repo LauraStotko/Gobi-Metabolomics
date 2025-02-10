@@ -19,8 +19,20 @@ library(data.table)
 
 ## Load Data
 ```{r}
-#data <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/input/raw/humet_data_zscore_none_subjects15_tp57.csv")
-data <- read.csv("../input/processed/humet_data_zscore_none_subjects15_tp57.csv")
+#data <- read.csv("../input/processed/humet_data_zscore_none_subjects15_tp57.csv") #mh#
+
+# data <- read.csv("../output/pp_imp_merged.csv") #mh
+data <- read.csv("../input/processed/humet_data_zscore_none_subjects15_tp57.csv") #mh
+# data <- data %>% #mh
+#   dplyr::select(-platform_name.x) %>%
+#   dplyr::select(-platform_name.y) %>%
+#   dplyr::select(-platform_name)
+
+
+rownames(data) <- paste0(
+  # data$challenge, # nur für pp_imp_merged
+  "s", data$subject, "_t", data$time) #mh
+
 # Überprüfen, ob Spalten nur NA-Werte enthalten und entfernen
 data <- data[, colSums(is.na(data)) < nrow(data)]
 
@@ -34,19 +46,35 @@ data <- data %>% mutate(across(where(is.numeric), ~ifelse(is.na(.), mean(., na.r
 # Zeitpunkte und Subjekte extrahieren
 time <- data$time
 subjects <- data$subject
+# challenge <- data$challenge #mh # nur für pp_imp_merged
 
-data <- data %>% select(-c(time, subject))  # Entferne nicht-numerische Spalten
+#data <- data %>% select(-c(time, subject))  # Entferne nicht-numerische Spalten  #mh#
+data <- data %>% select(-c(time, subject
+                           #, challenge #mh # nur für pp_imp_merged
+                           ))
 
 # Transponieren: Zeilen = Features, Spalten = Zeitpunkte
-data_t <- as.matrix(t(data))
+# data_t <- as.matrix(t(data)) #mh#
+data_m <- as.matrix(data) #mh
+
+
+#z_score_matrix <- scale(data_m) #mh
+
+
+
+
+
+
 
 # ExpressionSet erstellen
-expr_set <- new("ExpressionSet", exprs = data_t)
+#expr_set <- new("ExpressionSet", exprs = data_t) #mh#
+#expr_set <- new("ExpressionSet", expr = z_score_matrix) #mh
+expr_set <- new("ExpressionSet", expr = data_m) #mh
 ```
 
 ## Data Preprocessing for Mfuzz
 ```{r}
-expr_set <- standardise(expr_set)  # Z-Transformation falls nötig
+expr_set <- standardise(expr_set)  # Z-Transformation falls nötig #mh#
 ```
 
 ```{r cluster-number}
@@ -62,7 +90,7 @@ cl <- mfuzz(expr_set, c = 8, m = 1.25)
 ## 📊 **4. Ergebnisse visualisieren**
 
 ```{r plot-clusters}
-mfuzz.plot(expr_set, cl, mfrow = c(3,3), time.labels = colnames(expr_set))
+# mfuzz.plot(expr_set, cl, mfrow = c(3,3), time.labels = colnames(expr_set))
 ```
 
 ## 🔍 **5. Cluster-Zugehörigkeit anzeigen**
@@ -70,10 +98,11 @@ mfuzz.plot(expr_set, cl, mfrow = c(3,3), time.labels = colnames(expr_set))
 ```{r membership}
 # Cluster-Zugehörigkeit abrufen
 membership_df <- as.data.frame(cl$membership)
-membership_df$Metabolite <- rownames(expr_set)
+membership_df$Metabolite <- rownames(expr_set) #mh#
+#membership_df$Metabolite <- colnames(expr_set) #mh
 
 # Speichern der Ergebnisse als CSV
-#write.csv(membership_df, "mfuzz_clustering_results.csv", row.names = FALSE)
+write.csv(membership_df, "../output/mfuzz_clustering_results_nachLS_mh.csv", row.names = FALSE)
 
 # Erste Zeilen ausgeben
 head(membership_df)

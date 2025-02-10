@@ -17,7 +17,7 @@ cat("Starting pre-processing at ", format(start_time_overall, "%H:%M:%S"), "\n")
 
 # Set number of trees for missForest here
 ```{r}
-n_trees = 1
+n_trees = 10
 ```
 
 # Load libraries

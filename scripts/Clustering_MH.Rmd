@@ -19,41 +19,86 @@ library(nparLD)
 library(tidyr)
 library(dplyr)
 library(ggplot2)
+library(readxl)
 ```
 
-# Load data
 ```{r}
-data_path <- "../data/processed/humet_data_zscore_none_subjects15_tp57.csv"
-#info_path <- "../data/raw/humet_info.csv"
-data <- read.csv(data_path, sep = ",", header = TRUE)
-#info <- read.csv(info_path, sep = ";", header = TRUE)
+sig_89_metabolites_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/Data Sheet 2.xlsx" #Marie
 
-data[is.na(data)] <- 0
-data <- data %>%
-  mutate(challenge = case_when(
-    time >= 1 & time <= 9 ~ "fasting",      # time 1-10 corresponds to fasting
-    time >= 33 & time <= 39 ~ "exercise",    # time 33-39 corresponds to exercise
-    time >= 40 & time <= 49 ~ "oltt",        # time 40-48 corresponds to OLTT
-    TRUE ~ NA_character_                                            # assign NA for any time outside ranges
-    )) %>%
-  filter(!is.na(challenge)) %>%  # remove rows where 'challenge' is NA
-  dplyr::select(challenge, everything()) # make challenge the first column
+sig_89_metabolites <- read_xlsx(sig_89_metabolites_path, "TABLE S4 clean", col_names = TRUE)
+
+```
+
+
+# Load data: INPUT MUSS AUCHT T-TEST TREATED SEIN
+```{r}
+#cl_data_path <- "../output/preproc_z_merged_fl_1.csv"
+cl_data_path <- "../output/pp_imp_merged.csv"
+sig_p_for_3_path <- "/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/Data Sheet 2.xlsx" #Marie
+cl_data <- read.csv(cl_data_path, sep = ",", header = TRUE)
+
+sig_p_for_3 <- read_xlsx(sig_p_for_3_path, "TABLE S2", col_names = TRUE)
+colnames(sig_p_for_3) <- sig_p_for_3[2, ]
+sig_p_for_3 <- cbind(sig_p_for_3[, 1], sig_p_for_3[, ncol(sig_p_for_3) - 1])
+sig_p_for_3[is.na(sig_p_for_3)] <- 0
+sig_met_for_3 <- sig_p_for_3 %>%
+  filter(`sig for 3 challenges` == "TRUE")
+
+core_pp_met <- read_xlsx(sig_p_for_3_path, "TABLE S4", col_names = FALSE)
+colnames(core_pp_met) <- core_pp_met[4, ]
+core_pp_met <- core_pp_met[5:nrow(core_pp_met), 1]
+
+any(core_pp_met$metabolite %in% colnames(cl_data))
+all(core_pp_met$metabolite %in% colnames(cl_data))
+missing_core_metabolites <- core_pp_met$metabolite[!core_pp_met$metabolite %in% colnames(cl_data)]
+missing_core_metabolites <- rep(sort(missing_core_metabolites), length.out = nrow(missing_core_metabolites))
+print(missing_core_metabolites)
+
+#TEMP
+core_pp_met$metabolite <- rep(sort(core_pp_met$metabolite), length.out = nrow(core_pp_met))
+met <- colnames(cl_data[, -c(1:4)])
+cl_data_metab <- data.frame(cl_data_metab = colnames(cl_data[, -c(1:4)]))
+new_object$cl_data_metab <- rep(sort(new_object$cl_data_metab), length.out = nrow(new_object))
+new_object$core_pp_met <- c(core_pp_met$metabolite, rep("_", length.out = nrow(new_object) - length(core_pp_met$metabolite)))
+
+common_values <- intersect(new_object$cl_data_metab, new_object$core_pp_met)
+new_object_filtered <- new_object %>%
+  filter(!cl_data_metab %in% common_values & !core_pp_met %in% common_values)
+#new_object$core_pp_met <- new_object %>%
+ # filter(!cl_data_metab %in% common_values & !core_pp_met %in% common_values)
+
+#new_object$core_pp_met <- core_pp_met$metabolite
+
+
+
+## data[is.na(data)] <- 0
+# data <- data %>%
+#   mutate(challenge = case_when(
+#     time >= 1 & time <= 9 ~ "fasting",      # time 1-10 corresponds to fasting
+#     time >= 33 & time <= 39 ~ "exercise",    # time 33-39 corresponds to exercise
+#     time >= 40 & time <= 49 ~ "oltt",        # time 40-48 corresponds to OLTT
+#     TRUE ~ NA_character_                                            # assign NA for any time outside ranges
+#     )) %>%
+#   filter(!is.na(challenge)) %>%  # remove rows where 'challenge' is NA
+#   dplyr::select(challenge, everything()) # make challenge the first column
 ```
 # Fuzzy c-means clustering
 
 ## Prepare data for Mfuzz
 ```{r}
+# SKIP ONLY FOR pp_imp
+
 # # Convert value types
 # options(digits = 14) # set decimal precision to original precision in raw data
 # convert_to_numeric <- function(x) {
 #   as.numeric(gsub(",", ".", x)) # R uses . for decimal numbers
 # }
-
-data <- data %>%
-  mutate(across(
-    -c(subject, time, challenge), # exclude subject, challenge_time, and challenge
-    convert_to_numeric # apply conversion function
-  ))
+# 
+# cl_data <- cl_data %>%
+#   mutate(across(
+#     -c(subject, time, challenge), # exclude subject, challenge_time, and challenge
+#     convert_to_numeric # apply conversion function
+#   ))
 
 # Convert challenge time to categorical
 #data$challenge_time <- as.factor(data$challenge_time)
@@ -67,7 +112,7 @@ data <- data %>%
 # }
 # 
 # # Apply z-score function to all metabolite columns
-# metabolite_columns <- names(data)[4:ncol(data)]
+
 # data[metabolite_columns] <- data[metabolite_columns] %>% apply(2, z_score)
 
 ```
@@ -75,14 +120,24 @@ data <- data %>%
 ## Reshape data for Mfuzz
 rows = metabolites, columns = time points (concatenated across subjects & challenges)
 ```{r}
-# Convert challenge_time to numeric
-data <- data %>% mutate(time = as.numeric(time))
+# FOR PP_IMP! #todo: also for zscore?
+cl_data <- cl_data %>%
+  dplyr::select(-platform_name.x)
+cl_data <- cbind(platform_name = cl_data$platform_name,
+                 cl_data %>%
+                   dplyr::select(-platform_name) %>%
+                   dplyr::select(-platform_name.y))
 
-ver <- data %>%
+metabolite_columns <- names(cl_data)[5:ncol(cl_data)] # 5 for pp_imp. #todo: 4 for zscore?
+
+# Convert challenge_time to numeric
+cl_data <- cl_data %>% mutate(time = as.numeric(time))
+
+ver <- cl_data %>%
   count(subject, challenge, time) %>%
   print(n = 20)
 
-data_long <- data %>%
+cl_data_long <- cl_data %>%
   pivot_longer(
     cols = all_of(metabolite_columns),  # Convert metabolite columns into rows
     names_to = "metabolite",
@@ -90,21 +145,20 @@ data_long <- data %>%
   )
 
 # Pivot data to wide format
-data_wide <- data_long %>%
+cl_data_wide <- cl_data_long %>%
   pivot_wider( # remove non-numeric columns by itself
     names_from = c(subject, challenge, time),
     values_from = value,
     names_sep = "_"
     )
-dim(data_wide)
+dim(cl_data_wide)
 ```
 ```{r}
 # Convert to matrix
-data_matrix <- as.matrix(data_wide)
-rownames(data_matrix) <- data_wide$metabolite  # assign metabolite names
-data_matrix <- data_matrix[, -1]
+cl_data_matrix <- as.matrix(cl_data_wide[, -c(1:2)])
+rownames(cl_data_matrix) <- cl_data_wide$metabolite  # assign metabolite names
 
-eset <- new("ExpressionSet", exprs = data_matrix)
+eset <- new("ExpressionSet", exprs = cl_data_matrix)
 ```
 ## Estimate fuzzification parameter (m)
 ```{r}
@@ -114,7 +168,7 @@ print(m)
 ## Perform fuzzy c-means clustering
 ```{r}
 set.seed(123)  # for reproducibility
-clusters <- mfuzz(eset, c = 5, m = m)  # "c" is number of clusters (experiment with different values) #todo
+clusters <- mfuzz(eset, c = 8, m = m)  # "c" is number of clusters (experiment with different values) #todo
 ```
 ## Visualise clustering results
 ```{r}
@@ -131,7 +185,7 @@ legend("topright", legend = paste("Cluster", 1:ncol(membership)), col = 1:ncol(m
 ## Inspect cluster assignments
 ```{r}
 # Get cluster assignments for each metabolite
-cluster_results <- data.frame(metabolite = rownames(data_matrix), cluster = clusters$cluster)
+cluster_results <- data.frame(metabolite = rownames(cl_data_matrix), cluster = clusters$cluster)
 
 # Check number of metabolites in each cluster
 table(cluster_results$cluster)
@@ -142,8 +196,8 @@ table(cluster_results$cluster)
 ```{r}
 # Plot temporal profiles of metabolites in each cluster
 for (cluster_num in 1:max(cluster_results$cluster)) {
-  metabolites_in_cluster <- rownames(data_matrix)[cluster_results$cluster == cluster_num]
-  cluster_data <- data_matrix[metabolites_in_cluster, ]
+  metabolites_in_cluster <- rownames(cl_data_matrix)[cluster_results$cluster == cluster_num]
+  cluster_data <- cl_data_matrix[metabolites_in_cluster, ]
   
   # Plot the temporal profiles for the metabolites in the current cluster
   matplot(t(cluster_data), type = "l", col = 1:nrow(cluster_data), lty = 1, 
@@ -155,7 +209,7 @@ for (cluster_num in 1:max(cluster_results$cluster)) {
 
 ```{r}
 # Save cluster results to a CSV file
-write.csv(cluster_results, "../figures/metabolite_clusters.csv", row.names = FALSE)
+write.csv(cluster_results, "../output/metabolite_clusters.csv", row.names = FALSE)
 ```
 
 ```{r}
