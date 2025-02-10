@@ -1,0 +1,82 @@
+---
+title: "Cluster"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(Mfuzz)
+library(pheatmap)
+library(ggplot2)
+library(tidyverse)
+library(data.table)
+```
+
+## Load Data
+```{r}
+#data <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/input/raw/humet_data_zscore_none_subjects15_tp57.csv")
+data <- read.csv("../input/processed/humet_data_zscore_none_subjects15_tp57.csv")
+# Überprüfen, ob Spalten nur NA-Werte enthalten und entfernen
+data <- data[, colSums(is.na(data)) < nrow(data)]
+
+# Fehlende Werte behandeln
+# Methode 1: Fehlende Werte durch Mittelwert ersetzen (nur auf numerische Spalten anwenden)
+data <- data %>% mutate(across(where(is.numeric), ~ifelse(is.na(.), mean(., na.rm = TRUE), .)))
+
+# Alternative Methode: Lineare Interpolation
+# data <- as.data.frame(lapply(data, function(x) ifelse(is.numeric(x), na.approx(x, na.rm = FALSE), x)))
+
+# Zeitpunkte und Subjekte extrahieren
+time <- data$time
+subjects <- data$subject
+
+data <- data %>% select(-c(time, subject))  # Entferne nicht-numerische Spalten
+
+# Transponieren: Zeilen = Features, Spalten = Zeitpunkte
+data_t <- as.matrix(t(data))
+
+# ExpressionSet erstellen
+expr_set <- new("ExpressionSet", exprs = data_t)
+```
+
+## Data Preprocessing for Mfuzz
+```{r}
+expr_set <- standardise(expr_set)  # Z-Transformation falls nötig
+```
+
+```{r cluster-number}
+# Fuzzifier m berechnen
+m <- mestimate(expr_set)
+m
+
+# Bestimme optimale Clusterzahl
+set.seed(123)  # Reproduzierbarkeit
+cl <- mfuzz(expr_set, c = 8, m = 1.25)
+```
+
+## 📊 **4. Ergebnisse visualisieren**
+
+```{r plot-clusters}
+mfuzz.plot(expr_set, cl, mfrow = c(3,3), time.labels = colnames(expr_set))
+```
+
+## 🔍 **5. Cluster-Zugehörigkeit anzeigen**
+
+```{r membership}
+# Cluster-Zugehörigkeit abrufen
+membership_df <- as.data.frame(cl$membership)
+membership_df$Metabolite <- rownames(expr_set)
+
+# Speichern der Ergebnisse als CSV
+
+write.csv(membership_df, "/Users/laura.stotko/Downloads/mfuzz_clustering_results.csv", row.names = FALSE)
+
+
+# Erste Zeilen ausgeben
+head(membership_df)
+```
