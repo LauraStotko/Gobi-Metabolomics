@@ -9,8 +9,180 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Load libraries
 ```{r}
-# Show overall start time
-start_time_overall <- Sys.time()
-cat("Starting pre-processing at ", format(start_time_overall, "%H:%M:%S"), "\n")
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+```
+
+# Load data #todo: what input??
+```{r}
+# Load log2-transformed data from after pre-processing
+ind_input <- preproc_z_merged_ff # or _fl
+#ind_input <- read.csv("../input/raw/humet_data_raw_none_subjects15_tp57.csv", sep = ",", header = TRUE)
+#ind_input <- read.csv("../input/raw/humet_data_zscore_none_subjects15_tp57.csv", sep = ",", header = TRUE)
+```
+```{r}
+# ind_input <- read.csv("/Users/mariehackenberg/Documents/Bioinformatik/9. Semester (WS24:25)/Gobi/clustering_input.csv", sep = ",", header = TRUE)
+# ind_input <- cbind(ind_input$metabolite, ind_input$response, ind_input$subject, ind_input$challenge_time)
+# colnames(ind_input) <- c("metabolite", "response", "subject", "time")
+# # Columns for numeric data (response values)
+# metabolite_cols <- 2  # Points to the "response" column
+# 
+# ind_input <-  as.data.frame(ind_input)
+# 
+# # Calculate CVI: Intra-individual variation
+# cvi_stats <- ind_input %>%
+#   group_by(subject) %>%
+#   summarise(across(metabolite_cols, 
+#                    ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100, 
+#                    .names = "{.col}_CVI"))
+# 
+# # Add row for mean CVI per metabolite (if you want a row for the mean CVI)
+# mean_cvi <- cvi_stats %>%
+#   summarise(across(ends_with("_CVI"), mean, na.rm = TRUE))
+# 
+# # Calculate CVG: Inter-individual variation
+# cvg_stats <- ind_input %>%
+#   group_by(time) %>%
+#   summarise(across(metabolite_cols, 
+#                    ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100, 
+#                    .names = "{.col}_CVG"))
+# 
+# # Compute mean CVG across all timepoints for each metabolite
+# mean_cvg <- cvg_stats %>%
+#   ungroup() %>%
+#   select(-time) %>%
+#   summarise(across(everything(), mean, na.rm = TRUE))
+# 
+# # Calculate II: Index of Individuality
+# ii_stats <- cvi_stats %>%
+#   mutate(across(ends_with("_CVI"), 
+#                 ~ . / mean_cvg[[gsub("_CVI", "_CVG", cur_column())]], 
+#                 .names = "{.col}_II"))
+# 
+# # Summarize mean II
+# mean_ii <- ii_stats %>%
+#   summarise(across(-subject, mean, na.rm = TRUE))
+
+```
+
+```{r}
+# Identify metabolite columns (from nth to last)
+metabolite_cols <- 4:(ncol(ind_input)-1)  # -1 ??
+```
+
+# Calculate II
+
+## CVI: Intra-individual variation (per sbuject)
+```{r}
+#Calculate CVI (Intra-individual variation for each metabolite across timepoints per subject)
+cvi_stats <- ind_input %>%
+  group_by(subject) %>%
+  summarise(across(metabolite_cols, ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100, .names = "{.col}_CVI"))
+
+# Add row for mean cvi per metabolite
+mean_cvi <- cvi_stats %>%
+  summarise(across(ends_with("_CVI"), mean, na.rm = TRUE))# %>%
+  #mutate(subject = 0) %>% # Add "mean" label to the subject column
+  #relocate(subject)
+#cvi_stats <- bind_rows(mean_cvi, cvi_stats)
+```
+
+## CVG: Inter-individual variation (per timepoint)
+```{r}
+# Calculate CVG (Inter-individual variation for each metabolite across subjects at each timepoint)
+cvg_stats <- ind_input %>%
+  group_by(time) %>%
+  summarise(across(metabolite_cols, ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100, .names = "{.col}_CVG"))
+
+# Compute mean CVG across all timepoints for each metabolite
+mean_cvg <- cvg_stats %>%
+  ungroup() %>%  # Ensure no grouping remains
+  select(-time) %>%  # Remove non-numeric column before summarizing
+  summarise(across(everything(), mean, na.rm = TRUE))
+```
+
+## II: Index of Individuality
+```{r}
+# Calculate II (Index of Individuality)
+ii_stats <- cvi_stats %>%
+  mutate(across(ends_with("_CVI"), ~ . / mean_cvg[[gsub("_CVI", "_CVG", cur_column())]], .names = "{.col}_II"))
+
+mean_ii <- ii_stats %>%
+  summarise(across(-subject, mean, na.rm = TRUE))
+```
+
+## Calculate cutoffs for low/high
+```{r}
+# Calculate 25th and 75th percentiles of II distribution
+ii_percentiles <- ii_stats %>%
+  summarise(across(-subject, list(q25 = ~ quantile(.x, 0.25, na.rm = TRUE), q75 = ~ quantile(.x, 0.75, na.rm = TRUE))))
+
+# Extract 25th and 75th percentiles from ii_percentiles tibble
+q25 <- ii_percentiles %>% select(ends_with("_q25")) %>% unlist()
+q75 <- ii_percentiles %>% select(ends_with("_q75")) %>% unlist()
+
+# Define lower and upper cutoffs for II
+# Use 25th percentile as lower cutoff and 75th percentile as upper cutoff
+ii_stats_with_class <- ii_stats %>%
+  mutate(across(ends_with("_II"), ~ case_when(
+    . < q25[cur_column()] ~ "Common",   # Below 25th percentile, label as "Common"
+    . > q75[cur_column()] ~ "Individual-specific",  # Above 75th percentile, label as "Individual-specific"
+    TRUE ~ "Intermediate"  # Values between 25th and 75th percentile
+  ), .names = "{.col}_classification"))
+
+classification_summary <- ii_stats_with_class %>%
+  summarise(across(ends_with("_II_classification"), ~ table(.), .names = "classification_{.col}"))
+```
+
+# Visualise II
+
+## Histogrammes for top 10 most variable metabolites
+```{r}
+# Convert ii_stats to long format for ggplot
+ii_long <- ii_stats %>%
+  pivot_longer(cols = -subject, names_to = "Metabolite", values_to = "II")
+
+top_10_metabolites <- ii_long %>%
+  group_by(Metabolite) %>%
+  summarize(variance = var(II, na.rm = TRUE)) %>%
+  arrange(desc(variance)) %>%
+  slice(1:10) %>%
+  pull(Metabolite)
+
+filtered_ii <- ii_long %>% filter(Metabolite %in% top_10_metabolites)
+
+ggplot(filtered_ii, aes(x = II)) +
+  geom_histogram(bins = 30, fill = "steelblue", alpha = 0.7, color = "black") +
+  geom_vline(xintercept = c(0.6, 1.4), linetype = "dashed", color = "red") +
+  facet_wrap(~Metabolite, scales = "free") +
+  labs(title = "Distribution of II for Top 10 Most Variable Metabolites",
+       x = "Index of Individuality (II)",
+       y = "Count") +
+  theme_minimal()
+
+```
+
+## Identify generaliseable 
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
 ```
