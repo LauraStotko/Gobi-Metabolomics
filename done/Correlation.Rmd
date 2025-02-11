@@ -9,34 +9,55 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## 1. Bibliotheken laden
+## Bibliotheken laden
 ```{r}
 library(data.table)
 library(ggplot2)
 library(dplyr)
 library(stats)
-library(tidyverse)
+#library(tidyverse)
 library(pheatmap)
 ```
 
-## 2. Daten einlesen
+## Daten einlesen
 ```{r}
 df <- fread("/Users/laura.stotko/Downloads/postprandial_imputed.csv")
 head(df)
 ```
 
-## **Korrelation berechnen**
+## Korrelation berechnen
 
 ```{r correlation}
 str(df)
 ```
 
-## **Korrelation berechnen**
-
+## Korrelation berechnen
 ```{r correlation}
 # Identifiziere Metaboliten-Spalten (alle numerischen Spalten außer Insulin)
-metabolite_columns <- names(df)[sapply(df, is.numeric)] # Alle numerischen Spalten
-metabolite_columns <- setdiff(metabolite_columns, c("insulin_biochemistry", "V1", "subject", "challenge_time", "challenge"))
+#metabolite_columns <- names(df)[sapply(df, is.numeric)] # Alle numerischen Spalten
+#metabolite_columns <- setdiff(metabolite_columns, c("insulin_biochemistry", "V1", "subject", "challenge_time", "challenge"))
+
+# Berechnung der paarweisen Pearson-Korrelation zwischen Insulin und allen Metaboliten
+#cor_results <- data.frame(Metabolite = metabolite_columns, Correlation = NA, p_value = NA)
+
+#for (metabolite in metabolite_columns) {
+ # cor_test <- cor.test(df[[metabolite]], df$insulin_biochemistry, method = "pearson")
+#  cor_results[cor_results$Metabolite == metabolite, "Correlation"] <- cor_test$estimate
+ # cor_results[cor_results$Metabolite == metabolite, "p_value"] <- cor_test$p.value
+#}
+
+# Multiple Testing Correction (Bonferroni)
+#cor_results$p_adjusted <- p.adjust(cor_results$p_value, method = "bonferroni")
+
+# Ergebnisse anzeigen
+#cor_results <- cor_results %>% arrange(p_adjusted)
+#print(head(cor_results, 10)) # Zeige die Top 10 signifikanten Korrelationen
+```
+
+```{r}
+# Identifiziere Metaboliten-Spalten (alle numerischen Spalten außer Insulin und andere nicht relevante Spalten)
+numeric_columns <- sapply(df, is.numeric)
+metabolite_columns <- setdiff(names(df)[numeric_columns], c("insulin_biochemistry", "V1", "subject", "challenge_time", "challenge"))
 
 # Berechnung der paarweisen Pearson-Korrelation zwischen Insulin und allen Metaboliten
 cor_results <- data.frame(Metabolite = metabolite_columns, Correlation = NA, p_value = NA)
@@ -50,19 +71,19 @@ for (metabolite in metabolite_columns) {
 # Multiple Testing Correction (Bonferroni)
 cor_results$p_adjusted <- p.adjust(cor_results$p_value, method = "bonferroni")
 
-# Ergebnisse anzeigen
-cor_results <- cor_results %>% arrange(p_adjusted)
+# Ergebnisse sortieren und die Top 10 anzeigen
+cor_results <- cor_results[order(cor_results$p_adjusted), ]
 print(head(cor_results, 10)) # Zeige die Top 10 signifikanten Korrelationen
 ```
+
+
 ```{r save-results}
 write.csv(cor_results, "/Users/laura.stotko/Downloads/correlation_results.csv", row.names = FALSE)
 message("Ergebnisse gespeichert in 'correlation_results.csv'")
 ```
-## **Visualisierung der Ergebnisse**
 
+## Visualisierung der Ergebnisse
 ```{r plot-correlation, warning=FALSE}
-library(ggplot2)
-
 # Scatterplot für die Top-korrelierte Variable
 top_metabolite <- cor_results$Metabolite[1]
 
