@@ -1,0 +1,66 @@
+---
+title: "CorrFkt"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+correlation_analysis <- function(input_file, 
+                                 output_file, 
+                                 target_variable, 
+                                 exclude_columns = c(), 
+                                 method = "pearson", 
+                                 p_adjust_method = "bonferroni") {
+  # Bibliotheken laden
+  library(data.table)
+  library(stats)
+  
+  # Daten einlesen
+  df <- fread(input_file)
+  
+  # Identifiziere numerische Spalten und schließe Zielvariable sowie andere auszuschließende Spalten aus
+  numeric_columns <- sapply(df, is.numeric)
+  metabolite_columns <- setdiff(names(df)[numeric_columns], c(target_variable, exclude_columns))
+  
+  # Ergebnisse vorbereiten
+  cor_results <- data.frame(Metabolite = metabolite_columns, Correlation = NA, p_value = NA)
+  
+  # Berechnung der paarweisen Korrelation
+  for (metabolite in metabolite_columns) {
+    cor_test <- cor.test(df[[metabolite]], df[[target_variable]], method = method)
+    cor_results[cor_results$Metabolite == metabolite, "Correlation"] <- cor_test$estimate
+    cor_results[cor_results$Metabolite == metabolite, "p_value"] <- cor_test$p.value
+  }
+  
+  # Multiple Testing Correction
+  cor_results$p_adjusted <- p.adjust(cor_results$p_value, method = p_adjust_method)
+  
+  # Ergebnisse sortieren
+  cor_results <- cor_results[order(cor_results$p_adjusted), ]
+  
+  # Ergebnisse speichern
+  write.csv(cor_results, output_file, row.names = FALSE)
+  
+  # Top 10 Ergebnisse ausgeben
+  return(head(cor_results, 10))
+}
+
+# Beispiel-Aufruf der Funktion
+result <- correlation_analysis(
+  input_file = "/Users/laura.stotko/Downloads/postprandial_imputed.csv",
+  output_file = "/Users/laura.stotko/Downloads/correlation_results.csv",
+  target_variable = "insulin_biochemistry",
+  exclude_columns = c("V1", "subject", "challenge_time", "challenge"),
+  method = "pearson",
+  p_adjust_method = "bonferroni"
+)
+
+# Ergebnisse anzeigen
+print(result)
+
+```
