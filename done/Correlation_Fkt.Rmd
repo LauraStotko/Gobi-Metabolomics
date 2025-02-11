@@ -52,15 +52,14 @@ correlation_analysis <- function(input_file,
 
 # Beispiel-Aufruf der Funktion
 result <- correlation_analysis(
-  input_file = "/Users/laura.stotko/Downloads/postprandial_imputed.csv",
-  output_file = "/Users/laura.stotko/Downloads/correlation_results.csv",
-  target_variable = "insulin_biochemistry",
-  exclude_columns = c("V1", "subject", "challenge_time", "challenge"),
+  input_file = "/Users/laura.stotko/Documents/Gobi-Metabolomics/results/correlation_input.csv", # Hochgeladene Datei
+  output_file = "/Users/laura.stotko/Downloads/correlation_results.csv", # Speichere Ergebnisse
+  target_variable = "Insulin [P, chem.]", # Zielvariable angepasst
+  exclude_columns = c("time", "subject", "challenge"), # Ausschlüsse anpassen
   method = "pearson",
   p_adjust_method = "bonferroni"
 )
 
 # Ergebnisse anzeigen
 print(result)
-
 ```
