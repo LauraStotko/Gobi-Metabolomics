@@ -10,7 +10,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r load-data}
 # Libraries
-library(tidyverse)
 library(Mfuzz)
 library(Biobase)
 
@@ -30,36 +29,37 @@ run_clustering <- function(file_path, output_file, c_num = 8, m = 1.25, seed = 1
   }
   
   # Filter und Vorverarbeitung
-  df <- df %>%
-    filter(!(challenge == "OGTT" & response == 240)) %>%
-    select(-challenge) %>%
-    mutate(response = ifelse(is.na(response), mean(response, na.rm = TRUE), response))
+  df <- df[!(df$challenge == "OGTT" & df$response == 240), ] # Entferne bestimmte Zeilen
+  df$challenge <- NULL # Entferne die 'challenge'-Spalte
   
-  # Z-Score Normalisierung
-  df <- df %>%
-    group_by(metabolite) %>%
-    mutate(response = scale(response)) %>%
-    ungroup()
+  # Fehlende Werte im 'response'-Feld durch den Mittelwert ersetzen
+  df$response[is.na(df$response)] <- mean(df$response, na.rm = TRUE)
+  
+  # Z-Score Normalisierung pro Metabolit
+  df$response <- ave(df$response, df$metabolite, FUN = function(x) scale(x, center = TRUE, scale = TRUE))
   
   # Metadaten speichern
-  df_meta <- df %>% 
-    select(metabolite, super_pathway, sub_pathway) %>%
-    distinct()
+  df_meta <- unique(df[, c("metabolite", "super_pathway", "sub_pathway")])
   
   # 2. Daten für Clustering vorbereiten
-  df <- df %>%
-    group_by(metabolite, platform_name) %>%
-    summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
-    arrange(metabolite, platform_name) %>%
-    complete(metabolite, platform_name, fill = list(response = 0))
+  # Aggregiere Mittelwerte von 'response' nach 'metabolite' und 'platform_name'
+  df_agg <- aggregate(response ~ metabolite + platform_name, data = df, FUN = mean)
   
-  # Matrix erstellen
-  df_long <- df %>%
-    group_by(metabolite) %>%
-    summarise(response_vector = list(as.numeric(response[order(platform_name)])), .groups = "drop")
+  # Erstelle eine vollständige Kombination aller 'metabolite' und 'platform_name'
+  all_combinations <- expand.grid(metabolite = unique(df_agg$metabolite),
+                                   platform_name = unique(df_agg$platform_name))
   
-  response_matrix <- do.call(rbind, df_long$response_vector)
-  rownames(response_matrix) <- df_long$metabolite
+  # Verbinde die vollständige Kombination mit den aggregierten Daten
+  df_agg <- merge(all_combinations, df_agg, by = c("metabolite", "platform_name"), all.x = TRUE)
+  
+  # Fehlende Werte in 'response' mit 0 auffüllen
+  df_agg$response[is.na(df_agg$response)] <- 0
+  
+  # Konvertiere die aggregierten Daten in eine Matrix
+  response_matrix <- reshape(df_agg, idvar = "metabolite", timevar = "platform_name", direction = "wide")
+  rownames(response_matrix) <- response_matrix$metabolite
+  response_matrix <- response_matrix[, -1] # Entferne die erste Spalte (metabolite)
+  response_matrix <- as.matrix(response_matrix)
   
   # ExpressionSet erstellen
   expr_set <- new("ExpressionSet", exprs = response_matrix)
@@ -67,37 +67,36 @@ run_clustering <- function(file_path, output_file, c_num = 8, m = 1.25, seed = 1
   # 3. Mfuzz-Clustering durchführen
   cl <- mfuzz(expr_set, c = c_num, m = m)
   
-  # 4. Ergebnisse formatieren und speichern
+  # 4. Ergebnisse formatieren
   cluster_assignments <- data.frame(
     metabolite = rownames(response_matrix),
     cl$membership
   )
   
+  # Bestimme den Cluster mit der höchsten Wahrscheinlichkeit für jeden Metaboliten
   cluster_assignments$Assigned_Cluster <- apply(cl$membership, 1, which.max)
-  cluster_assignments <- left_join(cluster_assignments, df_meta, by = "metabolite")
   
-  cluster_assignments <- cluster_assignments %>%
-    select(metabolite, super_pathway, sub_pathway, Assigned_Cluster, everything()) %>%
-    rename(
-      Metabolite = metabolite,
-      Super_Pathway = super_pathway,
-      Sub_Pathway = sub_pathway
-    )
+  # Füge Super Pathway und Sub Pathway hinzu
+  cluster_assignments <- merge(cluster_assignments, df_meta, by = "metabolite", all.x = TRUE)
   
-  colnames(cluster_assignments)[-(1:4)] <- paste0("Cluster_", 1:(ncol(cluster_assignments) - 4))
+  # Formatieren der Spalten
+  colnames(cluster_assignments) <- c(
+    "Metabolite", "Cluster_1", "Cluster_2", "Cluster_3", "Cluster_4", "Cluster_5",
+    "Cluster_6", "Cluster_7", "Cluster_8", "Assigned_Cluster", "Super_Pathway", "Sub_Pathway"
+  )
   
   # Ergebnisse speichern
   write.csv(cluster_assignments, output_file, row.names = FALSE)
   print("Clustering abgeschlossen! Ergebnisse gespeichert.")
 }
 
-# Beispielaufruf mit Seed
+# Beispielaufruf
 run_clustering(
   file_path = "/Users/laura.stotko/Downloads/ClusteringInputforLaura.csv",
-  output_file = "/Users/laura.stotko/Downloads/mfuzz_clusters_fkt.csv",
+  output_file = "/Users/laura.stotko/Downloads/mfuzz_clusters_fkt_42.csv",
   c_num = 8,  # Anzahl der Cluster
   m = 1.25,   # Fuzzifizierungsparameter
-  seed = 123  # Seed für Reproduzierbarkeit
+  seed = 42  # Seed für Reproduzierbarkeit
 )
 
 ```
