@@ -1,7 +1,7 @@
 ---
-title: "Cluster"
-output: html_document
+title: "Cluster new"
 date: "`r Sys.Date()`"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,95 +13,154 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(Mfuzz)
 library(Biobase)
+
+#browseVignettes("Mfuzz")
 ```
 
-## **2. Daten einlesen**
-
+## Daten einlesen
 ```{r}
 # Dateipfade anpassen
-file_path <- "/Users/laura.stotko/Documents/Gobi-Metabolomics/input/raw/humet_data_zscore_none_subjects15_tp57.csv"
-info_file_path <- "/Users/laura.stotko/Downloads/humet_info.csv"
+file_path <- "/Users/laura.stotko/Downloads/ClusteringInputforLaura.csv"
 
-# CSV-Dateien laden
+# CSV-Datei laden
 df <- read.csv(file_path, stringsAsFactors = FALSE)
-info_df <- read.csv(info_file_path, stringsAsFactors = FALSE)
 
-# Entfernen der ersten drei Spalten
-df <- df[, -(1:3)]
+# Spaltennamen überprüfen
+print(colnames(df))  # Überprüfung der Spaltennamen
 
-# Entfernen von Spalten mit nur NA-Werten
-df <- df[, colSums(is.na(df)) < nrow(df)]
+# Sicherstellen, dass wichtige Spalten vorhanden sind
+if(!all(c("metabolite", "super_pathway", "sub_pathway", "platform_name", "response", "subject", "challenge") %in% colnames(df))) {
+  stop("Not all required columns are present in the dataset!")
+}
+
+# Entferne Zeilen, in denen die Challenge OGTT die Challenge_Time 240 hat
+#df <- df %>% filter(!(challenge == "OGTT" & challenge_time == 240))
+
+# Entferne die Spalte challenge_time
+#df <- df %>% select(-challenge_time)
+
+# Entferne die Spalte challenge
+#df <- df %>% select(-challenge)
+
+# Metadaten vor Aggregation speichern
+#df_meta <- df %>% select(metabolite, super_pathway, sub_pathway, platform_name) %>% distinct()
 
 # Fehlende Werte mit Mittelwert ersetzen
-df <- df %>% mutate(across(where(is.numeric), ~ifelse(is.na(.), mean(., na.rm = TRUE), .)))
+#df <- df %>% mutate(response = ifelse(is.na(response), mean(response, na.rm = TRUE), response))
+
+# Z-Score Normalisierung anwenden
+#df <- df %>%
+ # group_by(metabolite, subject) %>%
+  #mutate(response_z = (response - mean(response, na.rm = TRUE)) / sd(response, na.rm = TRUE)) %>%
+  #ungroup()
+
+# Erste Zeilen überprüfen, um die Normalisierung zu bestätigen
+#print(head(df))
+
+
+
+# Fehlende Werte mit Mittelwert ersetzen
+df <- df %>% mutate(response = ifelse(is.na(response), mean(response, na.rm = TRUE), response))
+
+# Z-Score Normalisierung anwenden
+df <- df %>%
+  group_by(metabolite, subject) %>%
+  mutate(response_z = (response - mean(response, na.rm = TRUE)) / sd(response, na.rm = TRUE)) %>%
+  ungroup()
+
+# Erste Zeilen überprüfen, um die Normalisierung zu bestätigen
+print(head(df))
+
+# Step 1: Entferne unerwünschte Zeilen (sld challenge_time = 0 und ogtt challenge_time = 240)
+df_filtered <- df %>%
+  filter(!(challenge == "sld" & challenge_time == 0) & !(challenge == "OGTT" & challenge_time == 240))
+
+# Step 2: Mittelwert pro (subject, metabolite, platform_name) berechnen
+df_agg <- df_filtered %>%
+  group_by(subject, metabolite, platform_name) %>%
+  summarise(mean_response_z = mean(response_z, na.rm = TRUE), .groups = "drop")
+
+# Step 3: Reshape in eine breite Matrix (15 × 20 pro Metabolit-Plattform-Kombination)
+df_wide <- df_agg %>%
+  pivot_wider(names_from = subject, values_from = mean_response_z) %>%
+  arrange(metabolite, platform_name)
+
+# Überprüfe die Dimension der Matrix
+print(dim(df_wide))
+
+# Zeige die ersten Zeilen der breiten Matrix an
+print(head(df_wide))
 ```
 
-## **3. Metaboliten-Mapping mit Pathway-Informationen**
-
+## Daten für Mfuzz vorbereiten
 ```{r}
-# Spaltennamen bereinigen
-colnames(info_df) <- trimws(colnames(info_df))
+# Mehrfachwerte aggregieren (z. B. Mittelwert pro Kombination bilden)
+df <- df %>%
+  group_by(metabolite, platform_name, subject) %>%
+  summarise(response = mean(response, na.rm = TRUE), .groups = "drop")
 
-# Sicherstellen, dass die richtige Spalte verwendet wird
-if("col_code" %in% colnames(info_df) & "SUPER.PATHWAY" %in% colnames(info_df)) {
-    pathway_mapping <- info_df %>% select(col_code, SUPER.PATHWAY) %>% rename(metabolite = col_code)
-    
-    # Metaboliten-Spalten extrahieren
-    metabolites <- colnames(df)
-    
-    # Pathway-Informationen hinzufügen
-    pathway_info <- pathway_mapping %>% filter(metabolite %in% metabolites)
-    
-    # Metaboliten in df umbenennen (optional)
-    df <- df %>% rename_with(~ pathway_mapping$SUPER.PATHWAY[match(., pathway_mapping$metabolite)], .cols = metabolites)
-}
+# Sortiere nach Metabolit, Plattform und Subjekt
+df <- df %>% arrange(metabolite, platform_name, subject)
+
+# Fülle fehlende Kombinationen auf
+df <- df %>%
+  complete(metabolite, platform_name, subject, fill = list(response = 0))
+
+# Erstelle einen Vektor für jede Metabolit-Plattform-Kombination
+df_long <- df %>%
+  group_by(metabolite, platform_name) %>%
+  summarise(
+    response_vector = list(as.numeric(response[order(subject)])),
+    .groups = "drop"
+  )
+
+# Konvertiere die Liste der Vektoren in eine Matrix
+response_matrix <- do.call(rbind, df_long$response_vector)
+
+# Prüfe die Dimensionen der Matrix
+print(dim(response_matrix))  # Prüfen, ob die Dimensionen korrekt sind
+
+# Setze die Zeilennamen basierend auf Metabolit und Plattform-Kombination
+rownames(response_matrix) <- paste(df_long$metabolite, df_long$platform_name, sep = "_")
+
+# ExpressionSet erstellen (z-transformierte Daten werden direkt verwendet)
+expr_set <- new("ExpressionSet", exprs = response_matrix)
 ```
 
-## **4. Daten für Mfuzz vorbereiten**
-
-```{r}
-# Konvertiere in numerische Matrix
-df_numeric <- as.matrix(df)
-
-# ExpressionSet erstellen
-expr_set <- new("ExpressionSet", exprs = df_numeric)
-
-# Daten normalisieren (z-transformieren)
-expr_set <- standardise(expr_set)
-```
-
-## **5. Mfuzz-Clustering ausführen**
-
+## Mfuzz-Clustering ausführen
 ```{r}
 # Anzahl der Cluster bestimmen
-c_num <- 8  # Muss mit der Anzahl aus dem Report übereinstimmen
+c_num <- 8  # Anzahl aus dem Report
 
-# Mitgliedschafts-Parameter optimieren
-m <- mestimate(expr_set)
+# Mitgliedschafts-Parameter
+m <- 1.25  # Fuzzifizierungsparameter
 
 # Fuzzy C-Means Clustering durchführen
-cl <- mfuzz(expr_set, c = c_num, m = 1.25)
+cl <- mfuzz(expr_set, c = c_num, m = m)
 ```
 
-## **6. Ergebnisse formatieren und speichern**
-
+## Ergebnisse formatieren und speichern
 ```{r}
 # Cluster-Zuordnung abrufen
-cluster_assignments <- data.frame(metabolite = rownames(cl$membership), cl$membership)
+cluster_assignments <- data.frame(metabolite_platform = rownames(response_matrix), cl$membership)
+
+# Extrahiere Metabolit und Plattform aus Identifier
+cluster_assignments <- cluster_assignments %>% separate(metabolite_platform, into = c("metabolite", "platform_name"), sep = "_")
 
 # Bestimme den Cluster mit der höchsten Wahrscheinlichkeit für jeden Metaboliten
 cluster_assignments$Assigned_Cluster <- apply(cl$membership, 1, which.max)
 
+# Füge Super Pathway, Sub Pathway hinzu
+cluster_assignments <- left_join(cluster_assignments, df_meta, by = c("metabolite", "platform_name"))
+
 # Formatierung: erste Spalte = Metaboliten, zweite Spalte = Zugehöriger Cluster, nachfolgende Spalten = Cluster-Zugehörigkeitswahrscheinlichkeit
 cluster_assignments <- cluster_assignments %>%
-  select(metabolite, Assigned_Cluster, everything())
+  select(metabolite, super_pathway, sub_pathway, platform_name, Assigned_Cluster, everything())
 
 # Spaltennamen anpassen
-colnames(cluster_assignments) <- c("Metabolite", "Assigned_Cluster", paste0("Cluster_", 1:c_num))
+colnames(cluster_assignments) <- c("Metabolite", "Super_Pathway", "Sub_Pathway", "Platform_Name", "Assigned_Cluster", paste0("Cluster_", 1:c_num))
 
 # Ergebnisse speichern
-write.csv(cluster_assignments, "/Users/laura.stotko/Downloads/mfuzz_clusters_formatted_3.csv", row.names = FALSE)
+write.csv(cluster_assignments, "/Users/laura.stotko/Downloads/mfuzz_clusters_formatted_7.csv", row.names = FALSE)
 print("Clustering abgeschlossen! Ergebnisse gespeichert.")
-
 ```
-

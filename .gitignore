@@ -7,3 +7,5 @@
 .RData
 .Ruserdata
 data/processed/*.csv.DS_Store
+.DS_Store
+**/.DS_Store
