@@ -76,7 +76,7 @@ n-acetyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.17
 o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-0.95016,0.00184414087567177,TRUE
 octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.15381,0.0542570558915773,TRUE
 oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.0550166666666666,0.453598563281273,TRUE
-ornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,0.222964999999999,0.828694005580508,TRUE
+ornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.0740700000000001,0.202151083012902,TRUE
 palmitoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.40987,2.35264653289032e-07,TRUE
 pc aa c36:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,1.42666666666667,0.509957668620428,TRUE
 pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,10.1866666666667,0.0530538339898858,TRUE
@@ -86,7 +86,7 @@ phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,0.12464,0.05318
 piperine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,-0.28289,0.778148727596932,TRUE
 pregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,-0.214736666666667,0.015809099857536,TRUE
 pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.727743333333334,9.20750743993034e-09,TRUE
-proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,0.357121666666686,0.93384511453788,TRUE
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,0.753999999999991,0.932006004275103,TRUE
 propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),-0.0635166666666667,0.373152238701922,TRUE
 pyruvate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",-0.11208,0.0216911449366797,TRUE
 sebacate (decanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0.507845333333334,0.246191980511329,TRUE
