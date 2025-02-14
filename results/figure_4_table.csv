@@ -335,6 +335,258 @@ metabolite,platform,super_pathway,sub_pathway,significant_OGTT_OLTT_SLD,challeng
 7-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,120,sld,-0.43390175872685,2.13956910988351,7.86710136351011e-47,46.1041852541363,2.13956910988351
 7-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,180,sld,-0.038743058330404,2.53472781027995,7.86710136351011e-47,46.1041852541363,2.53472781027995
 7-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,240,sld,0.0358833412750245,2.60935420988538,7.86710136351011e-47,46.1041852541363,2.60935420988538
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,0,ogtt,-3.17195155545146,0,4.99060841370341e-10,9.30184650555756,0
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,15,ogtt,-3.11893089653473,0.0530206589167284,4.99060841370341e-10,9.30184650555756,0.0530206589167284
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,30,ogtt,-3.30983007025002,-0.13787851479856,4.99060841370341e-10,9.30184650555756,0.13787851479856
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,45,ogtt,-3.41745873213615,-0.24550717668469,4.99060841370341e-10,9.30184650555756,0.24550717668469
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,60,ogtt,-3.53089990991046,-0.358948354459006,4.99060841370341e-10,9.30184650555756,0.358948354459006
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,90,ogtt,-3.64223777981928,-0.470286224367824,4.99060841370341e-10,9.30184650555756,0.470286224367824
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,120,ogtt,-3.75504244452269,-0.583090889071228,4.99060841370341e-10,9.30184650555756,0.583090889071228
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,180,ogtt,-3.59993465740794,-0.427983101956482,4.99060841370341e-10,9.30184650555756,0.427983101956482
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,240,ogtt,-3.32155063775649,-0.149599082305036,4.99060841370341e-10,9.30184650555756,0.149599082305036
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,0,oltt,-2.91633956131276,0,2.55216754562595e-06,5.59309081829243,0
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,30,oltt,-3.0191505744386,-0.102811013125837,2.55216754562595e-06,5.59309081829243,0.102811013125837
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,60,oltt,-3.03745164091142,-0.121112079598663,2.55216754562595e-06,5.59309081829243,0.121112079598663
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,90,oltt,-3.18483227279281,-0.268492711480052,2.55216754562595e-06,5.59309081829243,0.268492711480052
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,120,oltt,-3.23390496453157,-0.317565403218813,2.55216754562595e-06,5.59309081829243,0.317565403218813
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,180,oltt,-3.00575844265601,-0.0894188813432537,2.55216754562595e-06,5.59309081829243,0.0894188813432537
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,240,oltt,-2.66584777051227,0.250491790800486,2.55216754562595e-06,5.59309081829243,0.250491790800486
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,0,sld,-3.32155063775649,0,9.26325158732884e-16,15.0332365404715,0
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,60,sld,-3.64635194277204,-0.324801305015547,9.26325158732884e-16,15.0332365404715,0.324801305015547
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,120,sld,-3.91719650902497,-0.59564587126848,9.26325158732884e-16,15.0332365404715,0.59564587126848
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,180,sld,-3.88701277124564,-0.565462133489148,9.26325158732884e-16,15.0332365404715,0.565462133489148
+C10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,240,sld,-3.35834540177366,-0.0367947640171691,9.26325158732884e-16,15.0332365404715,0.0367947640171691
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,0,ogtt,-3.67879590835899,0,4.96106271261022e-17,16.3044252830286,0
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,15,ogtt,-3.6737715692936,0.00502433906538879,4.96106271261022e-17,16.3044252830286,0.00502433906538879
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,30,ogtt,-3.85112473462766,-0.172328826268671,4.96106271261022e-17,16.3044252830286,0.172328826268671
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,45,ogtt,-3.89230221598038,-0.213506307621395,4.96106271261022e-17,16.3044252830286,0.213506307621395
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,60,ogtt,-4.07037274029879,-0.391576831939797,4.96106271261022e-17,16.3044252830286,0.391576831939797
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,90,ogtt,-4.29141048950774,-0.61261458114875,4.96106271261022e-17,16.3044252830286,0.61261458114875
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,120,ogtt,-4.30897429033806,-0.630178381979075,4.96106271261022e-17,16.3044252830286,0.630178381979075
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,180,ogtt,-4.22985975411273,-0.551063845753747,4.96106271261022e-17,16.3044252830286,0.551063845753747
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,240,ogtt,-3.9787432757915,-0.299947367432514,4.96106271261022e-17,16.3044252830286,0.299947367432514
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,0,oltt,-3.52931631616404,0,3.90092257028478e-06,5.40883266994758,0
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,30,oltt,-3.51025764276029,0.0190586734037557,3.90092257028478e-06,5.40883266994758,0.0190586734037557
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,60,oltt,-3.65901006629006,-0.129693750126016,3.90092257028478e-06,5.40883266994758,0.129693750126016
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,90,oltt,-3.79233045682971,-0.263014140665673,3.90092257028478e-06,5.40883266994758,0.263014140665673
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,120,oltt,-4.00682285183993,-0.477506535675892,3.90092257028478e-06,5.40883266994758,0.477506535675892
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,180,oltt,-4.01318449222851,-0.483868176064469,3.90092257028478e-06,5.40883266994758,0.483868176064469
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,240,oltt,-3.74497704208706,-0.215660725923017,3.90092257028478e-06,5.40883266994758,0.215660725923017
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,0,sld,-3.9787432757915,0,7.03508482974502e-20,19.1527306614321,0
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,60,sld,-4.21603172341982,-0.237288447628314,7.03508482974502e-20,19.1527306614321,0.237288447628314
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,120,sld,-4.67669354443614,-0.697950268644641,7.03508482974502e-20,19.1527306614321,0.697950268644641
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,180,sld,-4.79553796514924,-0.816794689357743,7.03508482974502e-20,19.1527306614321,0.816794689357743
+C12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Medium chain Acylcarnitines,TRUE,240,sld,-4.27548840943604,-0.296745133644534,7.03508482974502e-20,19.1527306614321,0.296745133644534
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,ogtt,-4.84373643024928,0,7.20059729805526e-10,9.14263147683397,0
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,15,ogtt,-4.84676836657687,-0.00303193632759413,7.20059729805526e-10,9.14263147683397,0.00303193632759413
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,ogtt,-4.8190476389378,0.0246887913114806,7.20059729805526e-10,9.14263147683397,0.0246887913114806
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,45,ogtt,-4.85826837463456,-0.0145319443852809,7.20059729805526e-10,9.14263147683397,0.0145319443852809
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,ogtt,-4.95878765768159,-0.115051227432315,7.20059729805526e-10,9.14263147683397,0.115051227432315
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,ogtt,-5.10396718298666,-0.260230752737383,7.20059729805526e-10,9.14263147683397,0.260230752737383
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,ogtt,-5.13583772937603,-0.29210129912675,7.20059729805526e-10,9.14263147683397,0.29210129912675
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,ogtt,-5.1624230786547,-0.318686648405424,7.20059729805526e-10,9.14263147683397,0.318686648405424
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,ogtt,-5.02133789793742,-0.177601467688138,7.20059729805526e-10,9.14263147683397,0.177601467688138
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,oltt,-4.92777267872701,0,1.10169865608035e-09,8.95793718034659,0
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,oltt,-4.79989519908706,0.127877479639952,1.10169865608035e-09,8.95793718034659,0.127877479639952
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,oltt,-4.92643881489191,0.00133386383510192,1.10169865608035e-09,8.95793718034659,0.00133386383510192
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,oltt,-5.01866766431911,-0.090894985592092,1.10169865608035e-09,8.95793718034659,0.090894985592092
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,oltt,-5.15316002729224,-0.225387348565229,1.10169865608035e-09,8.95793718034659,0.225387348565229
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,oltt,-5.2202178111668,-0.292445132439786,1.10169865608035e-09,8.95793718034659,0.292445132439786
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,oltt,-5.09712256160853,-0.169349882881519,1.10169865608035e-09,8.95793718034659,0.169349882881519
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,sld,-5.02133789793742,0,5.14146826090729e-07,6.28891284081938,0
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,sld,-5.13554498243838,-0.11420708450096,5.14146826090729e-07,6.28891284081938,0.11420708450096
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,sld,-5.29328658298264,-0.27194868504522,5.14146826090729e-07,6.28891284081938,0.27194868504522
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,sld,-5.42169435291552,-0.400356454978104,5.14146826090729e-07,6.28891284081938,0.400356454978104
+C14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,sld,-5.29831390559116,-0.276976007653745,5.14146826090729e-07,6.28891284081938,0.276976007653745
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,ogtt,-3.48049867626052,0,9.56393203915496e-07,6.01936351862118,0
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,15,ogtt,-3.45316349238659,0.0273351838739262,9.56393203915496e-07,6.01936351862118,0.0273351838739262
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,ogtt,-3.57604920833871,-0.0955505320781929,9.56393203915496e-07,6.01936351862118,0.0955505320781929
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,45,ogtt,-3.6672543690463,-0.186755692785786,9.56393203915496e-07,6.01936351862118,0.186755692785786
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,ogtt,-3.76131803450999,-0.28081935824947,9.56393203915496e-07,6.01936351862118,0.28081935824947
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,ogtt,-3.85475263198173,-0.374253955721213,9.56393203915496e-07,6.01936351862118,0.374253955721213
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,ogtt,-3.89749125625274,-0.416992579992227,9.56393203915496e-07,6.01936351862118,0.416992579992227
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,ogtt,-3.83414752243382,-0.353648846173308,9.56393203915496e-07,6.01936351862118,0.353648846173308
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,ogtt,-3.6627867516946,-0.18228807543408,9.56393203915496e-07,6.01936351862118,0.18228807543408
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,oltt,-3.18085372306119,0,1.66043386704625e-05,4.77977841711398,0
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,oltt,-3.15635154003597,0.0245021830252208,1.66043386704625e-05,4.77977841711398,0.0245021830252208
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,oltt,-3.30263926001607,-0.12178553695488,1.66043386704625e-05,4.77977841711398,0.12178553695488
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,oltt,-3.41317814829267,-0.232324425231479,1.66043386704625e-05,4.77977841711398,0.232324425231479
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,oltt,-3.47407208330643,-0.293218360245236,1.66043386704625e-05,4.77977841711398,0.293218360245236
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,oltt,-3.38215509103989,-0.201301367978693,1.66043386704625e-05,4.77977841711398,0.201301367978693
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,oltt,-3.0672821882504,0.113571534810795,1.66043386704625e-05,4.77977841711398,0.113571534810795
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,sld,-3.6627867516946,0,2.64307075646594e-08,7.57789121040919,0
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,sld,-3.81183250672217,-0.149045755027574,2.64307075646594e-08,7.57789121040919,0.149045755027574
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,sld,-4.05143487547326,-0.388648123778665,2.64307075646594e-08,7.57789121040919,0.388648123778665
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,sld,-4.01712156077857,-0.354334809083975,2.64307075646594e-08,7.57789121040919,0.354334809083975
+C14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,sld,-3.58611278340884,0.0766739682857609,2.64307075646594e-08,7.57789121040919,0.0766739682857609
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,ogtt,-5.51270870220378,0,1.79716720022488e-14,13.7454115162371,0
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,15,ogtt,-5.53560335911026,-0.0228946569064767,1.79716720022488e-14,13.7454115162371,0.0228946569064767
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,ogtt,-5.745440379587,-0.232731677383216,1.79716720022488e-14,13.7454115162371,0.232731677383216
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,45,ogtt,-5.97448172359282,-0.461773021389033,1.79716720022488e-14,13.7454115162371,0.461773021389033
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,ogtt,-6.19782468825801,-0.685115986054228,1.79716720022488e-14,13.7454115162371,0.685115986054228
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,ogtt,-6.34772458135319,-0.835015879149403,1.79716720022488e-14,13.7454115162371,0.835015879149403
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,ogtt,-6.39228884142219,-0.879580139218404,1.79716720022488e-14,13.7454115162371,0.879580139218404
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,ogtt,-6.31035359394203,-0.797644891738247,1.79716720022488e-14,13.7454115162371,0.797644891738247
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,ogtt,-5.85803328971432,-0.345324587510535,1.79716720022488e-14,13.7454115162371,0.345324587510535
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,oltt,-5.1213621932458,0,2.42016473380612e-10,9.61615507180963,0
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,oltt,-5.16670685344569,-0.0453446601998921,2.42016473380612e-10,9.61615507180963,0.0453446601998921
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,oltt,-5.39931763341298,-0.277955440167176,2.42016473380612e-10,9.61615507180963,0.277955440167176
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,oltt,-5.52667574994183,-0.40531355669603,2.42016473380612e-10,9.61615507180963,0.40531355669603
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,oltt,-5.65075709059603,-0.529394897350228,2.42016473380612e-10,9.61615507180963,0.529394897350228
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,oltt,-5.31626436101544,-0.19490216776964,2.42016473380612e-10,9.61615507180963,0.19490216776964
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,oltt,-4.80165282066024,0.319709372585566,2.42016473380612e-10,9.61615507180963,0.319709372585566
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,sld,-5.85803328971432,0,2.51324050448131e-15,14.5997659496202,0
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,sld,-6.3537177032567,-0.49568441354238,2.51324050448131e-15,14.5997659496202,0.49568441354238
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,sld,-6.80909019620814,-0.951056906493819,2.51324050448131e-15,14.5997659496202,0.951056906493819
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,sld,-6.65827659357559,-0.800243303861275,2.51324050448131e-15,14.5997659496202,0.800243303861275
+C14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,sld,-5.86313978226676,-0.00510649255244466,2.51324050448131e-15,14.5997659496202,0.00510649255244466
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,ogtt,-3.39150036744927,0,2.04139741803923e-11,10.6900724388607,0
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,15,ogtt,-3.39136312189596,0.000137245553310628,2.04139741803923e-11,10.6900724388607,0.000137245553310628
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,ogtt,-3.41996018870303,-0.0284598212537617,2.04139741803923e-11,10.6900724388607,0.0284598212537617
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,45,ogtt,-3.43023675425462,-0.038736386805355,2.04139741803923e-11,10.6900724388607,0.038736386805355
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,ogtt,-3.47931626894439,-0.0878159014951185,2.04139741803923e-11,10.6900724388607,0.0878159014951185
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,ogtt,-3.55552032322274,-0.164019955773469,2.04139741803923e-11,10.6900724388607,0.164019955773469
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,ogtt,-3.59536790341548,-0.203867535966212,2.04139741803923e-11,10.6900724388607,0.203867535966212
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,ogtt,-3.71630296759085,-0.324802600141577,2.04139741803923e-11,10.6900724388607,0.324802600141577
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,ogtt,-3.66762466514793,-0.276124297698665,2.04139741803923e-11,10.6900724388607,0.276124297698665
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,oltt,-3.50603002016797,0,9.18350088208706e-16,15.0369917279563,0
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,oltt,-3.36830135321554,0.137728666952426,9.18350088208706e-16,15.0369917279563,0.137728666952426
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,oltt,-3.43734327830812,0.0686867418598491,9.18350088208706e-16,15.0369917279563,0.0686867418598491
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,oltt,-3.57006534654243,-0.0640353263744626,9.18350088208706e-16,15.0369917279563,0.0640353263744626
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,oltt,-3.63357679775827,-0.127546777590303,9.18350088208706e-16,15.0369917279563,0.127546777590303
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,oltt,-3.80395221067346,-0.297922190505489,9.18350088208706e-16,15.0369917279563,0.297922190505489
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,oltt,-3.79279659929893,-0.286766579130964,9.18350088208706e-16,15.0369917279563,0.286766579130964
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,sld,-3.66762466514793,0,9.69886602448167e-12,11.0132790397646,0
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,sld,-3.60475664641892,0.0628680187290107,9.69886602448167e-12,11.0132790397646,0.0628680187290107
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,sld,-3.80589451243468,-0.138269847286747,9.69886602448167e-12,11.0132790397646,0.138269847286747
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,sld,-4.00657025730098,-0.338945592153047,9.69886602448167e-12,11.0132790397646,0.338945592153047
+C16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,sld,-3.91839752617575,-0.25077286102782,9.69886602448167e-12,11.0132790397646,0.25077286102782
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,ogtt,-3.42726931722821,0,2.95428147772868e-12,11.5295481283875,0
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,15,ogtt,-3.40991587352128,0.017353443706932,2.95428147772868e-12,11.5295481283875,0.017353443706932
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,ogtt,-3.49647245625777,-0.0692031390295598,2.95428147772868e-12,11.5295481283875,0.0692031390295598
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,45,ogtt,-3.52869654274763,-0.101427225519417,2.95428147772868e-12,11.5295481283875,0.101427225519417
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,ogtt,-3.66882959061253,-0.24156027338432,2.95428147772868e-12,11.5295481283875,0.24156027338432
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,ogtt,-3.80496602807936,-0.377696710851148,2.95428147772868e-12,11.5295481283875,0.377696710851148
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,ogtt,-3.81468069319272,-0.387411375964507,2.95428147772868e-12,11.5295481283875,0.387411375964507
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,ogtt,-3.79800127778935,-0.370731960561139,2.95428147772868e-12,11.5295481283875,0.370731960561139
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,ogtt,-3.6809752257255,-0.253705908497289,2.95428147772868e-12,11.5295481283875,0.253705908497289
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,oltt,-3.12055219335129,0,4.78855069937445e-07,6.31979591007295,0
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,oltt,-3.02506311942211,0.095489073929182,4.78855069937445e-07,6.31979591007295,0.095489073929182
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,oltt,-3.1293737613371,-0.00882156798580525,4.78855069937445e-07,6.31979591007295,0.00882156798580525
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,oltt,-3.24426020508402,-0.123708011732726,4.78855069937445e-07,6.31979591007295,0.123708011732726
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,oltt,-3.2896910588668,-0.169138865515511,4.78855069937445e-07,6.31979591007295,0.169138865515511
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,oltt,-3.29133401887442,-0.170781825523127,4.78855069937445e-07,6.31979591007295,0.170781825523127
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,oltt,-3.0339712320515,0.0865809612997928,4.78855069937445e-07,6.31979591007295,0.0865809612997928
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,sld,-3.6809752257255,0,2.09453982647382e-06,5.6789113773637,0
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,sld,-3.63303033409559,0.0479448916299115,2.09453982647382e-06,5.6789113773637,0.0479448916299115
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,sld,-3.75291369594617,-0.0719384702206707,2.09453982647382e-06,5.6789113773637,0.0719384702206707
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,sld,-3.73864150557375,-0.0576662798482484,2.09453982647382e-06,5.6789113773637,0.0576662798482484
+C18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,sld,-3.44762709058228,0.233348135143224,2.09453982647382e-06,5.6789113773637,0.233348135143224
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,ogtt,2.49830139236732,0,1.25030909860194e-19,18.9029826084139,0
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,15,ogtt,2.54732432222978,0.0490229298624629,1.25030909860194e-19,18.9029826084139,0.0490229298624629
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,30,ogtt,2.419126394014,-0.0791749983533161,1.25030909860194e-19,18.9029826084139,0.0791749983533161
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,45,ogtt,2.37460245185202,-0.1236989405153,1.25030909860194e-19,18.9029826084139,0.1236989405153
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,ogtt,2.23992451680978,-0.258376875557531,1.25030909860194e-19,18.9029826084139,0.258376875557531
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,90,ogtt,1.99921373312037,-0.499087659246949,1.25030909860194e-19,18.9029826084139,0.499087659246949
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,ogtt,1.94207366023833,-0.556227732128986,1.25030909860194e-19,18.9029826084139,0.556227732128986
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,ogtt,1.97907695800692,-0.519224434360391,1.25030909860194e-19,18.9029826084139,0.519224434360391
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,ogtt,2.2149959692046,-0.283305423162717,1.25030909860194e-19,18.9029826084139,0.283305423162717
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,oltt,2.68496796499243,0,5.87848804998001e-17,16.2307343603161,0
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,30,oltt,2.72255581401008,0.0375878490176511,5.87848804998001e-17,16.2307343603161,0.0375878490176511
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,oltt,2.49623470523348,-0.188733259758955,5.87848804998001e-17,16.2307343603161,0.188733259758955
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,90,oltt,2.32557908017904,-0.359388884813395,5.87848804998001e-17,16.2307343603161,0.359388884813395
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,oltt,2.20100305792858,-0.483964907063855,5.87848804998001e-17,16.2307343603161,0.483964907063855
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,oltt,2.24223235101385,-0.442735613978579,5.87848804998001e-17,16.2307343603161,0.442735613978579
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,oltt,2.76804467876801,0.0830767137755735,5.87848804998001e-17,16.2307343603161,0.0830767137755735
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,sld,2.2149959692046,0,4.47181352911999e-11,10.3495163144603,0
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,sld,2.19883819177057,-0.0161577774340276,4.47181352911999e-11,10.3495163144603,0.0161577774340276
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,sld,1.86532639015654,-0.349669579048059,4.47181352911999e-11,10.3495163144603,0.349669579048059
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,sld,1.75262736295574,-0.462368606248862,4.47181352911999e-11,10.3495163144603,0.462368606248862
+C2 (acetylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,sld,2.20620556851133,-0.00879040069326509,4.47181352911999e-11,10.3495163144603,0.00879040069326509
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,ogtt,-1.38322962223734,0,6.67364871876183e-10,9.17563665706367,0
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,15,ogtt,-1.29361598861956,0.0896136336177806,6.67364871876183e-10,9.17563665706367,0.0896136336177806
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,30,ogtt,-1.25835162813864,0.124877994098698,6.67364871876183e-10,9.17563665706367,0.124877994098698
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,45,ogtt,-1.29245737953562,0.0907722427017195,6.67364871876183e-10,9.17563665706367,0.0907722427017195
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,ogtt,-1.30730704509912,0.0759225771382148,6.67364871876183e-10,9.17563665706367,0.0759225771382148
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,90,ogtt,-1.32912421220773,0.054105410029603,6.67364871876183e-10,9.17563665706367,0.054105410029603
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,ogtt,-1.3426913854822,0.040538236755137,6.67364871876183e-10,9.17563665706367,0.040538236755137
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,ogtt,-1.5207614907831,-0.137531868545766,6.67364871876183e-10,9.17563665706367,0.137531868545766
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,ogtt,-1.67038282829307,-0.28715320605573,6.67364871876183e-10,9.17563665706367,0.28715320605573
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,oltt,-1.56216323910471,0,1.50379354477407e-08,7.82281178377094,0
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,30,oltt,-1.40631998847379,0.155843250630913,1.50379354477407e-08,7.82281178377094,0.155843250630913
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,oltt,-1.29957140917861,0.262591829926096,1.50379354477407e-08,7.82281178377094,0.262591829926096
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,90,oltt,-1.22924775790908,0.332915481195624,1.50379354477407e-08,7.82281178377094,0.332915481195624
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,oltt,-1.15108293442433,0.411080304680372,1.50379354477407e-08,7.82281178377094,0.411080304680372
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,oltt,-1.27099864754204,0.291164591562662,1.50379354477407e-08,7.82281178377094,0.291164591562662
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,oltt,-1.39394370750618,0.16821953159853,1.50379354477407e-08,7.82281178377094,0.16821953159853
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,sld,-1.67038282829307,0,1.06030017367741e-17,16.9745711674552,0
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,sld,-1.32920786786566,0.341174960427406,1.06030017367741e-17,16.9745711674552,0.341174960427406
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,sld,-1.09610021102775,0.574282617265315,1.06030017367741e-17,16.9745711674552,0.574282617265315
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,sld,-1.16491996818975,0.50546286010332,1.06030017367741e-17,16.9745711674552,0.50546286010332
+C3 (propionylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,sld,-1.31708000646421,0.35330282182886,1.06030017367741e-17,16.9745711674552,0.35330282182886
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,ogtt,-4.303326101679,0,7.86148651006192e-07,6.10449532646982,0
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,15,ogtt,-4.3388916626811,-0.0355655610020982,7.86148651006192e-07,6.10449532646982,0.0355655610020982
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,30,ogtt,-4.42668762757866,-0.123361525899658,7.86148651006192e-07,6.10449532646982,0.123361525899658
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,45,ogtt,-4.52882314745954,-0.225497045780532,7.86148651006192e-07,6.10449532646982,0.225497045780532
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,ogtt,-4.5673712783869,-0.264045176707895,7.86148651006192e-07,6.10449532646982,0.264045176707895
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,90,ogtt,-4.70017238498074,-0.39684628330174,7.86148651006192e-07,6.10449532646982,0.39684628330174
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,ogtt,-4.71262968209511,-0.409303580416101,7.86148651006192e-07,6.10449532646982,0.409303580416101
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,ogtt,-4.67001597553823,-0.366689873859221,7.86148651006192e-07,6.10449532646982,0.366689873859221
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,ogtt,-4.48542687282694,-0.182100771147932,7.86148651006192e-07,6.10449532646982,0.182100771147932
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,oltt,-4.05264145920719,0,6.50884059426522e-12,11.1864963644819,0
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,30,oltt,-4.19829520241214,-0.145653743204956,6.50884059426522e-12,11.1864963644819,0.145653743204956
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,oltt,-4.33203141039532,-0.279389951188137,6.50884059426522e-12,11.1864963644819,0.279389951188137
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,90,oltt,-4.47513812647244,-0.422496667265254,6.50884059426522e-12,11.1864963644819,0.422496667265254
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,oltt,-4.55419634234636,-0.501554883139175,6.50884059426522e-12,11.1864963644819,0.501554883139175
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,oltt,-4.42859567060063,-0.375954211393442,6.50884059426522e-12,11.1864963644819,0.375954211393442
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,oltt,-4.15283394123289,-0.100192482025705,6.50884059426522e-12,11.1864963644819,0.100192482025705
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,0,sld,-4.48542687282694,0,8.20676343430518e-10,9.08582808523846,0
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,60,sld,-4.70362481379967,-0.218197940972737,8.20676343430518e-10,9.08582808523846,0.218197940972737
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,120,sld,-4.96245921167669,-0.477032338849755,8.20676343430518e-10,9.08582808523846,0.477032338849755
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,180,sld,-4.83590638134901,-0.350479508522074,8.20676343430518e-10,9.08582808523846,0.350479508522074
+C4:1-DC (fumarylcarnitine) and C6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipid,Short Chain Acylcarnitines,TRUE,240,sld,-4.54922663768174,-0.0637997648548003,8.20676343430518e-10,9.08582808523846,0.0637997648548003
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,ogtt,-2.91662273565137,0,2.69924950585552e-08,7.56875696946053,0
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,15,ogtt,-2.94214812871067,-0.0255253930592954,2.69924950585552e-08,7.56875696946053,0.0255253930592954
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,ogtt,-3.15066964966847,-0.234046914017096,2.69924950585552e-08,7.56875696946053,0.234046914017096
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,45,ogtt,-3.30766717523666,-0.391044439585293,2.69924950585552e-08,7.56875696946053,0.391044439585293
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,ogtt,-3.34819360852113,-0.431570872869757,2.69924950585552e-08,7.56875696946053,0.431570872869757
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,ogtt,-3.44862483575945,-0.53200210010808,2.69924950585552e-08,7.56875696946053,0.53200210010808
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,ogtt,-3.46845485717366,-0.551832121522292,2.69924950585552e-08,7.56875696946053,0.551832121522292
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,ogtt,-3.31476110899542,-0.398138373344049,2.69924950585552e-08,7.56875696946053,0.398138373344049
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,ogtt,-3.11347399111488,-0.196851255463513,2.69924950585552e-08,7.56875696946053,0.196851255463513
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,oltt,-2.68865076742328,0,6.18122091033923e-05,4.20892573490245,0
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,30,oltt,-2.8021665488905,-0.113515781467223,6.18122091033923e-05,4.20892573490245,0.113515781467223
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,oltt,-2.8426760991806,-0.154025331757321,6.18122091033923e-05,4.20892573490245,0.154025331757321
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,90,oltt,-3.06740742386197,-0.378756656438695,6.18122091033923e-05,4.20892573490245,0.378756656438695
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,oltt,-3.13833094728453,-0.449680179861252,6.18122091033923e-05,4.20892573490245,0.449680179861252
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,oltt,-2.9592480862591,-0.270597318835821,6.18122091033923e-05,4.20892573490245,0.270597318835821
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,oltt,-2.70723352741816,-0.0185827599948838,6.18122091033923e-05,4.20892573490245,0.0185827599948838
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,0,sld,-3.11347399111488,0,3.45838765300456e-16,15.4611263279722,0
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,60,sld,-3.45044921331934,-0.336975222204461,3.45838765300456e-16,15.4611263279722,0.336975222204461
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,120,sld,-3.72425087664295,-0.610776885528071,3.45838765300456e-16,15.4611263279722,0.610776885528071
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,180,sld,-3.73802490540884,-0.624550914293958,3.45838765300456e-16,15.4611263279722,0.624550914293958
+C8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipid,Long Chain Acylcarnitines,TRUE,240,sld,-3.27397180778182,-0.160497816666934,3.45838765300456e-16,15.4611263279722,0.160497816666934
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,0,ogtt,12.1905217775618,0,5.23508242464065e-19,18.2810764761084,0
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,15,ogtt,12.6267725063106,0.436250728748774,5.23508242464065e-19,18.2810764761084,0.436250728748774
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,30,ogtt,12.8062664162693,0.615744638707463,5.23508242464065e-19,18.2810764761084,0.615744638707463
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,45,ogtt,12.5227514078488,0.332229630286992,5.23508242464065e-19,18.2810764761084,0.332229630286992
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,60,ogtt,12.3307975546359,0.140275777074066,5.23508242464065e-19,18.2810764761084,0.140275777074066
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,90,ogtt,12.2916974394022,0.101175661840436,5.23508242464065e-19,18.2810764761084,0.101175661840436
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,120,ogtt,12.2714460815687,0.0809243040068743,5.23508242464065e-19,18.2810764761084,0.0809243040068743
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,180,ogtt,11.9065883458179,-0.283933431743952,5.23508242464065e-19,18.2810764761084,0.283933431743952
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,240,ogtt,12.0037117153224,-0.186810062239445,5.23508242464065e-19,18.2810764761084,0.186810062239445
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,0,oltt,12.1544027974024,0,4.49065918461905e-12,11.347689904157,0
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,30,oltt,12.3021349452971,0.147732147894724,4.49065918461905e-12,11.347689904157,0.147732147894724
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,60,oltt,12.1951554934771,0.0407526960747262,4.49065918461905e-12,11.347689904157,0.0407526960747262
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,90,oltt,12.5129565901588,0.358553792756389,4.49065918461905e-12,11.347689904157,0.358553792756389
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,120,oltt,12.4484090310799,0.294006233677527,4.49065918461905e-12,11.347689904157,0.294006233677527
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,180,oltt,12.0609645697332,-0.0934382276691803,4.49065918461905e-12,11.347689904157,0.0934382276691803
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,240,oltt,12.1348123204944,-0.0195904769080126,4.49065918461905e-12,11.347689904157,0.0195904769080126
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,0,sld,12.0037117153224,0,1.32544201168583e-17,16.877639267973,0
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,60,sld,12.4897962960898,0.48608458076745,1.32544201168583e-17,16.877639267973,0.48608458076745
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,120,sld,12.4490572261406,0.445345510818257,1.32544201168583e-17,16.877639267973,0.445345510818257
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,180,sld,12.2308842383001,0.227172522977765,1.32544201168583e-17,16.877639267973,0.227172522977765
+H1 (hexose),Biocrates p150 [t-ms],Carbohydrate,,TRUE,240,sld,12.0611658090594,0.057454093736995,1.32544201168583e-17,16.877639267973,0.057454093736995
 N-acetylalliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,0,ogtt,1.21520733610715,0,4.21186726829228e-07,6.37552532351612,0
 N-acetylalliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,15,ogtt,1.17451213455865,-0.0406952015484936,4.21186726829228e-07,6.37552532351612,0.0406952015484936
 N-acetylalliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,30,ogtt,1.19377983681031,-0.0214274992968355,4.21186726829228e-07,6.37552532351612,0.0214274992968355
@@ -440,6 +692,27 @@ alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine a
 alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,120,sld,-0.402087309384323,0.354197198585215,9.69025517253571e-07,6.01366478656481,0.354197198585215
 alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,180,sld,-0.325296623138974,0.430987884830565,9.69025517253571e-07,6.01366478656481,0.430987884830565
 alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,240,sld,-0.355626216532814,0.400658291436725,9.69025517253571e-07,6.01366478656481,0.400658291436725
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,6.50128818442289,0,1.26541790453469e-19,18.8977660249538,0
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,6.51019803959804,0.00890985517514942,1.26541790453469e-19,18.8977660249538,0.00890985517514942
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,6.42572127214318,-0.0755669122797134,1.26541790453469e-19,18.8977660249538,0.0755669122797134
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,6.35832384728371,-0.142964337139186,1.26541790453469e-19,18.8977660249538,0.142964337139186
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,6.33210530088361,-0.169182883539285,1.26541790453469e-19,18.8977660249538,0.169182883539285
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,6.205870424703,-0.29541775971989,1.26541790453469e-19,18.8977660249538,0.29541775971989
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,6.1782391274955,-0.32304905692739,1.26541790453469e-19,18.8977660249538,0.32304905692739
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,6.14450637893253,-0.356781805490362,1.26541790453469e-19,18.8977660249538,0.356781805490362
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,6.23996236601785,-0.261325818405042,1.26541790453469e-19,18.8977660249538,0.261325818405042
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,6.34534124996803,0,2.35161992560705e-07,6.62863286862902,0
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,6.38155012021025,0.0362088702422145,2.35161992560705e-07,6.62863286862902,0.0362088702422145
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,6.36073085552415,0.0153896055561162,2.35161992560705e-07,6.62863286862902,0.0153896055561162
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,6.35579952719161,0.0104582772235764,2.35161992560705e-07,6.62863286862902,0.0104582772235764
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,6.40805600449981,0.0627147545317728,2.35161992560705e-07,6.62863286862902,0.0627147545317728
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,6.28299561070974,-0.0623456392582895,2.35161992560705e-07,6.62863286862902,0.0623456392582895
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,6.16150145835261,-0.183839791615422,2.35161992560705e-07,6.62863286862902,0.183839791615422
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,6.23996236601785,0,3.95318134700801e-23,22.4030532625105,0
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,6.63101567343554,0.391053307417692,3.95318134700801e-23,22.4030532625105,0.391053307417692
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,6.63415891353129,0.394196547513437,3.95318134700801e-23,22.4030532625105,0.394196547513437
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,6.4194764868635,0.17951412084565,3.95318134700801e-23,22.4030532625105,0.17951412084565
+arginine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,6.30884678739368,0.0688844213758229,3.95318134700801e-23,22.4030532625105,0.0688844213758229
 arginine,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,0,ogtt,0.113082870572708,0,1.09197694111503e-07,6.96178653237509,0
 arginine,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,15,ogtt,0.152822042798951,0.039739172226243,1.09197694111503e-07,6.96178653237509,0.039739172226243
 arginine,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,30,ogtt,0.0163364972573693,-0.0967463733153387,1.09197694111503e-07,6.96178653237509,0.0967463733153387
@@ -986,6 +1259,48 @@ leucine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabol
 leucine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,120,sld,0.318711843703112,0.749445410661802,6.17292194237403e-21,20.2095092147242,0.749445410661802
 leucine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,180,sld,0.151861423752062,0.582594990710752,6.17292194237403e-21,20.2095092147242,0.582594990710752
 leucine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,240,sld,-0.0609154691794851,0.369818097779204,6.17292194237403e-21,20.2095092147242,0.369818097779204
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,7.79330868294654,0,1.1507529471269e-34,33.9390179041861,0
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,7.7805541790399,-0.0127545039066375,1.1507529471269e-34,33.9390179041861,0.0127545039066375
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,7.65124280948527,-0.142065873461267,1.1507529471269e-34,33.9390179041861,0.142065873461267
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,7.56293837630519,-0.230370306641343,1.1507529471269e-34,33.9390179041861,0.230370306641343
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,7.42881587643852,-0.364492806508014,1.1507529471269e-34,33.9390179041861,0.364492806508014
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,7.18027136835149,-0.61303731459505,1.1507529471269e-34,33.9390179041861,0.61303731459505
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,7.10229529906768,-0.691013383878858,1.1507529471269e-34,33.9390179041861,0.691013383878858
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,7.08718679148494,-0.706121891461597,1.1507529471269e-34,33.9390179041861,0.706121891461597
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,7.28639897459943,-0.506909708347103,1.1507529471269e-34,33.9390179041861,0.506909708347103
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,7.78170850004599,0,2.32954950651651e-06,5.63272805569076,0
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,7.93151879379899,0.149810293753009,2.32954950651651e-06,5.63272805569076,0.149810293753009
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,7.86369853681837,0.0819900367723871,2.32954950651651e-06,5.63272805569076,0.0819900367723871
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,7.92545893331301,0.143750433267019,2.32954950651651e-06,5.63272805569076,0.143750433267019
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,7.97149251477171,0.189784014725724,2.32954950651651e-06,5.63272805569076,0.189784014725724
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,7.76251418192002,-0.0191943181259617,2.32954950651651e-06,5.63272805569076,0.0191943181259617
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,7.69594790183919,-0.0857605982067984,2.32954950651651e-06,5.63272805569076,0.0857605982067984
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,7.28639897459943,0,7.11634666150742e-35,34.147742904108,0
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,8.23162722043572,0.945228245836284,7.11634666150742e-35,34.147742904108,0.945228245836284
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,8.2734237498349,0.987024775235464,7.11634666150742e-35,34.147742904108,0.987024775235464
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,7.98477207398932,0.69837309938989,7.11634666150742e-35,34.147742904108,0.69837309938989
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,7.74641258508712,0.460013610487691,7.11634666150742e-35,34.147742904108,0.460013610487691
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,0,ogtt,4.95076017856689,0,1.05695202029348e-06,5.97594472678409,0
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,15,ogtt,4.95830732496877,0.0075471464018797,1.05695202029348e-06,5.97594472678409,0.0075471464018797
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,30,ogtt,4.90297883275526,-0.0477813458116261,1.05695202029348e-06,5.97594472678409,0.0477813458116261
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,45,ogtt,4.91195173189721,-0.0388084466696821,1.05695202029348e-06,5.97594472678409,0.0388084466696821
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,60,ogtt,4.93993053649942,-0.0108296420674705,1.05695202029348e-06,5.97594472678409,0.0108296420674705
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,90,ogtt,4.91306891762866,-0.0376912609382307,1.05695202029348e-06,5.97594472678409,0.0376912609382307
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,120,ogtt,4.90639516927912,-0.044365009287767,1.05695202029348e-06,5.97594472678409,0.044365009287767
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,180,ogtt,4.72843817517034,-0.222322003396551,1.05695202029348e-06,5.97594472678409,0.222322003396551
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,240,ogtt,4.61974524560998,-0.331014932956914,1.05695202029348e-06,5.97594472678409,0.331014932956914
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,0,oltt,4.73505282822847,0,1.39728309830582e-07,6.85471559418919,0
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,30,oltt,4.73467142030361,-0.00038140792485919,1.39728309830582e-07,6.85471559418919,0.00038140792485919
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,60,oltt,4.76928945871633,0.0342366304878574,1.39728309830582e-07,6.85471559418919,0.0342366304878574
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,90,oltt,4.7767184322967,0.0416656040682346,1.39728309830582e-07,6.85471559418919,0.0416656040682346
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,120,oltt,4.95240859549091,0.217355767262442,1.39728309830582e-07,6.85471559418919,0.217355767262442
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,180,oltt,4.99775482952401,0.262702001295543,1.39728309830582e-07,6.85471559418919,0.262702001295543
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,240,oltt,5.02378990938088,0.288737081152414,1.39728309830582e-07,6.85471559418919,0.288737081152414
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,0,sld,4.61974524560998,0,6.73980242501486e-08,7.17135283447113,0
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,60,sld,4.68151542024377,0.0617701746337946,6.73980242501486e-08,7.17135283447113,0.0617701746337946
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,120,sld,4.96535859749203,0.345613351882054,6.73980242501486e-08,7.17135283447113,0.345613351882054
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,180,sld,5.01447099236531,0.394725746755334,6.73980242501486e-08,7.17135283447113,0.394725746755334
+lysoPC a C18:2,Biocrates p150 [t-ms],Lipid,Glycerophospholipids,TRUE,240,sld,5.04898544037047,0.429240194760489,6.73980242501486e-08,7.17135283447113,0.429240194760489
 mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Metabolism",TRUE,0,ogtt,0.532674981308058,0,1.87388492884241e-35,34.7272570816997,0
 mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Metabolism",TRUE,15,ogtt,0.434020749056127,-0.0986542322519312,1.87388492884241e-35,34.7272570816997,0.0986542322519312
 mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Metabolism",TRUE,30,ogtt,0.364711373452763,-0.167963607855294,1.87388492884241e-35,34.7272570816997,0.167963607855294
@@ -1007,6 +1322,27 @@ mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Meta
 mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Metabolism",TRUE,120,sld,-0.599052555685439,-0.285705211494824,4.74601414362782e-05,4.32367097187292,0.285705211494824
 mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Metabolism",TRUE,180,sld,-0.428360868842073,-0.115013524651457,4.74601414362782e-05,4.32367097187292,0.115013524651457
 mannose,Metabolon HD4 [nt-ms],Carbohydrate,"Fructose, Mannose and Galactose Metabolism",TRUE,240,sld,-0.242864257184135,0.0704830870064806,4.74601414362782e-05,4.32367097187292,0.0704830870064806
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,4.92653992384099,0,4.97135415963789e-26,25.3035252965879,0
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,4.90901685780895,-0.0175230660320445,4.97135415963789e-26,25.3035252965879,0.0175230660320445
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,4.84168177027233,-0.0848581535686614,4.97135415963789e-26,25.3035252965879,0.0848581535686614
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,4.7890070597296,-0.137532864111391,4.97135415963789e-26,25.3035252965879,0.137532864111391
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,4.72696180961412,-0.199578114226873,4.97135415963789e-26,25.3035252965879,0.199578114226873
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,4.54458207871082,-0.381957845130174,4.97135415963789e-26,25.3035252965879,0.381957845130174
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,4.4974719848034,-0.429067939037591,4.97135415963789e-26,25.3035252965879,0.429067939037591
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,4.40083884602582,-0.525701077815174,4.97135415963789e-26,25.3035252965879,0.525701077815174
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,4.46143057848959,-0.465109345351405,4.97135415963789e-26,25.3035252965879,0.465109345351405
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,4.95603805779559,0,3.7888185458153e-11,10.4214961934683,0
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,5.03643504325702,0.0803969854614248,3.7888185458153e-11,10.4214961934683,0.0803969854614248
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,5.03930196953428,0.0832639117386869,3.7888185458153e-11,10.4214961934683,0.0832639117386869
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,5.10154214889297,0.145504091097379,3.7888185458153e-11,10.4214961934683,0.145504091097379
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,5.1917097473853,0.23567168958971,3.7888185458153e-11,10.4214961934683,0.23567168958971
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,4.94228013588352,-0.0137579219120791,3.7888185458153e-11,10.4214961934683,0.0137579219120791
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,4.74003793578407,-0.216000122011521,3.7888185458153e-11,10.4214961934683,0.216000122011521
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,4.46143057848959,0,2.10605947450334e-36,35.6765293686283,0
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,5.22642177660226,0.764991198112668,2.10605947450334e-36,35.6765293686283,0.764991198112668
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,5.31598472036694,0.854554141877352,2.10605947450334e-36,35.6765293686283,0.854554141877352
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,4.97257590601624,0.511145327526652,2.10605947450334e-36,35.6765293686283,0.511145327526652
+methionine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,4.71765200192335,0.256221423433758,2.10605947450334e-36,35.6765293686283,0.256221423433758
 methionine,Metabolon HD4 [nt-ms],Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,0,ogtt,0.0602640236108983,0,1.14766924167935e-11,10.9401832575922,0
 methionine,Metabolon HD4 [nt-ms],Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,15,ogtt,0.0968930810622196,0.0366290574513213,1.14766924167935e-11,10.9401832575922,0.0366290574513213
 methionine,Metabolon HD4 [nt-ms],Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,30,ogtt,-0.0563285203531001,-0.116592543963998,1.14766924167935e-11,10.9401832575922,0.116592543963998
@@ -1154,6 +1490,27 @@ oleoylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism(Acyl Carnitine
 oleoylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism(Acyl Carnitine),TRUE,120,sld,-0.796223430126242,-0.221624324658916,3.25984620674061e-06,5.48680288862514,0.221624324658916
 oleoylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism(Acyl Carnitine),TRUE,180,sld,-0.668181343630479,-0.0935822381631525,3.25984620674061e-06,5.48680288862514,0.0935822381631525
 oleoylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism(Acyl Carnitine),TRUE,240,sld,-0.290623553830085,0.283975551637241,3.25984620674061e-06,5.48680288862514,0.283975551637241
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,5.74548958387363,0,2.36199926372441e-14,13.6267202420995,0
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,5.78557733835626,0.0400877544826264,2.36199926372441e-14,13.6267202420995,0.0400877544826264
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,5.76965966761221,0.0241700837385777,2.36199926372441e-14,13.6267202420995,0.0241700837385777
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,5.62962943640939,-0.115860147464244,2.36199926372441e-14,13.6267202420995,0.115860147464244
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,5.56865814407316,-0.176831439800471,2.36199926372441e-14,13.6267202420995,0.176831439800471
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,5.54379405398118,-0.201695529892446,2.36199926372441e-14,13.6267202420995,0.201695529892446
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,5.48658838326456,-0.258901200609076,2.36199926372441e-14,13.6267202420995,0.258901200609076
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,5.37490105524696,-0.370588528626673,2.36199926372441e-14,13.6267202420995,0.370588528626673
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,5.39550341131843,-0.349986172555201,2.36199926372441e-14,13.6267202420995,0.349986172555201
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,5.30667169154604,0,6.49210783049873e-07,6.18761427538283,0
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,5.52988175494975,0.223210063403708,6.49210783049873e-07,6.18761427538283,0.223210063403708
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,5.52756357028716,0.220891878741122,6.49210783049873e-07,6.18761427538283,0.220891878741122
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,5.53959763276351,0.232925941217474,6.49210783049873e-07,6.18761427538283,0.232925941217474
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,5.5827147604935,0.27604306894746,6.49210783049873e-07,6.18761427538283,0.27604306894746
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,5.54647319678989,0.239801505243855,6.49210783049873e-07,6.18761427538283,0.239801505243855
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,5.55462490350455,0.247953211958508,6.49210783049873e-07,6.18761427538283,0.247953211958508
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,5.39550341131843,0,6.03430126920769e-22,21.2193730109843,0
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,5.86436383269901,0.468860421380581,6.03430126920769e-22,21.2193730109843,0.468860421380581
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,5.91935212224932,0.523848710930894,6.03430126920769e-22,21.2193730109843,0.523848710930894
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,5.8304600502469,0.434956638928474,6.03430126920769e-22,21.2193730109843,0.434956638928474
+ornithine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,5.70453561536945,0.309032204051023,6.03430126920769e-22,21.2193730109843,0.309032204051023
 ornithine,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,0,ogtt,0.152002723568738,0,7.77081525889807e-08,7.10953341570781,0
 ornithine,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,15,ogtt,0.211400317458917,0.0593975938901793,7.77081525889807e-08,7.10953341570781,0.0593975938901793
 ornithine,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,30,ogtt,0.0894116828620464,-0.0625910407066915,7.77081525889807e-08,7.10953341570781,0.0625910407066915
@@ -1196,6 +1553,27 @@ palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipid,Endocannabinoid,TRUE,60,sld,-
 palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipid,Endocannabinoid,TRUE,120,sld,-0.620094272639742,-0.451691366515895,3.50609910365199e-06,5.45517581226935,0.451691366515895
 palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipid,Endocannabinoid,TRUE,180,sld,-0.732748118017528,-0.564345211893681,3.50609910365199e-06,5.45517581226935,0.564345211893681
 palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipid,Endocannabinoid,TRUE,240,sld,-0.378703674793396,-0.210300768669549,3.50609910365199e-06,5.45517581226935,0.210300768669549
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,5.6686988265435,0,4.99555552874502e-16,15.3014162092091,0
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,5.69070334296729,0.0220045164237961,4.99555552874502e-16,15.3014162092091,0.0220045164237961
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,5.57114699393004,-0.0975518326134548,4.99555552874502e-16,15.3014162092091,0.0975518326134548
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,5.56318927664878,-0.105509549894712,4.99555552874502e-16,15.3014162092091,0.105509549894712
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,5.52437848508707,-0.144320341456427,4.99555552874502e-16,15.3014162092091,0.144320341456427
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,5.35808395222293,-0.310614874320563,4.99555552874502e-16,15.3014162092091,0.310614874320563
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,5.35230373830993,-0.316395088233562,4.99555552874502e-16,15.3014162092091,0.316395088233562
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,5.30086659478367,-0.367832231759828,4.99555552874502e-16,15.3014162092091,0.367832231759828
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,5.37415163633551,-0.29454719020799,4.99555552874502e-16,15.3014162092091,0.29454719020799
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,5.80075170479413,0,1.62177704449586e-09,8.7900088511117,0
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,5.88475688569878,0.0840051809046498,1.62177704449586e-09,8.7900088511117,0.0840051809046498
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,5.90025719344818,0.0995054886540441,1.62177704449586e-09,8.7900088511117,0.0995054886540441
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,5.90114567466284,0.100393969868703,1.62177704449586e-09,8.7900088511117,0.100393969868703
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,5.97771109040949,0.176959385615353,1.62177704449586e-09,8.7900088511117,0.176959385615353
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,5.81307687161926,0.0123251668251276,1.62177704449586e-09,8.7900088511117,0.0123251668251276
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,5.64743914238331,-0.153312562410821,1.62177704449586e-09,8.7900088511117,0.153312562410821
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,5.37415163633551,0,1.36883394291931e-37,36.8636492341509,0
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,5.95777038552769,0.583618749192185,1.36883394291931e-37,36.8636492341509,0.583618749192185
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,6.05905500756799,0.684903371232488,1.36883394291931e-37,36.8636492341509,0.684903371232488
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,5.82156225291849,0.447410616582988,1.36883394291931e-37,36.8636492341509,0.447410616582988
+phenylalanine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,5.65504048510364,0.28088884876813,1.36883394291931e-37,36.8636492341509,0.28088884876813
 phenylalanine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,0,ogtt,-0.113470869109969,0,7.83026969478539e-14,13.1062232794567,0
 phenylalanine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,15,ogtt,-0.0970575031140059,0.016413365995963,7.83026969478539e-14,13.1062232794567,0.016413365995963
 phenylalanine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,30,ogtt,-0.22220153501679,-0.108730665906821,7.83026969478539e-14,13.1062232794567,0.108730665906821
@@ -1280,6 +1658,27 @@ pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Prolin
 pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,120,sld,-0.42314096590081,-0.293756447221189,9.22180058891471e-17,16.0351842731457,0.293756447221189
 pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,180,sld,-0.548643206172328,-0.419258687492707,9.22180058891471e-17,16.0351842731457,0.419258687492707
 pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acid,Urea cycle; Arginine and Proline Metabolism,TRUE,240,sld,-0.481769286261679,-0.352384767582058,9.22180058891471e-17,16.0351842731457,0.352384767582058
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,7.49465750118056,0,1.09714891500434e-12,11.9597344220375,0
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,7.46992406276866,-0.0247334384118965,1.09714891500434e-12,11.9597344220375,0.0247334384118965
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,7.42142212336905,-0.0732353778115034,1.09714891500434e-12,11.9597344220375,0.0732353778115034
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,7.3758534895311,-0.118804011649455,1.09714891500434e-12,11.9597344220375,0.118804011649455
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,7.36336014868405,-0.131297352496509,1.09714891500434e-12,11.9597344220375,0.131297352496509
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,7.24051418811292,-0.25414331306764,1.09714891500434e-12,11.9597344220375,0.25414331306764
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,7.24659063030638,-0.24806687087418,1.09714891500434e-12,11.9597344220375,0.24806687087418
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,7.19376345788329,-0.300894043297266,1.09714891500434e-12,11.9597344220375,0.300894043297266
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,7.16016084535823,-0.334496655822331,1.09714891500434e-12,11.9597344220375,0.334496655822331
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,7.3675202881187,0,3.62037949755046e-09,8.44124590320892,0
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,7.4538275428243,0.0863072547055985,3.62037949755046e-09,8.44124590320892,0.0863072547055985
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,7.45772186417482,0.0902015760561143,3.62037949755046e-09,8.44124590320892,0.0902015760561143
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,7.58911976308363,0.221599474964926,3.62037949755046e-09,8.44124590320892,0.221599474964926
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,7.75032782610067,0.382807537981969,3.62037949755046e-09,8.44124590320892,0.382807537981969
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,7.59855039261201,0.231030104493311,3.62037949755046e-09,8.44124590320892,0.231030104493311
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,7.47954472310551,0.112024434986809,3.62037949755046e-09,8.44124590320892,0.112024434986809
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,7.16016084535823,0,2.90324017410237e-38,37.5371170351388,0
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,7.81447144936502,0.654310604006792,2.90324017410237e-38,37.5371170351388,0.654310604006792
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,7.94277020200141,0.782609356643188,2.90324017410237e-38,37.5371170351388,0.782609356643188
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,7.76608393661967,0.605923091261443,2.90324017410237e-38,37.5371170351388,0.605923091261443
+proline,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,7.56059516176314,0.400434316404915,2.90324017410237e-38,37.5371170351388,0.400434316404915
 propionylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,0,ogtt,-0.0350855248519665,0,2.30123582330597e-06,5.63803887393777,0
 propionylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,15,ogtt,0.0625573263485532,0.0976428512005197,2.30123582330597e-06,5.63803887393777,0.0976428512005197
 propionylcarnitine,Metabolon HD4 [nt-ms],Lipid,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,30,ogtt,0.0241294770636822,0.0592150019156488,2.30123582330597e-06,5.63803887393777,0.0592150019156488
@@ -1406,6 +1805,27 @@ tryptophan,Metabolon HD4 [nt-ms],Amino Acid,Tryptophan Metabolism,TRUE,60,sld,0.
 tryptophan,Metabolon HD4 [nt-ms],Amino Acid,Tryptophan Metabolism,TRUE,120,sld,0.0886125119941546,0.294710477765672,3.70176570457766e-07,6.43159107246294,0.294710477765672
 tryptophan,Metabolon HD4 [nt-ms],Amino Acid,Tryptophan Metabolism,TRUE,180,sld,-0.0307289159957319,0.175369049775786,3.70176570457766e-07,6.43159107246294,0.175369049775786
 tryptophan,Metabolon HD4 [nt-ms],Amino Acid,Tryptophan Metabolism,TRUE,240,sld,-0.100789172816105,0.105308792955413,3.70176570457766e-07,6.43159107246294,0.105308792955413
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,6.13773371458055,0,6.76215318024794e-25,24.1699149955663,0
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,6.15633080160669,0.0185970870261354,6.76215318024794e-25,24.1699149955663,0.0185970870261354
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,6.06009369850508,-0.0776400160754704,6.76215318024794e-25,24.1699149955663,0.0776400160754704
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,6.01111856519408,-0.126615149386474,6.76215318024794e-25,24.1699149955663,0.126615149386474
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,5.9693977860282,-0.168335928552355,6.76215318024794e-25,24.1699149955663,0.168335928552355
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,5.75598851046068,-0.381745204119867,6.76215318024794e-25,24.1699149955663,0.381745204119867
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,5.70446162614714,-0.43327208843341,6.76215318024794e-25,24.1699149955663,0.43327208843341
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,5.65975052314386,-0.477983191436694,6.76215318024794e-25,24.1699149955663,0.477983191436694
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,5.76735095400473,-0.370382760575819,6.76215318024794e-25,24.1699149955663,0.370382760575819
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,6.10117661791997,0,2.50280100109781e-06,5.60157367998061,0
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,6.20708509996574,0.10590848204576,2.50280100109781e-06,5.60157367998061,0.10590848204576
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,6.22716926323292,0.12599264531294,2.50280100109781e-06,5.60157367998061,0.12599264531294
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,6.2745974089792,0.173420791059222,2.50280100109781e-06,5.60157367998061,0.173420791059222
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,6.36272505890416,0.261548440984188,2.50280100109781e-06,5.60157367998061,0.261548440984188
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,6.25911456807589,0.157937950155914,2.50280100109781e-06,5.60157367998061,0.157937950155914
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,6.13548697183869,0.034310353918718,2.50280100109781e-06,5.60157367998061,0.034310353918718
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,5.76735095400473,0,2.594124339947e-35,34.5860092114213,0
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,6.53143620092862,0.764085246923888,2.594124339947e-35,34.5860092114213,0.764085246923888
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,6.62905030288174,0.861699348877004,2.594124339947e-35,34.5860092114213,0.861699348877004
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,6.39827889854817,0.630927944543437,2.594124339947e-35,34.5860092114213,0.630927944543437
+tyrosine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,6.25501951495166,0.487668560946926,2.594124339947e-35,34.5860092114213,0.487668560946926
 tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,0,ogtt,0.00607608924554862,0,1.31144981718116e-13,12.8822483230975,0
 tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,15,ogtt,0.00101714788072898,-0.00505894136481965,1.31144981718116e-13,12.8822483230975,0.00505894136481965
 tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,30,ogtt,-0.158999844222441,-0.165075933467989,1.31144981718116e-13,12.8822483230975,0.165075933467989
@@ -1427,6 +1847,27 @@ tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,
 tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,120,sld,0.328006700634192,0.638844960703866,5.92940282331605e-18,17.2269890441734,0.638844960703866
 tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,180,sld,0.212790126441957,0.523628386511631,5.92940282331605e-18,17.2269890441734,0.523628386511631
 tyrosine,Metabolon HD4 [nt-ms],Amino Acid,Phenylalanine and Tyrosine Metabolism,TRUE,240,sld,0.0693507856629746,0.380189045732648,5.92940282331605e-18,17.2269890441734,0.380189045732648
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,ogtt,8.10011879104666,0,1.12323484741755e-17,16.9495294313838,0
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,15,ogtt,8.08409697057081,-0.0160218204758458,1.12323484741755e-17,16.9495294313838,0.0160218204758458
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,ogtt,8.01791860691034,-0.0822001841363171,1.12323484741755e-17,16.9495294313838,0.0822001841363171
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,45,ogtt,7.98875571192666,-0.11136307912,1.12323484741755e-17,16.9495294313838,0.11136307912
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,ogtt,7.91082757457245,-0.189291216474208,1.12323484741755e-17,16.9495294313838,0.189291216474208
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,ogtt,7.79221551634083,-0.307903274705826,1.12323484741755e-17,16.9495294313838,0.307903274705826
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,ogtt,7.73483972018148,-0.365279070865175,1.12323484741755e-17,16.9495294313838,0.365279070865175
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,ogtt,7.68489843108271,-0.415220359963951,1.12323484741755e-17,16.9495294313838,0.415220359963951
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,ogtt,7.75009179376273,-0.350026997283931,1.12323484741755e-17,16.9495294313838,0.350026997283931
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,oltt,7.97799542135185,0,6.24621238897583e-05,4.2043832526079,0
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,30,oltt,8.10220593771336,0.12421051636151,6.24621238897583e-05,4.2043832526079,0.12421051636151
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,oltt,8.06730656204052,0.08931114068867,6.24621238897583e-05,4.2043832526079,0.08931114068867
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,90,oltt,8.08327587601229,0.105280454660441,6.24621238897583e-05,4.2043832526079,0.105280454660441
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,oltt,8.14636651910039,0.168371097748537,6.24621238897583e-05,4.2043832526079,0.168371097748537
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,oltt,8.03052469866335,0.0525292773114998,6.24621238897583e-05,4.2043832526079,0.0525292773114998
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,oltt,7.95635652359465,-0.0216388977572048,6.24621238897583e-05,4.2043832526079,0.0216388977572048
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,0,sld,7.75009179376273,0,1.38646225355551e-27,26.8580919495955,0
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,60,sld,8.28606310069925,0.535971306936522,1.38646225355551e-27,26.8580919495955,0.535971306936522
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,120,sld,8.37916779843794,0.629076004675212,1.38646225355551e-27,26.8580919495955,0.629076004675212
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,180,sld,8.2050748094371,0.454983015674377,1.38646225355551e-27,26.8580919495955,0.454983015674377
+valine,Biocrates p150 [t-ms],Amino Acid,,TRUE,240,sld,8.07112720820305,0.321035414440321,1.38646225355551e-27,26.8580919495955,0.321035414440321
 valine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,0,ogtt,-0.0450732668844701,0,2.59158394562114e-10,9.58643471909164,0
 valine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,15,ogtt,-0.0763846185670144,-0.0313113516825442,2.59158394562114e-10,9.58643471909164,0.0313113516825442
 valine,Metabolon HD4 [nt-ms],Amino Acid,"Leucine, Isoleucine and Valine Metabolism",TRUE,30,ogtt,-0.0907306082357591,-0.045657341351289,2.59158394562114e-10,9.58643471909164,0.045657341351289
