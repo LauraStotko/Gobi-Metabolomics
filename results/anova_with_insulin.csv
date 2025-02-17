@@ -1,0 +1,638 @@
+metabolite,platform_name,super_pathway,sub_pathway,significant_any_challenge,significant_fasting,significant_pat,significant_oltt,significant_fasting_pat,significant_fasting_oltt,significant_pat_oltt,significant_fasting_pat_oltt
+alanine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+asparagine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+aspartate,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+n-acetylalanine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylaspartate (naa),Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+creatine,Metabolon HD4 [nt-ms],Amino Acids,Creatine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+creatinine,Metabolon HD4 [nt-ms],Amino Acids,Creatine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+guanidinoacetate,Metabolon HD4 [nt-ms],Amino Acids,Creatine Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+gamma-carboxyglutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+glutamine,Biocrates p150 [t-ms],Amino Acids,Glutamate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glutamine,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetyl-aspartyl-glutamate (naag),Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+n-acetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-methyl-4-aminobutyric acid,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pyroglutamine,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+5-oxoproline,Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"cys-gly, oxidized",Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+cysteinylglycine,Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+betaine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+dimethylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glycine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+glycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+n-acetylserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylthreonine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+sarcosine (n-methylglycine),Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+serine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+threonine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+serine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+threonine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-methylguanidine,Metabolon HD4 [nt-ms],Amino Acids,Guanidino and Acetamido Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+4-guanidinobutanoate,Metabolon HD4 [nt-ms],Amino Acids,Guanidino and Acetamido Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-methylimidazoleacetate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+histidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+imidazole lactate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+imidazole propionate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetyl-1-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetyl-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+trans-urocanate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+histidine,Biocrates p150 [t-ms],Amino Acids,Histidine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+2-methylbutyrylcarnitine (c5),Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+3-hydroxy-2-ethylpropionate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+alpha-hydroxyisovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+beta-hydroxyisovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ethylmalonate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+isobutyrylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+isobutyrylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+isoleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+isovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+isovalerylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+isovalerylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+methylsuccinate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+methylsuccinoylcarnitine (1),Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylisoleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylvaline,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+tigloylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+tiglylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+valine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+valine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+2-aminoadipate,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-methylglutarylcarnitine (2),Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+5-hydroxylysine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+6-oxopiperidine-2-carboxylic acid,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glutarate (pentanedioate),Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glutarylcarnitine (c5),Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+lysine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+n-acetyl-cadaverine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n6-acetyllysine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+pipecolate,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+cystathionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+cysteine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+cysteine s-sulfate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+cysteine sulfinic acid,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+cystine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+hypotaurine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+methionine,Biocrates p150 [t-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+methionine sulfone,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+n-acetylmethionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetyltaurine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-formylmethionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+s-adenosylhomocysteine (sah),Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+s-methylcysteine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+taurine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+2-hydroxyphenylacetate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+3-(4-hydroxyphenyl)lactate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-methoxytyrosine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-phenylpropionate (hydrocinnamate),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+4-hydroxyphenylacetatoylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+4-hydroxyphenylpyruvate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+n-acetylphenylalanine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+n-acetyltyrosine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+n-formylphenylalanine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+o-cresol sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+p-cresol sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+p-cresol-glucuronide,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+phenol sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+phenylacetylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+phenylacetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+phenylacetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+phenylalanine,Biocrates p150 [t-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+phenylalanine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+phenyllactate (pla),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+phenylpyruvate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+thyroxine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+tyramine o-sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+tyrosine,Biocrates p150 [t-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+tyrosine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+4-acetamidobutanoate,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+5-methylthioadenosine (mta),Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+acisoga,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylputrescine,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+spermidine,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+3-indoxyl sulfate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+5-hydroxyindoleacetate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+c-glycosyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+indoleacetate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+indoleacetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+indolelactate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+kynurenate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+n-acetylkynurenine (2),Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+n-acetyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+serotonin,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+tryptophan,Biocrates p150 [t-ms],Amino Acids,Tryptophan Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+tryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+tryptophan betaine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+xanthurenate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+argininosuccinate,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+citrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+dimethylarginine (sdma + adma),Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+homoarginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+homocitrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+n-acetylarginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+n-acetylcitrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+n-delta-acetylornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+n-methylproline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+"n2,n5-diacetylornithine",Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ornithine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+ornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+proline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+trans-4-hydroxyproline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+urea,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+arginine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+erythronate,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glucuronate,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylglucosaminylasparagine,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylneuraminate,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+fructose,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+mannose,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+maltose,Metabolon HD4 [nt-ms],Carbohydrates,Glycogen Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+maltotriose,Metabolon HD4 [nt-ms],Carbohydrates,Glycogen Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"1,5-anhydroglucitol (1,5-ag)",Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-phosphoglycerate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+glucose,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glycerate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+h1 (hexose),Biocrates p150 [t-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+pyruvate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+arabitol/xylitol,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+arabonate/xylonate,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+ribitol,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+ribonate,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+oxalate (ethanedioate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+threonate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"bilirubin (e,e)",Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+"bilirubin (e,z or z,e)",Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+"bilirubin (z,z)",Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+biliverdin,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-methylnicotinamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n1-methyl-2-pyridone-5-carboxamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+nicotinamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+nicotinamide riboside,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+quinolinate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+pantothenate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Pantothenate and CoA Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+flavin adenine dinucleotide (fad),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Riboflavin Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+alpha-tocopherol,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Tocopherol Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+gamma-cehc,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Tocopherol Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-tocopherol/beta-tocopherol,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Tocopherol Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+retinol (vitamin a),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Vitamin A Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pyridoxate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Vitamin B6 Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+cis-aconitate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+citrate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+fumarate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+succinylcarnitine,Metabolon HD4 [nt-ms],Energy,TCA Cycle,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+pc ae c30:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c32:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c32:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c34:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c34:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c34:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc ae c34:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc ae c36:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c36:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+pc ae c36:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c36:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c36:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c38:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c38:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c38:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c38:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc ae c38:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c38:6,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c40:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c40:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc ae c40:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c40:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c40:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c40:6,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc ae c42:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c42:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c42:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c42:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c42:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c42:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c44:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c44:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc ae c44:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc ae c44:6,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+carnitine,Metabolon HD4 [nt-ms],Lipids,Carnitine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+deoxycarnitine,Metabolon HD4 [nt-ms],Lipids,Carnitine Metabolism,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c28:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c30:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c32:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c32:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c32:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c34:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c34:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+pc aa c34:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c34:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c36:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c36:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+pc aa c36:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+pc aa c36:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c36:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c36:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c38:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c38:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c38:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c38:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c38:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c40:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c40:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c40:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c40:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c40:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c40:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c42:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+pc aa c42:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c42:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c42:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c42:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+pc aa c42:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+12-hete,Metabolon HD4 [nt-ms],Lipids,Eicosanoid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+oleoyl ethanolamide,Metabolon HD4 [nt-ms],Lipids,Endocannabinoid,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipids,Endocannabinoid,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c10 (decanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+c10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+c12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c12:1 (dodecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+c16-oh (hydroxyhexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c16:2-oh (hydroxyhexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+c6-oh (glutarylcarnitine) and c5-dc (hydroxyhexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+c7-dc (pimelylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+c8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+c8:1 (octenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+cis-4-decenoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+decanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+laurylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+linoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+myristoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+octanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+palmitoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+stearoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+palmitoylcholine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Choline),TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+n-palmitoyl glycine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Glycine),TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+butyrylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c4 (butyrylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+c5 (valerylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+c5:1( tiglylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+c5:1-dc (glutaconylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+methylmalonate (mma),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+propionylglycine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+2-methylmalonyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Synthesis,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+malonate,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Synthesis,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+malonylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Synthesis,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+linoleamide (18:2n6),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amide",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+oleamide,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amide",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+palmitic amide,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amide",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-aminoheptanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amino",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-aminooctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amino",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+15-methylpalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+17-methylstearate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+pristanate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+2-hydroxyglutarate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-carboxy-4-methyl-5-propyl-2-furanpropanoate (cmpf),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+azelate (nonanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+dodecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+maleate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+sebacate (decanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+"9,10-dihome",Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dihydroxy",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+2-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+2-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+2-hydroxystearate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-hydroxymyristate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+glycerol,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+glycerol 3-phosphate,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+myo-inositol,Metabolon HD4 [nt-ms],Lipids,Inositol Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],Lipids,Lyso-phospho-ether,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-stearyl-gpc (o-18:0),Metabolon HD4 [nt-ms],Lipids,Lyso-phospho-ether,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-adrenoyl-gpc (22:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-arachidonoyl-gpc (20:4n6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-arachidonoyl-gpe (20:4n6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-arachidonoyl-gpi (20:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-arachidoyl-gpc (20:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-behenoyl-gpc (22:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-dihomo-linolenoyl-gpc (20:3n3 or 6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-dihomo-linolenoyl-gpe (20:3n3 or 6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-dihomo-linoleoyl-gpc (20:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-docosahexaenoyl-gpc (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+1-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+1-docosapentaenoyl-gpc (22:5n3),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+1-docosapentaenoyl-gpc (22:5n6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-eicosapentaenoyl-gpc (20:5),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-eicosapentaenoyl-gpe (20:5),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-eicosenoyl-gpc (20:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-linolenoyl-gpc (18:3),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+1-linoleoyl-gpi (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-margaroyl-gpc (17:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-myristoyl-gpc (14:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-nonadecanoyl-gpc (19:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1-oleoyl-gpi (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-palmitoleoyl-gpc (16:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-palmitoyl-gpc (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-palmitoyl-gpe (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1-palmitoyl-gpg (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-palmitoyl-gpi (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-pentadecanoyl-gpc (15:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-stearoyl-gpc (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-stearoyl-gpe (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-stearoyl-gpi (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-arachidonoyl-gpc (20:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-arachidonoyl-gpe (20:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-docosahexaenoyl-gpc (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+2-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+2-myristoyl-gpc (14:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+2-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+2-palmitoyl-gpc (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-palmitoyl-gpe (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-stearoyl-gpe (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+lysopc a c16:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+lysopc a c16:1,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+lysopc a c17:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+lysopc a c18:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+lysopc a c20:3,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+lysopc a c20:4,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+1-(1-enyl-oleoyl)-gpc (p-18:1),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-(1-enyl-oleoyl)-gpe (p-18:1),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-(1-enyl-palmitoyl)-gpe (p-16:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-(1-enyl-stearoyl)-gpc (p-18:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-(1-enyl-stearoyl)-gpe (p-18:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+10-undecenoate (11:1n1),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+caprate (10:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+caproate (6:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+caprylate (8:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+laurate (12:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+1-arachidonylglycerol (20:4),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-palmitoylglycerol (16:0),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+choline,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+choline phosphate,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+glycerophosphoethanolamine,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+phosphoethanolamine,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+trimethylamine n-oxide,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+cholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+glycochenodeoxycholate glucuronide (1),Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glycocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+taurocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+3b-hydroxy-5-cholenoic acid,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"3beta,7alpha-dihydroxy-5-cholestenoate",Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+deoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+glycocholenate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+glycodeoxycholate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glycohyocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glycolithocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glycolithocholate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+hyocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+taurocholenate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+taurolithocholate 3-sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+ursodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+sphinganine-1-phosphate,Metabolon HD4 [nt-ms],Lipids,Sphingolipid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+sphingosine,Metabolon HD4 [nt-ms],Lipids,Sphingolipid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+sphingosine 1-phosphate,Metabolon HD4 [nt-ms],Lipids,Sphingolipid Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm (oh) c14:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm (oh) c16:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+sm (oh) c22:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm (oh) c22:2,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+sm (oh) c24:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm c16:0,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm c16:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm c18:0,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+sm c18:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+sm c20:2,Biocrates p150 [t-ms],Lipids,Sphingomyelin,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+sm c24:0,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+sm c24:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+sm c26:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+16a-hydroxy dhea 3-sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+17alpha-hydroxypregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+21-hydroxypregnenolone disulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"4-androsten-3alpha,17alpha-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+"4-androsten-3alpha,17alpha-diol monosulfate (3)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"4-androsten-3beta,17beta-diol disulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"4-androsten-3beta,17beta-diol disulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"4-androsten-3beta,17beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+"4-androsten-3beta,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3alpha, 17beta-diol-17-glucosiduronate",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3alpha,17alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3alpha,17alpha-diol monosulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3alpha,17beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3alpha,17beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3alpha,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3beta,17alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3beta,17beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-androstan-3beta,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-pregnan-3(alpha or beta),20beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-pregnan-3beta,20alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+andro steroid monosulfate (1),Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+androsterone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+cortisone,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+dehydroisoandrosterone sulfate (dhea-s),Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+epiandrosterone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+etiocholanolone glucuronide,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+pregn steroid monosulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pregnanediol-3-glucuronide,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+pregnanolone/allopregnanolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+pregnen-diol disulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+7-alpha-hydroxy-3-oxo-4-cholestenoate (7-hoca),Metabolon HD4 [nt-ms],Lipids,Sterol,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+cholesterol,Metabolon HD4 [nt-ms],Lipids,Sterol,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+allantoin,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+hypoxanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+inosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+urate,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+xanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+xanthosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+adenine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+adenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+n1-methyladenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n6-carbamoylthreonyladenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n6-succinyladenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+7-methylguanine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Guanine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"n2,n2-dimethylguanosine",Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Guanine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-methylcytidine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Cytidine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n4-acetylcytidine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Cytidine containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+dihydroorotate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Orotate containing",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+orotate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Orotate containing",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+orotidine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Orotate containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+"5,6-dihydrothymine",Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+2'-deoxyuridine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-ureidopropionate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+5-methyluridine (ribothymidine),Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+beta-alanine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetyl-beta-alanine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+pseudouridine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+uridine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+prolylglycine,Metabolon HD4 [nt-ms],Peptides,Dipeptide,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+n-acetylcarnosine,Metabolon HD4 [nt-ms],Peptides,Dipeptide Derivative,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+dsgegdfxaegggvr,Metabolon HD4 [nt-ms],Peptides,Fibrinogen Cleavage Peptide,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+gamma-glutamyl-epsilon-lysine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+gamma-glutamylalanine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamylglutamate,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+gamma-glutamylglutamine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+gamma-glutamylglycine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+gamma-glutamylhistidine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamylisoleucine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamylleucine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamylmethionine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamylphenylalanine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+gamma-glutamylthreonine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamyltryptophan,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+gamma-glutamyltyrosine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+gamma-glutamylvaline,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+tartronate (hydroxymalonate),Metabolon HD4 [nt-ms],Xenobiotics,Bacterial/Fungal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+4-ethylphenylsulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+4-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+4-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+benzoate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+methyl-4-hydroxybenzoate sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+2-pyrrolidinone,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3-hydroxypyridine sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+4-hydroxychlorothalonil,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+6-hydroxyindole sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+dimethyl sulfone,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+edta,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+iminodiacetate (ida),Metabolon HD4 [nt-ms],Xenobiotics,Chemical,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+lanthionine,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+n-methylpipecolate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+2-piperidinone,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+4-allylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+betonicine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+cinnamoylglycine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+ergothioneine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+erythritol,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+gluconate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+homostachydrine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+indolin-2-one,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+methyl glucopyranoside (alpha + beta),Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+methyl indole-3-acetate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+n-acetylalliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+phytanate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+piperine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+quinate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+stachydrine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+tartarate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+thymol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+"1,7-dimethylurate",Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1-methylurate,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+1-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"3,7-dimethylurate",Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+3-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+7-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+caffeine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+paraxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+theobromine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+theophylline,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
