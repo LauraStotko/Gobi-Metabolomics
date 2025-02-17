@@ -37,47 +37,45 @@ mean_profiles <- data %>%
   mutate(Mean_Response = zoo::na.approx(Mean_Response, x = Timepoint, na.rm = FALSE)) %>%
   ungroup()
 
-# Plots erstellen für jedes Cluster
-for (cluster in unique(mean_profiles$Assigned_Cluster)) {
-  # Daten für den spezifischen Cluster filtern
-  cluster_individual_data <- individual_data %>%
-    filter(Assigned_Cluster == cluster)
-  
-  cluster_mean_data <- mean_profiles %>%
-    filter(Assigned_Cluster == cluster)
-  
-  # Plot erstellen
-  p <- ggplot() +
-    # Individuelle Linien in hellgrau (Hintergrund)
-    geom_line(data = cluster_individual_data, 
-              aes(x = Timepoint, y = Response, group = interaction(Assigned_Cluster, Challenge)), 
-              color = "lightgrey", size = 0.5, alpha = 0.7) +
-    # Mittelwertlinie in grün (Vordergrund)
-    geom_line(data = cluster_mean_data, 
-              aes(x = Timepoint, y = Mean_Response, color = Challenge), 
-              size = 1.2) +
-    facet_wrap(~ Challenge, ncol = 3) +                         # Drei Challenges nebeneinander
-    scale_y_continuous() +                     # Einheitliche y-Achse
-    scale_x_continuous(limits = c(0, 240), breaks = seq(0, 240, 60)) +              # Einheitliche x-Achse
-    labs(title = paste("Cluster", cluster, "- Challenges"),
-         x = "Challenge Time [min]", 
-         y = "Metabolite Response") +
-    theme_minimal() +
-    theme(
-      panel.grid.major = element_blank(),       # Entfernt Hauptgitterlinien
-      panel.grid.minor = element_blank(),       # Entfernt Nebengitterlinien
-      panel.background = element_blank(),       # Entfernt Panel-Hintergrund
-      axis.line = element_line(color = "black"),  # Fügt Achsenlinien hinzu
-      axis.ticks = element_line(color = "black"), # Fügt Tick-Linien hinzu
-      strip.background = element_rect(fill = "white", color = "black"), # Cluster-Titel hervorheben
-      strip.text = element_text(size = 10),    # Facetten-Titel
-      legend.position = "top",                 # Legende oben anzeigen
-      panel.spacing = unit(1, "lines")         # Abstand zwischen den Facetten
-    )
-  
-  # Plot anzeigen
-  print(p)
-}
+# Verzeichnis für gespeicherte Plots erstellen
+output_dir <- "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/Plots"
+dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
+
+# Alle Cluster gemeinsam visualisieren
+p_all <- ggplot() +
+  # Individuelle Linien in hellgrau (Hintergrund)
+  geom_line(data = individual_data, 
+            aes(x = Timepoint, y = Response, group = interaction(Assigned_Cluster, Challenge)), 
+            color = "lightgrey", size = 0.5, alpha = 0.5) +
+  # Mittelwertlinien farblich hervorgehoben
+  geom_line(data = mean_profiles, 
+            aes(x = Timepoint, y = Mean_Response, color = Challenge), 
+            size = 1.2) +
+  facet_wrap(~ Assigned_Cluster, ncol = 4) +  # Alle Cluster nebeneinander anzeigen
+  scale_y_continuous() +
+  scale_x_continuous(limits = c(0, 240), breaks = seq(0, 240, 60)) +
+  labs(title = "All Clusters - Challenges",
+       x = "Challenge Time [min]", 
+       y = "Metabolite Response") +
+  theme_minimal() +
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.background = element_blank(),
+    axis.line = element_line(color = "black"),
+    axis.ticks = element_line(color = "black"),
+    strip.background = element_rect(fill = "white", color = "black"),
+    strip.text = element_text(size = 10),
+    legend.position = "top",
+    panel.spacing = unit(1, "lines")
+  )
+
+# Plot speichern
+ggsave(filename = paste0(output_dir, "/All_Clusters.png"), plot = p_all, width = 16, height = 8)
+
+# Plot anzeigen
+print(p_all)
+
 ```
 
 
