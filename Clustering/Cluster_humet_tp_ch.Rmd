@@ -16,7 +16,6 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 
-# Funktion für den Workflow
 run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1.25, seed = 123) {
   
   # Setze Seed für Reproduzierbarkeit
@@ -31,6 +30,9 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
     stop("Not all required columns are present in the dataset!")
   }
   
+  # Z-Score Normalisierung der Response-Werte zu Beginn
+  df$response <- ave(df$response, df$metabolite, FUN = function(x) scale(x, center = TRUE, scale = TRUE))
+  
   # Ergebnisse initialisieren
   all_results <- data.frame()
   
@@ -43,9 +45,6 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
     
     # Fehlende Werte im 'response'-Feld durch den Mittelwert ersetzen
     df_filtered$response[is.na(df_filtered$response)] <- mean(df_filtered$response, na.rm = TRUE)
-    
-    # Z-Score Normalisierung pro Metabolit
-    df_filtered$response <- ave(df_filtered$response, df_filtered$metabolite, FUN = function(x) scale(x, center = TRUE, scale = TRUE))
     
     # Metadaten speichern
     df_meta <- unique(df_filtered[, c("metabolite", "super_pathway", "sub_pathway")])
@@ -91,9 +90,9 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
     
     # Challenge hinzufügen
     cluster_assignments$Challenge <- current_challenge
-
+    
     # **Timepoints korrekt zuordnen**
-    df_timepoints <- df_filtered[, c("metabolite", "challenge_time")]
+    df_timepoints <- df_filtered[, c("metabolite", "challenge_time", "response")]
     df_timepoints <- unique(df_timepoints)  # Doppelte Werte entfernen
     cluster_assignments <- merge(cluster_assignments, df_timepoints, by = "metabolite", all.x = TRUE)
     
@@ -105,7 +104,7 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
   colnames(all_results) <- c(
     "Metabolite", "Cluster_1", "Cluster_2", "Cluster_3", "Cluster_4", "Cluster_5",
     "Cluster_6", "Cluster_7", "Cluster_8", "Assigned_Cluster", "Super_Pathway", 
-    "Sub_Pathway", "Challenge", "Timepoint"
+    "Sub_Pathway", "Challenge", "Timepoint", "Response"
   )
   
   # Ergebnisse speichern
@@ -113,10 +112,11 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
   print("Clustering abgeschlossen! Ergebnisse gespeichert.")
 }
 
+
 # Beispielaufruf
 run_clustering_by_challenge(
   file_path = "/Users/laura.stotko/Documents/Gobi-Metabolomics/results/clustering_input.csv",
-  output_file = "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_clusters_by_challenge_with_time.csv",
+  output_file = "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_clusters_by_challenge_with_time_respone.csv",
   c_num = 8,  # Anzahl der Cluster
   m = 1.25,   # Fuzzifizierungsparameter
   seed = 42   # Seed für Reproduzierbarkeit
