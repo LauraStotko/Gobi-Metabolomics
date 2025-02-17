@@ -92,8 +92,8 @@ run_clustering <- function(file_path, output_file, c_num = 8, m = 1.25, seed = 1
 
 # Beispielaufruf
 run_clustering(
-  file_path = "/Users/laura.stotko/Downloads/ClusteringInputforLaura.csv",
-  output_file = "/Users/laura.stotko/Downloads/mfuzz_clusters_fkt_42.csv",
+  file_path = "/Users/laura.stotko/Documents/Gobi-Metabolomics/results/clustering_input.csv",
+  output_file = "/Users/laura.stotko/Downloads/cluster_input_forV.csv",
   c_num = 8,  # Anzahl der Cluster
   m = 1.25,   # Fuzzifizierungsparameter
   seed = 42  # Seed für Reproduzierbarkeit

@@ -9,56 +9,82 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-
-# Bibliotheken laden
-library(tidyverse)
-library(Mfuzz)
-library(Biobase)
-
-# Schritt 1: Daten laden
+# Adjust file path
 file_path <- "/Users/laura.stotko/Downloads/ClusteringInputforLaura.csv"
+
+# Load CSV file with the first row as header
 df <- read.csv(file_path, stringsAsFactors = FALSE, header = TRUE)
 
-# Schritt 2: Datenvorbereitung
-if(!all(c("metabolite", "super_pathway", "sub_pathway", "response", "subject", "challenge") %in% colnames(df))) {
+# Ensure necessary columns are present
+if(!all(c("metabolite", "super_pathway", "sub_pathway", "response", "subject", "challenge", "challenge_time") %in% colnames(df))) {
   stop("Not all required columns are present in the dataset!")
 }
 
-df <- df %>%
-  filter(!(challenge == "OGTT" & response == 240)) %>%
-  select(-challenge) %>%
-  group_by(metabolite) %>%
-  mutate(response = ifelse(is.na(response), mean(response, na.rm = TRUE), response)) %>%
-  ungroup()
+# Filter out rows where challenge is OGTT and response is 240
+df <- df %>% filter(!(challenge == "OGTT" & response == 240))
 
+# Save metadata before aggregation
+df_meta <- df %>% select(metabolite, super_pathway, sub_pathway, challenge, challenge_time) %>% distinct()
+
+# Replace missing values in the response column with the mean
+df <- df %>% mutate(response = ifelse(is.na(response), mean(response, na.rm = TRUE), response))
+
+# Z-score normalization for the response column
 df <- df %>%
-  group_by(metabolite) %>%
+  group_by(metabolite, challenge, challenge_time) %>%
   mutate(response = scale(response)) %>%
   ungroup()
 
-# Metadaten speichern
-df_meta <- df %>%
-  select(metabolite, super_pathway, sub_pathway) %>%
-  distinct()
+# Example: Filter for specific subject and metabolite
+filtered_data <- df %>%
+  filter(subject == 1, metabolite == "1-linoleoyl-GPE (18:2)*")
 
-# Aggregation und Matrix erstellen
+# Display filtered data
+print(filtered_data)
+
+
+# Aggregate response values (e.g., mean per combination)
 df <- df %>%
-  group_by(metabolite, subject) %>%
+  group_by(metabolite, challenge, challenge_time) %>%
   summarise(response = mean(response, na.rm = TRUE), .groups = "drop")
 
-response_matrix <- df %>%
-  pivot_wider(names_from = subject, values_from = response, values_fill = 0) %>%
-  column_to_rownames("metabolite") %>%
-  as.matrix()
+# Sort by metabolite and challenge
+df <- df %>% arrange(metabolite, challenge, challenge_time)
 
-# ExpressionSet für Mfuzz erstellen
+# Fill in missing combinations
+df <- df %>%
+  complete(metabolite, challenge, challenge_time, fill = list(response = 0))
+
+# Create vectors for each metabolite
+df_long <- df %>%
+  group_by(metabolite) %>%
+  summarise(
+    response_vector = list(as.numeric(response[order(challenge, challenge_time)])),
+    .groups = "drop"
+  )
+
+# Convert list of vectors into a matrix
+response_matrix <- do.call(rbind, df_long$response_vector)
+
+# Check dimensions of the matrix
+print(dim(response_matrix))  # Ensure dimensions are correct
+
+# Set row names based on metabolite
+rownames(response_matrix) <- df_long$metabolite
+
+
+# Create an ExpressionSet object for Mfuzz clustering
 expr_set <- new("ExpressionSet", exprs = response_matrix)
 
-# Schritt 3: Clustering durchführen
-c_num <- 8  # Anzahl der Cluster
-m <- 1.25   # Fuzzifizierungsparameter
+# Anzahl der Cluster bestimmen
+c_num <- 8  # Anzahl aus dem Report
 
+# Mitgliedschafts-Parameter
+m <- 1.25  # Fuzzifizierungsparameter
+
+# Fuzzy C-Means Clustering durchführen
 cl <- mfuzz(expr_set, c = c_num, m = m)
+
 
 # Cluster-Zuordnung abrufen
 cluster_assignments <- data.frame(
@@ -66,32 +92,23 @@ cluster_assignments <- data.frame(
   cl$membership
 )
 
+# Bestimme den Cluster mit der höchsten Wahrscheinlichkeit für jeden Metaboliten
 cluster_assignments$Assigned_Cluster <- apply(cl$membership, 1, which.max)
 
+# Füge Super Pathway, Sub Pathway, Challenge und Challenge Time hinzu
 cluster_assignments <- left_join(cluster_assignments, df_meta, by = "metabolite")
 
-write.csv(cluster_assignments, "/Users/laura.stotko/Downloads/mfuzz_clusters.csv", row.names = FALSE)
+# Formatierung: erste Spalte = Metaboliten, weitere Spalten = zusätzliche Metadaten und Cluster-Zugehörigkeitswahrscheinlichkeit
+cluster_assignments <- cluster_assignments %>%
+  select(metabolite, super_pathway, sub_pathway, challenge, challenge_time, Assigned_Cluster, everything())
 
-# Schritt 4: Visualisierung vorbereiten
-cluster_long <- cluster_assignments %>%
-  pivot_longer(cols = starts_with("Cluster_"), names_to = "Cluster", values_to = "Z_Score") %>%
-  mutate(Cluster = as.numeric(str_extract(Cluster, "\\d+")))
+# Spaltennamen anpassen
+colnames(cluster_assignments) <- c(
+  "Metabolite", "Super_Pathway", "Sub_Pathway", "Challenge", "Challenge_Time", "Assigned_Cluster",
+  paste0("Cluster_", 1:ncol(cl$membership))
+)
 
-cluster_long <- cluster_long %>%
-  left_join(df, by = "metabolite") %>%
-  group_by(Cluster, metabolite) %>%
-  mutate(Time = rep(seq(0, 240, length.out = n()), length.out = n()))
-
-# Schritt 5: Zeitreihenplots erstellen
-ggplot(cluster_long, aes(x = Time, y = response, group = metabolite)) +
-  geom_line(alpha = 0.3, color = "gray") +  # Viele dünne Linien
-  stat_summary(fun = mean, geom = "line", aes(group = Cluster), size = 1.5, color = "black") +  # Durchschnittslinie
-  facet_wrap(~ Cluster, scales = "free_y", ncol = 4) +  # Cluster-Plot
-  labs(
-    title = "Temporal Patterns of Metabolites by Cluster",
-    x = "Time (min)",
-    y = "Normalized Z-Score"
-  ) +
-  theme_minimal()
-
+# Ergebnisse speichern
+write.csv(cluster_assignments, "/Users/laura.stotko/Downloads/mfuzz_clusters_tp.csv", row.names = FALSE)
+print("Clustering abgeschlossen! Ergebnisse gespeichert.")
 ```

@@ -1,0 +1,103 @@
+---
+title: "Cluster Visualization"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Load the data
+data <- read.csv("/Users/laura.stotko/Downloads/mfuzz_clusters_with_challenge.csv")
+
+# Clean column names
+colnames(data) <- make.names(colnames(data), unique = TRUE)
+
+# Ermitteln der relevanten Spalten mit den z-Scores (X1 bis X8)
+z_score_cols <- grep("^X[0-9]+$", names(data), value = TRUE)  # Spalten X1 bis X8 finden
+
+# Sicherstellen, dass die z-Score-Spalten numerisch sind
+data[z_score_cols] <- lapply(data[z_score_cols], as.numeric)
+
+# Überprüfung: Zeilen mit fehlenden oder nicht-numerischen Werten entfernen
+data <- data %>%
+  filter(across(all_of(z_score_cols), ~ !is.na(.)))
+
+# Definiere alle möglichen Challenge_Time-Werte
+all_challenge_times <- seq(0, 240, 60)
+
+# Individuelle Linien-Daten vorbereiten (alle individuellen Z-Scores in Long-Format bringen)
+individual_data <- data %>%
+  pivot_longer(cols = all_of(z_score_cols), 
+               names_to = "Individual", 
+               values_to = "Individual_Z_Score") %>%
+  complete(Assigned_Cluster, Challenge, Individual, Challenge_Time = all_challenge_times) %>% # Fehlende Zeitpunkte auffüllen
+  group_by(Assigned_Cluster, Challenge, Individual) %>%
+  mutate(
+    Individual_Z_Score = zoo::na.approx(Individual_Z_Score, x = Challenge_Time, na.rm = FALSE)
+  ) %>%
+  ungroup()
+
+# Mittelwert-Daten vorbereiten
+mean_profiles <- data %>%
+  group_by(Assigned_Cluster, Challenge, Challenge_Time) %>%
+  summarise(
+    Mean_Z_Score = mean(c_across(all_of(z_score_cols)), na.rm = TRUE), # Mittelwert berechnen
+    .groups = "drop"
+  ) %>%
+  complete(Assigned_Cluster, Challenge, Challenge_Time = all_challenge_times) %>% # Fehlende Zeitpunkte auffüllen
+  group_by(Assigned_Cluster, Challenge) %>%
+  mutate(
+    Mean_Z_Score = zoo::na.approx(Mean_Z_Score, x = Challenge_Time, na.rm = FALSE)
+  ) %>%
+  ungroup()
+
+# Plots erstellen für jedes Cluster
+for (cluster in unique(mean_profiles$Assigned_Cluster)) {
+  # Daten für den spezifischen Cluster filtern
+  cluster_individual_data <- individual_data %>%
+    filter(Assigned_Cluster == cluster)
+  
+  cluster_mean_data <- mean_profiles %>%
+    filter(Assigned_Cluster == cluster)
+  
+  # Plot erstellen
+  p <- ggplot() +
+    # Individuelle Linien in hellgrau (Hintergrund)
+    geom_line(data = cluster_individual_data, 
+              aes(x = Challenge_Time, y = Individual_Z_Score, group = interaction(Individual, Challenge)), 
+              color = "lightgrey", size = 0.5, alpha = 0.7) +
+    # Mittelwertlinie in grün (Vordergrund)
+    geom_line(data = cluster_mean_data, 
+              aes(x = Challenge_Time, y = Mean_Z_Score, color = Challenge), 
+              size = 1.2) +
+    facet_wrap(~ Challenge, ncol = 3) +                         # Drei Challenges nebeneinander
+    scale_y_continuous(limits = c(-2, 2)) +                     # Einheitliche y-Achse
+    scale_x_continuous(breaks = seq(0, 240, 60)) +              # Einheitliche x-Achse
+    labs(title = paste("Cluster", cluster, "- Challenges"),
+         x = "Challenge Time [min]", 
+         y = "Metabolite Abundance (z-score)") +
+    theme_minimal() +
+    theme(
+      panel.grid.major = element_blank(),       # Entfernt Hauptgitterlinien
+      panel.grid.minor = element_blank(),       # Entfernt Nebengitterlinien
+      panel.background = element_blank(),       # Entfernt Panel-Hintergrund
+      axis.line = element_line(color = "black"),  # Fügt Achsenlinien hinzu
+      axis.ticks = element_line(color = "black"), # Fügt Tick-Linien hinzu
+      strip.background = element_rect(fill = "white", color = "black"), # Cluster-Titel hervorheben
+      strip.text = element_text(size = 10),    # Facetten-Titel
+      legend.position = "top",                 # Legende oben anzeigen
+      panel.spacing = unit(1, "lines")         # Abstand zwischen den Facetten
+    )
+  
+  # Plot anzeigen
+  print(p)
+}
+
+```
+
+
+
+

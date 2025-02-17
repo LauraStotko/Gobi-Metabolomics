@@ -1,0 +1,97 @@
+---
+title: "Pairwise Pearson Correlation Analysis"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Bibliotheken laden
+```{r}
+library(data.table)
+library(ggplot2)
+library(dplyr)
+library(stats)
+library(pheatmap)
+```
+
+## Daten einlesen
+```{r}
+# df <- fread("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/humet_imputed_400trees.csv")
+df <- fread("/Users/laura.stotko/Documents/Gobi-Metabolomics/results/correlation_input.csv")
+head(df)
+```
+
+## Datenstruktur prüfen
+```{r}
+str(df)
+```
+
+## Korrelation berechnen
+```{r}
+# Identifiziere Metaboliten-Spalten (alle numerischen Spalten außer Insulin und andere nicht relevante Spalten)
+numeric_columns <- sapply(df, is.numeric)
+metabolite_columns <- setdiff(names(df)[numeric_columns], c("Insulin [P, chem.]", "time", "subject", "challenge", "challenge_time"))
+
+# Berechnung der paarweisen Pearson-Korrelation zwischen Insulin und allen Metaboliten
+cor_results <- data.frame(Metabolite = metabolite_columns, Correlation = NA, p_value = NA)
+
+for (metabolite in metabolite_columns) {
+  cor_test <- cor.test(df[[metabolite]], df$`Insulin [P, chem.]`, method = "pearson")
+  cor_results[cor_results$Metabolite == metabolite, "Correlation"] <- cor_test$estimate
+  cor_results[cor_results$Metabolite == metabolite, "p_value"] <- cor_test$p.value
+}
+
+# Multiple Testing Correction (Bonferroni)
+cor_results$p_adjusted <- p.adjust(cor_results$p_value, method = "bonferroni")
+
+# Ergebnisse sortieren und die Top 10 anzeigen
+cor_results <- cor_results[order(cor_results$p_adjusted), ]
+print(head(cor_results, 10))
+```
+
+## Ergebnisse speichern
+```{r save-results}
+write.csv(cor_results, "correlation_results.csv", row.names = FALSE)
+message("Ergebnisse gespeichert in 'correlation_results.csv'")
+
+```
+
+## Visualisierung der Korrelationen
+## Visualisierung der Korrelationen
+```{r visualization}
+library(ggplot2)
+library(dplyr)
+
+# Signifikanzschwelle nach Bonferroni-Korrektur
+significance_threshold <- 0.05
+cor_results <- read.csv("correlation_results.csv")
+cor_results$Significant <- cor_results$p_adjusted < significance_threshold
+
+# Dummy-Kategorisierung für den Plot (falls Kategorien nicht im Datensatz vorhanden sind)
+categories <- c("Amino Acids", "Carbohydrates", "Cofactors and Vitamins", "Energy", "Lipids", "Nucleotides", "Peptides", "Xenobiotics")
+cor_results$Super_pathway <- rep(categories, length.out = nrow(cor_results))
+
+# Sortieren für die Visualisierung
+cor_results <- cor_results %>% arrange(Super_pathway)
+
+# Scatterplot erstellen und speichern
+p <- ggplot(cor_results, aes(x = Correlation, y = Super_pathway, color = Significant)) +
+  geom_point(size = 2, alpha = 0.7) +
+  scale_color_manual(values = c("lightgray", "black")) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "black") +
+  labs(title = "Pearson correlation of all identified metabolites with insulin",
+       x = "Pearson correlation between metabolites and insulin",
+       y = "Super-pathway",
+       color = "p < 0.05") +
+  theme_minimal()
+
+ggsave("/Users/laura.stotko/Documents/Gobi-Metabolomics/Correlation/correlation_humet.png", plot = p, width = 10, height = 6)
+message("Plot gespeichert als 'correlation_plot.png'")
+
+# Plot anzeigen
+print(p)
+```
+

@@ -1,0 +1,121 @@
+---
+title: "Fuzzy C-Means Clustering of Metabolites"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+# Libraries
+library(Mfuzz)
+library(Biobase)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Funktion für den Workflow
+run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1.25, seed = 123) {
+  
+  # Setze Seed für Reproduzierbarkeit
+  set.seed(seed)
+  
+  # 1. Daten laden und vorverarbeiten
+  df <- read.csv(file_path, stringsAsFactors = FALSE, header = TRUE)
+  
+  # Sicherstellen, dass notwendige Spalten vorhanden sind
+  required_columns <- c("metabolite", "super_pathway", "sub_pathway", "response", "subject", "challenge")
+  if (!all(required_columns %in% colnames(df))) {
+    stop("Not all required columns are present in the dataset!")
+  }
+  
+  # Ergebnisse initialisieren
+  all_results <- data.frame()
+  
+  # 2. Clustering für jede Challenge
+  for (current_challenge in unique(df$challenge)) {
+    cat("Processing Challenge:", current_challenge, "\n")
+    
+    # Daten für die aktuelle Challenge filtern
+    df_filtered <- df[df$challenge == current_challenge, ]
+    
+    # Fehlende Werte im 'response'-Feld durch den Mittelwert ersetzen
+    df_filtered$response[is.na(df_filtered$response)] <- mean(df_filtered$response, na.rm = TRUE)
+    
+    # Z-Score Normalisierung pro Metabolit
+    df_filtered$response <- ave(df_filtered$response, df_filtered$metabolite, FUN = function(x) scale(x, center = TRUE, scale = TRUE))
+    
+    # Metadaten speichern
+    df_meta <- unique(df_filtered[, c("metabolite", "super_pathway", "sub_pathway")])
+    
+    # Aggregiere Mittelwerte von 'response' nach 'metabolite' und 'platform_name'
+    df_agg <- aggregate(response ~ metabolite + platform_name, data = df_filtered, FUN = mean)
+    
+    # Erstelle eine vollständige Kombination aller 'metabolite' und 'platform_name'
+    all_combinations <- expand.grid(metabolite = unique(df_agg$metabolite),
+                                     platform_name = unique(df_agg$platform_name))
+    
+    # Verbinde die vollständige Kombination mit den aggregierten Daten
+    df_agg <- merge(all_combinations, df_agg, by = c("metabolite", "platform_name"), all.x = TRUE)
+    
+    # Fehlende Werte in 'response' mit 0 auffüllen
+    df_agg$response[is.na(df_agg$response)] <- 0
+    
+    df_agg$platform_name <- gsub("[^a-zA-Z0-9]", "_", df_agg$platform_name)
+    
+    # Konvertiere die aggregierten Daten in eine Matrix
+    response_matrix <- reshape(df_agg, idvar = "metabolite", timevar = "platform_name", direction = "wide")
+    rownames(response_matrix) <- response_matrix$metabolite
+    response_matrix <- response_matrix[, -1] # Entferne die erste Spalte (metabolite)
+    response_matrix <- as.matrix(response_matrix)
+    
+    # ExpressionSet erstellen
+    expr_set <- new("ExpressionSet", exprs = response_matrix)
+    
+    # Mfuzz-Clustering durchführen
+    cl <- mfuzz(expr_set, c = c_num, m = m)
+    
+    # Ergebnisse formatieren
+    cluster_assignments <- data.frame(
+      metabolite = rownames(response_matrix),
+      cl$membership
+    )
+    
+    # Bestimme den Cluster mit der höchsten Wahrscheinlichkeit für jeden Metaboliten
+    cluster_assignments$Assigned_Cluster <- apply(cl$membership, 1, which.max)
+    
+    # Füge Super Pathway und Sub Pathway hinzu
+    cluster_assignments <- merge(cluster_assignments, df_meta, by = "metabolite", all.x = TRUE)
+    
+    # Challenge hinzufügen
+    cluster_assignments$Challenge <- current_challenge
+    
+    # Ergebnisse zusammenführen
+    all_results <- rbind(all_results, cluster_assignments)
+  }
+  
+  # Formatieren der Spalten
+  colnames(all_results) <- c(
+    "Metabolite", "Cluster_1", "Cluster_2", "Cluster_3", "Cluster_4", "Cluster_5",
+    "Cluster_6", "Cluster_7", "Cluster_8", "Assigned_Cluster", "Super_Pathway", 
+    "Sub_Pathway", "Challenge"
+  )
+  
+  # Ergebnisse speichern
+  write.csv(all_results, output_file, row.names = FALSE)
+  print("Clustering abgeschlossen! Ergebnisse gespeichert.")
+}
+
+# Beispielaufruf
+run_clustering_by_challenge(
+  file_path = "/Users/laura.stotko/Documents/Gobi-Metabolomics/results/clustering_input.csv",
+  output_file = "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/clustering_output_humet_input_for_viz.csv",
+  c_num = 8,  # Anzahl der Cluster
+  m = 1.25,   # Fuzzifizierungsparameter
+  seed = 42   # Seed für Reproduzierbarkeit
+)
+```
+
+
