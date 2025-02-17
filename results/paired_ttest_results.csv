@@ -1,102 +1,102 @@
 metabolite,platform_name,super_pathway,sub_pathway,mean_diff_PAT_FASTING,pvalue_PAT_FASTING,significant_response
-1-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,-0.0992200000000001,0.221507281988579,TRUE
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,0.45161,9.904952548721e-05,TRUE
-10-undecenoate (11:1n1),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.28089,0.0254654841950643,TRUE
-13-hode + 9-hode,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.8427854,0.0337060961007171,TRUE
-15-methylpalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",-0.497801875,0.00449275606375851,TRUE
-16-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0.0864666666666667,0.514207610601037,TRUE
-17-methylstearate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",-0.569676666666667,0.000401086078710345,TRUE
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,-0.232163333333334,0.327632471306473,TRUE
-2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.22147,0.0012943524515295,TRUE
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0.0422133333333333,0.581886438192512,TRUE
-3-(4-hydroxyphenyl)lactate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,-0.0748599999999999,0.131430460734188,TRUE
-3-aminoisobutyrate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",-0.281953333333333,0.0124197572518181,TRUE
-3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,0.696844658333333,2.29196429146588e-06,TRUE
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0.499786666666667,0.191447756613904,TRUE
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.0538233333333333,0.42407380051416,TRUE
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.187997358333333,0.0919887244116999,TRUE
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.174316666666667,0.309861837146413,TRUE
-3-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-6.03217511666667,0.0364747226075614,TRUE
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.342153333333333,0.0797381536226004,TRUE
-3-hydroxymyristate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.21286,0.0112102558172953,TRUE
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0.0759676583333333,0.61768887817521,TRUE
-3-hydroxypyridine sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,-0.757756666666667,0.168214203767048,TRUE
-3-indoxyl sulfate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,0.323146666666667,0.0171164198744041,TRUE
-3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.1335,0.0405155002833115,TRUE
-3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.113823333333333,0.0194989013206397,TRUE
-3-phenylpropionate (hydrocinnamate),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,-0.393916666666667,0.204306107786534,TRUE
-"4-androsten-3alpha,17alpha-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,-0.434576666666667,0.000281550989271,TRUE
-"4-androsten-3beta,17beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,0.0708333333333334,0.148531199405548,TRUE
-4-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-0.412946666666667,0.0353398314134229,TRUE
-4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.0571933333333333,0.373325915402344,TRUE
-5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.455513333333333,0.0197975870213756,TRUE
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0.218305325,0.245934399517929,TRUE
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.0995933333333333,0.162113736797026,TRUE
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.141153333333333,0.0686230335940141,TRUE
-alanine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,-0.0514399999999999,0.39418941714177,TRUE
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.03636,0.409249331409065,TRUE
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",-0.0432342833333332,0.540498072286589,TRUE
-c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,-2.40000000000001,0.0500188878842226,TRUE
-c12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.0257466666666667,0.00631075327985477,TRUE
-c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.0069,0.000684083082715883,TRUE
-c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.00426666666666667,0.594121354900097,TRUE
-c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.001584,0.209462629635721,TRUE
-c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.002532,0.477616569095699,TRUE
-c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.000805999999999999,0.299583136845651,TRUE
-c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.00710666666666666,0.186683515215213,TRUE
-c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.779333333333334,0.0990607225999252,TRUE
-c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),-0.00566666666666665,0.800720314370638,TRUE
-c4 (butyrylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),0.000599999999999989,0.905856531464192,TRUE
-caprate (10:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.19779,0.0941300355461899,TRUE
-choline,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,-0.0296633333333334,0.569106028796118,TRUE
-cis-aconitate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,0.0482923833333335,0.44658473778747,TRUE
-cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,-0.822956666666667,5.74650208692969e-05,TRUE
-deoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,0.248517483333333,0.509168845012132,TRUE
-dodecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.04789,0.593272296277128,TRUE
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,0.84217,2.58608969171059e-05,TRUE
-gamma-glutamylglycine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,-0.307173333333333,3.06137994409099e-05,TRUE
-gamma-glutamyltryptophan,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,-0.365746325,2.62502157901901e-06,TRUE
-glycerol,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,0.0751566666666666,0.584196113813834,TRUE
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.0519500000000001,0.664597283211281,TRUE
-hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-1.40327666666667,0.000173113589563329,TRUE
-indoleacetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.648989083333333,0.0401206621939618,TRUE
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-1.40858846666667,0.0150109150790624,TRUE
-isobutyrylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",0.19319,0.0155758715625506,TRUE
-laurate (12:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.201876666666667,0.204187634718782,TRUE
-lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,-0.336666666666666,0.0048194295095655,TRUE
-lysopc a c16:1,Biocrates p150 [t-ms],Lipids,Lysolipid,-0.366333333333333,0.03923661667144,TRUE
-lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,2.17333333333333,0.405608330742262,TRUE
-lysopc a c20:4,Biocrates p150 [t-ms],Lipids,Lysolipid,-0.0426666666666664,0.917638080018969,TRUE
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,-0.0859933333333334,0.0803853280145767,TRUE
-methyl-4-hydroxybenzoate sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-1.56116333333333,0.037685022012707,TRUE
-methylmalonate (mma),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),0.0795903333333332,0.432619391684922,TRUE
-myristoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.114753333333333,0.49756644312464,TRUE
-myristoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.564077691666667,8.79176961251898e-06,TRUE
-n-acetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,0.34152,2.21744344320771e-06,TRUE
-n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",-0.0614999999999999,0.63844189345403,TRUE
-n-acetylkynurenine (2),Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.0552700000000002,0.648999486594114,TRUE
-n-acetyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.179996666666667,0.0442642281092956,TRUE
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-0.95016,0.00184414087567177,TRUE
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.15381,0.0542570558915773,TRUE
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.0550166666666666,0.453598563281273,TRUE
-ornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.0740700000000001,0.202151083012902,TRUE
-palmitoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.40987,2.35264653289032e-07,TRUE
-pc aa c36:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,1.42666666666667,0.509957668620428,TRUE
-pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,10.1866666666667,0.0530538339898858,TRUE
-phenylacetylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,0.385764925,0.0193384073434344,TRUE
-phenyllactate (pla),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,-0.109516666666667,0.0258723352152388,TRUE
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,0.12464,0.0531815431065418,TRUE
-piperine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,-0.28289,0.778148727596932,TRUE
-pregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,-0.214736666666667,0.015809099857536,TRUE
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.727743333333334,9.20750743993034e-09,TRUE
-proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,1.36191666666667,0.876881910140881,TRUE
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),-0.0635166666666667,0.373152238701922,TRUE
-pyruvate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",-0.11208,0.0216911449366797,TRUE
-sebacate (decanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0.385870375,0.228771118010439,TRUE
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.0431130916666667,0.771317288186498,TRUE
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0.0187566666666666,0.919347460244593,TRUE
-trans-urocanate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,-0.0838300000000001,0.608241648096874,TRUE
-trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,-2.03760333333333,0.00522390294066924,TRUE
-urea,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.1486,0.00285954904778959,TRUE
-xanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",-0.40643,3.51768925013911e-05,TRUE
-xanthurenate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,0.148776666666667,0.136644085149647,TRUE
+1-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,-0.228355905871425,0.221507281988578,TRUE
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,1.140068021887,9.90495254872096e-05,TRUE
+10-undecenoate (11:1n1),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.793675035994769,0.0254654841950643,TRUE
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.520283336058769,0.033706096100717,TRUE
+15-methylpalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",-0.483830765109518,0.00449275606375851,TRUE
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0.0877117476544313,0.514207610601036,TRUE
+17-methylstearate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",-0.760262397896691,0.000401086078710347,TRUE
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,-0.529424567958111,0.327632471306474,TRUE
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.686964765211898,0.00129435245152951,TRUE
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0.0804677316403631,0.581886438192513,TRUE
+3-(4-hydroxyphenyl)lactate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,-0.402751249208165,0.131430460734189,TRUE
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",-0.735289706104284,0.0124197572518181,TRUE
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,1.62166587476932,2.29196429146585e-06,TRUE
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0.104219392015216,0.191447756613904,TRUE
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.0305723391915014,0.42407380051416,TRUE
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.285619799628001,0.0919887244116985,TRUE
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.170079837754409,0.309861837146414,TRUE
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-1.80885442764517,0.0364747226075614,TRUE
+3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.340630306368897,0.0797381536226005,TRUE
+3-hydroxymyristate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",-0.465433171533492,0.0112102558172953,TRUE
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0.0677128939712469,0.61768887817521,TRUE
+3-hydroxypyridine sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,-0.782162313227781,0.168214203767048,TRUE
+3-indoxyl sulfate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,0.653286331116614,0.0171164198744041,TRUE
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.645743304000748,0.0405155002833112,TRUE
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.446054034464215,0.0194989013206395,TRUE
+3-phenylpropionate (hydrocinnamate),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,-0.54151913638014,0.204306107786534,TRUE
+"4-androsten-3alpha,17alpha-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,-1.04503054263657,0.000281550989271002,TRUE
+"4-androsten-3beta,17beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,0.174812095328643,0.148531199405547,TRUE
+4-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-0.727259105319186,0.0353398314134231,TRUE
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.221454654177033,0.373325915402344,TRUE
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.252394648152869,0.0197975870213756,TRUE
+acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0.107729480350279,0.245934399517929,TRUE
+acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.267732500921413,0.162113736797026,TRUE
+adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.137512982389646,0.0686230335940143,TRUE
+alanine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,-0.224924617859907,0.394189417141768,TRUE
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",-0.126199182994013,0.409249331409067,TRUE
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",-0.0898201412060152,0.540498072286588,TRUE
+c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,-0.357770659924911,0.0500188878842229,TRUE
+c12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.738296065967929,0.00631075327985482,TRUE
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.568938443681013,0.000684083082715885,TRUE
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.0929973648928745,0.594121354900096,TRUE
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.386958790414647,0.209462629635721,TRUE
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.150345275452217,0.477616569095699,TRUE
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.194585210399812,0.299583136845651,TRUE
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.211149106036555,0.186683515215215,TRUE
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.227962994839918,0.0990607225999252,TRUE
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),-0.0523774353184862,0.800720314370635,TRUE
+c4 (butyrylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),0.0147006252360832,0.905856531464191,TRUE
+caprate (10:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.245665231542871,0.0941300355461897,TRUE
+choline,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,-0.159034226718919,0.569106028796118,TRUE
+cis-aconitate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,0.167513151902666,0.44658473778747,TRUE
+cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,-1.52719186059641,5.74650208692967e-05,TRUE
+deoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,0.293166954264617,0.509168845012131,TRUE
+dodecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.0121093157941954,0.593272296277126,TRUE
+dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,1.51843606168443,2.58608969171057e-05,TRUE
+gamma-glutamylglycine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,-1.22406733316224,3.06137994409103e-05,TRUE
+gamma-glutamyltryptophan,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,-1.29755279348475,2.62502157901906e-06,TRUE
+glycerol,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,0.0851048629701803,0.584196113813833,TRUE
+hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.0204690516454495,0.664597283211282,TRUE
+hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-1.74672188801415,0.000173113589563329,TRUE
+indoleacetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.813304333933578,0.0401206621939619,TRUE
+indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-1.17785513447753,0.0150109150790623,TRUE
+isobutyrylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",0.52611678295139,0.0155758715625506,TRUE
+laurate (12:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,-0.118281187304126,0.204187634718782,TRUE
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,-0.820881346234174,0.00481942950956547,TRUE
+lysopc a c16:1,Biocrates p150 [t-ms],Lipids,Lysolipid,-0.487938959918239,0.0392366166714399,TRUE
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,0.278677250835696,0.405608330742261,TRUE
+lysopc a c20:4,Biocrates p150 [t-ms],Lipids,Lysolipid,-0.0257356628492335,0.917638080018969,TRUE
+malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,-0.234997639455754,0.0803853280145767,TRUE
+methyl-4-hydroxybenzoate sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-1.28886345334964,0.037685022012707,TRUE
+methylmalonate (mma),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),0.125543869092152,0.432619391684922,TRUE
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.125684885684298,0.497566443124638,TRUE
+myristoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.745060723944509,8.79176961251898e-06,TRUE
+n-acetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,1.16898378232952,2.21744344320773e-06,TRUE
+n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",-0.0834971140270571,0.63844189345403,TRUE
+n-acetylkynurenine (2),Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.138530186055194,0.648999486594114,TRUE
+n-acetyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,-0.58799354620108,0.0442642281092955,TRUE
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,-1.45099645920975,0.00184414087567178,TRUE
+octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",-0.172552013791314,0.0542570558915767,TRUE
+oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.158329377268663,0.453598563281271,TRUE
+ornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.443816710491797,0.202151083012902,TRUE
+palmitoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),-0.86219262854404,2.35264653289034e-07,TRUE
+pc aa c36:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,0.16272554225221,0.509957668620428,TRUE
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,0.356940668366405,0.0530538339898853,TRUE
+phenylacetylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,0.682372593393793,0.0193384073434344,TRUE
+phenyllactate (pla),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,-0.473252269411782,0.025872335215239,TRUE
+phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,0.624139417621767,0.0531815431065417,TRUE
+piperine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,-0.144162759914967,0.778148727596932,TRUE
+pregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,-0.555089954544306,0.015809099857536,TRUE
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-2.01296041480388,9.20750743993051e-09,TRUE
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,0.039487161462361,0.876881910140879,TRUE
+propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),-0.214966116042529,0.373152238701921,TRUE
+pyruvate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",-0.415866450286897,0.0216911449366796,TRUE
+sebacate (decanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0.107798957451505,0.22877111801044,TRUE
+suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0.0176392401730325,0.771317288186499,TRUE
+tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0.0048553695292563,0.919347460244592,TRUE
+trans-urocanate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,-0.148069431596575,0.608241648096873,TRUE
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,-1.91994804622003,0.00522390294066921,TRUE
+urea,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,-0.792433588872351,0.00285954904778959,TRUE
+xanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",-1.01720957108766,3.51768925013907e-05,TRUE
+xanthurenate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,0.293315189476225,0.136644085149648,TRUE
