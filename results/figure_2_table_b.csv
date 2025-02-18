@@ -1,0 +1,205 @@
+metabolite,platform_name,super_pathway,sub_pathway,significant_any_challenge,challenge_time,challenge,mean_response,log2_foldchange,p_value,neg_log10_p_value,abs_log2_foldchange
+c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,TRUE,840,Fasting,-0.440199351794924,-1.01169592167656,5.32118798677537e-09,8.27399139806136,1.01169592167656
+c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,TRUE,90,PAT,-0.982818186014373,-1.19654409597109,5.09046971181033e-24,23.2932421422535,1.19654409597109
+c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,TRUE,120,PAT,-1.00070671901062,-1.21443262896734,5.09046971181033e-24,23.2932421422535,1.21443262896734
+c10 (decanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.869467679520039,1.11490166793219,0.00520510470335607,2.28357053000889,1.11490166793219
+c10 (decanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,0.894211580662855,1.139645569075,0.00520510470335607,2.28357053000889,1.139645569075
+c12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,1.18380844056728,1.30306866026347,1.19873885466102e-05,4.92127541767881,1.30306866026347
+c12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.60069050674438,1.71995072644056,1.19873885466102e-05,4.92127541767881,1.71995072644056
+c12:1 (dodecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,600,Fasting,0.665201545094125,1.09771829451286,9.08084798717813e-06,5.04187359432512,1.09771829451286
+c12:1 (dodecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,1.08682411730002,1.51934086671875,9.08084798717813e-06,5.04187359432512,1.51934086671875
+c12:1 (dodecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,0.739568547865285,1.17208529728402,9.08084798717813e-06,5.04187359432512,1.17208529728402
+c12:1 (dodecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.72044631431294,2.15296306373167,9.08084798717813e-06,5.04187359432512,2.15296306373167
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,1.2746319319827,1.5113478709575,1.19987583396139e-15,14.9208636934652,1.5113478709575
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,1.28704963192739,1.52376557090219,1.19987583396139e-15,14.9208636934652,1.52376557090219
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.65095035629148,1.88766629526628,1.19987583396139e-15,14.9208636934652,1.88766629526628
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.85104078479378,2.08775672376859,1.19987583396139e-15,14.9208636934652,2.08775672376859
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,600,Fasting,0.370371022589973,1.03793777723406,1.74007896404293e-20,19.7594310431714,1.03793777723406
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.925475563074147,1.59304231771824,1.74007896404293e-20,19.7594310431714,1.59304231771824
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,0.749916518059015,1.4174832727031,1.74007896404293e-20,19.7594310431714,1.4174832727031
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.0597139898584,1.72728074450249,1.74007896404293e-20,19.7594310431714,1.72728074450249
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.88637337872646,2.55394013337055,1.74007896404293e-20,19.7594310431714,2.55394013337055
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,Fasting,0.556278170297235,1.13009555837005,2.26228184168959e-06,5.64545329036298,1.13009555837005
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.677763849975625,1.25158123804844,2.26228184168959e-06,5.64545329036298,1.25158123804844
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,0.675655608585929,1.24947299665875,2.26228184168959e-06,5.64545329036298,1.24947299665875
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.19420644557256,1.76802383364538,2.26228184168959e-06,5.64545329036298,1.76802383364538
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,360,OLTT,0.88049051796062,1.25154540853081,1.47349470483236e-11,10.8316514204969,1.25154540853081
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.774968633045317,1.40954396031257,3.20247702685816e-11,10.494513977007,1.40954396031257
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,0.401928277904111,1.03650360517136,3.20247702685816e-11,10.494513977007,1.03650360517136
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,0.581566734987356,1.21614206225461,3.20247702685816e-11,10.494513977007,1.21614206225461
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.60694684821504,2.2415221754823,3.20247702685816e-11,10.494513977007,2.2415221754823
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,0,OLTT,-0.124557283842725,0,2.32279060516282e-43,42.6339899391973,0
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,30,OLTT,-0.181124792695073,-0.0565675088523483,2.32279060516282e-43,42.6339899391973,0.0565675088523483
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,60,OLTT,-0.440923645457816,-0.316366361615091,2.32279060516282e-43,42.6339899391973,0.316366361615091
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,90,OLTT,-0.530307434813031,-0.405750150970305,2.32279060516282e-43,42.6339899391973,0.405750150970305
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,120,OLTT,-0.67732753829632,-0.552770254453595,2.32279060516282e-43,42.6339899391973,0.552770254453595
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,180,OLTT,-0.368086545186073,-0.243529261343348,2.32279060516282e-43,42.6339899391973,0.243529261343348
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,240,OLTT,0.357117627084756,0.481674910927481,2.32279060516282e-43,42.6339899391973,0.481674910927481
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,300,OLTT,0.595896642758209,0.720453926600934,2.32279060516282e-43,42.6339899391973,0.720453926600934
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,360,OLTT,1.03971427289255,1.16427155673527,2.32279060516282e-43,42.6339899391973,1.16427155673527
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,420,OLTT,1.02401253375761,1.14856981760033,2.32279060516282e-43,42.6339899391973,1.14856981760033
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,OLTT,0.933420400660115,1.05797768450284,2.32279060516282e-43,42.6339899391973,1.05797768450284
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,600,Fasting,1.0338179699865,1.07352905813657,9.12403496621569e-33,32.0398130590371,1.07352905813657
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,1.31333747435401,1.35304856250408,9.12403496621569e-33,32.0398130590371,1.35304856250408
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,1.48579866925405,1.52550975740412,9.12403496621569e-33,32.0398130590371,1.52550975740412
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.69051816406149,1.73022925221156,9.12403496621569e-33,32.0398130590371,1.73022925221156
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.31742936767095,1.35714045582103,9.12403496621569e-33,32.0398130590371,1.35714045582103
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,600,Fasting,0.580905784317776,1.05306022440753,3.60639255829615e-13,12.4429270017892,1.05306022440753
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.780411761801421,1.25256620189117,3.60639255829615e-13,12.4429270017892,1.25256620189117
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,1.06998282000445,1.5421372600942,3.60639255829615e-13,12.4429270017892,1.5421372600942
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.53445564484048,2.00661008493023,3.60639255829615e-13,12.4429270017892,2.00661008493023
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.33625505743252,1.80840949752227,3.60639255829615e-13,12.4429270017892,1.80840949752227
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.738067129267646,1.34508394740391,1.83350182653836e-12,11.7367186530581,1.34508394740391
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,0.844244424357622,1.45126124249389,1.83350182653836e-12,11.7367186530581,1.45126124249389
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.23148347830464,1.83850029644091,1.83350182653836e-12,11.7367186530581,1.83850029644091
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.82199889348819,2.42901571162446,1.83350182653836e-12,11.7367186530581,2.42901571162446
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,420,OLTT,0.920050573322313,1.20517291602464,7.31048935875487e-31,30.1360535507174,1.20517291602464
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,1.02774863883053,1.17038569827284,1.44203732097389e-23,22.8410234996143,1.17038569827284
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,1.20857125669941,1.35120831614172,1.44203732097389e-23,22.8410234996143,1.35120831614172
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.55710483848276,1.69974189792507,1.44203732097389e-23,22.8410234996143,1.69974189792507
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.14001777645893,1.28265483590124,1.44203732097389e-23,22.8410234996143,1.28265483590124
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,0,Fasting,-1.05610245621284,0,1.57997348629196e-45,44.8013502009277,0
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,120,Fasting,-0.770278666334084,0.285823789878752,1.57997348629196e-45,44.8013502009277,0.285823789878752
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,240,Fasting,-0.577747226666328,0.478355229546508,1.57997348629196e-45,44.8013502009277,0.478355229546508
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,360,Fasting,-0.217008090502756,0.839094365710079,1.57997348629196e-45,44.8013502009277,0.839094365710079
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,Fasting,0.259320820699706,1.31542327691254,1.57997348629196e-45,44.8013502009277,1.31542327691254
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,600,Fasting,0.352614656481336,1.40871711269417,1.57997348629196e-45,44.8013502009277,1.40871711269417
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.744027855084702,1.80013031129754,1.57997348629196e-45,44.8013502009277,1.80013031129754
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,0.918716105873905,1.97481856208674,1.57997348629196e-45,44.8013502009277,1.97481856208674
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.08173272338618,2.13783517959902,1.57997348629196e-45,44.8013502009277,2.13783517959902
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.03379831094636,2.0899007671592,1.57997348629196e-45,44.8013502009277,2.0899007671592
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,420,OLTT,1.04687133252086,1.18845650677236,6.47738370754264e-30,29.1886003754283,1.18845650677236
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,OLTT,0.887225474775915,1.02881064902742,6.47738370754264e-30,29.1886003754283,1.02881064902742
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.510698411646824,1.26411791781861,6.07552690436905e-27,26.2164160516001,1.26411791781861
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,0.49969215782177,1.25311166399356,6.07552690436905e-27,26.2164160516001,1.25311166399356
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,0.76679231101658,1.52021181718837,6.07552690436905e-27,26.2164160516001,1.52021181718837
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,0.881516920763604,1.63493642693539,6.07552690436905e-27,26.2164160516001,1.63493642693539
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,360,OLTT,0.884458123113875,1.10633503586316,1.34711044571391e-40,39.8705967962609,1.10633503586316
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,420,OLTT,1.13001308318863,1.35188999593791,1.34711044571391e-40,39.8705967962609,1.35188999593791
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,OLTT,0.938802816389312,1.1606797291386,1.34711044571391e-40,39.8705967962609,1.1606797291386
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,0,Fasting,-0.869526180228762,0,1.48135762082417e-87,86.829340083949,0
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,120,Fasting,-0.81960442943405,0.0499217507947123,1.48135762082417e-87,86.829340083949,0.0499217507947123
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,240,Fasting,-0.737674743596106,0.131851436632657,1.48135762082417e-87,86.829340083949,0.131851436632657
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,360,Fasting,-0.443892552925687,0.425633627303076,1.48135762082417e-87,86.829340083949,0.425633627303076
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,Fasting,0.078597071192693,0.948123251421455,1.48135762082417e-87,86.829340083949,0.948123251421455
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,600,Fasting,0.421029080550174,1.29055526077894,1.48135762082417e-87,86.829340083949,1.29055526077894
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,0.754629230167451,1.62415541039621,1.48135762082417e-87,86.829340083949,1.62415541039621
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,1.08093222386778,1.95045840409654,1.48135762082417e-87,86.829340083949,1.95045840409654
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,1.41361389127317,2.28314007150193,1.48135762082417e-87,86.829340083949,2.28314007150193
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,2.21567702025228,3.08520320048104,1.48135762082417e-87,86.829340083949,3.08520320048104
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,30,PAT,0.262116057346584,1.35960523241526,8.87087970700498e-32,31.0520333099367,1.35960523241526
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,45,PAT,0.412448779632333,1.50993795470101,8.87087970700498e-32,31.0520333099367,1.50993795470101
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,60,PAT,0.402113417163116,1.4996025922318,8.87087970700498e-32,31.0520333099367,1.4996025922318
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,90,PAT,0.443454867039987,1.54094404210867,8.87087970700498e-32,31.0520333099367,1.54094404210867
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,120,PAT,0.67726806705116,1.77475724211984,8.87087970700498e-32,31.0520333099367,1.77475724211984
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,0,OLTT,-0.54503480006313,0,9.63082675200483e-71,70.0163364295503,0
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,30,OLTT,-0.498428165532129,0.0466066345310012,9.63082675200483e-71,70.0163364295503,0.0466066345310012
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,60,OLTT,-0.782943143694183,-0.237908343631053,9.63082675200483e-71,70.0163364295503,0.237908343631053
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,90,OLTT,-0.990430420434707,-0.445395620371577,9.63082675200483e-71,70.0163364295503,0.445395620371577
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,120,OLTT,-1.10665449650365,-0.561619696440517,9.63082675200483e-71,70.0163364295503,0.561619696440517
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,180,OLTT,-1.06901817656857,-0.52398337650544,9.63082675200483e-71,70.0163364295503,0.52398337650544
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,240,OLTT,-0.444216264278496,0.100818535784634,9.63082675200483e-71,70.0163364295503,0.100818535784634
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,300,OLTT,0.197746249847261,0.742781049910391,9.63082675200483e-71,70.0163364295503,0.742781049910391
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,360,OLTT,0.482104735020983,1.02713953508411,9.63082675200483e-71,70.0163364295503,1.02713953508411
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,420,OLTT,0.638656712920874,1.183691512984,9.63082675200483e-71,70.0163364295503,1.183691512984
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,OLTT,0.488280601613438,1.03331540167657,9.63082675200483e-71,70.0163364295503,1.03331540167657
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,480,Fasting,-0.605000751700942,-1.05062973197668,2.79174401084348e-26,25.5541244068852,1.05062973197668
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,600,Fasting,-0.700512545517005,-1.14614152579274,2.79174401084348e-26,25.5541244068852,1.14614152579274
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,720,Fasting,-0.80864730124482,-1.25427628152056,2.79174401084348e-26,25.5541244068852,1.25427628152056
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,840,Fasting,-0.810197057125127,-1.25582603740086,2.79174401084348e-26,25.5541244068852,1.25582603740086
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,960,Fasting,-0.744879314257369,-1.1905082945331,2.79174401084348e-26,25.5541244068852,1.1905082945331
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,30,PAT,1.64324982242253,1.24999827746528,1.43071415008734e-14,13.8444471275543,1.24999827746528
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),TRUE,120,OLTT,0.849859539910164,1.06788347537571,2.29387580099306e-29,28.6394301001242,1.06788347537571
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,Fasting,0.519433652868053,1.02011812076908,3.6675721508944e-10,9.43562133367361,1.02011812076908
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,720,Fasting,1.01683326913866,1.51751773703968,3.6675721508944e-10,9.43562133367361,1.51751773703968
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,840,Fasting,0.652492538185759,1.15317700608679,3.6675721508944e-10,9.43562133367361,1.15317700608679
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,960,Fasting,0.856072632721849,1.35675710062288,3.6675721508944e-10,9.43562133367361,1.35675710062288
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,1920,Fasting,1.77107423408994,2.27175870199097,3.6675721508944e-10,9.43562133367361,2.27175870199097
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,90,OLTT,-0.807606963367202,-1.01257811726774,7.94562891312717e-18,17.0998717217806,1.01257811726774
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,120,OLTT,-0.969938803454803,-1.17490995735534,7.94562891312717e-18,17.0998717217806,1.17490995735534
+c8:1 (octenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,420,OLTT,1.54057886272365,1.1835566486915,9.62790149390136e-19,18.0164683617782,1.1835566486915
+c8:1 (octenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),TRUE,480,OLTT,1.41724385790444,1.06022164387229,9.62790149390136e-19,18.0164683617782,1.06022164387229
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,15,PAT,0.607561523108263,1.23093182193822,3.68640471095463e-14,13.4333969875961,1.23093182193822
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,45,PAT,1.28377349568029,1.90714379451024,3.68640471095463e-14,13.4333969875961,1.90714379451024
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,90,PAT,0.785561610595885,1.40893190942584,3.68640471095463e-14,13.4333969875961,1.40893190942584
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,90,OLTT,2.36072111495064,2.56687427750008,1.49347377046981e-15,14.8258024004052,2.56687427750008
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,120,OLTT,1.00311727308076,1.2092704356302,1.49347377046981e-15,14.8258024004052,1.2092704356302
+glycine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,960,Fasting,-0.0686544546987145,-1.05290343380376,9.49229455025346e-05,4.02262879388865,1.05290343380376
+glycine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",TRUE,1920,Fasting,-0.040648616396051,-1.0248975955011,9.49229455025346e-05,4.02262879388865,1.0248975955011
+h1 (hexose),Biocrates p150 [t-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,1920,Fasting,-0.9862884924436,-1.3302958206256,6.59326407099223e-08,7.18089952970479,1.3302958206256
+h1 (hexose),Biocrates p150 [t-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,90,OLTT,2.06905151432183,2.05797812547531,1.49665817187524e-11,10.8248773786951,2.05797812547531
+h1 (hexose),Biocrates p150 [t-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,120,OLTT,1.71400426112873,1.70293087228221,1.49665817187524e-11,10.8248773786951,1.70293087228221
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,0,OLTT,-0.117280215333257,0,2.24335017056175e-48,47.649102930932,0
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,30,OLTT,0.551257187107132,0.668537402440389,2.24335017056175e-48,47.649102930932,0.668537402440389
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,60,OLTT,1.0113705982612,1.12865081359446,2.24335017056175e-48,47.649102930932,1.12865081359446
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,90,OLTT,2.96754484252331,3.08482505785657,2.24335017056175e-48,47.649102930932,3.08482505785657
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,120,OLTT,2.36811675133701,2.48539696667027,2.24335017056175e-48,47.649102930932,2.48539696667027
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,180,OLTT,0.324546341340393,0.44182655667365,2.24335017056175e-48,47.649102930932,0.44182655667365
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,240,OLTT,-0.158295841628461,-0.0410156262952038,2.24335017056175e-48,47.649102930932,0.0410156262952038
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,300,OLTT,-0.243153768886189,-0.125873553552932,2.24335017056175e-48,47.649102930932,0.125873553552932
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,360,OLTT,-0.259133133842267,-0.14185291850901,2.24335017056175e-48,47.649102930932,0.14185291850901
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,420,OLTT,-0.293687789469309,-0.176407574136052,2.24335017056175e-48,47.649102930932,0.176407574136052
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,TRUE,480,OLTT,-0.348663727386791,-0.231383512053534,2.24335017056175e-48,47.649102930932,0.231383512053534
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,0,PAT,-0.240456534648039,0,3.22205033840948e-45,44.4918676788384,0
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,15,PAT,2.12569866010436,2.3661551947524,3.22205033840948e-45,44.4918676788384,2.3661551947524
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,30,PAT,3.48330659603406,3.7237631306821,3.22205033840948e-45,44.4918676788384,3.7237631306821
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,45,PAT,1.38984101647337,1.63029755112141,3.22205033840948e-45,44.4918676788384,1.63029755112141
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,60,PAT,0.00527858810296951,0.245735122751008,3.22205033840948e-45,44.4918676788384,0.245735122751008
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,90,PAT,-0.14970974343103,0.090746791217009,3.22205033840948e-45,44.4918676788384,0.090746791217009
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",TRUE,120,PAT,-0.264715577844665,-0.0242590431966261,3.22205033840948e-45,44.4918676788384,0.0242590431966261
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,840,Fasting,0.891802646339692,1.1152945464074,2.01151121034798e-33,32.6964775427205,1.1152945464074
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,960,Fasting,1.23349270451844,1.45698460458614,2.01151121034798e-33,32.6964775427205,1.45698460458614
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,1920,Fasting,2.77311980098657,2.99661170105428,2.01151121034798e-33,32.6964775427205,2.99661170105428
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,720,Fasting,-0.00335885024679947,-1.23436171859375,2.4102163236668e-31,30.6179439765294,1.23436171859375
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,840,Fasting,-0.028765534289651,-1.2597684026366,2.4102163236668e-31,30.6179439765294,1.2597684026366
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,960,Fasting,-0.175061219757127,-1.40606408810408,2.4102163236668e-31,30.6179439765294,1.40606408810408
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,1920,Fasting,-0.750490915929202,-1.98149378427615,2.4102163236668e-31,30.6179439765294,1.98149378427615
+lysopc a c18:0,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,1920,Fasting,-0.885496452486737,-1.4928018446799,1.01746753929934e-08,7.99247943736373,1.4928018446799
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,1920,Fasting,-1.13667819224672,-1.23267667394194,3.58846359540468e-06,5.44509145528232,1.23267667394194
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,300,OLTT,0.670449747221568,1.15830575117291,1.33929596923654e-39,38.8731234382214,1.15830575117291
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,360,OLTT,1.26358350145041,1.75143950540175,1.33929596923654e-39,38.8731234382214,1.75143950540175
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,420,OLTT,1.74070716454148,2.22856316849282,1.33929596923654e-39,38.8731234382214,2.22856316849282
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,480,OLTT,1.73918341546291,2.22703941941425,1.33929596923654e-39,38.8731234382214,2.22703941941425
+lysopc a c20:4,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,840,Fasting,0.981956530929299,1.06159609253088,5.73414070979929e-10,9.24153165412766,1.06159609253088
+lysopc a c20:4,Biocrates p150 [t-ms],Lipids,Lysolipid,TRUE,960,Fasting,1.32938797939395,1.40902754099554,5.73414070979929e-10,9.24153165412766,1.40902754099554
+ornithine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,45,PAT,-0.448071955909028,-1.22547080462942,1.71099282633271e-19,18.7667518113184,1.22547080462942
+ornithine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,60,PAT,-0.451168534063493,-1.22856738278389,1.71099282633271e-19,18.7667518113184,1.22856738278389
+ornithine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,90,PAT,-0.55103317954498,-1.32843202826537,1.71099282633271e-19,18.7667518113184,1.32843202826537
+ornithine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,120,PAT,-0.616835465327357,-1.39423431404775,1.71099282633271e-19,18.7667518113184,1.39423431404775
+pc aa c30:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,1920,Fasting,-0.0630697055154099,-1.05371933792668,3.17443668253917e-17,16.4983333309611,1.05371933792668
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,0,Fasting,1.04948580515014,0,7.66167157274999e-51,50.1156764685366,0
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,120,Fasting,1.07250251688858,0.023016711738445,7.66167157274999e-51,50.1156764685366,0.023016711738445
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,240,Fasting,1.0182972888994,-0.0311885162507377,7.66167157274999e-51,50.1156764685366,0.0311885162507377
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,360,Fasting,0.803334278939437,-0.2461515262107,7.66167157274999e-51,50.1156764685366,0.2461515262107
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,480,Fasting,0.640939171792716,-0.408546633357421,7.66167157274999e-51,50.1156764685366,0.408546633357421
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,600,Fasting,0.439019836996348,-0.610465968153789,7.66167157274999e-51,50.1156764685366,0.610465968153789
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,720,Fasting,0.16851113714198,-0.880974668008157,7.66167157274999e-51,50.1156764685366,0.880974668008157
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,840,Fasting,-0.0127703153848194,-1.06225612053496,7.66167157274999e-51,50.1156764685366,1.06225612053496
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,960,Fasting,-0.0954212348092397,-1.14490703995938,7.66167157274999e-51,50.1156764685366,1.14490703995938
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,1920,Fasting,-0.612541649801551,-1.66202745495169,7.66167157274999e-51,50.1156764685366,1.66202745495169
+pc aa c34:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,300,OLTT,0.454255744651586,1.18144272693818,4.56933967499259e-09,8.3401465562162,1.18144272693818
+pc aa c34:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,360,OLTT,0.390472616684276,1.11765959897087,4.56933967499259e-09,8.3401465562162,1.11765959897087
+pc aa c34:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,420,OLTT,0.399939988091817,1.12712697037841,4.56933967499259e-09,8.3401465562162,1.12712697037841
+pc aa c34:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,480,OLTT,0.27941077354574,1.00659775583233,4.56933967499259e-09,8.3401465562162,1.00659775583233
+pc aa c34:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,1920,Fasting,-0.616293101771456,-1.25839843519261,1.9582324195555e-34,33.7081357637382,1.25839843519261
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,1920,Fasting,-1.10682575867879,-1.11333718942034,1.586994289359e-15,14.7994246360078,1.11333718942034
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,240,OLTT,0.591212015114008,1.06428120751135,6.76860766416934e-15,14.169500658635,1.06428120751135
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,300,OLTT,0.835557525003577,1.30862671740092,6.76860766416934e-15,14.169500658635,1.30862671740092
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,360,OLTT,0.789736901901436,1.26280609429878,6.76860766416934e-15,14.169500658635,1.26280609429878
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,420,OLTT,0.828549527588005,1.30161871998534,6.76860766416934e-15,14.169500658635,1.30161871998534
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,480,OLTT,0.602361739002181,1.07543093139952,6.76860766416934e-15,14.169500658635,1.07543093139952
+pc aa c38:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,1920,Fasting,0.52818439969626,1.00745186290497,9.26710154364358e-12,11.0330560782002,1.00745186290497
+pc aa c38:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,960,Fasting,0.79810594683471,1.13145021353468,3.56486297050261e-28,27.4479571593039,1.13145021353468
+pc aa c38:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,TRUE,1920,Fasting,0.948925432433528,1.2822696991335,3.56486297050261e-28,27.4479571593039,1.2822696991335
+pc ae c36:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,TRUE,360,OLTT,0.363122028619682,1.02975852859563,2.3022628127023e-07,6.63784510138761,1.02975852859563
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,480,Fasting,-0.502100635755867,-1.04117132101734,3.66483524451063e-16,15.4359455446267,1.04117132101734
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,600,Fasting,-0.579372055211295,-1.11844274047277,3.66483524451063e-16,15.4359455446267,1.11844274047277
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,720,Fasting,-0.627095876615232,-1.16616656187671,3.66483524451063e-16,15.4359455446267,1.16616656187671
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,840,Fasting,-0.724910381282528,-1.263981066544,3.66483524451063e-16,15.4359455446267,1.263981066544
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,960,Fasting,-0.812226225117281,-1.35129691037876,3.66483524451063e-16,15.4359455446267,1.35129691037876
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,1920,Fasting,-0.708151472310171,-1.24722215757165,3.66483524451063e-16,15.4359455446267,1.24722215757165
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,TRUE,120,OLTT,1.32269573606807,1.43008760580111,2.38104171370584e-20,19.6232329960804,1.43008760580111
+sm c18:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,TRUE,1920,Fasting,0.894871751986783,1.05691148510271,1.74663291365785e-09,8.75779836022856,1.05691148510271
+tryptophan,Biocrates p150 [t-ms],Amino Acids,Tryptophan Metabolism,TRUE,1920,Fasting,-0.571796095804161,-1.28005568185103,0.00639745259365247,2.19399292363404,1.28005568185103
+tyrosine,Biocrates p150 [t-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,TRUE,120,OLTT,0.973954201573975,1.19505191165013,3.49205683969684e-09,8.45691869596137,1.19505191165013
+valine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",TRUE,1920,Fasting,2.11075504031318,2.00933220433822,7.15972216807047e-16,15.1451038300965,2.00933220433822
