@@ -20,7 +20,7 @@ library(pheatmap)
 ## Daten einlesen
 ```{r}
 # df <- fread("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/humet_imputed_400trees.csv")
-df <- fread("/Users/laura.stotko/Documents/Gobi-Metabolomics/results/correlation_input.csv")
+df <- fread("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/humet_imputed_400trees.csv")
 head(df)
 ```
 
