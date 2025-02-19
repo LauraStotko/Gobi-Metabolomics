@@ -1,0 +1,92 @@
+---
+title: "Cluster new"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(reshape2)
+library(Mfuzz)
+library(cluster)
+
+```
+
+
+```{r}
+# Daten einlesen
+df <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/clustering_input.csv")
+
+# Relevante Spalten auswählen
+df_selected <- df %>% select(metabolite, challenge, challenge_time, subject, response)
+
+# Pivotieren: Zeilen in eine Matrixform bringen (Metaboliten x Zeitpunkte x Herausforderungen x Probanden)
+df_pivot <- dcast(df_selected, metabolite ~ challenge + challenge_time + subject, value.var = "response")
+
+# Fehlende Werte mit dem Mittelwert des jeweiligen Metaboliten auffüllen
+df_pivot[is.na(df_pivot)] <- apply(df_pivot[, -1], 1, function(x) mean(x, na.rm = TRUE))
+
+# Z-Transformation pro Metabolit durchführen
+df_zscore <- df_pivot
+df_zscore[, -1] <- t(apply(df_pivot[, -1], 1, scale))
+
+```
+
+
+```{r}
+set.seed(42)
+wss <- sapply(2:15, function(k){
+  kmeans(df_zscore[, -1], centers = k, nstart = 10)$tot.withinss
+})
+
+# Plot der Elbow-Methode
+plot(2:15, wss, type="b", pch = 19, frame = FALSE, col = "blue",
+     xlab="Anzahl der Cluster (k)", ylab="Totale Within-Cluster-Summe der Quadrate",
+     main="Elbow-Methode zur Bestimmung von k")
+
+```
+
+
+
+```{r}
+# Mfuzz DataFrame erstellen
+df_mfuzz <- df_zscore
+rownames(df_mfuzz) <- df_mfuzz$metabolite
+df_mfuzz <- df_mfuzz[, -1]
+
+# ExpressionSet für Mfuzz erzeugen
+eset <- new("ExpressionSet", exprs = as.matrix(df_mfuzz))
+
+# Bestimmung des optimalen Fuzzifizierungsparameters m
+m_value <- mestimate(eset)
+print(m_value)
+
+
+
+```
+
+
+```{r}
+# Anzahl der Cluster auswählen (aus Elbow-Methode)
+optimal_k <- 6  # Falls du im Elbow-Plot k=8 siehst, ansonsten anpassen!
+
+# Standardisierung für Mfuzz
+eset <- standardise(eset)
+
+# Fuzzy C-Means Clustering durchführen
+fcm_result <- mfuzz(eset, c = optimal_k, m = m_value)
+
+# Clustermembership anzeigen
+print(fcm_result$cluster)
+
+# Visualisierung der Cluster
+mfuzz.plot(eset, cl=fcm_result, mfrow=c(3,3), time.labels=colnames(df_mfuzz),
+           new.window=FALSE)
+
+
+
+```
