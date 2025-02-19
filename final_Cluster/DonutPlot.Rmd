@@ -1,0 +1,171 @@
+---
+title: "Donut"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# 📌 Notwendige Bibliotheken laden
+library(tidyverse)
+
+# 📌 Originaldaten einlesen
+df_original <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/clustering_input.csv", stringsAsFactors = FALSE)
+
+# 📌 Alle einzigartigen Metaboliten aus der Originaldatei extrahieren
+unique_metabolites <- unique(df_original$metabolite)
+
+# 📌 Eine neue Mapping-Tabelle erstellen, die Metaboliten durchnummeriert
+df_metabolite_mapping <- data.frame(
+  metabolite_id = 1:length(unique_metabolites),  # Fortlaufende Nummerierung
+  metabolite_name = unique_metabolites           # Originale Metabolitennamen
+)
+
+# 📌 Mapping-Datei speichern, um sie später zu nutzen
+write.csv(df_metabolite_mapping, "/Users/laura.stotko/Documents/Gobi-Metabolomics/metabolite_mapping_new.csv", row.names = FALSE)
+
+print("Neue Metaboliten-Mapping-Tabelle wurde erfolgreich erstellt & gespeichert!")
+head(df_metabolite_mapping)
+
+```
+
+```{r}
+
+# 📌 Notwendige Bibliotheken laden
+library(tidyverse)
+
+# 📌 Neue Metaboliten-Mapping-Datei einlesen
+df_mapping <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/metabolite_mapping_new.csv", stringsAsFactors = FALSE)
+
+# 📌 Cluster-Zuordnung einlesen
+df_clusters_full <- read.csv("/Users/laura.stotko/Downloads/cluster_membership_results.csv", stringsAsFactors = FALSE)
+
+# 📌 Mapping-Tabelle mit Cluster-Daten verknüpfen
+df_clusters_mapped <- df_clusters_full %>%
+  left_join(df_mapping, by = c("metabolite" = "metabolite_id"))  # Jetzt mit der numerischen ID verknüpfen
+
+# 📌 Originaldaten mit Super Pathways einlesen
+df_original <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/clustering_input.csv", stringsAsFactors = FALSE)
+
+# 📌 Super Pathway-Informationen hinzufügen
+df_clusters_mapped <- df_clusters_mapped %>%
+  left_join(df_original %>% select(metabolite, super_pathway) %>% distinct(),
+            by = c("metabolite_name" = "metabolite"))
+
+# 📌 Super Pathway-Häufigkeit pro Cluster berechnen
+df_super_pathway_counts <- df_clusters_mapped %>%
+  group_by(cluster, super_pathway) %>%
+  summarise(count = n(), .groups = "drop")
+
+# 📌 Speichern für spätere Visualisierung
+write.csv(df_super_pathway_counts, "/Users/laura.stotko/Documents/Gobi-Metabolomics/super_pathway_counts.csv", row.names = FALSE)
+
+print("Super Pathway-Zuordnung & Cluster-Zuordnung erfolgreich gespeichert!")
+head(df_super_pathway_counts)
+
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+df_super_pathway_counts <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/super_pathway_counts.csv", stringsAsFactors = FALSE)
+
+df_super_pathway_counts$super_pathway <- as.factor(df_super_pathway_counts$super_pathway)
+
+super_pathway_colors <- c(
+  "Amino Acids" = "#d62728",
+  "Carbohydrates" = "#7f7f7f",
+  "Cofactors and Vitamins" = "#9467bd",
+  "Energy" = "#8c564b",
+  "Lipids" = "#ba8e23",
+  "Nucleotides" = "#e377c2",
+  "Peptides" = "#2ca02c",
+  "Xenobiotics" = "#1f77b4"
+)
+
+# Liste für die Plots
+plot_list <- list()
+
+# Donut-Plots für jeden Cluster erstellen
+for (cl in unique(df_super_pathway_counts$cluster)) {
+  
+  # Daten für spezifischen Cluster filtern
+  df_plot <- df_super_pathway_counts %>% filter(cluster == cl)
+  
+  # Gesamtanzahl für Prozentwerte berechnen
+  total_count <- sum(df_plot$count)
+  df_plot <- df_plot %>%
+    mutate(percentage = round((count / total_count) * 100, 1))
+  
+  # Donut Chart ohne Beschriftung & Legende erstellen
+  p <- ggplot(df_plot, aes(x = "", y = count, fill = super_pathway)) +
+    geom_bar(stat = "identity", width = 1) +
+    coord_polar("y", start = 0) +
+    theme_void() +  # Entfernt Achsen und Gitter
+    scale_fill_manual(values = super_pathway_colors, drop = FALSE) +  # Farben zuweisen
+    theme(legend.position = "none",  # Entfernt die Legende
+          plot.title = element_blank())  # Entfernt den Titel
+  
+  # Plot zur Liste hinzufügen
+  plot_list[[as.character(cl)]] <- p
+}
+
+# Plots anzeigen
+print(plot_list)
+
+for (cl in unique(df_super_pathway_counts$cluster)) {
+  ggsave(filename = paste0("/Users/laura.stotko/Documents/Gobi-Metabolomics/Plots/donut_cluster_", cl, ".png"),
+         plot = plot_list[[as.character(cl)]], width = 6, height = 6, dpi = 300)
+}
+
+print("Donut-Plots erfolgreich erstellt & gespeichert (ohne Beschriftungen & Legenden)!")
+
+```
+
+```{r}
+# Bibliotheken laden
+library(ggplot2)
+library(dplyr)
+
+# Definierte Farben für Super Pathways
+super_pathway_colors <- c(
+  "Amino Acids" = "#d62728",
+  "Carbohydrates" = "#7f7f7f",
+  "Cofactors and Vitamins" = "#9467bd",
+  "Energy" = "#8c564b",
+  "Lipids" = "#ba8e23",
+  "Nucleotides" = "#e377c2",
+  "Peptides" = "#2ca02c",
+  "Xenobiotics" = "#1f77b4"
+)
+
+# DataFrame für die Legende erstellen
+df_legend <- data.frame(
+  super_pathway = names(super_pathway_colors),
+  color = super_pathway_colors
+)
+
+# Legenden-Plot erstellen
+legend_plot <- ggplot(df_legend, aes(x = 1, y = reorder(super_pathway, desc(super_pathway)), fill = super_pathway)) +
+  geom_tile(width = 0.2, height = 0.6, color = "black") +  # Erzeugt die farbigen Quadrate mit schwarzem Rand
+  scale_fill_manual(values = super_pathway_colors) +  # Farben zuweisen
+  geom_text(aes(label = super_pathway, x = 1.5), hjust = 0, size = 6) +  # Text rechts neben den Quadraten
+  theme_void() +  # Entfernt Achsen & Gitter
+  theme(legend.position = "none",  # Entfernt Standard-Legende
+        plot.margin = margin(10, 10, 10, 10))  # Fügt etwas Platz um den Plot hinzu
+
+# Legenden-Plot anzeigen
+print(legend_plot)
+
+# Optional: Legenden-Plot speichern
+ggsave(filename = "/Users/laura.stotko/Documents/Gobi-Metabolomics/final_Cluster/super_pathway_legend.png",
+       plot = legend_plot, width = 5, height = 4, dpi = 300)
+
+print("Legende erfolgreich erstellt & gespeichert!")
+
+
+```

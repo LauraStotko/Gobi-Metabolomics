@@ -331,6 +331,18 @@ print("Alle Plots wurden erfolgreich gespeichert!")
 
 
 ```{r}
+# Anzahl der Metaboliten pro Cluster berechnen
+df_metabolite_counts <- df_clusters_full %>%
+  group_by(cluster) %>%
+  summarise(metabolite_count = n(), .groups = "drop")
+
+# Ergebnisse anzeigen
+print(df_metabolite_counts)
+
+#Ergebnisse als CSV speichern
+#write.csv(df_metabolite_counts, "/Users/laura.stotko/Documents/Gobi-Metabolomics/metabolite_counts_per_cluster.csv", row.names = FALSE)
+
+#print("Metaboliten-Anzahl pro Cluster erfolgreich berechnet & gespeichert!")
 
 
 ```
