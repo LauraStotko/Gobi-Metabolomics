@@ -15,7 +15,7 @@ library(tidyr)
 library(zoo)
 
 # Load the data
-data <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_clusters_by_challenge_with_time_respone.csv")
+data <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_3_clusters_by_challenge_with_time_respone.csv")
 
 # Clean column names
 colnames(data) <- make.names(colnames(data), unique = TRUE)
@@ -58,9 +58,9 @@ for (cluster in unique(mean_profiles$Assigned_Cluster)) {
               aes(x = Timepoint, y = Response, group = interaction(Assigned_Cluster, Challenge)),
               color = "lightgrey", size = 0.5, alpha = 0.7) +
     # Mean line in color (foreground)
-    geom_line(data = cluster_mean_data,
-              aes(x = Timepoint, y = Mean_Response, color = Challenge),
-              size = 1.2) +
+    #geom_line(data = cluster_mean_data,
+     #         aes(x = Timepoint, y = Mean_Response, color = Challenge),
+      #        size = 1.2) +
     facet_wrap(~ Challenge, ncol = 3) +                         # Three challenges side by side
     scale_y_continuous() +                     # Unified y-axis
     scale_x_continuous(limits = c(0, 240), breaks = seq(0, 240, 60)) +  # Unified x-axis

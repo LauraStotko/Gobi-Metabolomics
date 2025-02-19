@@ -1,6 +1,5 @@
 ---
 title: "cluster_version"
-author: "Laura Stotko and Marie Hackenberg"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -16,7 +15,7 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 
-run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1.25, seed = 123) {
+run_clustering_by_challenge <- function(file_path, output_file, c_num = 10, m = 1.25, seed = 123) {
   
   # Setze Seed für Reproduzierbarkeit
   set.seed(seed)
@@ -101,9 +100,21 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
   }
   
   # Formatieren der Spalten
+  #colnames(all_results) <- c(
+   # "Metabolite", "Cluster_1", "Cluster_2", "Cluster_3", "Assigned_Cluster", "Super_Pathway", 
+  #  "Sub_Pathway", "Challenge", "Timepoint", "Response"
+  #)
+  # Formatieren der Spalten
+  #colnames(all_results) <- c(
+    #"Metabolite", "Cluster_1", "Cluster_2", "Cluster_3", "Cluster_4", "Cluster_5",
+   # "Cluster_6", "Cluster_7", "Cluster_8", "Assigned_Cluster", "Super_Pathway", 
+  #  "Sub_Pathway", "Challenge", "Timepoint", "Response"
+  #)
+  
+   # Formatieren der Spalten
   colnames(all_results) <- c(
     "Metabolite", "Cluster_1", "Cluster_2", "Cluster_3", "Cluster_4", "Cluster_5",
-    "Cluster_6", "Cluster_7", "Cluster_8", "Assigned_Cluster", "Super_Pathway", 
+    "Cluster_6", "Cluster_7", "Cluster_8", "Cluster_9", "Cluster_10", "Assigned_Cluster", "Super_Pathway", 
     "Sub_Pathway", "Challenge", "Timepoint", "Response"
   )
   
@@ -115,11 +126,14 @@ run_clustering_by_challenge <- function(file_path, output_file, c_num = 8, m = 1
 
 # Beispielaufruf
 run_clustering_by_challenge(
-  file_path = "/Users/laura.stotko/Documents/Gobi-Metabolomics/results/clustering_input.csv",
-  output_file = "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_clusters_by_challenge_with_time_respone.csv",
-  c_num = 8,  # Anzahl der Cluster
+  file_path = "/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/clustering_input.csv",
+  output_file = "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_10_clusters_by_challenge_with_time_respone.csv",
+  c_num = 10,  # Anzahl der Cluster
   m = 1.25,   # Fuzzifizierungsparameter
   seed = 42   # Seed für Reproduzierbarkeit
 )
 
 ```
+
+
+

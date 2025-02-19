@@ -19,7 +19,7 @@ library(cluster)
 
 ```{r}
 # Daten einlesen
-df <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/data/processed/clustering_input.csv")
+df <- read.csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/final_Cluster/clustering_input.csv")
 
 # Relevante Spalten auswählen
 df_selected <- df %>% select(metabolite, challenge, challenge_time, subject, response)
@@ -83,10 +83,260 @@ fcm_result <- mfuzz(eset, c = optimal_k, m = m_value)
 # Clustermembership anzeigen
 print(fcm_result$cluster)
 
-# Visualisierung der Cluster
-mfuzz.plot(eset, cl=fcm_result, mfrow=c(3,3), time.labels=colnames(df_mfuzz),
-           new.window=FALSE)
+```
 
+```{r}
+# Cluster-Zuordnung extrahieren
+df_clusters <- data.frame(metabolite = rownames(df_zscore), cluster = fcm_result$cluster)
+
+# Cluster-Mitgliedschaft hinzufügen (jede Spalte repräsentiert die Wahrscheinlichkeit für ein Cluster)
+df_membership <- as.data.frame(fcm_result$membership)
+colnames(df_membership) <- paste0("Cluster_", 1:ncol(df_membership))  # Spaltennamen anpassen
+
+# Beide DataFrames kombinieren
+df_clusters_full <- cbind(df_clusters, df_membership)
+
+
+write.csv(df_clusters_full, "/Users/laura.stotko/Downloads/cluster_membership_results.csv", row.names = FALSE)
+
+```
+
+```{r}
+# Dataframe ins lange Format umwandeln für ggplot
+df_long <- df_zscore %>%
+  mutate(metabolite = rownames(df_zscore)) %>%
+  pivot_longer(-metabolite, names_to = "condition", values_to = "response") %>%
+  left_join(df_clusters, by = "metabolite")  # Cluster hinzufügen
+library(ggplot2)
+
+print(df_long)
+```
+
+```{r}
+library(dplyr)
+
+# Challenge & Time-Point extrahieren
+df_long <- df_long %>%
+  mutate(
+    challenge = sub("_.*", "", condition),  # Challenge extrahieren
+    time_point = as.numeric(sub(".*_(\\d+)_\\d+$", "\\1", condition))  # Time-Point extrahieren
+  )
+
+# Mittelwert über alle Subjects berechnen
+df_long_mean <- df_long %>%
+  group_by(cluster, challenge, time_point) %>%
+  summarise(response = mean(response, na.rm = TRUE), .groups = "drop")
+
+# Individuelle Werte OHNE Mittelung speichern
+df_long_individual <- df_long %>%
+  select(cluster, challenge, time_point, metabolite, response)
+
+# Beide Tabellen anzeigen (optional)
+print(df_long_mean)
+print(df_long_individual)
+write.csv(df_long_individual, "/Users/laura.stotko/Downloads/df_long_individual.csv", row.names = FALSE)
+write.csv(df_long_mean, "/Users/laura.stotko/Downloads/df_long_mean.csv", row.names = FALSE)
 
 
 ```
+
+```{r}
+library(dplyr)
+
+# Stelle sicher, dass `metabolite` als Zahl gespeichert ist
+df_long_individual <- df_long_individual %>%
+  mutate(metabolite = as.numeric(metabolite))
+
+# Mittelwert für jeden Metaboliten pro time_point, challenge & cluster berechnen
+df_long_mean_per_metabolite <- df_long_individual %>%
+  group_by(cluster, challenge, time_point, metabolite) %>%
+  summarise(response = mean(response, na.rm = TRUE), .groups = "drop")
+
+# Überprüfen, ob ALLE Metaboliten enthalten sind
+print(unique(df_long_mean_per_metabolite$metabolite))
+
+
+```
+
+
+```{r}
+library(ggplot2)
+library(patchwork)  
+
+save_path <- "/Users/laura.stotko/Documents/Gobi-Metabolomics/final_Cluster/Plots"
+
+challenge_colors <- c(
+  "Fasting" = "#e55050",  # Rot
+  "PAT" = "#6160f2",      # Blau
+  "OLTT" = "#ba8e23"      # Gold/Braun
+)
+
+# Alle Cluster durchgehen
+for (cl in unique(df_long_mean_per_metabolite$cluster)) {
+  
+  # Liste für Challenge-Plots initialisieren
+  plot_list <- list()
+  
+  for (ch_index in seq_along(unique(df_long_mean_per_metabolite$challenge))) {
+    
+    # Aktuelle Challenge abrufen
+    ch <- unique(df_long_mean_per_metabolite$challenge)[ch_index]
+    
+    # Daten für spezifischen Cluster & Challenge filtern
+    df_plot <- df_long_mean_per_metabolite %>%
+      filter(cluster == cl & challenge == ch)
+    
+    # Falls keine Daten vorhanden sind, überspringen
+    if (nrow(df_plot) == 0) next
+    
+    # Mittelwert pro Time-Point berechnen
+    df_mean <- df_plot %>%
+      group_by(time_point) %>%
+      summarise(response = mean(response, na.rm = TRUE), .groups = "drop")
+    
+    # Standard-Theme (Y-Achse nur im linken Plot, X-Titel nur im mittleren Plot)
+    plot_theme <- theme(
+      axis.text.x = element_text(angle = 90, hjust = 1, size = 10),  # Lesbare X-Achse
+      axis.line.x = element_line(color = "black", size = 0.8),  # X-Achse sichtbar
+      axis.line.y = element_line(color = "black", size = 0.8),  # Y-Achse sichtbar (nur links)
+      legend.position = "none",  # Keine Legende
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.background = element_blank()
+    )
+    
+    # Falls es NICHT der erste (linke) Plot in der Reihe ist: Y-Achse entfernen
+    if (ch_index > 1) {
+      plot_theme <- plot_theme + theme(
+        axis.text.y = element_blank(), 
+        axis.title.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line.y = element_blank()
+      )
+    }
+    
+    # Falls es NICHT der mittlere Plot ist: X-Titel entfernen
+    if (ch_index != 2) {
+      plot_theme <- plot_theme + theme(axis.title.x = element_blank())
+    }
+    
+    # Einzelnen Plot erstellen
+    p <- ggplot() +
+      geom_line(data = df_plot, aes(x = time_point, y = response, group = metabolite),
+                size = 0.8, alpha = 0.5, color = "gray") +
+      geom_line(data = df_mean, aes(x = time_point, y = response),
+                size = 1.5, color = challenge_colors[ch]) +  
+      ylim(-1.5, 3) +
+      labs(title = NULL, x = "Challenge Time [min]", y = "metabolite abundance (z-score)") +
+      plot_theme
+    
+    # Plot zur Liste hinzufügen
+    plot_list[[ch]] <- p
+  }
+  
+  # Alle drei Challenge-Plots nebeneinander mit Cluster-Titel kombinieren
+  if (length(plot_list) > 0) {
+    combined_plot <- wrap_plots(plot_list, ncol = 3) + 
+      plot_annotation(title = paste("Cluster", cl))  # Cluster-Überschrift
+    
+    print(combined_plot)  # Zeigt den Plot an
+    
+    # Datei speichern
+    file_name <- paste0(save_path, "/Cluster_", cl, "_combined.png")
+    ggsave(filename = file_name, plot = combined_plot, width = 12, height = 4.5, dpi = 300)
+  }
+}
+
+print("Alle Cluster-Plot-Kombinationen erfolgreich gespeichert!")
+
+```
+
+
+```{r}
+library(ggplot2)
+
+# Definierte Farben für die Challenges
+challenge_colors <- c(
+  "Fasting" = "#e55050",  # Rot
+  "PAT" = "#6160f2",      # Blau
+  "OLTT" = "#ba8e23"      # Gold/Braun
+)
+
+# Dummy-Daten für die kompakteren Boxen
+df_legend <- data.frame(
+  challenge = names(challenge_colors),
+  x_min = c(0, 2, 4),  # X-Startpunkte für die Boxen
+  x_max = c(1.5, 3.5, 5.5),  # X-Endpunkte für die Boxen (breiter als vorher)
+  y_min = rep(0, 3),
+  y_max = rep(0.8, 3)  # Niedrigere Höhe für flachere Boxen
+)
+
+# Box-Legende mit flacheren und breiteren Boxen erstellen
+legend_plot <- ggplot() +
+  # Rechtecke für die Challenges
+  geom_rect(data = df_legend, aes(xmin = x_min, xmax = x_max, ymin = y_min, ymax = y_max, color = challenge), 
+            fill = "white", size = 1.2) +  
+  # Farben für die Ränder setzen
+  scale_color_manual(values = challenge_colors) +
+  # Labels für die Challenges mittig platzieren
+  geom_text(data = df_legend, aes(x = (x_min + x_max) / 2, y = 0.4, label = challenge), 
+            size = 5, fontface = "bold") +
+  # Layout anpassen
+  theme_void() +  # Entfernt alle Achsen und Hintergründe
+  theme(legend.position = "none")  
+
+# Legende anzeigen
+print(legend_plot)
+
+```
+
+
+```{r}
+save_path <- "/Users/laura.stotko/Documents/Gobi-Metabolomics/final_Cluster/Plots"
+
+for (cl in unique(df_long$cluster)) {
+  for (ch in unique(df_long$challenge)) {
+    
+    df_subset <- df_long_mean_per_metabolite %>% filter(cluster == cl & challenge == ch)
+    
+    if (nrow(df_subset) == 0) next
+    
+  
+    p <- ggplot(df_subset, aes(x = time_point, y = response, group = metabolite)) +
+      geom_line(alpha = 0.5, color = "gray") +  # Alle individuellen Linien in Grau
+      stat_summary(fun = mean, geom = "line", aes(group = 1, color = challenge), size = 1.2) +  # Mittelwerts-Linie
+      scale_color_manual(values = challenge_colors) +
+      labs(title = paste("Cluster", cl, "-", ch, "Challenge"), x = "Time Points", y = "Metabolite Response") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 90, hjust = 1),
+            legend.position = "none",
+            panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(),
+            panel.background = element_blank())
+
+  
+    file_name <- paste0(save_path, "/Cluster_", cl, "_", ch, ".png")
+    ggsave(filename = file_name, plot = p, width = 6, height = 4, dpi = 300)
+  }
+}
+
+# Legenden-Plot speichern
+legend_file <- paste0(save_path, "/Challenge_Legend.png")
+ggsave(filename = legend_file, plot = legend_plot, width = 6, height = 2, dpi = 300)
+
+print("Alle Plots wurden erfolgreich gespeichert!")
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+
+
+
+
