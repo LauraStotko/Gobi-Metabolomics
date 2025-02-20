@@ -78,10 +78,18 @@ metabolite_cols <- 4:(ncol(ind_input)-1)  # -1 ??
 
 ## CVI: Intra-individual variation (per sbuject)
 ```{r}
-#Calculate CVI (Intra-individual variation for each metabolite across timepoints per subject)
-cvi_stats <- ind_input %>%
+stats_check <- ind_input %>%
   group_by(subject) %>%
-  summarise(across(metabolite_cols, ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100, .names = "{.col}_CVI"))
+  summarise(across(metabolite_cols, list(
+    mean = ~ mean(.x, na.rm = TRUE),
+    sd = ~ sd(.x, na.rm = TRUE),
+    cvi = ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100
+  ), .names = "{.col}_{.fn}"))
+
+# #Calculate CVI (Intra-individual variation for each metabolite across timepoints per subject)
+# cvi_stats <- ind_input %>%
+#   group_by(subject) %>%
+#   summarise(across(metabolite_cols, ~ (sd(.x, na.rm = TRUE) / mean(.x, na.rm = TRUE)) * 100, .names = "{.col}_CVI"))
 
 # Add row for mean cvi per metabolite
 mean_cvi <- cvi_stats %>%

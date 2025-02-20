@@ -323,6 +323,10 @@ cat("Finished pre-processing at ", format(end_time_overall, "%H:%M:%S"), " (Time
 ```{r}
 humet_raw_rf_path <- "../input/processed/humet_data_raw_rf_subjects15_tp57.csv"
 humet_raw_rf <- read.csv(humet_raw_rf_path, sep = ",", header = TRUE)
+info_path <- "../input/raw/humet_info_2.csv"
+info <- read.csv(info_path, sep = ",", header = TRUE)
+info <- info %>%
+  dplyr::select(where(fluid == "plasma"))
 humet_raw_rf_na_cols <- humet_raw_rf %>%
   dplyr::select(where(~ any(is.na(.))))  # Select columns that contain NA values
 humet_raw_rf_na_col_names <- as.data.frame(colnames(humet_raw_rf_na_cols))
