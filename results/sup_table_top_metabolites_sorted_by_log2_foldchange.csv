@@ -1,0 +1,451 @@
+super_pathway,sub_pathway,challenge,metabolite,platform_name,abs_log2_foldchange,neg_log10_p_value,type
+Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,o-acetylhomoserine,Metabolon HD4 [nt-ms],3.65664098856637,49.5768294681281,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,o-acetylhomoserine,Metabolon HD4 [nt-ms],3.60664003580699,49.5768294681281,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,o-acetylhomoserine,Metabolon HD4 [nt-ms],3.51214239790174,49.5768294681281,Top by |log2 foldchange|
+Energy,TCA Cycle,PAT,fumarate,Metabolon HD4 [nt-ms],3.35342651509667,19.8698408472845,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,OLTT,taurocholate,Metabolon HD4 [nt-ms],2.97552129539576,19.5845055248967,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",PAT,hypoxanthine,Metabolon HD4 [nt-ms],2.8778745493289,35.9754146081194,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",OLTT,2-hydroxydecanoate,Metabolon HD4 [nt-ms],2.8078889820629,23.3986053409244,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,OLTT,glycolithocholate,Metabolon HD4 [nt-ms],2.74712469686737,21.7299779999343,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",OLTT,2-hydroxydecanoate,Metabolon HD4 [nt-ms],2.57744772473915,23.3986053409244,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",OLTT,2-hydroxydecanoate,Metabolon HD4 [nt-ms],2.42564924404284,23.3986053409244,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",OLTT,glucose,Metabolon HD4 [nt-ms],2.36312794783656,17.7096246635988,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",OLTT,isovalerylglycine,Metabolon HD4 [nt-ms],2.36278227218253,20.6319936296171,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",OLTT,fructose,Metabolon HD4 [nt-ms],2.33100110050863,8.09580508243196,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,OLTT,taurocholate,Metabolon HD4 [nt-ms],2.31943080393938,19.5845055248967,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,OLTT,taurochenodeoxycholate,Metabolon HD4 [nt-ms],2.30039244644132,17.4372830297176,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,Fasting,gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],2.19573809670911,16.0629606756819,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,PAT,pantothenate,Metabolon HD4 [nt-ms],2.19055111026085,18.5340873516418,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,OLTT,citrulline,Metabolon HD4 [nt-ms],2.17664296161534,12.156449735639,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,OLTT,citrulline,Metabolon HD4 [nt-ms],2.16763754589786,12.156449735639,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",PAT,xanthosine,Metabolon HD4 [nt-ms],2.14959031842989,14.6148359584527,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",PAT,"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],2.14160065395264,10.5346740461877,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",OLTT,fructose,Metabolon HD4 [nt-ms],2.13147303492002,8.09580508243196,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,OLTT,glycoursodeoxycholate,Metabolon HD4 [nt-ms],2.11403810299385,15.5611643314559,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",PAT,n-acetylmethionine,Metabolon HD4 [nt-ms],2.10791615421236,17.2429935937,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",PAT,methylsuccinate,Metabolon HD4 [nt-ms],2.03711434448124,4.19525853827903,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",PAT,inosine,Metabolon HD4 [nt-ms],2.02505691459566,12.8012389562256,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,OLTT,glycolithocholate,Metabolon HD4 [nt-ms],1.99716633059123,21.7299779999343,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,nicotinamide,Metabolon HD4 [nt-ms],1.99528079787505,8.8565765737831,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",OLTT,azelate (nonanedioate),Metabolon HD4 [nt-ms],1.99140679777239,7.08183158715378,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",PAT,n-acetylmethionine,Metabolon HD4 [nt-ms],1.98752197424112,17.2429935937,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,OLTT,spermidine,Metabolon HD4 [nt-ms],1.96567937687291,11.6006950999225,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,n-acetylleucine,Metabolon HD4 [nt-ms],1.91926397291517,3.75453378062908,Top by |log2 foldchange|
+Lipids,Lysolipid,OLTT,2-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],1.90358357679642,5.10709019410945,Top by |log2 foldchange|
+Lipids,Lysolipid,OLTT,2-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],1.89511903783979,5.10709019410945,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,OLTT,spermidine,Metabolon HD4 [nt-ms],1.89430026322653,11.6006950999225,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,OLTT,citrulline,Metabolon HD4 [nt-ms],1.89402583024021,12.156449735639,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",OLTT,isovalerylglycine,Metabolon HD4 [nt-ms],1.88496661963922,20.6319936296171,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",OLTT,isobutyrylglycine,Metabolon HD4 [nt-ms],1.8713492838162,11.4069590273158,Top by |log2 foldchange|
+Lipids,Lysolipid,OLTT,2-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],1.81996879975769,5.10709019410945,Top by |log2 foldchange|
+Energy,TCA Cycle,PAT,fumarate,Metabolon HD4 [nt-ms],1.77673451468841,19.8698408472845,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",OLTT,azelate (nonanedioate),Metabolon HD4 [nt-ms],1.73880254227955,7.08183158715378,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,Fasting,"1,7-dimethylurate",Metabolon HD4 [nt-ms],1.72409577681381,2.75179534333595,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],1.69974189792507,22.8410234996143,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,1-methylnicotinamide,Metabolon HD4 [nt-ms],1.67648932851876,7.02598939679868,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,trans-4-hydroxyproline,Metabolon HD4 [nt-ms],1.66241553389029,33.6835162037441,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,trans-4-hydroxyproline,Metabolon HD4 [nt-ms],1.65746604760781,33.6835162037441,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,PAT,maltotriose,Metabolon HD4 [nt-ms],1.63387711784565,5.2338946210849,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,methylsuccinoylcarnitine (1),Metabolon HD4 [nt-ms],1.63149543495896,11.9143851605346,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,OLTT,spermidine,Metabolon HD4 [nt-ms],1.60493791759974,11.6006950999225,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,Fasting,1-methylxanthine,Metabolon HD4 [nt-ms],1.59987430488778,5.5212529084868,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,Fasting,1-methylguanidine,Metabolon HD4 [nt-ms],1.59508630562928,12.1205718683819,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",PAT,n-formylmethionine,Metabolon HD4 [nt-ms],1.58838487016085,5.14685309175397,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,Fasting,1-methylxanthine,Metabolon HD4 [nt-ms],1.57962512577407,5.5212529084868,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,PAT,phenylacetylglutamate,Metabolon HD4 [nt-ms],1.54586431240091,11.5562143685299,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,Fasting,hyocholate,Metabolon HD4 [nt-ms],1.54190324435244,12.7304596292788,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,OLTT,n-formylphenylalanine,Metabolon HD4 [nt-ms],1.53969048659192,6.89723391210721,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,Fasting,spermidine,Metabolon HD4 [nt-ms],1.53443251550838,2.28017237587186,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,PAT,phenylacetylglutamate,Metabolon HD4 [nt-ms],1.52495822610841,11.5562143685299,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",PAT,adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],1.52069718868807,6.60423931664426,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,Fasting,gamma-glutamylglutamate,Metabolon HD4 [nt-ms],1.5172270724415,7.68485530779057,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",PAT,"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],1.5036830293214,10.5346740461877,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",OLTT,glucose,Metabolon HD4 [nt-ms],1.49158447447248,17.7096246635988,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,Fasting,hyocholate,Metabolon HD4 [nt-ms],1.48044895671224,12.7304596292788,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,Fasting,n-acetyl-3-methylhistidine,Metabolon HD4 [nt-ms],1.46092797520918,4.89118386631289,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,Fasting,thymol sulfate,Metabolon HD4 [nt-ms],1.4346020004092,2.92900205038323,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,Fasting,1-methylguanidine,Metabolon HD4 [nt-ms],1.43372353818964,12.1205718683819,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,beta-hydroxyisovalerate,Metabolon HD4 [nt-ms],1.4229288746519,6.98139372327324,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",Fasting,2-aminoheptanoate,Metabolon HD4 [nt-ms],1.41638112250249,21.9366151090707,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",PAT,n-acetylleucine,Metabolon HD4 [nt-ms],1.39381567356301,6.60864880902237,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,Fasting,hyocholate,Metabolon HD4 [nt-ms],1.3929248716355,12.7304596292788,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,stearoylcarnitine,Metabolon HD4 [nt-ms],1.38961514737965,18.1176559202223,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,trans-4-hydroxyproline,Metabolon HD4 [nt-ms],1.38292798619514,33.6835162037441,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,Fasting,1-methylguanidine,Metabolon HD4 [nt-ms],1.37896934635398,12.1205718683819,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,Fasting,n-acetyl-3-methylhistidine,Metabolon HD4 [nt-ms],1.36606013457996,4.89118386631289,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,OLTT,n-formylphenylalanine,Metabolon HD4 [nt-ms],1.35846710454317,6.89723391210721,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,OLTT,n-formylphenylalanine,Metabolon HD4 [nt-ms],1.35523042874174,6.89723391210721,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,n-acetyl-beta-alanine,Metabolon HD4 [nt-ms],1.35188186540271,5.18967529794168,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],1.35120831614172,22.8410234996143,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,Fasting,gamma-glutamylglutamate,Metabolon HD4 [nt-ms],1.34570698814606,7.68485530779057,Top by |log2 foldchange|
+Lipids,Lysolipid,Fasting,2-docosahexaenoyl-gpc (22:6),Metabolon HD4 [nt-ms],1.34252355415879,5.06195807052569,Top by |log2 foldchange|
+Lipids,Steroid,OLTT,pregnanolone/allopregnanolone sulfate,Metabolon HD4 [nt-ms],1.34113225733248,13.8508897117243,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,Fasting,tryptophan,Metabolon HD4 [nt-ms],1.32544320908746,3.74853760770656,Top by |log2 foldchange|
+Lipids,Steroid,OLTT,pregnanolone/allopregnanolone sulfate,Metabolon HD4 [nt-ms],1.3231160436594,13.8508897117243,Top by |log2 foldchange|
+Lipids,Lysolipid,Fasting,1-dihomo-linoleoyl-gpc (20:2),Metabolon HD4 [nt-ms],1.29792737801254,6.76498089212656,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,Fasting,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],1.29638304558428,10.7079400287908,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,Fasting,pantothenate,Metabolon HD4 [nt-ms],1.28898558116246,2.62543226105619,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,Fasting,tryptophan,Biocrates p150 [t-ms],1.28005568185103,2.19399292363404,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,PAT,pantothenate,Metabolon HD4 [nt-ms],1.27795542007998,18.5340873516418,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",OLTT,azelate (nonanedioate),Metabolon HD4 [nt-ms],1.27402034687041,7.08183158715378,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,1-methylnicotinamide,Metabolon HD4 [nt-ms],1.25416280000436,7.02598939679868,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,Fasting,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],1.24905117931462,10.7079400287908,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,Fasting,n-acetyl-3-methylhistidine,Metabolon HD4 [nt-ms],1.24882664896518,4.89118386631289,Top by |log2 foldchange|
+Lipids,Lysolipid,Fasting,1-nonadecanoyl-gpc (19:0),Metabolon HD4 [nt-ms],1.24662845728417,5.04544003441079,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,PAT,pantothenate,Metabolon HD4 [nt-ms],1.24006765419255,18.5340873516418,Top by |log2 foldchange|
+Amino Acids,"Leucine, Isoleucine and Valine Metabolism",PAT,tigloylglycine,Metabolon HD4 [nt-ms],1.23744200694412,2.21339864900503,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,Fasting,thymol sulfate,Metabolon HD4 [nt-ms],1.23043794027002,2.92900205038323,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,OLTT,gamma-tocopherol/beta-tocopherol,Metabolon HD4 [nt-ms],1.21107836002215,21.17906402214,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,OLTT,gamma-tocopherol/beta-tocopherol,Metabolon HD4 [nt-ms],1.19751062516707,21.17906402214,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),OLTT,decanoylcarnitine,Metabolon HD4 [nt-ms],1.18788681130616,5.54569353185259,Top by |log2 foldchange|
+Xenobiotics,Chemical,PAT,o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],1.18501977508115,9.71368849196223,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,OLTT,ribonate,Metabolon HD4 [nt-ms],1.15676505567504,5.28720159708517,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,OLTT,ribonate,Metabolon HD4 [nt-ms],1.15046310412626,5.28720159708517,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,Fasting,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],1.1458775454559,10.7079400287908,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",Fasting,2-aminoheptanoate,Metabolon HD4 [nt-ms],1.1321918531578,21.9366151090707,Top by |log2 foldchange|
+Energy,TCA Cycle,PAT,fumarate,Metabolon HD4 [nt-ms],1.12599565566596,19.8698408472845,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,OLTT,histidine,Metabolon HD4 [nt-ms],1.12539948969246,14.0539687613719,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,OLTT,histidine,Metabolon HD4 [nt-ms],1.12384985716778,14.0539687613719,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",OLTT,glycine,Metabolon HD4 [nt-ms],1.11605225876006,18.7986555052997,Top by |log2 foldchange|
+Xenobiotics,Chemical,PAT,o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],1.11293355260174,9.71368849196223,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,Fasting,thymol sulfate,Metabolon HD4 [nt-ms],1.11157820159692,2.92900205038323,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,n-formylmethionine,Metabolon HD4 [nt-ms],1.10496449537344,1.4323038513837,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,OLTT,glycerol 3-phosphate,Metabolon HD4 [nt-ms],1.088194355086,5.04968117003607,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",OLTT,glycine,Metabolon HD4 [nt-ms],1.08456829426196,18.7986555052997,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,glucose,Metabolon HD4 [nt-ms],1.06922365094827,3.4241381197,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",Fasting,2-aminoheptanoate,Metabolon HD4 [nt-ms],1.06115468979008,21.9366151090707,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,PAT,4-hydroxyphenylacetatoylcarnitine,Metabolon HD4 [nt-ms],1.04929116033714,5.08356519017913,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,OLTT,gamma-tocopherol/beta-tocopherol,Metabolon HD4 [nt-ms],1.04605639528592,21.17906402214,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,n-acetylmethionine,Metabolon HD4 [nt-ms],1.03721898994476,2.43669459093151,Top by |log2 foldchange|
+Lipids,Steroid,OLTT,"5alpha-androstan-3alpha,17alpha-diol disulfate",Metabolon HD4 [nt-ms],1.03616716829578,5.10338067894738,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",OLTT,n-acetylthreonine,Metabolon HD4 [nt-ms],1.02665300546593,7.31097848330056,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",PAT,n-acetyl-beta-alanine,Metabolon HD4 [nt-ms],1.02463019816627,2.74405612143538,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,OLTT,maltotriose,Metabolon HD4 [nt-ms],1.01012780233406,2.50145029311802,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,OLTT,glycerol 3-phosphate,Metabolon HD4 [nt-ms],1.00734920997272,5.04968117003607,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",OLTT,fructose,Metabolon HD4 [nt-ms],1.00465544366037,8.09580508243196,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,tyrosine,Metabolon HD4 [nt-ms],0.98951144343511,2.91271031199632,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,OLTT,1-methylguanidine,Metabolon HD4 [nt-ms],0.986280868768518,3.01785819410994,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,OLTT,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.979331051013719,5.04968117003607,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),OLTT,octanoylcarnitine,Metabolon HD4 [nt-ms],0.979245166991051,7.67458838905183,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,OLTT,glucuronate,Metabolon HD4 [nt-ms],0.974860947666542,2.12607890182007,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,OLTT,histidine,Metabolon HD4 [nt-ms],0.972662073033147,14.0539687613719,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),OLTT,decanoylcarnitine,Metabolon HD4 [nt-ms],0.964889534250627,5.54569353185259,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,Fasting,pc ae c38:2,Biocrates p150 [t-ms],0.962899340844111,2.8153527858135,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,OLTT,tryptophan,Metabolon HD4 [nt-ms],0.9549996404056,22.0617553003459,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,OLTT,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.948012287297712,12.1009355574944,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,OLTT,erythronate,Metabolon HD4 [nt-ms],0.946857126860763,6.13546548692532,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),PAT,butyrylcarnitine,Metabolon HD4 [nt-ms],0.944031625264094,4.15995421968287,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",PAT,n-acetyl-beta-alanine,Metabolon HD4 [nt-ms],0.940818664746756,2.74405612143538,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,OLTT,tryptophan,Metabolon HD4 [nt-ms],0.940737133705126,22.0617553003459,Top by |log2 foldchange|
+Lipids,Lysolipid,PAT,1-stearoyl-gpi (18:0),Metabolon HD4 [nt-ms],0.927176628071631,4.91997494654664,Top by |log2 foldchange|
+Lipids,Lysolipid,PAT,1-stearoyl-gpe (18:0),Metabolon HD4 [nt-ms],0.926003605726259,8.20554521301206,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,OLTT,1-methylguanidine,Metabolon HD4 [nt-ms],0.912318698181971,3.01785819410994,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",PAT,3-ureidopropionate,Metabolon HD4 [nt-ms],0.903204437576557,1.64322641314166,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,OLTT,ribonate,Metabolon HD4 [nt-ms],0.899517424094097,5.28720159708517,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",OLTT,glycerate,Metabolon HD4 [nt-ms],0.897902969886052,6.42643385475116,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,OLTT,glucuronate,Metabolon HD4 [nt-ms],0.89713709530266,2.12607890182007,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,tyrosine,Metabolon HD4 [nt-ms],0.89631058010064,2.91271031199632,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,OLTT,gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],0.894295808857816,2.71410312982153,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,OLTT,pc ae c40:1,Biocrates p150 [t-ms],0.894200503655914,3.24817270362784,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,Fasting,glucuronate,Metabolon HD4 [nt-ms],0.893848841392929,1.04239448722246,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,OLTT,indolin-2-one,Metabolon HD4 [nt-ms],0.891942871085943,5.88826131827939,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,OLTT,gamma-glutamylphenylalanine,Metabolon HD4 [nt-ms],0.884574243763617,19.8734954911279,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,OLTT,indolin-2-one,Metabolon HD4 [nt-ms],0.882209338963545,5.88826131827939,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,Fasting,tryptophan,Metabolon HD4 [nt-ms],0.879060139846559,3.74853760770656,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,glucose,Metabolon HD4 [nt-ms],0.877030336026167,3.4241381197,Top by |log2 foldchange|
+Lipids,Lysolipid,PAT,1-stearoyl-gpi (18:0),Metabolon HD4 [nt-ms],0.871676418039193,4.91997494654664,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),PAT,butyrylcarnitine,Metabolon HD4 [nt-ms],0.870475392409181,4.15995421968287,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,OLTT,gamma-glutamylvaline,Metabolon HD4 [nt-ms],0.870307144521171,6.12908671685552,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,PAT,maltotriose,Metabolon HD4 [nt-ms],0.867469630982307,5.2338946210849,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,OLTT,tryptophan,Biocrates p150 [t-ms],0.859128689753365,6.80809166971033,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,PAT,spermidine,Metabolon HD4 [nt-ms],0.853249405919719,2.96598708418607,Top by |log2 foldchange|
+Lipids,Steroid,Fasting,21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],0.848832094257565,4.1729353585633,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",OLTT,"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],0.846601133122602,2.92542098330524,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,Fasting,pc ae c40:5,Biocrates p150 [t-ms],0.8443802955723,2.70431982050958,Top by |log2 foldchange|
+Xenobiotics,Chemical,Fasting,dimethyl sulfone,Metabolon HD4 [nt-ms],0.842769578434601,4.80391581874852,Top by |log2 foldchange|
+Lipids,Steroid,PAT,21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],0.833735290785079,3.77302371978174,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,OLTT,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.829144773583206,12.1009355574944,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,OLTT,asparagine,Metabolon HD4 [nt-ms],0.820712874159114,13.6440826010467,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,OLTT,1-methylguanidine,Metabolon HD4 [nt-ms],0.81704005264765,3.01785819410994,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,OLTT,asparagine,Metabolon HD4 [nt-ms],0.814098971215622,13.6440826010467,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",Fasting,azelate (nonanedioate),Metabolon HD4 [nt-ms],0.810813172715707,3.01870522534028,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,Fasting,pc ae c40:4,Biocrates p150 [t-ms],0.810246268483711,2.18927499668553,Top by |log2 foldchange|
+Lipids,Steroid,Fasting,"5alpha-androstan-3alpha,17beta-diol disulfate",Metabolon HD4 [nt-ms],0.805919941566827,4.85114715921043,Top by |log2 foldchange|
+Lipids,Steroid,Fasting,21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],0.795855420645211,4.1729353585633,Top by |log2 foldchange|
+Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,p-cresol-glucuronide,Metabolon HD4 [nt-ms],0.794332556490902,8.68236955245229,Top by |log2 foldchange|
+Xenobiotics,Chemical,Fasting,dimethyl sulfone,Metabolon HD4 [nt-ms],0.792497368134421,4.80391581874852,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,OLTT,asparagine,Metabolon HD4 [nt-ms],0.791901625720343,13.6440826010467,Top by |log2 foldchange|
+Lipids,Sphingomyelin,Fasting,sm (oh) c24:1,Biocrates p150 [t-ms],0.790582905043138,2.64205434447884,Top by |log2 foldchange|
+Lipids,Sphingomyelin,Fasting,sm (oh) c22:1,Biocrates p150 [t-ms],0.787312615123244,5.93938091963562,Top by |log2 foldchange|
+Xenobiotics,Chemical,OLTT,lanthionine,Metabolon HD4 [nt-ms],0.784613433615261,28.5042085397217,Top by |log2 foldchange|
+Xenobiotics,Chemical,OLTT,o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],0.780311653923562,3.84872168930458,Top by |log2 foldchange|
+Xenobiotics,Chemical,OLTT,lanthionine,Metabolon HD4 [nt-ms],0.769210074604434,28.5042085397217,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,OLTT,pc ae c40:1,Biocrates p150 [t-ms],0.756941735600379,3.24817270362784,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",OLTT,3-ureidopropionate,Metabolon HD4 [nt-ms],0.755594954690318,8.4093055917816,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,PAT,glycohyocholate,Metabolon HD4 [nt-ms],0.755045062606541,4.0705515851523,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,OLTT,indolin-2-one,Metabolon HD4 [nt-ms],0.75458631830248,5.88826131827939,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,Fasting,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.752126524243148,3.35463612201727,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,Fasting,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.747749010938919,1.61886307421642,Top by |log2 foldchange|
+Lipids,Sphingomyelin,Fasting,sm (oh) c22:1,Biocrates p150 [t-ms],0.739635746449659,5.93938091963562,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,Fasting,spermidine,Metabolon HD4 [nt-ms],0.733605666372177,2.28017237587186,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,PAT,ribonate,Metabolon HD4 [nt-ms],0.729844763742746,0.925581565697344,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,OLTT,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.722969158685053,5.26117903924064,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,PAT,argininosuccinate,Metabolon HD4 [nt-ms],0.719793662113246,0.951470438074861,Top by |log2 foldchange|
+Lipids,Steroid,PAT,21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],0.71943039876121,3.77302371978174,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,PAT,histidine,Metabolon HD4 [nt-ms],0.713309938676212,2.47313619323857,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,OLTT,1-methylnicotinamide,Metabolon HD4 [nt-ms],0.712565350338117,2.72083482808709,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,OLTT,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.701046970356991,10.5924051801308,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,OLTT,pantothenate,Metabolon HD4 [nt-ms],0.700295595753929,3.95792075816641,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,glucose,Metabolon HD4 [nt-ms],0.697673727704225,3.4241381197,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,OLTT,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.697045167739559,10.5924051801308,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,OLTT,pc aa c42:4,Biocrates p150 [t-ms],0.693873298623955,1.37708962781216,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,Fasting,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.693375031044965,4.24107005456368,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,PAT,2-aminoadipate,Metabolon HD4 [nt-ms],0.690629115052418,0.602822074365364,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,PAT,pc aa c42:4,Biocrates p150 [t-ms],0.688857347067639,5.79065718401707,Top by |log2 foldchange|
+Xenobiotics,Chemical,Fasting,dimethyl sulfone,Metabolon HD4 [nt-ms],0.688277351121758,4.80391581874852,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,OLTT,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.688213468960382,5.26117903924064,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,PAT,ribonate,Metabolon HD4 [nt-ms],0.686284985361647,0.925581565697344,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",OLTT,3-ureidopropionate,Metabolon HD4 [nt-ms],0.685716890356508,8.4093055917816,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,3-ureidopropionate,Metabolon HD4 [nt-ms],0.680052389680507,2.04416468990451,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,OLTT,maltotriose,Metabolon HD4 [nt-ms],0.677490812313414,2.50145029311802,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,OLTT,1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],0.671359336777164,8.29505540274288,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,OLTT,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.668731338467837,10.5924051801308,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,Fasting,pyroglutamine,Metabolon HD4 [nt-ms],0.668647888440842,15.0351045694157,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,3-ureidopropionate,Metabolon HD4 [nt-ms],0.668246314984402,2.04416468990451,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,Fasting,pc aa c42:6,Biocrates p150 [t-ms],0.665108573026226,1.1960543360769,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,PAT,gamma-glutamylglutamate,Metabolon HD4 [nt-ms],0.663239837374492,2.7856741142186,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,OLTT,"3,7-dimethylurate",Metabolon HD4 [nt-ms],0.661278433368143,13.1556258907742,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,OLTT,pc ae c38:2,Biocrates p150 [t-ms],0.655376514710652,3.44630216843702,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,Fasting,1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],0.654494225540339,1.58248863746646,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,Fasting,pc aa c42:4,Biocrates p150 [t-ms],0.650401718469201,0.62034400368748,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",Fasting,adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],0.64982398894916,1.28927864621742,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",PAT,fructose,Metabolon HD4 [nt-ms],0.648194558142178,2.99860598402024,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,Fasting,pc aa c32:3,Biocrates p150 [t-ms],0.644496816563977,4.5271019658543,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",Fasting,n1-methyladenosine,Metabolon HD4 [nt-ms],0.643626138942775,4.66641234702319,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,PAT,maltotriose,Metabolon HD4 [nt-ms],0.643370860289361,5.2338946210849,Top by |log2 foldchange|
+Lipids,Steroid,PAT,21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],0.639698228552818,3.77302371978174,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,PAT,1-methylimidazoleacetate,Metabolon HD4 [nt-ms],0.638579959220204,3.00021045500112,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,PAT,pc aa c42:4,Biocrates p150 [t-ms],0.633443622249218,5.79065718401707,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,OLTT,threonate,Metabolon HD4 [nt-ms],0.632933934904487,2.4288657720661,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Uracil containing",OLTT,3-ureidopropionate,Metabolon HD4 [nt-ms],0.631110469477284,8.4093055917816,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",PAT,glucose,Metabolon HD4 [nt-ms],0.626599716011479,1.33317746468953,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,PAT,1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],0.626129098144133,2.75088173062962,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,OLTT,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.625714202350225,5.26117903924064,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,PAT,threonate,Metabolon HD4 [nt-ms],0.625455187251624,5.19624180403812,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,OLTT,maltotriose,Metabolon HD4 [nt-ms],0.6187408510578,2.50145029311802,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,Fasting,ribonate,Metabolon HD4 [nt-ms],0.616261933875334,0.856190268771013,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,PAT,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.616141143952378,0.73033475418899,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),OLTT,butyrylcarnitine,Metabolon HD4 [nt-ms],0.609845756174617,2.67209322581799,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,OLTT,1-methylnicotinamide,Metabolon HD4 [nt-ms],0.605839588797424,2.72083482808709,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,PAT,glycohyocholate,Metabolon HD4 [nt-ms],0.604495071926752,4.0705515851523,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,Fasting,maltotriose,Metabolon HD4 [nt-ms],0.604467359514428,0.684875714428197,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,PAT,glucuronate,Metabolon HD4 [nt-ms],0.60415530789269,4.24829258726396,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,OLTT,threonate,Metabolon HD4 [nt-ms],0.603518424114724,2.4288657720661,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,OLTT,pc aa c42:2,Biocrates p150 [t-ms],0.602710906983315,2.70953150602653,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,PAT,citrulline,Metabolon HD4 [nt-ms],0.601714692081247,0.700194593134428,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,PAT,tryptophan,Biocrates p150 [t-ms],0.601159753419915,2.03031241451313,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,OLTT,nicotinamide,Metabolon HD4 [nt-ms],0.600718056358559,1.75816838096008,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,PAT,1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],0.600286631347256,2.75088173062962,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,PAT,pc ae c38:2,Biocrates p150 [t-ms],0.598241126248698,5.47104680959647,Top by |log2 foldchange|
+Amino Acids,Urea cycle; Arginine and Proline Metabolism,PAT,argininosuccinate,Metabolon HD4 [nt-ms],0.597197550900433,0.951470438074861,Top by |log2 foldchange|
+Xenobiotics,Chemical,PAT,o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],0.59690589307889,9.71368849196223,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",OLTT,"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],0.596009870691777,2.92542098330524,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,PAT,1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],0.592671275641302,2.75088173062962,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,PAT,pc ae c40:1,Biocrates p150 [t-ms],0.592100010699567,6.50651117351023,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,PAT,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.583246364812384,3.02648948470015,Top by |log2 foldchange|
+Lipids,Acylalkylphosphatidylcholine,PAT,pc ae c42:2,Biocrates p150 [t-ms],0.583219661551631,6.26376732567641,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,PAT,tryptophan,Metabolon HD4 [nt-ms],0.581615204853005,1.30526029254091,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",OLTT,hypoxanthine,Metabolon HD4 [nt-ms],0.574561465042736,3.36395141980251,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",PAT,fructose,Metabolon HD4 [nt-ms],0.567191726038717,2.99860598402024,Top by |log2 foldchange|
+Amino Acids,Tryptophan Metabolism,PAT,tryptophan,Biocrates p150 [t-ms],0.567186165822428,2.03031241451313,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",OLTT,n-formylmethionine,Metabolon HD4 [nt-ms],0.565206384496184,0.517878219473907,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,Fasting,pantothenate,Metabolon HD4 [nt-ms],0.563866141323779,2.62543226105619,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),PAT,octanoylcarnitine,Metabolon HD4 [nt-ms],0.562888398139889,4.06786435126983,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,OLTT,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.562723315863936,12.1009355574944,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),PAT,butyrylcarnitine,Metabolon HD4 [nt-ms],0.561527911117304,4.15995421968287,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",Fasting,adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],0.560807256296272,1.28927864621742,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",PAT,dihydroorotate,Metabolon HD4 [nt-ms],0.560045333428239,4.13627949458409,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",PAT,n-acetylthreonine,Metabolon HD4 [nt-ms],0.558860702872911,0.683361103601131,Top by |log2 foldchange|
+Lipids,Secondary Bile Acid Metabolism,PAT,glycohyocholate,Metabolon HD4 [nt-ms],0.556570747322682,4.0705515851523,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,Fasting,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.556558509784029,0.249738566636682,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,PAT,glucuronate,Metabolon HD4 [nt-ms],0.554745857409797,4.24829258726396,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,OLTT,pc aa c42:2,Biocrates p150 [t-ms],0.553018283009609,2.70953150602653,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,OLTT,"3,7-dimethylurate",Metabolon HD4 [nt-ms],0.552774047169373,13.1556258907742,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,Fasting,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.551579755581298,4.24107005456368,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),PAT,c8 (octanoylcarnitine),Biocrates p150 [t-ms],0.551083211284253,2.01716615473832,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (Acyl Carnitine),PAT,c10 (decanoylcarnitine),Biocrates p150 [t-ms],0.549791306039589,2.49887536388207,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,Fasting,ribonate,Metabolon HD4 [nt-ms],0.54899598619161,0.856190268771013,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",PAT,glycine,Biocrates p150 [t-ms],0.542123377713732,6.48750340976959,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,Fasting,threonate,Metabolon HD4 [nt-ms],0.540961808541032,2.36509924154443,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,Fasting,pantothenate,Metabolon HD4 [nt-ms],0.540836791992136,2.62543226105619,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,PAT,asparagine,Metabolon HD4 [nt-ms],0.534842774673487,2.46161234532645,Top by |log2 foldchange|
+Lipids,Diacylphosphatidylcholine,PAT,pc aa c42:6,Biocrates p150 [t-ms],0.533776888401621,5.50760193199325,Top by |log2 foldchange|
+Amino Acids,"Glycine, Serine and Threonine Metabolism",PAT,n-acetylthreonine,Metabolon HD4 [nt-ms],0.531826598168516,0.683361103601131,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,PAT,gamma-glutamylphenylalanine,Metabolon HD4 [nt-ms],0.531123142960868,3.16100835612147,Top by |log2 foldchange|
+Amino Acids,Histidine Metabolism,PAT,histidine,Metabolon HD4 [nt-ms],0.523353166287895,2.47313619323857,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",OLTT,hypoxanthine,Metabolon HD4 [nt-ms],0.522387206038387,3.36395141980251,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,PAT,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.520800661358708,1.21546665605025,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,n-acetylmethionine,Metabolon HD4 [nt-ms],0.516442591795682,2.43669459093151,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, Adenine containing",OLTT,adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],0.515774323794224,0.275608471566489,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,PAT,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.512637845541974,4.84275096676585,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),OLTT,butyrylcarnitine,Metabolon HD4 [nt-ms],0.507231875623497,2.67209322581799,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,Fasting,glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],0.504923287659336,2.05706790031937,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,OLTT,1-stearyl-gpc (o-18:0),Metabolon HD4 [nt-ms],0.503394983857701,4.12949238427164,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",OLTT,hypoxanthine,Metabolon HD4 [nt-ms],0.503326182266986,3.36395141980251,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,OLTT,1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],0.498752503093532,8.29505540274288,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",PAT,glucose,Metabolon HD4 [nt-ms],0.496395189025345,1.33317746468953,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,PAT,threonate,Metabolon HD4 [nt-ms],0.492640298377886,5.19624180403812,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,OLTT,threonate,Metabolon HD4 [nt-ms],0.492139845453298,2.4288657720661,Top by |log2 foldchange|
+Peptides,Gamma-glutamyl Amino Acid,PAT,gamma-glutamylglutamate,Metabolon HD4 [nt-ms],0.491962656367133,2.7856741142186,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,Fasting,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.488719494158985,3.35463612201727,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,Fasting,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.485059257676712,4.24107005456368,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",PAT,dihydroorotate,Metabolon HD4 [nt-ms],0.481228031884638,4.13627949458409,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,PAT,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.475643467194544,3.02648948470015,Top by |log2 foldchange|
+Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",PAT,glucose,Metabolon HD4 [nt-ms],0.474995978038065,1.33317746468953,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,Fasting,maltotriose,Metabolon HD4 [nt-ms],0.46906110408722,0.684875714428197,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,PAT,asparagine,Metabolon HD4 [nt-ms],0.468635794180937,2.46161234532645,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),OLTT,butyrylcarnitine,Metabolon HD4 [nt-ms],0.466258664531019,2.67209322581799,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,OLTT,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.465909807873106,0.926217345335957,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,Fasting,spermidine,Metabolon HD4 [nt-ms],0.465563442886979,2.28017237587186,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,PAT,glucuronate,Metabolon HD4 [nt-ms],0.464461774881706,4.24829258726396,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,OLTT,pantothenate,Metabolon HD4 [nt-ms],0.46211828882216,3.95792075816641,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",OLTT,n-formylmethionine,Metabolon HD4 [nt-ms],0.453293109716249,0.517878219473907,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,Fasting,glucuronate,Metabolon HD4 [nt-ms],0.448167740582731,1.04239448722246,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,Fasting,threonate,Metabolon HD4 [nt-ms],0.447391013112917,2.36509924154443,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",Fasting,azelate (nonanedioate),Metabolon HD4 [nt-ms],0.442950222286079,3.01870522534028,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,Fasting,alpha-tocopherol,Metabolon HD4 [nt-ms],0.440642761084688,1.23935651573,Top by |log2 foldchange|
+Cofactors and Vitamins,Pantothenate and CoA Metabolism,OLTT,pantothenate,Metabolon HD4 [nt-ms],0.440213489535804,3.95792075816641,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,PAT,taurochenodeoxycholate,Metabolon HD4 [nt-ms],0.438944617939757,3.03594203647453,Top by |log2 foldchange|
+Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",OLTT,n-formylmethionine,Metabolon HD4 [nt-ms],0.437896790466906,0.517878219473907,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,PAT,methyl indole-3-acetate,Metabolon HD4 [nt-ms],0.434447468468328,3.55907086253528,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,PAT,taurocholate,Metabolon HD4 [nt-ms],0.43239004029703,2.77926320164702,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,PAT,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.432053190242545,4.84275096676585,Top by |log2 foldchange|
+Lipids,Sphingomyelin,PAT,sm c16:1,Biocrates p150 [t-ms],0.431842197459191,7.08834118690868,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,PAT,"3,7-dimethylurate",Metabolon HD4 [nt-ms],0.43086217314328,3.74330115628036,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,PAT,methyl indole-3-acetate,Metabolon HD4 [nt-ms],0.430830164610458,3.55907086253528,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,PAT,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.426973692887858,0.941317326962107,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,Fasting,ribonate,Metabolon HD4 [nt-ms],0.422079605398887,0.856190268771013,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,Fasting,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.421103578223164,3.35463612201727,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,Fasting,threonate,Metabolon HD4 [nt-ms],0.418601068478891,2.36509924154443,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,Fasting,1-stearyl-gpc (o-18:0),Metabolon HD4 [nt-ms],0.417899060576975,0.814653947405665,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,PAT,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.407215756254337,3.02648948470015,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,PAT,asparagine,Metabolon HD4 [nt-ms],0.404489995770091,2.46161234532645,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,Fasting,asparagine,Metabolon HD4 [nt-ms],0.402021107342555,1.1413654035075,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,PAT,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],0.401500671372418,2.56883318073939,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,OLTT,"3,7-dimethylurate",Metabolon HD4 [nt-ms],0.400523684745084,13.1556258907742,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,Fasting,alpha-tocopherol,Metabolon HD4 [nt-ms],0.40001029817346,1.23935651573,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,hypoxanthine,Metabolon HD4 [nt-ms],0.387760511492739,2.16323103416218,Top by |log2 foldchange|
+Carbohydrates,Glycogen Metabolism,Fasting,maltotriose,Metabolon HD4 [nt-ms],0.387709978274425,0.684875714428197,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,OLTT,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],0.387591314680249,3.0845953163806,Top by |log2 foldchange|
+Xenobiotics,Food Component/Plant,PAT,indolin-2-one,Metabolon HD4 [nt-ms],0.384546512415528,3.35292676157866,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,Fasting,pyroglutamine,Metabolon HD4 [nt-ms],0.383331726784997,15.0351045694157,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,Fasting,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.379963546206107,1.9205526355165,Top by |log2 foldchange|
+Lipids,Sphingomyelin,PAT,sm c16:0,Biocrates p150 [t-ms],0.376237439631047,6.13921375021501,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,Fasting,glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],0.373530299128138,2.05706790031937,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,OLTT,2-aminoadipate,Metabolon HD4 [nt-ms],0.370408620575395,1.41308061916472,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,PAT,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.368266244453633,0.941317326962107,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,PAT,retinol (vitamin a),Metabolon HD4 [nt-ms],0.357160335849451,1.34296963699501,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,Fasting,retinol (vitamin a),Metabolon HD4 [nt-ms],0.356772573371385,8.1422482071963,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",Fasting,dihydroorotate,Metabolon HD4 [nt-ms],0.356012431963959,3.37207734918107,Top by |log2 foldchange|
+Carbohydrates,Pentose Metabolism,PAT,ribonate,Metabolon HD4 [nt-ms],0.355961794512955,0.925581565697344,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,OLTT,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],0.35521660810607,3.0845953163806,Top by |log2 foldchange|
+Amino Acids,Lysine Metabolism,PAT,"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],0.352033447301246,2.56883318073939,Top by |log2 foldchange|
+Lipids,Sphingomyelin,PAT,sm (oh) c14:1,Biocrates p150 [t-ms],0.351033589104105,4.48472410141103,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,Fasting,retinol (vitamin a),Metabolon HD4 [nt-ms],0.348649383470018,8.1422482071963,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,Fasting,asparagine,Metabolon HD4 [nt-ms],0.346931259634967,1.1413654035075,Top by |log2 foldchange|
+Energy,TCA Cycle,Fasting,fumarate,Metabolon HD4 [nt-ms],0.346724932134649,3.31716058775949,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,PAT,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.345811269722699,1.21546665605025,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",PAT,2-aminoheptanoate,Metabolon HD4 [nt-ms],0.343585923266335,0.530381385792218,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,Fasting,pyroglutamine,Metabolon HD4 [nt-ms],0.342727290018065,15.0351045694157,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,PAT,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.336395257299749,0.941317326962107,Top by |log2 foldchange|
+Carbohydrates,Aminosugar Metabolism,Fasting,glucuronate,Metabolon HD4 [nt-ms],0.33584360454181,1.04239448722246,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,PAT,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.32715461133532,4.84275096676585,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,Fasting,glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],0.324329838512992,2.05706790031937,Top by |log2 foldchange|
+Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,PAT,threonate,Metabolon HD4 [nt-ms],0.324279593663892,5.19624180403812,Top by |log2 foldchange|
+Energy,TCA Cycle,OLTT,fumarate,Metabolon HD4 [nt-ms],0.323033315296814,1.99837565373117,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,butyrylcarnitine,Metabolon HD4 [nt-ms],0.316813950997546,1.54500357731775,Top by |log2 foldchange|
+Lipids,Primary Bile Acid Metabolism,PAT,glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],0.313259874505814,0.417022692408503,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,Fasting,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.311551919563304,3.8866785976078,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,PAT,alpha-tocopherol,Metabolon HD4 [nt-ms],0.307040758903421,0.494214770837657,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,Fasting,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.306881471776867,3.8866785976078,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",PAT,2-aminoheptanoate,Metabolon HD4 [nt-ms],0.306632463991025,0.530381385792218,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",PAT,2-hydroxydecanoate,Metabolon HD4 [nt-ms],0.305349666583996,2.20292116911717,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",Fasting,fructose,Metabolon HD4 [nt-ms],0.304685958210702,3.09775022994605,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",PAT,2-hydroxydecanoate,Metabolon HD4 [nt-ms],0.304283832345998,2.20292116911717,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,butyrylcarnitine,Metabolon HD4 [nt-ms],0.302436151813303,1.54500357731775,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,Fasting,alpha-tocopherol,Metabolon HD4 [nt-ms],0.297055902256252,1.23935651573,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,PAT,1-methylguanidine,Metabolon HD4 [nt-ms],0.294347685354874,0.443707643323687,Top by |log2 foldchange|
+Lipids,Sphingomyelin,OLTT,sm c16:0,Biocrates p150 [t-ms],0.289792408858676,0.708757220353768,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,Fasting,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.288944284724228,0.249738566636682,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,PAT,1-methylnicotinamide,Metabolon HD4 [nt-ms],0.286103163010882,1.47501471363675,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",Fasting,fructose,Metabolon HD4 [nt-ms],0.28598816204955,3.09775022994605,Top by |log2 foldchange|
+Lipids,Sphingomyelin,OLTT,sm c16:1,Biocrates p150 [t-ms],0.283597861017976,0.297968147509533,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,Fasting,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.283406227250522,0.249738566636682,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,PAT,1-methylnicotinamide,Metabolon HD4 [nt-ms],0.282618956084862,1.47501471363675,Top by |log2 foldchange|
+Amino Acids,Alanine and Aspartate Metabolism,Fasting,asparagine,Metabolon HD4 [nt-ms],0.277308266223162,1.1413654035075,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",PAT,dihydroorotate,Metabolon HD4 [nt-ms],0.2772653598344,4.13627949458409,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,OLTT,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.274329399339947,0.926217345335957,Top by |log2 foldchange|
+Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,butyrylcarnitine,Metabolon HD4 [nt-ms],0.271419893195729,1.54500357731775,Top by |log2 foldchange|
+Lipids,Sphingomyelin,OLTT,sm c16:0,Biocrates p150 [t-ms],0.267420838006328,0.708757220353768,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",PAT,2-aminoheptanoate,Metabolon HD4 [nt-ms],0.265164794032273,0.530381385792218,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,PAT,1-methylguanidine,Metabolon HD4 [nt-ms],0.260202722999901,0.443707643323687,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",Fasting,fructose,Metabolon HD4 [nt-ms],0.255380503090609,3.09775022994605,Top by |log2 foldchange|
+Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,PAT,1-methylnicotinamide,Metabolon HD4 [nt-ms],0.249720458035097,1.47501471363675,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,Fasting,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.247667117545507,1.61886307421642,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",Fasting,azelate (nonanedioate),Metabolon HD4 [nt-ms],0.242827446023783,3.01870522534028,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,PAT,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.24233355149274,0.576636895885775,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,Fasting,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.241236864828466,1.9205526355165,Top by |log2 foldchange|
+Energy,TCA Cycle,OLTT,fumarate,Metabolon HD4 [nt-ms],0.235571478245168,1.99837565373117,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,Fasting,retinol (vitamin a),Metabolon HD4 [nt-ms],0.235468861973453,8.1422482071963,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,PAT,spermidine,Metabolon HD4 [nt-ms],0.233241980209078,2.96598708418607,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",PAT,2-hydroxydecanoate,Metabolon HD4 [nt-ms],0.228988564732708,2.20292116911717,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,PAT,alpha-tocopherol,Metabolon HD4 [nt-ms],0.226930893618554,0.494214770837657,Top by |log2 foldchange|
+Carbohydrates,"Fructose, Mannose and Galactose Metabolism",PAT,fructose,Metabolon HD4 [nt-ms],0.225798606881305,2.99860598402024,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,PAT,retinol (vitamin a),Metabolon HD4 [nt-ms],0.22361444608868,1.34296963699501,Top by |log2 foldchange|
+Energy,TCA Cycle,Fasting,fumarate,Metabolon HD4 [nt-ms],0.215537674972341,3.31716058775949,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,PAT,"3,7-dimethylurate",Metabolon HD4 [nt-ms],0.210063353309688,3.74330115628036,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,Fasting,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.207716787313038,1.9205526355165,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,xanthosine,Metabolon HD4 [nt-ms],0.206100349283347,0.602762423933998,Top by |log2 foldchange|
+Energy,TCA Cycle,OLTT,fumarate,Metabolon HD4 [nt-ms],0.205908525561722,1.99837565373117,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,PAT,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.202030149627625,0.73033475418899,Top by |log2 foldchange|
+Lipids,Lyso-phospho-ether,Fasting,1-stearyl-gpc (o-18:0),Metabolon HD4 [nt-ms],0.201271415392923,0.814653947405665,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,PAT,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.198022542499498,0.576636895885775,Top by |log2 foldchange|
+Xenobiotics,Xanthine Metabolism,PAT,"3,7-dimethylurate",Metabolon HD4 [nt-ms],0.197690343305382,3.74330115628036,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,OLTT,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.197093593653039,3.30086824297545,Top by |log2 foldchange|
+Amino Acids,Glutathione Metabolism,OLTT,cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],0.195781431841352,0.926217345335957,Top by |log2 foldchange|
+Energy,TCA Cycle,Fasting,fumarate,Metabolon HD4 [nt-ms],0.195354018519418,3.31716058775949,Top by |log2 foldchange|
+Lipids,Glycerolipid Metabolism,PAT,glycerol 3-phosphate,Metabolon HD4 [nt-ms],0.188588646375898,1.21546665605025,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",Fasting,dihydroorotate,Metabolon HD4 [nt-ms],0.186857794563165,3.37207734918107,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",OLTT,2-aminoheptanoate,Metabolon HD4 [nt-ms],0.185484572708786,0.383813357601146,Top by |log2 foldchange|
+Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,hypoxanthine,Metabolon HD4 [nt-ms],0.182876931911166,2.16323103416218,Top by |log2 foldchange|
+Cofactors and Vitamins,Tocopherol Metabolism,PAT,alpha-tocopherol,Metabolon HD4 [nt-ms],0.180798224937411,0.494214770837657,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",OLTT,2-aminoheptanoate,Metabolon HD4 [nt-ms],0.175696147110375,0.383813357601146,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,OLTT,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.173090520169589,3.30086824297545,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",Fasting,dihydroorotate,Metabolon HD4 [nt-ms],0.168636268082826,3.37207734918107,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,PAT,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.168152524423105,0.576636895885775,Top by |log2 foldchange|
+Lipids,Lysoplasmalogen,Fasting,1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],0.16797530628224,1.61886307421642,Top by |log2 foldchange|
+Peptides,Dipeptide Derivative,Fasting,n-acetylcarnosine,Metabolon HD4 [nt-ms],0.165401201937792,3.8866785976078,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,PAT,retinol (vitamin a),Metabolon HD4 [nt-ms],0.165003104599388,1.34296963699501,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,OLTT,pyroglutamine,Metabolon HD4 [nt-ms],0.160380070314428,2.24108803936856,Top by |log2 foldchange|
+Amino Acids,Polyamine Metabolism,PAT,spermidine,Metabolon HD4 [nt-ms],0.160040826925671,2.96598708418607,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,OLTT,pyroglutamine,Metabolon HD4 [nt-ms],0.159684278252326,2.24108803936856,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,OLTT,pyroglutamine,Metabolon HD4 [nt-ms],0.153413866454578,2.24108803936856,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Amino",OLTT,2-aminoheptanoate,Metabolon HD4 [nt-ms],0.15287002600537,0.383813357601146,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,OLTT,retinol (vitamin a),Metabolon HD4 [nt-ms],0.141423829287605,1.77587235743279,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,OLTT,retinol (vitamin a),Metabolon HD4 [nt-ms],0.139920974377623,1.77587235743279,Top by |log2 foldchange|
+Cofactors and Vitamins,Vitamin A Metabolism,OLTT,retinol (vitamin a),Metabolon HD4 [nt-ms],0.138314474301434,1.77587235743279,Top by |log2 foldchange|
+Lipids,Monoacylglycerol,PAT,1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],0.130545216100933,0.73033475418899,Top by |log2 foldchange|
+Lipids,Phospholipid Metabolism,OLTT,glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],0.127708520892255,3.30086824297545,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",Fasting,2-hydroxydecanoate,Metabolon HD4 [nt-ms],0.127615886096382,0.05745285397459,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",Fasting,2-hydroxydecanoate,Metabolon HD4 [nt-ms],0.126857959527139,0.05745285397459,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,PAT,pyroglutamine,Metabolon HD4 [nt-ms],0.125676612893226,0.813570020438367,Top by |log2 foldchange|
+Amino Acids,Guanidino and Acetamido Metabolism,PAT,1-methylguanidine,Metabolon HD4 [nt-ms],0.123236467998724,0.443707643323687,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",PAT,azelate (nonanedioate),Metabolon HD4 [nt-ms],0.122832476039102,0.390059509210478,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",PAT,azelate (nonanedioate),Metabolon HD4 [nt-ms],0.115589920515044,0.390059509210478,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",OLTT,dihydroorotate,Metabolon HD4 [nt-ms],0.114735553057547,0.298213369750695,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Monohydroxy",Fasting,2-hydroxydecanoate,Metabolon HD4 [nt-ms],0.114336380997761,0.05745285397459,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,PAT,pyroglutamine,Metabolon HD4 [nt-ms],0.0978333338747909,0.813570020438367,Top by |log2 foldchange|
+Lipids,"Fatty Acid, Dicarboxylate",PAT,azelate (nonanedioate),Metabolon HD4 [nt-ms],0.095217385119842,0.390059509210478,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",OLTT,dihydroorotate,Metabolon HD4 [nt-ms],0.0793077546367366,0.298213369750695,Top by |log2 foldchange|
+Nucleotides,"Pyrimidine Metabolism, Orotate containing",OLTT,dihydroorotate,Metabolon HD4 [nt-ms],0.0636086444357678,0.298213369750695,Top by |log2 foldchange|
+Amino Acids,Glutamate Metabolism,PAT,pyroglutamine,Metabolon HD4 [nt-ms],0.0530210117799121,0.813570020438367,Top by |log2 foldchange|

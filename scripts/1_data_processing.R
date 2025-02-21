@@ -1,5 +1,5 @@
 # Load necessary libraries
-source("scripts/Anna/load_libraries.R")
+source("scripts/0_load_libraries.R")
 
 # Load data 
 load_data <- function(met_file, info_file) {

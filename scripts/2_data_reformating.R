@@ -1,5 +1,5 @@
 # Load necessary libraries
-source("scripts/Anna/load_libraries.R")
+source("scripts/0_load_libraries.R")
 
 # Function to load the data
 load_data <- function(z_score_data, info_file) {
