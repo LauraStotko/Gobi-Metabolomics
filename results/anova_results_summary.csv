@@ -1,0 +1,638 @@
+metabolite,platform_name,super_pathway,sub_pathway,challenge.x,p_value_fasting,significant.x,challenge.y,p_value_pat,significant.y,challenge,p_value_oltt,significant
+"1,5-anhydroglucitol (1,5-ag)",Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.310762967861912,FALSE,PAT,0.710626785360319,FALSE,OLTT,0.00117443061386373,FALSE
+"1,7-dimethylurate",Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,0.0017709432999441,FALSE,PAT,0.00357848281675732,FALSE,OLTT,1.23176419679439e-06,TRUE
+1-(1-enyl-oleoyl)-gpc (p-18:1),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,Fasting,0.012428011061748,FALSE,PAT,0.167249794892072,FALSE,OLTT,0.000982749995962466,FALSE
+1-(1-enyl-oleoyl)-gpe (p-18:1),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,Fasting,0.00285318565869835,FALSE,PAT,0.461764696640978,FALSE,OLTT,0.000188066656981186,FALSE
+1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,Fasting,0.0240512097488189,FALSE,PAT,0.114467625254258,FALSE,OLTT,2.55619993736537e-11,TRUE
+1-(1-enyl-palmitoyl)-gpe (p-16:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,Fasting,0.00335503909775677,FALSE,PAT,0.0170835109013501,FALSE,OLTT,0.00582161646437984,FALSE
+1-(1-enyl-stearoyl)-gpc (p-18:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,Fasting,0.00741966597871323,FALSE,PAT,0.00276645793894124,FALSE,OLTT,0.000146304442380529,FALSE
+1-(1-enyl-stearoyl)-gpe (p-18:0),Metabolon HD4 [nt-ms],Lipids,Lysoplasmalogen,Fasting,0.00267715177603063,FALSE,PAT,0.767244407119102,FALSE,OLTT,0.00146719378920274,FALSE
+1-adrenoyl-gpc (22:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.000923839633998488,FALSE,PAT,0.00472912599399456,FALSE,OLTT,0.00393341481725588,FALSE
+1-arachidonoyl-gpc (20:4n6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,3.26816850392809e-06,TRUE,PAT,0.000353341659827361,FALSE,OLTT,0.00107249937101893,FALSE
+1-arachidonoyl-gpe (20:4n6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,8.07292730821896e-15,TRUE,PAT,0.0288138642254463,FALSE,OLTT,4.68948624600895e-05,TRUE
+1-arachidonoyl-gpi (20:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,9.29127350942222e-07,TRUE,PAT,0.00169201824850169,FALSE,OLTT,0.000435703412157405,FALSE
+1-arachidonylglycerol (20:4),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,Fasting,0.132431790407171,FALSE,PAT,0.0547842223617483,FALSE,OLTT,0.00118021282333718,FALSE
+1-arachidoyl-gpc (20:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.98645775737882e-05,TRUE,PAT,0.00155668302444671,FALSE,OLTT,0.114056568440863,FALSE
+1-behenoyl-gpc (22:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.41253535604841,FALSE,PAT,0.0100665209578414,FALSE,OLTT,0.385551439026896,FALSE
+1-dihomo-linolenoyl-gpc (20:3n3 or 6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,2.78937492301968e-07,TRUE,PAT,0.00295816582738156,FALSE,OLTT,0.0199360836083088,FALSE
+1-dihomo-linolenoyl-gpe (20:3n3 or 6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.65334339144526e-06,TRUE,PAT,0.305550968826812,FALSE,OLTT,0.000650330354706582,FALSE
+1-dihomo-linoleoyl-gpc (20:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.71798397250243e-07,TRUE,PAT,0.0142304702156306,FALSE,OLTT,0.02484962449444,FALSE
+1-docosahexaenoyl-gpc (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,7.09235928665297e-16,TRUE,PAT,3.30546368557452e-06,TRUE,OLTT,0.00827007561361052,FALSE
+1-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,7.15889686184366e-25,TRUE,PAT,4.54021918896364e-08,TRUE,OLTT,4.7310375755437e-06,TRUE
+1-docosapentaenoyl-gpc (22:5n3),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,2.54581342920598e-07,TRUE,PAT,1.23538629236299e-07,TRUE,OLTT,0.0293169893820563,FALSE
+1-docosapentaenoyl-gpc (22:5n6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.01181399494566e-07,TRUE,PAT,9.10295582430318e-05,FALSE,OLTT,0.0272206303344634,FALSE
+1-eicosapentaenoyl-gpc (20:5),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0016242415484741,FALSE,PAT,0.00507799707897194,FALSE,OLTT,0.32857359175866,FALSE
+1-eicosapentaenoyl-gpe (20:5),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0111794183865949,FALSE,PAT,0.436279055817914,FALSE,OLTT,0.0559108582735115,FALSE
+1-eicosenoyl-gpc (20:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.00979805092870436,FALSE,PAT,0.0902214546000742,FALSE,OLTT,0.0301022277884927,FALSE
+1-linolenoyl-gpc (18:3),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,2.35398829578599e-12,TRUE,PAT,0.00200322507936136,FALSE,OLTT,5.0975734975683e-16,TRUE
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,6.34520492910916e-06,TRUE,PAT,0.00321619423851563,FALSE,OLTT,1.74058251843287e-27,TRUE
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.051461600577e-07,TRUE,PAT,3.57310301027271e-07,TRUE,OLTT,2.12195673370515e-60,TRUE
+1-linoleoyl-gpi (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,2.80143632794827e-05,TRUE,PAT,0.080263750107043,FALSE,OLTT,0.000157575158224078,FALSE
+1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,Fasting,0.562679941148918,FALSE,PAT,0.186065239290918,FALSE,OLTT,5.4805098263393e-06,TRUE
+1-margaroyl-gpc (17:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.122350569202461,FALSE,PAT,0.00131976916707773,FALSE,OLTT,4.26648603054161e-07,TRUE
+1-methylguanidine,Metabolon HD4 [nt-ms],Amino Acids,Guanidino and Acetamido Metabolism,Fasting,7.57579355938689e-13,TRUE,PAT,0.359991591350446,FALSE,OLTT,0.000959713946282477,FALSE
+1-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,5.16066645749194e-12,TRUE,PAT,0.377923844730799,FALSE,OLTT,1.03081264543418e-12,TRUE
+1-methylimidazoleacetate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,0.00114863608335401,FALSE,PAT,0.000999515526846711,FALSE,OLTT,4.08821714662709e-05,TRUE
+1-methylnicotinamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,9.41912592824546e-08,TRUE,PAT,0.0334954090921752,FALSE,OLTT,0.00190180144005604,FALSE
+1-methylurate,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,2.57375884504697e-05,TRUE,PAT,0.00173690961838453,FALSE,OLTT,9.13407493359893e-06,TRUE
+1-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,3.01125193107188e-06,TRUE,PAT,0.244440102605211,FALSE,OLTT,0.073632604148238,FALSE
+1-myristoyl-gpc (14:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.32321712538291e-31,TRUE,PAT,0.00326892021308036,FALSE,OLTT,1.36554391944972e-13,TRUE
+1-nonadecanoyl-gpc (19:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,9.00658113319739e-06,TRUE,PAT,0.0443129931764888,FALSE,OLTT,8.03745231315705e-05,FALSE
+1-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.00557576050421844,FALSE,PAT,0.00454801462492548,FALSE,OLTT,6.04225560013529e-07,TRUE
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.00053265050973464,FALSE,PAT,3.38144106583139e-07,TRUE,OLTT,4.46337938423793e-116,TRUE
+1-oleoyl-gpi (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,7.5482589779623e-07,TRUE,PAT,0.985431607229344,FALSE,OLTT,7.27670375960934e-06,TRUE
+1-palmitoleoyl-gpc (16:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,2.5158254311535e-07,TRUE,PAT,0.0221385282629365,FALSE,OLTT,3.13443229868008e-11,TRUE
+1-palmitoyl-gpc (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0969888689966617,FALSE,PAT,0.00322859997226666,FALSE,OLTT,2.0027918606862e-08,TRUE
+1-palmitoyl-gpe (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0234529347945992,FALSE,PAT,4.35118503379131e-16,TRUE,OLTT,1.19530649843458e-13,TRUE
+1-palmitoyl-gpg (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0169402887296369,FALSE,PAT,0.0174997382586913,FALSE,OLTT,0.136875474149197,FALSE
+1-palmitoyl-gpi (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.00433231483109672,FALSE,PAT,0.000154169663635164,FALSE,OLTT,0.251466195117903,FALSE
+1-palmitoylglycerol (16:0),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,Fasting,0.468301641972845,FALSE,PAT,0.693006094828545,FALSE,OLTT,0.0249094001014243,FALSE
+1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],Lipids,Lyso-phospho-ether,Fasting,0.0261523887026144,FALSE,PAT,0.00177467270334751,FALSE,OLTT,5.06926035833606e-09,TRUE
+1-pentadecanoyl-gpc (15:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.000777559771428575,FALSE,PAT,0.00146525870204897,FALSE,OLTT,3.14947527741395e-14,TRUE
+1-stearoyl-gpc (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.000195316429461488,FALSE,PAT,0.0261200428556449,FALSE,OLTT,0.00750567191387282,FALSE
+1-stearoyl-gpe (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.00373863264732177,FALSE,PAT,6.22952290478857e-09,TRUE,OLTT,0.000561539169364139,FALSE
+1-stearoyl-gpi (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0150863296095762,FALSE,PAT,1.20233379249788e-05,TRUE,OLTT,0.0931011771413977,FALSE
+1-stearyl-gpc (o-18:0),Metabolon HD4 [nt-ms],Lipids,Lyso-phospho-ether,Fasting,0.153230794215675,FALSE,PAT,0.0520472635727527,FALSE,OLTT,7.42177212342389e-05,TRUE
+10-undecenoate (11:1n1),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,Fasting,6.05192020575007e-15,TRUE,PAT,4.77235605980855e-22,TRUE,OLTT,1.09973224600957e-10,TRUE
+12-hete,Metabolon HD4 [nt-ms],Lipids,Eicosanoid,Fasting,1.0759200272162e-08,TRUE,PAT,0.137670501300485,FALSE,OLTT,4.34260507292199e-10,TRUE
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,2.18723349715815e-07,TRUE,PAT,2.5473296263629e-05,TRUE,OLTT,1.56211209945478e-05,TRUE
+15-methylpalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",Fasting,1.49492383409509e-09,TRUE,PAT,1.42734753872235e-36,TRUE,OLTT,3.17035747066116e-20,TRUE
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,1.4623515327949e-23,TRUE,PAT,1.44395134577716e-10,TRUE,OLTT,5.42349203477631e-27,TRUE
+16a-hydroxy dhea 3-sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.248728037083854,FALSE,PAT,0.00158638744878335,FALSE,OLTT,0.0605595621912743,FALSE
+17-methylstearate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",Fasting,8.79003522516631e-09,TRUE,PAT,5.24088749277061e-37,TRUE,OLTT,2.46411158037152e-12,TRUE
+17alpha-hydroxypregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,2.94087127606959e-08,TRUE,PAT,2.33190759797117e-24,TRUE,OLTT,0.000596763028278784,FALSE
+2'-deoxyuridine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,0.306793153567595,FALSE,PAT,9.23020939653841e-05,FALSE,OLTT,0.11260767530363,FALSE
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,2.31878367589272e-30,TRUE,PAT,2.83153485442385e-06,TRUE,OLTT,1.51069920651912e-42,TRUE
+2-aminoadipate,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,4.27144583682686e-09,TRUE,PAT,0.249561694412867,FALSE,OLTT,0.0386295261447843,FALSE
+2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,2.70684885537318e-54,TRUE,PAT,0.140866575666148,FALSE,OLTT,3.22536750896578e-11,TRUE
+2-aminoheptanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amino",Fasting,1.15713729402036e-22,TRUE,PAT,0.294861869133424,FALSE,OLTT,0.413225051435908,FALSE
+2-aminooctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amino",Fasting,3.6760777031035e-09,TRUE,PAT,0.0891589253647513,FALSE,OLTT,2.23325258718121e-06,TRUE
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,2.76861567710467e-91,TRUE,PAT,7.79095821980161e-11,TRUE,OLTT,0.0065556927741402,FALSE
+2-arachidonoyl-gpc (20:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0201852801477214,FALSE,PAT,0.18469841452751,FALSE,OLTT,0.000380881464161887,FALSE
+2-arachidonoyl-gpe (20:4),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,1.23917153870523e-06,TRUE,PAT,0.110240957561553,FALSE,OLTT,0.00603118434346487,FALSE
+2-docosahexaenoyl-gpc (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,8.67045581658382e-06,TRUE,PAT,0.263620379467291,FALSE,OLTT,0.0032300372347204,FALSE
+2-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,2.73023069430036e-06,TRUE,PAT,0.00202540364771387,FALSE,OLTT,0.000211330454941622,FALSE
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,4.63184426410282e-20,TRUE,PAT,1.21329189523328e-09,TRUE,OLTT,5.25265035286037e-08,TRUE
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,2.93072275304911e-77,TRUE,PAT,3.69392234043529e-51,TRUE,OLTT,1.27455864002805e-28,TRUE
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,0.876086818472,FALSE,PAT,0.00626727614695831,FALSE,OLTT,3.99387675505015e-24,TRUE
+2-hydroxyglutarate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,0.572758180989689,FALSE,PAT,0.18033383447058,FALSE,OLTT,0.567829047974705,FALSE
+2-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,0.00129456176924333,FALSE,PAT,6.15497564866214e-15,TRUE,OLTT,2.34035456242925e-26,TRUE
+2-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,0.115592422721643,FALSE,PAT,4.23342701509228e-07,TRUE,OLTT,2.93177270528143e-08,TRUE
+2-hydroxyphenylacetate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,5.20769790816101e-05,TRUE,PAT,0.00787196787018367,FALSE,OLTT,2.87687634326629e-07,TRUE
+2-hydroxystearate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,0.185436026409279,FALSE,PAT,0.000421133186232857,FALSE,OLTT,9.77659077967548e-05,FALSE
+2-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0363247635258638,FALSE,PAT,0.234929571117452,FALSE,OLTT,1.3919489944269e-10,TRUE
+2-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,6.85336810051753e-05,TRUE,PAT,0.000349478959377894,FALSE,OLTT,2.44625739254535e-24,TRUE
+2-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],Lipids,Monoacylglycerol,Fasting,0.18152687745756,FALSE,PAT,0.249488360531408,FALSE,OLTT,0.000113463678924283,FALSE
+2-methylbutyrylcarnitine (c5),Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.000483415254761469,FALSE,PAT,0.00175764749929496,FALSE,OLTT,1.2109749780175e-11,TRUE
+2-methylmalonyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Synthesis,Fasting,0.39681066383452,FALSE,PAT,0.411026362751585,FALSE,OLTT,0.153649024767185,FALSE
+2-myristoyl-gpc (14:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,8.05154962306626e-31,TRUE,PAT,0.000185012172504708,FALSE,OLTT,2.6275552581881e-08,TRUE
+2-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0147218999625909,FALSE,PAT,0.26931408154755,FALSE,OLTT,7.81465493284176e-06,TRUE
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.00232683784760842,FALSE,PAT,0.0142997554373135,FALSE,OLTT,2.52276308252692e-44,TRUE
+2-palmitoyl-gpc (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.272480618077948,FALSE,PAT,0.045915624134696,FALSE,OLTT,0.000121972106689358,FALSE
+2-palmitoyl-gpe (16:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.214573861115238,FALSE,PAT,0.00571684704050494,FALSE,OLTT,0.000584705030167204,FALSE
+2-piperidinone,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.0367590639375289,FALSE,PAT,0.455711139722541,FALSE,OLTT,0.00129711023100136,FALSE
+2-pyrrolidinone,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.263987884256082,FALSE,PAT,0.227876739545934,FALSE,OLTT,0.50687698663602,FALSE
+2-stearoyl-gpe (18:0),Metabolon HD4 [nt-ms],Lipids,Lysolipid,Fasting,0.0672829853982896,FALSE,PAT,0.119321420245949,FALSE,OLTT,0.0189988646223931,FALSE
+21-hydroxypregnenolone disulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,5.97178748514535e-06,TRUE,PAT,0.0763083350579221,FALSE,OLTT,7.14552474234711e-06,TRUE
+21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,6.71528797451385e-05,TRUE,PAT,0.000168646091374819,FALSE,OLTT,0.00178153347291228,FALSE
+"3,7-dimethylurate",Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,0.475001205144601,FALSE,PAT,0.000180592139726335,FALSE,OLTT,6.98834133399235e-14,TRUE
+3-(4-hydroxyphenyl)lactate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,1.06930078929888e-07,TRUE,PAT,6.5422506146942e-16,TRUE,OLTT,5.53795196272124e-05,TRUE
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",Fasting,8.82270876728057e-23,TRUE,PAT,1.21634071382908e-09,TRUE,OLTT,1.29872492893618e-09,TRUE
+3-carboxy-4-methyl-5-propyl-2-furanpropanoate (cmpf),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,0.0891301828418368,FALSE,PAT,0.00140486449455489,FALSE,OLTT,0.0824573001346494,FALSE
+3-hydroxy-2-ethylpropionate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,7.77375654451982e-10,TRUE,PAT,7.74098187597556e-06,TRUE,OLTT,0.00293443141136464,FALSE
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,Fasting,1.52977435603373e-16,TRUE,PAT,3.60815024922687e-08,TRUE,OLTT,9.66999705213077e-40,TRUE
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,Fasting,3.53079378918527e-105,TRUE,PAT,1.63973125484242e-49,TRUE,OLTT,4.48738178609901e-53,TRUE
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.41493016963943e-114,TRUE,PAT,1.45213865554442e-18,TRUE,OLTT,3.61285960722735e-16,TRUE
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,8.2488898650323e-56,TRUE,PAT,1.09299416493742e-17,TRUE,OLTT,1.74852469946519e-29,TRUE
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,9.1514475508568e-08,TRUE,PAT,1.03077373299425e-29,TRUE,OLTT,1.00309449620178e-44,TRUE
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,1.18351671913219e-17,TRUE,PAT,2.6744039911562e-09,TRUE,OLTT,4.23062525225191e-06,TRUE
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,4.80761158291138e-22,TRUE,PAT,1.32775979658122e-10,TRUE,OLTT,0.00704953283560285,FALSE
+3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,2.50847954377382e-07,TRUE,PAT,2.17469931027995e-31,TRUE,OLTT,3.33874078687543e-44,TRUE
+3-hydroxymyristate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,8.73598823943954e-08,TRUE,PAT,6.10424366483845e-24,TRUE,OLTT,2.71839534150948e-37,TRUE
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",Fasting,2.07169857798781e-06,TRUE,PAT,6.29074430874208e-15,TRUE,OLTT,6.65129080123635e-46,TRUE
+3-hydroxypyridine sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,5.7196576633211e-05,TRUE,PAT,1.99234462499129e-16,TRUE,OLTT,1.84345914467039e-28,TRUE
+3-indoxyl sulfate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,4.73288055591371e-06,TRUE,PAT,3.25279434477776e-08,TRUE,OLTT,1.47867618550965e-05,TRUE
+3-methoxytyrosine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.397249181720808,FALSE,PAT,0.369302559527314,FALSE,OLTT,0.667953876756279,FALSE
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,8.48015853884685e-11,TRUE,PAT,7.65715941298415e-07,TRUE,OLTT,3.04660152824028e-06,TRUE
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,9.80155895157669e-25,TRUE,PAT,1.33555072952778e-19,TRUE,OLTT,1.10425552030415e-13,TRUE
+3-methylcytidine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Cytidine containing",Fasting,0.00319429449832636,FALSE,PAT,0.232335547937458,FALSE,OLTT,0.0992600665333184,FALSE
+3-methylglutarylcarnitine (2),Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.000207541625551356,FALSE,PAT,0.0193072074367538,FALSE,OLTT,0.00309157394354298,FALSE
+3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,7.97402868472517e-52,TRUE,PAT,0.116922946316108,FALSE,OLTT,7.04726472952414e-28,TRUE
+3-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,5.20894612402164e-17,TRUE,PAT,0.00192389163243777,FALSE,OLTT,4.92447140838556e-13,TRUE
+3-phenylpropionate (hydrocinnamate),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,5.61028860992558e-09,TRUE,PAT,3.80863710717426e-06,TRUE,OLTT,2.35306339962459e-07,TRUE
+3-phosphoglycerate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.260165743871038,FALSE,PAT,0.000179847071160725,FALSE,OLTT,0.000740556445516441,FALSE
+3-ureidopropionate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,0.00903306863494149,FALSE,PAT,0.022739116507804,FALSE,OLTT,3.89667700088495e-09,TRUE
+3b-hydroxy-5-cholenoic acid,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.0039362232997925,FALSE,PAT,0.00134490519107347,FALSE,OLTT,0.00401041792570552,FALSE
+"3beta,7alpha-dihydroxy-5-cholestenoate",Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.00137325438607307,FALSE,PAT,0.00207517554938775,FALSE,OLTT,0.330355842539525,FALSE
+4-acetamidobutanoate,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,Fasting,0.0185837642213551,FALSE,PAT,0.512486276730459,FALSE,OLTT,0.386274029769819,FALSE
+4-allylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,1.06809457962639e-11,TRUE,PAT,0.0184034525853769,FALSE,OLTT,2.17145511961628e-17,TRUE
+"4-androsten-3alpha,17alpha-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,1.95384722424707e-18,TRUE,PAT,1.06332137494013e-05,TRUE,OLTT,2.48041110289843e-13,TRUE
+"4-androsten-3alpha,17alpha-diol monosulfate (3)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.0325422043251762,FALSE,PAT,0.0392920905597508,FALSE,OLTT,0.497566703888508,FALSE
+"4-androsten-3beta,17beta-diol disulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.452085928534443,FALSE,PAT,0.0809966545837723,FALSE,OLTT,0.232990207595377,FALSE
+"4-androsten-3beta,17beta-diol disulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.000630539059590724,FALSE,PAT,0.0293414271849338,FALSE,OLTT,0.00765616840796553,FALSE
+"4-androsten-3beta,17beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,1.55083841801273e-12,TRUE,PAT,3.06460372247021e-05,TRUE,OLTT,7.4695520434913e-08,TRUE
+"4-androsten-3beta,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.00120071120946398,FALSE,PAT,0.127144952123183,FALSE,OLTT,0.12611464330638,FALSE
+4-ethylphenylsulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,3.90244943378117e-07,TRUE,PAT,0.06834146568806,FALSE,OLTT,1.88195634354378e-11,TRUE
+4-guanidinobutanoate,Metabolon HD4 [nt-ms],Amino Acids,Guanidino and Acetamido Metabolism,Fasting,0.00938650712538062,FALSE,PAT,5.17282131819155e-08,TRUE,OLTT,6.78792710391953e-21,TRUE
+4-hydroxychlorothalonil,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.318283103842817,FALSE,PAT,0.00811845776059351,FALSE,OLTT,0.52297406307043,FALSE
+4-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,9.48137580180918e-11,TRUE,PAT,4.73686754164117e-09,TRUE,OLTT,5.58410250137634e-09,TRUE
+4-hydroxyphenylacetatoylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.0323556665390813,FALSE,PAT,8.24963644245499e-06,TRUE,OLTT,0.00188022171881567,FALSE
+4-hydroxyphenylpyruvate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.0929945564356117,FALSE,PAT,0.00013111652753294,FALSE,OLTT,0.00529710985688106,FALSE
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,4.2231239995126e-34,TRUE,PAT,5.05618795032709e-14,TRUE,OLTT,8.52048209529822e-07,TRUE
+4-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,3.37247602460206e-20,TRUE,PAT,0.114816799300427,FALSE,OLTT,1.00264625969651e-05,TRUE
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,2.49615717487145e-55,TRUE,PAT,0.00657195177190043,FALSE,OLTT,5.26953094330686e-12,TRUE
+"5,6-dihydrothymine",Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",Fasting,0.0619484318021984,FALSE,PAT,1.16985208655825e-05,TRUE,OLTT,3.22969528612177e-07,TRUE
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,3.97830240265949e-08,TRUE,PAT,0.517140967042394,FALSE,OLTT,1.71133043260739e-06,TRUE
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,Fasting,3.6025691921595e-11,TRUE,PAT,5.02811877317043e-19,TRUE,OLTT,1.26734562295304e-28,TRUE
+5-hydroxyindoleacetate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,0.00251286673133893,FALSE,PAT,3.18308484200813e-09,TRUE,OLTT,3.94942440871613e-08,TRUE
+5-hydroxylysine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,2.8428872797271e-05,TRUE,PAT,0.562767383490179,FALSE,OLTT,4.26694296645404e-10,TRUE
+5-methylthioadenosine (mta),Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,Fasting,2.42380998644091e-05,TRUE,PAT,0.287899976529229,FALSE,OLTT,3.05151661595981e-20,TRUE
+5-methyluridine (ribothymidine),Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,0.0321474312978589,FALSE,PAT,0.0698027540652143,FALSE,OLTT,0.000459887782721886,FALSE
+5-oxoproline,Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,Fasting,0.248231265642677,FALSE,PAT,0.000111809487037057,FALSE,OLTT,0.0189098551948187,FALSE
+"5alpha-androstan-3alpha, 17beta-diol-17-glucosiduronate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.0152775352060779,FALSE,PAT,0.331864039072556,FALSE,OLTT,0.000332045603012289,FALSE
+"5alpha-androstan-3alpha,17alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.152966090953307,FALSE,PAT,0.550744376711411,FALSE,OLTT,7.88168948663483e-06,TRUE
+"5alpha-androstan-3alpha,17alpha-diol monosulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,3.35765939538078e-06,TRUE,PAT,0.0014806106236165,FALSE,OLTT,0.0406598152815081,FALSE
+"5alpha-androstan-3alpha,17beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,1.40881134659419e-05,TRUE,PAT,0.500694944902502,FALSE,OLTT,0.0848425181564493,FALSE
+"5alpha-androstan-3alpha,17beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.00443781458709253,FALSE,PAT,0.0228052750153882,FALSE,OLTT,0.000943065365911958,FALSE
+"5alpha-androstan-3alpha,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.118881216517898,FALSE,PAT,0.0178770576374798,FALSE,OLTT,0.0758181376120354,FALSE
+"5alpha-androstan-3beta,17alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.030189040732716,FALSE,PAT,0.130537158083112,FALSE,OLTT,0.121740505705209,FALSE
+"5alpha-androstan-3beta,17beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.736904187330969,FALSE,PAT,0.373849935617055,FALSE,OLTT,0.223229488658163,FALSE
+"5alpha-androstan-3beta,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,1.29263202347982e-05,TRUE,PAT,0.00858756484014647,FALSE,OLTT,0.000950121722693726,FALSE
+"5alpha-pregnan-3(alpha or beta),20beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,8.69635154612289e-11,TRUE,PAT,0.242527645453129,FALSE,OLTT,0.105969560127452,FALSE
+"5alpha-pregnan-3beta,20alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.00184234792631732,FALSE,PAT,0.311385714684054,FALSE,OLTT,0.30490266577605,FALSE
+"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.338418189209845,FALSE,PAT,0.0631051417690208,FALSE,OLTT,0.366475942266713,FALSE
+"5alpha-pregnan-3beta,20beta-diol monosulfate (1)",Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.0171491858779054,FALSE,PAT,0.000925491138293324,FALSE,OLTT,0.276800770179633,FALSE
+6-hydroxyindole sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,1.61083914371111e-05,TRUE,PAT,1.77885645409218e-07,TRUE,OLTT,0.000112881841370977,FALSE
+6-oxopiperidine-2-carboxylic acid,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.015396819229748,FALSE,PAT,0.661531997646871,FALSE,OLTT,0.0093181981313972,FALSE
+7-alpha-hydroxy-3-oxo-4-cholestenoate (7-hoca),Metabolon HD4 [nt-ms],Lipids,Sterol,Fasting,2.28345360324523e-09,TRUE,PAT,3.47021230299183e-10,TRUE,OLTT,0.0397661661293074,FALSE
+7-methylguanine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Guanine containing",Fasting,0.469555112264436,FALSE,PAT,0.0312673652258771,FALSE,OLTT,0.00556959725168814,FALSE
+7-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,9.89953194520343e-11,TRUE,PAT,0.00074487805931742,FALSE,OLTT,1.77241134273693e-09,TRUE
+"9,10-dihome",Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dihydroxy",Fasting,3.52555305944304e-12,TRUE,PAT,0.084260420299827,FALSE,OLTT,2.35053380257759e-11,TRUE
+acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,Fasting,5.04110482025306e-80,TRUE,PAT,2.28699139937419e-07,TRUE,OLTT,1.70601741677941e-38,TRUE
+acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,8.87166345168411e-89,TRUE,PAT,2.72135812771103e-09,TRUE,OLTT,1.5407899356222e-48,TRUE
+acisoga,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,Fasting,0.892308850499853,FALSE,PAT,0.0924419035819854,FALSE,OLTT,0.631423312488189,FALSE
+adenine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,0.188431185137456,FALSE,PAT,0.00848946524887739,FALSE,OLTT,0.00364309668981561,FALSE
+adenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,0.0410624151433772,FALSE,PAT,0.0267572138948784,FALSE,OLTT,0.000698678688263746,FALSE
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,0.917343697391051,FALSE,PAT,2.91961747104392e-11,TRUE,OLTT,0.00118735071114312,FALSE
+adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,0.0513713943552022,FALSE,PAT,2.48748621888387e-07,TRUE,OLTT,0.530141165377518,FALSE
+adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,2.0093166038302e-52,TRUE,PAT,7.79539473442143e-05,TRUE,OLTT,2.89984924590075e-09,TRUE
+alanine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,Fasting,6.69265291129364e-06,TRUE,PAT,1.33009016308858e-12,TRUE,OLTT,3.59135278542336e-10,TRUE
+allantoin,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,0.029394593673938,FALSE,PAT,0.0763645645520604,FALSE,OLTT,0.00244489953492416,FALSE
+alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,6.60733033482753e-84,TRUE,PAT,0.0442224281890717,FALSE,OLTT,2.7770241430427e-10,TRUE
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,6.75315919025682e-43,TRUE,PAT,6.70426118235286e-18,TRUE,OLTT,1.96445630010074e-08,TRUE
+alpha-hydroxyisovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,6.4954551159552e-09,TRUE,PAT,6.13155986731467e-05,TRUE,OLTT,0.00281951734504398,FALSE
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,9.50891327156272e-56,TRUE,PAT,1.05278985010529e-12,TRUE,OLTT,2.54247813126203e-07,TRUE
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,2.78949700298036e-08,TRUE,PAT,6.68533148107315e-11,TRUE,OLTT,0.0900227844641853,FALSE
+alpha-tocopherol,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Tocopherol Metabolism,Fasting,0.0576293185585905,FALSE,PAT,0.320468412612961,FALSE,OLTT,1.21850488483079e-06,TRUE
+andro steroid monosulfate (1),Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.227776224585427,FALSE,PAT,0.00824589517176458,FALSE,OLTT,2.22906900045409e-05,TRUE
+androsterone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.116091548880305,FALSE,PAT,0.0430854191884059,FALSE,OLTT,0.0694280556022175,FALSE
+arabitol/xylitol,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,Fasting,0.000842785345516018,FALSE,PAT,0.185799956092465,FALSE,OLTT,0.00492760015511319,FALSE
+arabonate/xylonate,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,Fasting,1.15707269930319e-07,TRUE,PAT,0.226079326718254,FALSE,OLTT,3.00350636040139e-05,TRUE
+arginine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.0219924169823781,FALSE,PAT,2.50543874252847e-07,TRUE,OLTT,1.27263260982486e-15,TRUE
+arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.00229060859180999,FALSE,PAT,0.000452249804083764,FALSE,OLTT,7.0145163669061e-46,TRUE
+argininosuccinate,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.000145805468413291,FALSE,PAT,0.111822593834529,FALSE,OLTT,2.17103385691947e-12,TRUE
+asparagine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,Fasting,0.0722161940598745,FALSE,PAT,0.003454519548921,FALSE,OLTT,2.26943317386052e-14,TRUE
+aspartate,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,Fasting,0.000659647308790862,FALSE,PAT,6.93544930631862e-05,TRUE,OLTT,3.71485735631264e-10,TRUE
+azelate (nonanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,0.000957843981312309,FALSE,PAT,0.407324460337297,FALSE,OLTT,8.28263289448924e-08,TRUE
+benzoate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,0.0247380624850066,FALSE,PAT,0.304350749387703,FALSE,OLTT,0.239047749280722,FALSE
+beta-alanine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,0.0332181269631561,FALSE,PAT,0.159949953976304,FALSE,OLTT,0.276372733959854,FALSE
+beta-hydroxyisovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,1.04377352455751e-07,TRUE,PAT,0.214946667283851,FALSE,OLTT,0.000172231799194434,FALSE
+betaine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.0322997797832754,FALSE,PAT,0.00663962849747091,FALSE,OLTT,1.13844285958749e-07,TRUE
+betonicine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.157197271110614,FALSE,PAT,0.0424537519195811,FALSE,OLTT,0.00786742914275468,FALSE
+"bilirubin (e,e)",Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,Fasting,1.82879228633832e-20,TRUE,PAT,0.151314730149313,FALSE,OLTT,1.04871474891581e-09,TRUE
+"bilirubin (e,z or z,e)",Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,Fasting,6.0202762580228e-06,TRUE,PAT,0.183902030351161,FALSE,OLTT,1.49342893715671e-06,TRUE
+"bilirubin (z,z)",Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,Fasting,1.31297713782178e-12,TRUE,PAT,0.00412239313649766,FALSE,OLTT,3.84257346991442e-15,TRUE
+biliverdin,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,Fasting,5.3261390805106e-05,TRUE,PAT,0.0104260764338365,FALSE,OLTT,1.80971969376141e-16,TRUE
+butyrylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,0.0285099478353928,FALSE,PAT,6.9190390279341e-05,TRUE,OLTT,0.00212768226787683,FALSE
+c-glycosyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,0.0912845698240866,FALSE,PAT,0.160460440689491,FALSE,OLTT,0.520905212416039,FALSE
+c0 (carnitine),Biocrates p150 [t-ms],Lipids,Carnitine Metabolism,Fasting,5.32118798677537e-09,TRUE,PAT,5.09046971181033e-24,TRUE,OLTT,9.50244507921904e-12,TRUE
+c10 (decanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.00520510470335607,FALSE,PAT,0.00317047721274489,FALSE,OLTT,6.96656915925849e-06,TRUE
+c10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.0176111679710655,FALSE,PAT,0.127630854698001,FALSE,OLTT,6.25302104748193e-20,TRUE
+c12 (dodecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.19873885466102e-05,TRUE,PAT,1.16156330643639e-05,TRUE,OLTT,4.79496700751607e-05,TRUE
+c12:1 (dodecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,9.08084798717813e-06,TRUE,PAT,0.000546171611407324,FALSE,OLTT,2.5941491733301e-06,TRUE
+c14 (tetradecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.19987583396139e-15,TRUE,PAT,6.52316361283113e-10,TRUE,OLTT,2.4583187570861e-09,TRUE
+c14:1 (tetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.74007896404293e-20,TRUE,PAT,8.55970862349289e-07,TRUE,OLTT,1.58982456745086e-20,TRUE
+c14:1-oh (hydroxytetradecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,2.26228184168959e-06,TRUE,PAT,1.1415466291232e-06,TRUE,OLTT,1.47349470483236e-11,TRUE
+c14:2 (tetradecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.20247702685816e-11,TRUE,PAT,5.60963973150431e-05,TRUE,OLTT,2.32279060516282e-43,TRUE
+c16 (hexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,9.12403496621569e-33,TRUE,PAT,0.000360866362774104,FALSE,OLTT,9.95190375488989e-14,TRUE
+c16-oh (hydroxyhexadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.000111348864172653,FALSE,PAT,0.217155587166078,FALSE,OLTT,0.0506642073948847,FALSE
+c16:1-oh (hexadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.60639255829615e-13,TRUE,PAT,1.37764460331146e-05,TRUE,OLTT,0.0380171389511304,FALSE
+c16:2 (hexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.83350182653836e-12,TRUE,PAT,5.02020383588689e-05,TRUE,OLTT,7.31048935875487e-31,TRUE
+c16:2-oh (hydroxyhexadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.00053431687306022,FALSE,PAT,0.0557139816242167,FALSE,OLTT,0.0620931522753274,FALSE
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.44203732097389e-23,TRUE,PAT,0.0394131595662261,FALSE,OLTT,0.0113128917720295,FALSE
+c18:1 (octadecenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.57997348629196e-45,TRUE,PAT,1.02916008190263e-08,TRUE,OLTT,6.47738370754264e-30,TRUE
+c18:2 (octadecadienylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,6.07552690436905e-27,TRUE,PAT,0.000103212036556452,FALSE,OLTT,1.34711044571391e-40,TRUE
+c2 (acetylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.48135762082417e-87,TRUE,PAT,8.87087970700498e-32,TRUE,OLTT,9.63082675200483e-71,TRUE
+c3 (propionylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,2.79174401084348e-26,TRUE,PAT,1.43071415008734e-14,TRUE,OLTT,2.29387580099306e-29,TRUE
+c4 (butyrylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,6.96967973667965e-09,TRUE,PAT,4.4215990627013e-11,TRUE,OLTT,1.0059168109399e-10,TRUE
+c4:1-dc (fumarylcarnitine) and c6 (hexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.6675721508944e-10,TRUE,PAT,0.00231553641827467,FALSE,OLTT,7.94562891312717e-18,TRUE
+c5 (valerylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,0.0285891859272348,FALSE,PAT,0.0362675747393721,FALSE,OLTT,0.11855813775018,FALSE
+c5:1( tiglylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,0.457865592188511,FALSE,PAT,0.305601112009145,FALSE,OLTT,0.361417186285,FALSE
+c5:1-dc (glutaconylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,0.112972847762258,FALSE,PAT,0.0125422363487193,FALSE,OLTT,0.269611221420458,FALSE
+c6-oh (glutarylcarnitine) and c5-dc (hydroxyhexanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.000361258876049509,FALSE,PAT,0.0461719078657531,FALSE,OLTT,0.0187000410076997,FALSE
+c7-dc (pimelylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.00316074048315223,FALSE,PAT,3.84511543206839e-14,TRUE,OLTT,2.00266143734537e-06,TRUE
+c8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.0141442554791389,FALSE,PAT,0.00961244449910214,FALSE,OLTT,7.92481551022548e-06,TRUE
+c8:1 (octenoylcarnitine),Biocrates p150 [t-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.0411749493923122,FALSE,PAT,3.87658802683271e-06,TRUE,OLTT,9.62790149390136e-19,TRUE
+caffeine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,0.0279717856536919,FALSE,PAT,7.65864478737283e-12,TRUE,OLTT,1.96721367305401e-35,TRUE
+caprate (10:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,Fasting,2.15739815192493e-10,TRUE,PAT,4.41378064482911e-15,TRUE,OLTT,1.02601035573999e-28,TRUE
+caproate (6:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,Fasting,0.0538586441269532,FALSE,PAT,0.266435670223966,FALSE,OLTT,0.118444131121508,FALSE
+caprylate (8:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,Fasting,0.0608886896654408,FALSE,PAT,0.00315933564489286,FALSE,OLTT,0.000112854393616963,FALSE
+carnitine,Metabolon HD4 [nt-ms],Lipids,Carnitine Metabolism,Fasting,2.9925661252415e-09,TRUE,PAT,0.000674405799608993,FALSE,OLTT,1.04049151827394e-35,TRUE
+catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,1.20508850451912e-230,TRUE,PAT,0.000295605817226795,FALSE,OLTT,2.50126504133217e-15,TRUE
+cholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,4.73060171867035e-11,TRUE,PAT,0.00132910333520601,FALSE,OLTT,2.81538151649584e-07,TRUE
+cholesterol,Metabolon HD4 [nt-ms],Lipids,Sterol,Fasting,0.245082868411762,FALSE,PAT,0.0560970531763955,FALSE,OLTT,0.0531101715131797,FALSE
+choline,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,Fasting,2.63759526224164e-07,TRUE,PAT,7.27524546181387e-08,TRUE,OLTT,2.7746991357879e-06,TRUE
+choline phosphate,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,Fasting,0.0427342343605821,FALSE,PAT,2.89015557342249e-09,TRUE,OLTT,1.89210874583478e-11,TRUE
+cinnamoylglycine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.00569825447305242,FALSE,PAT,8.49578732183566e-09,TRUE,OLTT,8.19521716385101e-09,TRUE
+cis-4-decenoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.000455648110580829,FALSE,PAT,0.00551718963684428,FALSE,OLTT,1.79438411731968e-21,TRUE
+cis-aconitate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,3.33561453206503e-08,TRUE,PAT,4.45903988277169e-09,TRUE,OLTT,3.81335416510085e-06,TRUE
+citrate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,5.66503608915588e-08,TRUE,PAT,1.21182157948148e-11,TRUE,OLTT,0.000282209811744546,FALSE
+citrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.0585297005358572,FALSE,PAT,0.199436850352809,FALSE,OLTT,6.97509720568242e-13,TRUE
+cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,1.67494766413934e-27,TRUE,PAT,1.54529989759342e-06,TRUE,OLTT,5.34502225118752e-21,TRUE
+cortisone,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,6.47495437666516e-15,TRUE,PAT,0.000742715261051405,FALSE,OLTT,3.14573811374474e-15,TRUE
+creatine,Metabolon HD4 [nt-ms],Amino Acids,Creatine Metabolism,Fasting,1.2194511139984e-05,TRUE,PAT,0.0045876674488258,FALSE,OLTT,2.21222307170906e-09,TRUE
+creatinine,Metabolon HD4 [nt-ms],Amino Acids,Creatine Metabolism,Fasting,0.0370564948614563,FALSE,PAT,0.131092050298395,FALSE,OLTT,0.00031294745395154,FALSE
+"cys-gly, oxidized",Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,Fasting,8.63332714792048e-05,FALSE,PAT,0.0355898473042063,FALSE,OLTT,0.183223773239357,FALSE
+cystathionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,5.65016814713059e-17,TRUE,PAT,0.000638801353393775,FALSE,OLTT,2.73964159333898e-20,TRUE
+cysteine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.488142073654947,FALSE,PAT,0.232731877183265,FALSE,OLTT,0.0454573051688004,FALSE
+cysteine s-sulfate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.391305403068209,FALSE,PAT,0.0216045255337141,FALSE,OLTT,0.140977969216085,FALSE
+cysteine sulfinic acid,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.902331593610663,FALSE,PAT,4.99125633956272e-05,TRUE,OLTT,5.55879916968002e-05,TRUE
+cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,Fasting,5.74023860905035e-05,TRUE,PAT,0.000940828609453734,FALSE,OLTT,0.118517547139454,FALSE
+cysteinylglycine,Metabolon HD4 [nt-ms],Amino Acids,Glutathione Metabolism,Fasting,0.0832114716287502,FALSE,PAT,0.0835988672329474,FALSE,OLTT,0.0189933700526573,FALSE
+cystine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.663897868989873,FALSE,PAT,0.000512035263056509,FALSE,OLTT,0.155949944129389,FALSE
+decanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.020540275331554,FALSE,PAT,0.000454713226533029,FALSE,OLTT,2.84646906383113e-06,TRUE
+dehydroisoandrosterone sulfate (dhea-s),Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.000875243250174543,FALSE,PAT,8.06368165283372e-05,FALSE,OLTT,0.0695824704885656,FALSE
+deoxycarnitine,Metabolon HD4 [nt-ms],Lipids,Carnitine Metabolism,Fasting,4.88564381068077e-11,TRUE,PAT,1.8095766792418e-07,TRUE,OLTT,0.0340174687418537,FALSE
+deoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,3.47038055348496e-19,TRUE,PAT,5.49034933934458e-10,TRUE,OLTT,2.32976444163932e-14,TRUE
+dihydroorotate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Orotate containing",Fasting,0.000424543944632061,FALSE,PAT,7.30668702944157e-05,TRUE,OLTT,0.503253298685107,FALSE
+dimethyl sulfone,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,1.57066722431692e-05,TRUE,PAT,0.111829834424771,FALSE,OLTT,0.0801004189167944,FALSE
+dimethylarginine (sdma + adma),Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,2.38514515523721e-06,TRUE,PAT,0.00388245297195765,FALSE,OLTT,1.13249293125181e-07,TRUE
+dimethylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.0922679885006215,FALSE,PAT,0.40801491816861,FALSE,OLTT,0.000141408777812513,FALSE
+dodecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,6.53453035758531e-34,TRUE,PAT,1.78365412401058e-17,TRUE,OLTT,4.01006982002236e-06,TRUE
+dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,3.10475916721016e-38,TRUE,PAT,4.74526874763716e-16,TRUE,OLTT,2.10745233800531e-55,TRUE
+dsgegdfxaegggvr,Metabolon HD4 [nt-ms],Peptides,Fibrinogen Cleavage Peptide,Fasting,0.225416152854388,FALSE,PAT,0.458742606129611,FALSE,OLTT,0.205516998454228,FALSE
+edta,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.518865916466273,FALSE,PAT,0.00728965612982905,FALSE,OLTT,0.795468191690515,FALSE
+epiandrosterone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.256300017005261,FALSE,PAT,0.0928063724416813,FALSE,OLTT,0.0435443813339666,FALSE
+ergothioneine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.000322515789567389,FALSE,PAT,0.366262373124301,FALSE,OLTT,0.0103042750242773,FALSE
+erythritol,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.0388281619021691,FALSE,PAT,0.201789429408108,FALSE,OLTT,0.000211797692787485,FALSE
+erythronate,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,Fasting,0.503327843564314,FALSE,PAT,0.235619306616177,FALSE,OLTT,7.32039495548207e-07,TRUE
+ethylmalonate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.000975763879712255,FALSE,PAT,1.36763307235817e-11,TRUE,OLTT,0.00196514421294304,FALSE
+etiocholanolone glucuronide,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,1.11054386766545e-08,TRUE,PAT,0.0198793983553272,FALSE,OLTT,4.68958684044135e-11,TRUE
+flavin adenine dinucleotide (fad),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Riboflavin Metabolism,Fasting,0.224899449072681,FALSE,PAT,0.0130872414978518,FALSE,OLTT,0.144188709133893,FALSE
+fructose,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",Fasting,0.000798453759418654,FALSE,PAT,0.00100321499746844,FALSE,OLTT,8.02037948710527e-09,TRUE
+fumarate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,0.000481769622186668,FALSE,PAT,1.34945731772201e-20,TRUE,OLTT,0.0100374719876415,FALSE
+gamma-carboxyglutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,0.328272176959088,FALSE,PAT,0.0949446199090182,FALSE,OLTT,0.472081314695428,FALSE
+gamma-cehc,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Tocopherol Metabolism,Fasting,9.80717288461069e-11,TRUE,PAT,0.0204757884802992,FALSE,OLTT,2.40657989955967e-09,TRUE
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,8.650462430809e-17,TRUE,PAT,0.0685581016312066,FALSE,OLTT,0.0019315095962613,FALSE
+gamma-glutamyl-epsilon-lysine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,0.0124447951823374,FALSE,PAT,9.6624930613034e-07,TRUE,OLTT,2.60863478469986e-16,TRUE
+gamma-glutamylalanine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,1.36736229436194e-20,TRUE,PAT,0.0483342442581022,FALSE,OLTT,3.16111599145362e-19,TRUE
+gamma-glutamylglutamate,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,2.06606838515368e-08,TRUE,PAT,0.00163804521632352,FALSE,OLTT,0.014473794412723,FALSE
+gamma-glutamylglutamine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,0.000156936434034584,FALSE,PAT,0.00655428488552323,FALSE,OLTT,0.0780473840863223,FALSE
+gamma-glutamylglycine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,3.68246335626865e-16,TRUE,PAT,5.91388434104825e-05,TRUE,OLTT,7.81053760515527e-10,TRUE
+gamma-glutamylhistidine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,6.56595428531596e-08,TRUE,PAT,0.150524296000205,FALSE,OLTT,1.87381367310918e-14,TRUE
+gamma-glutamylisoleucine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,7.4371529775399e-19,TRUE,PAT,0.197922105166694,FALSE,OLTT,2.12363042373992e-05,TRUE
+gamma-glutamylleucine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,9.892711631249e-24,TRUE,PAT,0.000417868011272909,FALSE,OLTT,2.90316681048695e-07,TRUE
+gamma-glutamylmethionine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,6.89520466329781e-13,TRUE,PAT,0.00143770082751048,FALSE,OLTT,2.63239475980545e-32,TRUE
+gamma-glutamylphenylalanine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,0.622157463634705,FALSE,PAT,0.000690226523284307,FALSE,OLTT,1.3381491078284e-20,TRUE
+gamma-glutamylthreonine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,1.08888894259096e-11,TRUE,PAT,0.0569648139045897,FALSE,OLTT,3.81096650227267e-07,TRUE
+gamma-glutamyltryptophan,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,5.88084325083208e-06,TRUE,PAT,5.45935704855806e-06,TRUE,OLTT,5.7165556564671e-05,TRUE
+gamma-glutamyltyrosine,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,1.62163677205976e-06,TRUE,PAT,0.0752414906608707,FALSE,OLTT,3.03557288360373e-13,TRUE
+gamma-glutamylvaline,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,Fasting,0.000127136618514997,FALSE,PAT,0.63915515212966,FALSE,OLTT,7.42870791892659e-07,TRUE
+gamma-tocopherol/beta-tocopherol,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Tocopherol Metabolism,Fasting,0.0199083336006575,FALSE,PAT,0.0455420619432812,FALSE,OLTT,6.62118889307201e-22,TRUE
+gluconate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,6.61884672363683e-08,TRUE,PAT,0.491143370844437,FALSE,OLTT,4.89323767344851e-20,TRUE
+glucose,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.0432044930417321,FALSE,PAT,3.68640471095463e-14,TRUE,OLTT,1.49347377046981e-15,TRUE
+glucose,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.000376584014033597,FALSE,PAT,0.0464325500260809,FALSE,OLTT,1.95153046965543e-18,TRUE
+glucuronate,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,Fasting,0.0906996294516597,FALSE,PAT,5.64556500955269e-05,TRUE,OLTT,0.00748033586803545,FALSE
+glutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,0.000343606847281571,FALSE,PAT,6.50417308086225e-07,TRUE,OLTT,2.22196794890328e-10,TRUE
+glutamine,Biocrates p150 [t-ms],Amino Acids,Glutamate Metabolism,Fasting,0.345284170590126,FALSE,PAT,0.0265684366083557,FALSE,OLTT,0.181197128856955,FALSE
+glutamine,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,0.0707518307169928,FALSE,PAT,0.0231319131199706,FALSE,OLTT,0.0148806079593928,FALSE
+glutarate (pentanedioate),Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.648310698189017,FALSE,PAT,8.64672996484744e-05,FALSE,OLTT,0.217179853856889,FALSE
+glutarylcarnitine (c5),Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.0083275909715804,FALSE,PAT,0.433384389211002,FALSE,OLTT,9.50098110943712e-05,FALSE
+glycerate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.0941807328534203,FALSE,PAT,0.463579704727453,FALSE,OLTT,3.7459859595468e-07,TRUE
+glycerol,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,Fasting,5.94194254596722e-09,TRUE,PAT,5.27982707594815e-10,TRUE,OLTT,7.39645372727664e-23,TRUE
+glycerol 3-phosphate,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,Fasting,0.000441940576613191,FALSE,PAT,0.0608882292294074,FALSE,OLTT,8.9190547519685e-06,TRUE
+glycerophosphoethanolamine,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,Fasting,0.130048641359478,FALSE,PAT,0.070872943818047,FALSE,OLTT,0.0578909831665907,FALSE
+glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,Fasting,0.0120073553774326,FALSE,PAT,1.43631280805702e-05,TRUE,OLTT,0.000500186259348616,FALSE
+glycine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,9.49229455025346e-05,FALSE,PAT,3.25459228214977e-07,TRUE,OLTT,0.00158377435944814,FALSE
+glycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.000223275806995728,FALSE,PAT,0.00444907256039562,FALSE,OLTT,1.58980732883034e-19,TRUE
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,0.06746061983887,FALSE,PAT,3.33290457547966e-07,TRUE,OLTT,1.3267344288499e-18,TRUE
+glycochenodeoxycholate glucuronide (1),Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,2.90099090670223e-05,TRUE,PAT,0.000574133731509356,FALSE,OLTT,4.37861001423015e-19,TRUE
+glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,0.0087686371606064,FALSE,PAT,0.382804740786587,FALSE,OLTT,2.19979194264502e-10,TRUE
+glycocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,0.0879901645571866,FALSE,PAT,1.27490013760525e-09,TRUE,OLTT,5.60749432256877e-21,TRUE
+glycocholenate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.00528324487183113,FALSE,PAT,0.244750800642416,FALSE,OLTT,0.000913416881637164,FALSE
+glycodeoxycholate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.141071772637219,FALSE,PAT,0.316165327700414,FALSE,OLTT,8.42448271944918e-18,TRUE
+glycohyocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.619694515141566,FALSE,PAT,8.50057718012672e-05,FALSE,OLTT,8.43801533181464e-08,TRUE
+glycolithocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.103633671509203,FALSE,PAT,0.0282829113672578,FALSE,OLTT,1.86218146684365e-22,TRUE
+glycolithocholate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.00123741340544185,FALSE,PAT,0.000296200919723562,FALSE,OLTT,7.85430034713241e-14,TRUE
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.355064886071638,FALSE,PAT,0.000110958575883313,FALSE,OLTT,2.74685458192847e-16,TRUE
+guanidinoacetate,Metabolon HD4 [nt-ms],Amino Acids,Creatine Metabolism,Fasting,0.00244918062115438,FALSE,PAT,1.44753639060864e-07,TRUE,OLTT,6.78055792494185e-13,TRUE
+h1 (hexose),Biocrates p150 [t-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,6.59326407099223e-08,TRUE,PAT,0.448850547808743,FALSE,OLTT,1.49665817187524e-11,TRUE
+hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,2.5378246319385e-62,TRUE,PAT,1.52725871804071e-17,TRUE,OLTT,1.84198497492842e-17,TRUE
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.01379064315445e-25,TRUE,PAT,0.000322980903065113,FALSE,OLTT,8.3276770662957e-24,TRUE
+hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,5.43197755476206e-14,TRUE,PAT,1.61024583460783e-16,TRUE,OLTT,7.77157238331055e-07,TRUE
+histidine,Biocrates p150 [t-ms],Amino Acids,Histidine Metabolism,Fasting,0.639094688190818,FALSE,PAT,0.00776956764357758,FALSE,OLTT,0.00740991867884385,FALSE
+histidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,0.000132587408556767,FALSE,PAT,0.00336406057063106,FALSE,OLTT,8.83143422286465e-15,TRUE
+homoarginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,8.81417257515203e-11,TRUE,PAT,0.0141516587682329,FALSE,OLTT,9.40340017980939e-15,TRUE
+homocitrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.180345865003068,FALSE,PAT,0.0348458572594978,FALSE,OLTT,2.84281446252366e-11,TRUE
+homostachydrine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.17022065267468,FALSE,PAT,0.398136555805124,FALSE,OLTT,0.0107202824132164,FALSE
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,1.13149301349022e-19,TRUE,PAT,0.0128957688744868,FALSE,OLTT,1.85893214783867e-30,TRUE
+hyocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,1.86011746616406e-13,TRUE,PAT,0.0435348333078185,FALSE,OLTT,0.00077256707215839,FALSE
+hypotaurine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.0121816502963434,FALSE,PAT,0.00128635182087894,FALSE,OLTT,0.00175355840695955,FALSE
+hypoxanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,0.00686703033421317,FALSE,PAT,1.05824296946626e-36,TRUE,OLTT,0.000432562214754875,FALSE
+imidazole lactate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,1.09887450557222e-17,TRUE,PAT,0.0062631871742652,FALSE,OLTT,0.0089856441596774,FALSE
+imidazole propionate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,0.192876278620377,FALSE,PAT,0.0614493152056919,FALSE,OLTT,0.000221493510610337,FALSE
+iminodiacetate (ida),Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.553112349984449,FALSE,PAT,0.000184286933904262,FALSE,OLTT,0.00049802905364375,FALSE
+indoleacetate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,9.13809580632359e-10,TRUE,PAT,0.0202757396194801,FALSE,OLTT,5.79684904059395e-06,TRUE
+indoleacetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,8.14032323984014e-14,TRUE,PAT,5.82714702919667e-05,TRUE,OLTT,3.45685504091261e-05,TRUE
+indolelactate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,8.20218429105638e-11,TRUE,PAT,0.36975284758246,FALSE,OLTT,1.7341201594695e-13,TRUE
+indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,7.0990812449561e-52,TRUE,PAT,1.04242148958095e-15,TRUE,OLTT,1.87485810770694e-08,TRUE
+indolin-2-one,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.764635561230443,FALSE,PAT,0.000443683459379788,FALSE,OLTT,1.29341734824521e-06,TRUE
+inosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,0.565287952370214,FALSE,PAT,1.58037824895858e-13,TRUE,OLTT,0.0627795455243784,FALSE
+insulin,In-house biochemistry [chem.],Peptides,Peptide Hormone,Fasting,4.62390438749025e-12,TRUE,PAT,0.0892881974042082,FALSE,OLTT,2.24335017056175e-48,TRUE
+isobutyrylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,1.30590386613742e-15,TRUE,PAT,1.169797600263e-09,TRUE,OLTT,1.20949626122681e-39,TRUE
+isobutyrylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.215417035306693,FALSE,PAT,0.468168855821489,FALSE,OLTT,3.917788369911e-12,TRUE
+isoleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,3.36113440022851e-28,TRUE,PAT,0.282652704418334,FALSE,OLTT,4.03654794047038e-09,TRUE
+isovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.119695315927334,FALSE,PAT,0.00547806806765171,FALSE,OLTT,0.0789539205698079,FALSE
+isovalerylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.118300647403097,FALSE,PAT,0.180835565941833,FALSE,OLTT,0.10797313479672,FALSE
+isovalerylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.179797727852881,FALSE,PAT,0.0010282201114854,FALSE,OLTT,2.3334922905088e-21,TRUE
+kynurenate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,2.36841756418588e-08,TRUE,PAT,1.02226280361117e-05,TRUE,OLTT,0.0234260114473284,FALSE
+kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,3.33665577509142e-10,TRUE,PAT,0.000656590959592101,FALSE,OLTT,2.05063369425717e-41,TRUE
+lactate,In-house biochemistry [chem.],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.643152061412364,FALSE,PAT,3.22205033840948e-45,TRUE,OLTT,6.02990719394166e-08,TRUE
+lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,0.160254659132178,FALSE,PAT,1.4515217677995e-44,TRUE,OLTT,5.82717631725469e-09,TRUE
+lanthionine,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.34462432035858,FALSE,PAT,0.43120105629371,FALSE,OLTT,3.1317815429203e-29,TRUE
+laurate (12:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,Fasting,3.04546784470759e-13,TRUE,PAT,7.56097347926335e-11,TRUE,OLTT,3.63581114637333e-24,TRUE
+laurylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,8.21595772387899e-06,TRUE,PAT,2.50313597479283e-08,TRUE,OLTT,0.000517686106275121,FALSE
+leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,6.02975998400467e-41,TRUE,PAT,0.111596679215011,FALSE,OLTT,1.65877397598531e-07,TRUE
+leucine or isoleucine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,2.01151121034798e-33,TRUE,PAT,0.0855948763783588,FALSE,OLTT,7.30264936384274e-05,TRUE
+linoleamide (18:2n6),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amide",Fasting,0.359949380323744,FALSE,PAT,0.266095980545294,FALSE,OLTT,0.0376942427947998,FALSE
+linoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,7.62398414389744e-17,TRUE,PAT,0.00269981491886424,FALSE,OLTT,6.32767264775555e-20,TRUE
+lysine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.217397433761386,FALSE,PAT,1.09180840537489e-13,TRUE,OLTT,2.23337585121239e-36,TRUE
+lysopc a c14:0,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,2.4102163236668e-31,TRUE,PAT,2.3575691847513e-05,TRUE,OLTT,5.21534622393223e-05,TRUE
+lysopc a c16:0,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,0.00227917400026241,FALSE,PAT,6.8326878552904e-18,TRUE,OLTT,6.3451673158964e-05,TRUE
+lysopc a c16:1,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,8.22658804079835e-08,TRUE,PAT,1.1584550108999e-18,TRUE,OLTT,6.75482846287948e-11,TRUE
+lysopc a c17:0,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,0.000129435994713651,FALSE,PAT,3.82947762522289e-10,TRUE,OLTT,0.0143917740310375,FALSE
+lysopc a c18:0,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,1.01746753929934e-08,TRUE,PAT,3.50694387822247e-08,TRUE,OLTT,0.15523021066483,FALSE
+lysopc a c18:2,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,3.58846359540468e-06,TRUE,PAT,4.44550889146596e-14,TRUE,OLTT,1.33929596923654e-39,TRUE
+lysopc a c20:3,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,2.32644217622023e-11,TRUE,PAT,3.30049253251053e-05,TRUE,OLTT,0.00310989271460829,FALSE
+lysopc a c20:4,Biocrates p150 [t-ms],Lipids,Lysolipid,Fasting,5.73414070979929e-10,TRUE,PAT,1.84348897308866e-05,TRUE,OLTT,3.31055442376002e-05,TRUE
+malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,2.77802835612041e-05,TRUE,PAT,1.60825157388787e-50,TRUE,OLTT,1.37958130850418e-08,TRUE
+maleate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,0.487596378056289,FALSE,PAT,0.0109186788766775,FALSE,OLTT,0.594323988730729,FALSE
+malonate,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Synthesis,Fasting,0.158549585373383,FALSE,PAT,0.0887573577542297,FALSE,OLTT,0.00809524350366068,FALSE
+malonylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Synthesis,Fasting,0.124441419134085,FALSE,PAT,0.184348094106185,FALSE,OLTT,0.420215321524429,FALSE
+maltose,Metabolon HD4 [nt-ms],Carbohydrates,Glycogen Metabolism,Fasting,0.495019896662102,FALSE,PAT,5.7179516150588e-05,TRUE,OLTT,4.87102917867804e-13,TRUE
+maltotriose,Metabolon HD4 [nt-ms],Carbohydrates,Glycogen Metabolism,Fasting,0.206597130697266,FALSE,PAT,5.83586690857252e-06,TRUE,OLTT,0.00315173508927542,FALSE
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",Fasting,1.12230387151151e-75,TRUE,PAT,0.00915943275775491,FALSE,OLTT,1.90201098447788e-22,TRUE
+mannose,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",Fasting,0.00339096589564709,FALSE,PAT,1.35319983868151e-05,TRUE,OLTT,2.53893949983411e-27,TRUE
+methionine,Biocrates p150 [t-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.00238709528425421,FALSE,PAT,5.25161202030411e-06,TRUE,OLTT,2.7977949626104e-24,TRUE
+methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,1.42798669863171e-05,TRUE,PAT,0.356621990828292,FALSE,OLTT,1.98963860174699e-45,TRUE
+methionine sulfone,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.00147258263411916,FALSE,PAT,0.296532613158659,FALSE,OLTT,0.15573290267344,FALSE
+methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.00233814584135965,FALSE,PAT,5.63067351158788e-13,TRUE,OLTT,9.57492557154863e-54,TRUE
+methyl glucopyranoside (alpha + beta),Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,1.51483715080033e-26,TRUE,PAT,0.176832328627971,FALSE,OLTT,1.38525919983045e-05,TRUE
+methyl indole-3-acetate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.00129321016729248,FALSE,PAT,0.000276012745771135,FALSE,OLTT,4.68042200462791e-05,TRUE
+methyl-4-hydroxybenzoate sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,1.50328115065486e-10,TRUE,PAT,1.94368427962808e-07,TRUE,OLTT,1.52731290138352e-08,TRUE
+methylmalonate (mma),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,1.82863197675229e-06,TRUE,PAT,3.47807534356096e-08,TRUE,OLTT,3.11734885146701e-07,TRUE
+methylsuccinate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.00428582867815004,FALSE,PAT,6.3788363693502e-05,TRUE,OLTT,0.041448233459488,FALSE
+methylsuccinoylcarnitine (1),Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,1.21790899907335e-12,TRUE,PAT,0.187304967419654,FALSE,OLTT,0.408395346423435,FALSE
+myo-inositol,Metabolon HD4 [nt-ms],Lipids,Inositol Metabolism,Fasting,0.193518897059589,FALSE,PAT,0.0144208796207018,FALSE,OLTT,0.0118896932193204,FALSE
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.4961034548937e-23,TRUE,PAT,2.27897226628915e-10,TRUE,OLTT,5.82045706065786e-28,TRUE
+myristoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,2.90457404751484e-19,TRUE,PAT,1.77286840407141e-11,TRUE,OLTT,2.49003737346314e-15,TRUE
+n-acetyl-1-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,0.00520058628735114,FALSE,PAT,0.00159377922353556,FALSE,OLTT,0.000278892381874694,FALSE
+n-acetyl-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,1.28474262608931e-05,TRUE,PAT,0.719236572864269,FALSE,OLTT,0.0505174702124096,FALSE
+n-acetyl-aspartyl-glutamate (naag),Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,0.538067797400888,FALSE,PAT,0.0018057069760429,FALSE,OLTT,0.461600335200645,FALSE
+n-acetyl-beta-alanine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,6.46137135579583e-06,TRUE,PAT,0.00180278476206256,FALSE,OLTT,0.85610268311257,FALSE
+n-acetyl-cadaverine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.173355332476884,FALSE,PAT,0.039449323801575,FALSE,OLTT,0.0180866765172174,FALSE
+n-acetylalanine,Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,Fasting,0.00569997536129548,FALSE,PAT,0.00386681814844905,FALSE,OLTT,0.0046659496039846,FALSE
+n-acetylalliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,4.36117669114375e-30,TRUE,PAT,0.00794916415234299,FALSE,OLTT,1.31593294889658e-28,TRUE
+n-acetylarginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,5.57947950721104e-06,TRUE,PAT,0.248939296197534,FALSE,OLTT,1.03976146390711e-11,TRUE
+n-acetylaspartate (naa),Metabolon HD4 [nt-ms],Amino Acids,Alanine and Aspartate Metabolism,Fasting,0.00058042601156991,FALSE,PAT,0.0617188453220165,FALSE,OLTT,0.250897503047122,FALSE
+n-acetylcarnosine,Metabolon HD4 [nt-ms],Peptides,Dipeptide Derivative,Fasting,0.000129813961205923,FALSE,PAT,0.265071541756914,FALSE,OLTT,7.9261893400244e-13,TRUE
+n-acetylcitrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.105167047522998,FALSE,PAT,0.021709493859449,FALSE,OLTT,6.45900147868758e-05,TRUE
+n-acetylglucosaminylasparagine,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,Fasting,0.964469821873566,FALSE,PAT,0.499049239856529,FALSE,OLTT,0.451187274159606,FALSE
+n-acetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,7.25257173486011e-09,TRUE,PAT,2.29677695581957e-11,TRUE,OLTT,5.10308709554176e-23,TRUE
+n-acetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,0.00412694486886769,FALSE,PAT,0.000109257093846743,FALSE,OLTT,0.596314274367116,FALSE
+n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,1.67824593966112e-30,TRUE,PAT,5.02754530790065e-35,TRUE,OLTT,3.21503991811297e-15,TRUE
+n-acetylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,0.377032161910014,FALSE,PAT,0.540478998260494,FALSE,OLTT,0.246908855100511,FALSE
+n-acetylisoleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.00785044349803437,FALSE,PAT,0.00219106047867014,FALSE,OLTT,0.00368393078084144,FALSE
+n-acetylkynurenine (2),Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,2.53874662059274e-10,TRUE,PAT,7.63854268665147e-07,TRUE,OLTT,8.00056517964394e-15,TRUE
+n-acetylleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.000175981177543801,FALSE,PAT,2.46235797794654e-07,TRUE,OLTT,0.000621861548173689,FALSE
+n-acetylmethionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.00365851979393638,FALSE,PAT,5.71487066644503e-18,TRUE,OLTT,0.137339252207707,FALSE
+n-acetylneuraminate,Metabolon HD4 [nt-ms],Carbohydrates,Aminosugar Metabolism,Fasting,0.283860700204924,FALSE,PAT,0.0987846603753239,FALSE,OLTT,0.000113018876734715,FALSE
+n-acetylphenylalanine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.00190877942165178,FALSE,PAT,7.86992797512534e-09,TRUE,OLTT,4.43281098313499e-13,TRUE
+n-acetylputrescine,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,Fasting,0.130016130721366,FALSE,PAT,0.00630629798990668,FALSE,OLTT,0.0073029935221151,FALSE
+n-acetylserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.175104139123443,FALSE,PAT,0.00951570081392549,FALSE,OLTT,0.27158096621904,FALSE
+n-acetyltaurine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.313998111370448,FALSE,PAT,0.000652503015998269,FALSE,OLTT,0.39682562474504,FALSE
+n-acetylthreonine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.0169493423187024,FALSE,PAT,0.207318900248416,FALSE,OLTT,4.886765697504e-08,TRUE
+n-acetyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,3.28585650058091e-14,TRUE,PAT,2.64482247177276e-16,TRUE,OLTT,1.49448051042353e-20,TRUE
+n-acetyltyrosine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,5.70854208439562e-05,TRUE,PAT,0.000272054355730428,FALSE,OLTT,6.09353927315087e-07,TRUE
+n-acetylvaline,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.000779051321320434,FALSE,PAT,0.151963084684294,FALSE,OLTT,4.02834489882595e-07,TRUE
+n-delta-acetylornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.00653184349456798,FALSE,PAT,0.0326217066491414,FALSE,OLTT,5.72719842159105e-05,TRUE
+n-formylmethionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.0369569522331133,FALSE,PAT,7.13094206809901e-06,TRUE,OLTT,0.303474203698229,FALSE
+n-formylphenylalanine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.751095997388979,FALSE,PAT,0.192268925820547,FALSE,OLTT,1.26696928918955e-07,TRUE
+n-methyl-4-aminobutyric acid,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,0.618209463023889,FALSE,PAT,0.403743708778486,FALSE,OLTT,0.627444377789731,FALSE
+n-methylpipecolate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.140732318979971,FALSE,PAT,0.0456766938190834,FALSE,OLTT,0.00888281053314227,FALSE
+n-methylproline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,9.96065419767909e-09,TRUE,PAT,0.00367586628411873,FALSE,OLTT,6.11828607165919e-07,TRUE
+n-palmitoyl glycine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Glycine),Fasting,0.046521253625532,FALSE,PAT,8.74589616769373e-08,TRUE,OLTT,1.00035260327799e-12,TRUE
+n1-methyl-2-pyridone-5-carboxamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,1.6960173615764e-06,TRUE,PAT,0.973177078851598,FALSE,OLTT,2.19295753968274e-05,TRUE
+n1-methyladenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,2.15569668055656e-05,TRUE,PAT,0.167117572954883,FALSE,OLTT,0.739157582779481,FALSE
+"n2,n2-dimethylguanosine",Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Guanine containing",Fasting,0.0420703983209616,FALSE,PAT,0.0602071355912305,FALSE,OLTT,0.0313157384918989,FALSE
+"n2,n5-diacetylornithine",Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.000324794080891756,FALSE,PAT,0.0286461010429598,FALSE,OLTT,0.00013475499571573,FALSE
+n4-acetylcytidine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Cytidine containing",Fasting,0.111833517916508,FALSE,PAT,0.0354744152041686,FALSE,OLTT,0.272152178465763,FALSE
+"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,1.95911518671737e-11,TRUE,PAT,0.00269877587513522,FALSE,OLTT,0.000823009187916277,FALSE
+n6-acetyllysine,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,3.64588780830581e-09,TRUE,PAT,0.1641034388441,FALSE,OLTT,1.40205169796603e-10,TRUE
+n6-carbamoylthreonyladenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,0.295158390035679,FALSE,PAT,0.0716138542400782,FALSE,OLTT,0.0194069012406203,FALSE
+n6-succinyladenosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",Fasting,0.437420484159151,FALSE,PAT,0.00135383160895031,FALSE,OLTT,0.152162358992871,FALSE
+nicotinamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,1.39130846097665e-09,TRUE,PAT,0.0105962710795224,FALSE,OLTT,0.0174514540881395,FALSE
+nicotinamide riboside,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,0.0646702446775754,FALSE,PAT,0.0310353788813656,FALSE,OLTT,0.00968407725008633,FALSE
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,2.6495403138587e-50,TRUE,PAT,0.000159464946981769,FALSE,OLTT,0.457958567158971,FALSE
+o-cresol sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.535420936490265,FALSE,PAT,0.00292240843985356,FALSE,OLTT,0.286922553007701,FALSE
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,Fasting,7.80303044979663e-79,TRUE,PAT,2.11045758701498e-09,TRUE,OLTT,7.68865139157534e-16,TRUE
+o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,0.000666642289933737,FALSE,PAT,1.9333545643038e-10,TRUE,OLTT,0.0001416701359604,FALSE
+octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,1.8426762695343e-51,TRUE,PAT,5.6492529678226e-16,TRUE,OLTT,1.74903192565177e-27,TRUE
+octanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,0.000873568177004607,FALSE,PAT,8.5533382848171e-05,FALSE,OLTT,2.11549308926185e-08,TRUE
+oleamide,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amide",Fasting,0.0725104283557886,FALSE,PAT,0.0693564905766193,FALSE,OLTT,0.00345190597825893,FALSE
+oleoyl ethanolamide,Metabolon HD4 [nt-ms],Lipids,Endocannabinoid,Fasting,0.000101653194120613,FALSE,PAT,1.3370612860614e-11,TRUE,OLTT,3.90429334270443e-26,TRUE
+oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.4272565781269e-42,TRUE,PAT,3.94590799195657e-10,TRUE,OLTT,1.26227342527404e-18,TRUE
+ornithine,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,0.036732987358822,FALSE,PAT,1.71099282633271e-19,TRUE,OLTT,2.45202054292419e-12,TRUE
+ornithine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,4.21432876932307e-05,TRUE,PAT,1.26790770387919e-13,TRUE,OLTT,2.27460939808014e-23,TRUE
+orotate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Orotate containing",Fasting,0.190948610620017,FALSE,PAT,1.16592576853144e-06,TRUE,OLTT,8.22874491695896e-15,TRUE
+orotidine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Orotate containing",Fasting,0.753462262312753,FALSE,PAT,0.0247329017695739,FALSE,OLTT,0.313666374297222,FALSE
+oxalate (ethanedioate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,Fasting,0.000106155321177371,FALSE,PAT,7.8239995773436e-05,TRUE,OLTT,5.98441967071163e-09,TRUE
+p-cresol sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.000246408458653775,FALSE,PAT,0.000971190359697396,FALSE,OLTT,0.0652281156945005,FALSE
+p-cresol-glucuronide,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,2.07792777190234e-09,TRUE,PAT,0.000648315792243848,FALSE,OLTT,0.886151377369156,FALSE
+palmitic amide,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Amide",Fasting,0.274006943604745,FALSE,PAT,0.0757321511989629,FALSE,OLTT,0.00406404693840934,FALSE
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipids,Endocannabinoid,Fasting,0.00654298576478139,FALSE,PAT,4.0846174753018e-07,TRUE,OLTT,6.42883241378505e-12,TRUE
+palmitoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,3.68403416003826e-24,TRUE,PAT,4.12501803156833e-07,TRUE,OLTT,2.67525941823584e-13,TRUE
+palmitoylcholine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Choline),Fasting,5.42350699551405e-08,TRUE,PAT,1.62503159856947e-17,TRUE,OLTT,0.00168495611492966,FALSE
+pantothenate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Pantothenate and CoA Metabolism,Fasting,0.00236901460926969,FALSE,PAT,2.92356428880344e-19,TRUE,OLTT,0.000110174031591408,FALSE
+paraxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,4.43249897480295e-13,TRUE,PAT,0.274841914965079,FALSE,OLTT,7.93625963283546e-07,TRUE
+pc aa c28:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.622361169820164,FALSE,PAT,0.000562750004624222,FALSE,OLTT,0.0665265233160764,FALSE
+pc aa c30:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,3.17443668253917e-17,TRUE,PAT,9.28967339336922e-07,TRUE,OLTT,0.116711522629962,FALSE
+pc aa c32:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.000599413668711806,FALSE,PAT,7.29250550701914e-09,TRUE,OLTT,0.291833041937722,FALSE
+pc aa c32:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.199725235333156,FALSE,PAT,1.81417618466156e-06,TRUE,OLTT,2.25392047074465e-06,TRUE
+pc aa c32:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,7.66167157274999e-51,TRUE,PAT,3.51479486184681e-10,TRUE,OLTT,0.0664983181453092,FALSE
+pc aa c32:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,2.9709684108607e-05,TRUE,PAT,0.00236264032180989,FALSE,OLTT,0.223322646895776,FALSE
+pc aa c34:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.0137882425663898,FALSE,PAT,2.95136334428749e-09,TRUE,OLTT,0.486311746137997,FALSE
+pc aa c34:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.528782128376495,FALSE,PAT,6.41826258739841e-09,TRUE,OLTT,4.56933967499259e-09,TRUE
+pc aa c34:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,5.13975677445721e-07,TRUE,PAT,5.34457448838107e-09,TRUE,OLTT,0.00351633381449508,FALSE
+pc aa c34:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,1.9582324195555e-34,TRUE,PAT,1.45811285031192e-08,TRUE,OLTT,0.294318005107377,FALSE
+pc aa c36:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.361095364921553,FALSE,PAT,0.000162215279766484,FALSE,OLTT,0.188438043371833,FALSE
+pc aa c36:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,4.71440484699852e-07,TRUE,PAT,7.94081054784543e-11,TRUE,OLTT,4.43902869855692e-06,TRUE
+pc aa c36:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,1.586994289359e-15,TRUE,PAT,9.64948133992292e-11,TRUE,OLTT,6.76860766416934e-15,TRUE
+pc aa c36:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.818726722869402,FALSE,PAT,3.78973072167574e-11,TRUE,OLTT,3.45050886614594e-11,TRUE
+pc aa c36:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,6.19036178032448e-10,TRUE,PAT,4.33804607888079e-08,TRUE,OLTT,0.00288087605016167,FALSE
+pc aa c36:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.0366954070781069,FALSE,PAT,1.82369425685117e-16,TRUE,OLTT,0.0264346342326068,FALSE
+pc aa c36:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,6.19252543818191e-19,TRUE,PAT,1.26807087732431e-10,TRUE,OLTT,0.262916367125252,FALSE
+pc aa c38:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.263945237945516,FALSE,PAT,8.32084274133922e-10,TRUE,OLTT,0.5298076818598,FALSE
+pc aa c38:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.0211325080435852,FALSE,PAT,2.31597337317549e-10,TRUE,OLTT,0.432006698578772,FALSE
+pc aa c38:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,9.26710154364358e-12,TRUE,PAT,5.23876136923517e-08,TRUE,OLTT,0.253527693617772,FALSE
+pc aa c38:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,1.9608168981229e-13,TRUE,PAT,5.86544078023073e-08,TRUE,OLTT,0.492230420981452,FALSE
+pc aa c38:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,3.56486297050261e-28,TRUE,PAT,8.30164190654365e-06,TRUE,OLTT,0.397074074365648,FALSE
+pc aa c40:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.181377699184539,FALSE,PAT,0.000881730376255739,FALSE,OLTT,0.0936253031200567,FALSE
+pc aa c40:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.301086367891672,FALSE,PAT,9.97574534159674e-05,FALSE,OLTT,0.008804706994538,FALSE
+pc aa c40:3,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.180591099595264,FALSE,PAT,7.71868741937417e-06,TRUE,OLTT,0.00515824443906685,FALSE
+pc aa c40:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.000786229465199923,FALSE,PAT,1.65606998049486e-06,TRUE,OLTT,0.19830001316633,FALSE
+pc aa c40:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,9.59911519069505e-07,TRUE,PAT,2.78023551268929e-07,TRUE,OLTT,0.417388229677861,FALSE
+pc aa c40:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,3.9033947704614e-08,TRUE,PAT,9.64098386093386e-07,TRUE,OLTT,0.179720454085178,FALSE
+pc aa c42:0,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,7.65593680768519e-06,TRUE,PAT,1.09987247508591e-06,TRUE,OLTT,0.0784399503646927,FALSE
+pc aa c42:1,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.00951195449347087,FALSE,PAT,1.7596943067883e-07,TRUE,OLTT,0.0103307746879734,FALSE
+pc aa c42:2,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.309594678100767,FALSE,PAT,4.67863093026932e-06,TRUE,OLTT,0.00195194912415831,FALSE
+pc aa c42:4,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.239693356116904,FALSE,PAT,1.61935779435098e-06,TRUE,OLTT,0.0419672364890225,FALSE
+pc aa c42:5,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.0980157557494681,FALSE,PAT,8.24517900554971e-08,TRUE,OLTT,0.318102936664984,FALSE
+pc aa c42:6,Biocrates p150 [t-ms],Lipids,Diacylphosphatidylcholine,Fasting,0.0636715854213071,FALSE,PAT,3.10740648681502e-06,TRUE,OLTT,0.274030105437287,FALSE
+pc ae c30:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0988044750673672,FALSE,PAT,0.0958661511117125,FALSE,OLTT,0.13372626119292,FALSE
+pc ae c32:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.092018852404526,FALSE,PAT,1.12654803656047e-05,TRUE,OLTT,0.180139299015634,FALSE
+pc ae c32:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0503579545743713,FALSE,PAT,0.031134270895543,FALSE,OLTT,0.457964125610959,FALSE
+pc ae c34:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.174246972461728,FALSE,PAT,1.17194576362448e-05,TRUE,OLTT,0.10945299091293,FALSE
+pc ae c34:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0918305162733647,FALSE,PAT,1.78902146599904e-07,TRUE,OLTT,0.269126253290683,FALSE
+pc ae c34:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,1.28876445978838e-05,TRUE,PAT,3.74273181928471e-11,TRUE,OLTT,0.0989994798804025,FALSE
+pc ae c34:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,1.92304801604877e-05,TRUE,PAT,9.53625020075193e-06,TRUE,OLTT,0.240067320716145,FALSE
+pc ae c36:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.188573303588279,FALSE,PAT,5.01944134410132e-07,TRUE,OLTT,0.452152825449325,FALSE
+pc ae c36:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0522073696030835,FALSE,PAT,7.56787277515182e-12,TRUE,OLTT,2.3022628127023e-07,TRUE
+pc ae c36:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.000978201949045707,FALSE,PAT,1.62724967384029e-10,TRUE,OLTT,0.420428051704545,FALSE
+pc ae c36:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.412864011157468,FALSE,PAT,6.70054618382735e-06,TRUE,OLTT,0.190544969349165,FALSE
+pc ae c36:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.22947061937631,FALSE,PAT,1.40729452182573e-08,TRUE,OLTT,0.385648895542874,FALSE
+pc ae c38:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.000896153986369571,FALSE,PAT,3.25280759330966e-07,TRUE,OLTT,0.0626871557229384,FALSE
+pc ae c38:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00152984423471946,FALSE,PAT,3.3802840050063e-06,TRUE,OLTT,0.000357847371523939,FALSE
+pc ae c38:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0202831217358231,FALSE,PAT,3.00928662802795e-06,TRUE,OLTT,0.492675123620914,FALSE
+pc ae c38:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,5.96228013050283e-05,TRUE,PAT,1.65727714226643e-06,TRUE,OLTT,0.229170757686153,FALSE
+pc ae c38:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.408812168725202,FALSE,PAT,3.39252572652134e-07,TRUE,OLTT,0.269493608517585,FALSE
+pc ae c38:6,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.360836443615237,FALSE,PAT,1.90386829582517e-08,TRUE,OLTT,0.602320666877714,FALSE
+pc ae c40:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0166575557361469,FALSE,PAT,3.11522074667394e-07,TRUE,OLTT,0.000564712363926659,FALSE
+pc ae c40:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,1.39215039447657e-05,TRUE,PAT,6.71587306719202e-07,TRUE,OLTT,0.143476954585005,FALSE
+pc ae c40:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0696026103378722,FALSE,PAT,1.01536925971082e-06,TRUE,OLTT,0.0765600894794452,FALSE
+pc ae c40:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00646732972636329,FALSE,PAT,1.05337542314409e-07,TRUE,OLTT,0.154170225844991,FALSE
+pc ae c40:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00197551430804346,FALSE,PAT,1.24322444381813e-07,TRUE,OLTT,0.335450664838039,FALSE
+pc ae c40:6,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,1.8861862412718e-06,TRUE,PAT,5.14129466323058e-08,TRUE,OLTT,0.389120112849737,FALSE
+pc ae c42:0,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00482366163860363,FALSE,PAT,0.000235945111453285,FALSE,OLTT,0.0778424735498244,FALSE
+pc ae c42:1,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.516551679309762,FALSE,PAT,0.0134685079146763,FALSE,OLTT,0.10673715965379,FALSE
+pc ae c42:2,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.117268418506067,FALSE,PAT,5.44794449619729e-07,TRUE,OLTT,0.252497837593821,FALSE
+pc ae c42:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.101772661165839,FALSE,PAT,3.07621566417175e-06,TRUE,OLTT,0.028461882252154,FALSE
+pc ae c42:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00295408080124771,FALSE,PAT,2.203482362834e-08,TRUE,OLTT,0.0327688050576937,FALSE
+pc ae c42:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00320506095816938,FALSE,PAT,9.80411312041189e-10,TRUE,OLTT,0.0276111540573265,FALSE
+pc ae c44:3,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.0980310991053562,FALSE,PAT,0.00220143682252912,FALSE,OLTT,0.269962651899584,FALSE
+pc ae c44:4,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.00103319112193121,FALSE,PAT,1.38881288396644e-07,TRUE,OLTT,0.131830620372563,FALSE
+pc ae c44:5,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,1.09590817268905e-06,TRUE,PAT,1.39410188220257e-09,TRUE,OLTT,0.0986922865105944,FALSE
+pc ae c44:6,Biocrates p150 [t-ms],Lipids,Acylalkylphosphatidylcholine,Fasting,0.000940250852615548,FALSE,PAT,1.15213484578038e-07,TRUE,OLTT,0.0630348378872747,FALSE
+phenol sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.00674765392098911,FALSE,PAT,0.0165757009591877,FALSE,OLTT,0.00285363617560089,FALSE
+phenylacetylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,2.69334396314762e-09,TRUE,PAT,7.01712098318385e-08,TRUE,OLTT,1.49955073524128e-06,TRUE
+phenylacetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.000378315280013677,FALSE,PAT,2.77834153491161e-12,TRUE,OLTT,0.00367673728380124,FALSE
+phenylacetylglutamine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,4.96484822220114e-05,TRUE,PAT,1.55947536056735e-08,TRUE,OLTT,0.0300938051257699,FALSE
+phenylalanine,Biocrates p150 [t-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.0116882552044066,FALSE,PAT,0.00568461657818115,FALSE,OLTT,1.34014231856107e-11,TRUE
+phenylalanine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.000141815887231327,FALSE,PAT,0.114804528430394,FALSE,OLTT,9.03593666332675e-36,TRUE
+phenyllactate (pla),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,7.84115290575842e-07,TRUE,PAT,1.84593198794558e-05,TRUE,OLTT,1.18651674436328e-27,TRUE
+phenylpyruvate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.320784798499963,FALSE,PAT,3.3095539356645e-05,TRUE,OLTT,2.01600283747411e-07,TRUE
+phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,Fasting,3.98695995880319e-09,TRUE,PAT,4.77466537060811e-09,TRUE,OLTT,4.17081800212746e-46,TRUE
+phosphoethanolamine,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,Fasting,0.00016039673880428,FALSE,PAT,2.82553064088971e-08,TRUE,OLTT,3.09262834125861e-12,TRUE
+phytanate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.0877257543729775,FALSE,PAT,1.16892217247284e-16,TRUE,OLTT,1.2289899990467e-17,TRUE
+pipecolate,Metabolon HD4 [nt-ms],Amino Acids,Lysine Metabolism,Fasting,0.0116168224613238,FALSE,PAT,0.250398037891959,FALSE,OLTT,0.012324984651143,FALSE
+piperine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,5.85156318030896e-35,TRUE,PAT,2.70588533649384e-10,TRUE,OLTT,7.33591460753684e-19,TRUE
+pregn steroid monosulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,7.42106708430981e-09,TRUE,PAT,0.000199280859353216,FALSE,OLTT,0.0131379804183752,FALSE
+pregnanediol-3-glucuronide,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.0132412667034895,FALSE,PAT,0.35122854905831,FALSE,OLTT,1.16559428515336e-05,TRUE
+pregnanolone/allopregnanolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.00659405634773385,FALSE,PAT,0.00192573661802688,FALSE,OLTT,1.40964673013661e-14,TRUE
+pregnen-diol disulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,0.0323295698926393,FALSE,PAT,0.120487127912452,FALSE,OLTT,0.194356862975165,FALSE
+pregnenolone sulfate,Metabolon HD4 [nt-ms],Lipids,Steroid,Fasting,3.2783047360797e-14,TRUE,PAT,2.06691173874573e-08,TRUE,OLTT,8.53185157895318e-09,TRUE
+pristanate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Branched",Fasting,0.0358059411827955,FALSE,PAT,3.20111487932774e-07,TRUE,OLTT,4.34192349008441e-05,TRUE
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,1.00705425193763e-13,TRUE,PAT,5.22497866219002e-13,TRUE,OLTT,1.2426623685817e-64,TRUE
+proline,Biocrates p150 [t-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,3.66483524451063e-16,TRUE,PAT,1.74002882670245e-11,TRUE,OLTT,2.38104171370584e-20,TRUE
+proline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,1.48553822863184e-27,TRUE,PAT,0.000300218016269152,FALSE,OLTT,6.41550476770763e-30,TRUE
+prolylglycine,Metabolon HD4 [nt-ms],Peptides,Dipeptide,Fasting,0.145294587565667,FALSE,PAT,0.914072791826738,FALSE,OLTT,0.000529718538275098,FALSE
+propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,5.36009652299307e-19,TRUE,PAT,1.15735899236423e-10,TRUE,OLTT,4.7234667217736e-64,TRUE
+propionylglycine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),Fasting,8.07707457233267e-08,TRUE,PAT,0.0758206330556976,FALSE,OLTT,9.67120161072243e-08,TRUE
+pseudouridine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,0.660817394890792,FALSE,PAT,0.00498752120844489,FALSE,OLTT,0.0735807479626265,FALSE
+pyridoxate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Vitamin B6 Metabolism,Fasting,0.0117724595163274,FALSE,PAT,1.57603202508392e-15,TRUE,OLTT,4.68331423111189e-12,TRUE
+pyroglutamine,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,9.22349317167841e-16,TRUE,PAT,0.15361371050248,FALSE,OLTT,0.00574000090183075,FALSE
+pyruvate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",Fasting,6.90045923692951e-05,TRUE,PAT,2.38005441859401e-22,TRUE,OLTT,2.40421855533103e-17,TRUE
+quinate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,9.5775970440567e-10,TRUE,PAT,0.00229947287014959,FALSE,OLTT,1.69827846368766e-11,TRUE
+quinolinate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,0.0630851410963014,FALSE,PAT,0.635568903903477,FALSE,OLTT,0.531480109997351,FALSE
+retinol (vitamin a),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Vitamin A Metabolism,Fasting,7.20695470887803e-09,TRUE,PAT,0.045397335436267,FALSE,OLTT,0.016754352272731,FALSE
+ribitol,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,Fasting,0.0552803551187622,FALSE,PAT,0.00310420668205146,FALSE,OLTT,0.375298121719621,FALSE
+ribonate,Metabolon HD4 [nt-ms],Carbohydrates,Pentose Metabolism,Fasting,0.139254658065051,FALSE,PAT,0.118691176388582,FALSE,OLTT,5.16176707292312e-06,TRUE
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,Fasting,1.3303531603168e-44,TRUE,PAT,0.00010494205774602,FALSE,OLTT,3.34627989148756e-38,TRUE
+s-adenosylhomocysteine (sah),Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.0446248881730295,FALSE,PAT,0.219411048127105,FALSE,OLTT,0.736545632766928,FALSE
+s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,2.58077070457667e-81,TRUE,PAT,0.00470871965035375,FALSE,OLTT,4.35298754793054e-09,TRUE
+s-methylcysteine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,0.803249760303097,FALSE,PAT,0.757899016179882,FALSE,OLTT,0.0174362931218366,FALSE
+sarcosine (n-methylglycine),Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,5.59405306591338e-05,TRUE,PAT,0.327863730919295,FALSE,OLTT,1.64518220026874e-07,TRUE
+sebacate (decanedioate),Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,6.66174942607235e-25,TRUE,PAT,3.85116233643917e-06,TRUE,OLTT,1.37699061785835e-09,TRUE
+serine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.866320667194546,FALSE,PAT,0.00814262250344638,FALSE,OLTT,0.0170431089571003,FALSE
+serine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.675029539918842,FALSE,PAT,0.181130480079553,FALSE,OLTT,0.000140047622083683,FALSE
+serotonin,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,8.39903884173701e-05,FALSE,PAT,0.00014124779513067,FALSE,OLTT,0.10741480155104,FALSE
+sm (oh) c14:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,0.279479124942198,FALSE,PAT,3.27548713936503e-05,TRUE,OLTT,0.421417313425664,FALSE
+sm (oh) c16:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,3.02610754861203e-06,TRUE,PAT,3.34873752217799e-05,TRUE,OLTT,0.566868076293755,FALSE
+sm (oh) c22:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,1.14979146459598e-06,TRUE,PAT,0.00114411240640422,FALSE,OLTT,0.670426685516155,FALSE
+sm (oh) c22:2,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,4.16272422685718e-07,TRUE,PAT,5.98816633311892e-09,TRUE,OLTT,0.468189883398704,FALSE
+sm (oh) c24:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,0.00228005674429425,FALSE,PAT,2.1342663972489e-05,TRUE,OLTT,0.41022751203888,FALSE
+sm c16:0,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,0.068784323781976,FALSE,PAT,7.25748671945856e-07,TRUE,OLTT,0.195543227759689,FALSE
+sm c16:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,0.155679754810959,FALSE,PAT,8.15941106464264e-08,TRUE,OLTT,0.503537538422411,FALSE
+sm c18:0,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,1.11145213051023e-07,TRUE,PAT,2.07296762691333e-05,TRUE,OLTT,0.621820110876605,FALSE
+sm c18:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,1.74663291365785e-09,TRUE,PAT,1.04323853878729e-05,TRUE,OLTT,0.600286837167041,FALSE
+sm c20:2,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,0.0037774292929304,FALSE,PAT,0.38120711601656,FALSE,OLTT,0.153643455142196,FALSE
+sm c24:0,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,1.63800494134479e-05,TRUE,PAT,5.29257640885126e-07,TRUE,OLTT,0.168104787156294,FALSE
+sm c24:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,1.15356909718288e-07,TRUE,PAT,3.18214943643479e-06,TRUE,OLTT,0.200827335882192,FALSE
+sm c26:1,Biocrates p150 [t-ms],Lipids,Sphingomyelin,Fasting,0.0466010328488969,FALSE,PAT,0.010826902100325,FALSE,OLTT,0.665077970297706,FALSE
+spermidine,Metabolon HD4 [nt-ms],Amino Acids,Polyamine Metabolism,Fasting,0.00524599200194449,FALSE,PAT,0.00108146611336302,FALSE,OLTT,2.50786930577528e-12,TRUE
+sphinganine-1-phosphate,Metabolon HD4 [nt-ms],Lipids,Sphingolipid Metabolism,Fasting,0.289374162503277,FALSE,PAT,0.0665087084311021,FALSE,OLTT,0.00258222389895162,FALSE
+sphingosine,Metabolon HD4 [nt-ms],Lipids,Sphingolipid Metabolism,Fasting,0.014863175205071,FALSE,PAT,0.000605513412924418,FALSE,OLTT,0.0790392653862829,FALSE
+sphingosine 1-phosphate,Metabolon HD4 [nt-ms],Lipids,Sphingolipid Metabolism,Fasting,0.0108116209028249,FALSE,PAT,0.0257717413024461,FALSE,OLTT,0.0897579737229674,FALSE
+stachydrine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,5.74695933029934e-05,TRUE,PAT,0.00603068416958898,FALSE,OLTT,2.30883705987557e-16,TRUE
+stearoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,7.62683023864017e-19,TRUE,PAT,0.0849533263585382,FALSE,OLTT,0.000464193732899216,FALSE
+suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),Fasting,1.00578918364837e-76,TRUE,PAT,1.62402976303925e-07,TRUE,OLTT,5.11638928812165e-16,TRUE
+succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,3.22563977536964e-06,TRUE,PAT,4.27261022007753e-77,TRUE,OLTT,0.00292117734217612,FALSE
+succinylcarnitine,Metabolon HD4 [nt-ms],Energy,TCA Cycle,Fasting,8.74459756022227e-14,TRUE,PAT,0.124871105620726,FALSE,OLTT,2.4282214288518e-26,TRUE
+sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,Fasting,5.6391912544051e-05,TRUE,PAT,1.07176004909658e-16,TRUE,OLTT,0.0042248452314126,FALSE
+tartarate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,7.59176451594684e-07,TRUE,PAT,0.032337714431044,FALSE,OLTT,1.67406378263188e-06,TRUE
+tartronate (hydroxymalonate),Metabolon HD4 [nt-ms],Xenobiotics,Bacterial/Fungal,Fasting,0.0380824307836411,FALSE,PAT,0.645456915029077,FALSE,OLTT,0.000342332652803838,FALSE
+taurine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",Fasting,2.71542190893606e-16,TRUE,PAT,0.000218440919608428,FALSE,OLTT,6.03401200691616e-05,TRUE
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,0.095959161099614,FALSE,PAT,0.000920572428627821,FALSE,OLTT,3.65356611103864e-18,TRUE
+taurocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,Fasting,0.000304682195909168,FALSE,PAT,0.00166240485421504,FALSE,OLTT,2.60312171543397e-20,TRUE
+taurocholenate sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,1.01923519564641e-38,TRUE,PAT,0.14891620628555,FALSE,OLTT,1.4044805056163e-06,TRUE
+taurolithocholate 3-sulfate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,8.1723761018628e-07,TRUE,PAT,0.0186461467855572,FALSE,OLTT,1.52326073285288e-14,TRUE
+tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",Fasting,1.1915017066962e-44,TRUE,PAT,2.80603296021874e-18,TRUE,OLTT,4.87387006249815e-12,TRUE
+theobromine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,2.37528792067414e-24,TRUE,PAT,0.065975200453363,FALSE,OLTT,8.92203173841118e-38,TRUE
+theophylline,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,Fasting,5.85800324786632e-13,TRUE,PAT,0.144185778873217,FALSE,OLTT,1.96836336573171e-07,TRUE
+threonate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,Fasting,0.00431420480762606,FALSE,PAT,6.36441068164908e-06,TRUE,OLTT,0.00372506819609055,FALSE
+threonine,Biocrates p150 [t-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,0.000134325988053028,FALSE,PAT,0.000867937791957766,FALSE,OLTT,0.00964353196708988,FALSE
+threonine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",Fasting,8.75873841019943e-12,TRUE,PAT,0.0335559965539791,FALSE,OLTT,1.62001098122414e-15,TRUE
+thymol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,Fasting,0.00117760041384198,FALSE,PAT,0.301476704589836,FALSE,OLTT,3.47381750646686e-05,TRUE
+thyroxine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.153897706682105,FALSE,PAT,0.568518326793094,FALSE,OLTT,0.340429614815314,FALSE
+tigloylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,1.4706928053046e-05,TRUE,PAT,0.00611788558958331,FALSE,OLTT,0.321660590304466,FALSE
+tiglylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,0.0436768212025078,FALSE,PAT,0.00985175780430557,FALSE,OLTT,0.0465657187692439,FALSE
+trans-4-hydroxyproline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,2.07244873404253e-34,TRUE,PAT,0.00407710703527627,FALSE,OLTT,0.00276705565888252,FALSE
+trans-urocanate,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,Fasting,1.2477364667246e-10,TRUE,PAT,3.24917794847443e-06,TRUE,OLTT,2.1216775525505e-05,TRUE
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,Fasting,2.70510634457073e-14,TRUE,PAT,3.60679002806672e-06,TRUE,OLTT,3.68975810347129e-09,TRUE
+trimethylamine n-oxide,Metabolon HD4 [nt-ms],Lipids,Phospholipid Metabolism,Fasting,2.30866824404468e-13,TRUE,PAT,0.285431866734345,FALSE,OLTT,1.65912313615993e-09,TRUE
+tryptophan,Biocrates p150 [t-ms],Amino Acids,Tryptophan Metabolism,Fasting,0.00639745259365247,FALSE,PAT,0.00932583195461639,FALSE,OLTT,1.55563723722697e-07,TRUE
+tryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,0.000178427747244161,FALSE,PAT,0.0495153333820088,FALSE,OLTT,8.67450495938619e-23,TRUE
+tryptophan betaine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,0.375372360447231,FALSE,PAT,0.77882019675484,FALSE,OLTT,8.67689683944706e-05,FALSE
+tyramine o-sulfate,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.42499816643327,FALSE,PAT,0.0367206714881516,FALSE,OLTT,5.27691856973255e-15,TRUE
+tyrosine,Biocrates p150 [t-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.0407801055224535,FALSE,PAT,8.41090404816367e-05,FALSE,OLTT,3.49205683969684e-09,TRUE
+tyrosine,Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.0012226149106233,FALSE,PAT,0.169832892674415,FALSE,OLTT,5.40477639342297e-21,TRUE
+urate,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,5.20012218087354e-06,TRUE,PAT,0.0116757217041566,FALSE,OLTT,2.69746577737517e-18,TRUE
+urea,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,Fasting,1.8614635092054e-06,TRUE,PAT,4.56261622804886e-06,TRUE,OLTT,9.67016336262505e-08,TRUE
+uridine,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Uracil containing",Fasting,0.000767129482477049,FALSE,PAT,5.45806580131407e-22,TRUE,OLTT,1.13567268768596e-36,TRUE
+ursodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,Fasting,0.0369058357416297,FALSE,PAT,5.39894684775902e-05,TRUE,OLTT,1.34448744658158e-10,TRUE
+valine,Biocrates p150 [t-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,7.15972216807047e-16,TRUE,PAT,2.1421990659207e-05,TRUE,OLTT,0.000152803002246443,FALSE
+valine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",Fasting,2.61300104173525e-12,TRUE,PAT,0.254380429461345,FALSE,OLTT,2.79251007407405e-11,TRUE
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,Fasting,0.0759626176030207,FALSE,PAT,3.30538544428774e-17,TRUE,OLTT,5.71658416086544e-15,TRUE
+xanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,7.49068449021761e-13,TRUE,PAT,3.40513338417293e-26,TRUE,OLTT,1.96239463858018e-33,TRUE
+xanthosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",Fasting,0.249595974114131,FALSE,PAT,2.42752684645526e-15,TRUE,OLTT,0.13379508247493,FALSE
+xanthurenate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,Fasting,5.34392635888248e-08,TRUE,PAT,4.53724598404976e-05,TRUE,OLTT,9.64434950269677e-06,TRUE
