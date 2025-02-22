@@ -268,7 +268,19 @@ run_pipeline <- function(met_data_filtered, processed_data_fig2) {
   #save_plot(plot_histogram_by_challenge(variance_long), "results/plots/sup_fig_1_variance_histogram_all.png")
 }
 
-# Run the pipeline
-input_data <- load_input_data()
-processed_data_fig2 <- process_and_save_figure2_data(input_data$all_metabolites, input_data$anova_results_combined, input_data$met_data_filtered, output_path = "results/figure_2_table.csv")
-run_pipeline(input_data$met_data_filtered, processed_data_fig2)
+main <- function() {
+  # Load the input data
+  input_data <- load_input_data()
+
+  # Process and save Figure 2 data
+  processed_data_fig2 <- process_and_save_figure2_data(input_data$all_metabolites, 
+                                                       input_data$anova_results_combined, 
+                                                       input_data$met_data_filtered, 
+                                                       output_path = "results/inter_individual_analysis_table.csv")
+  
+  # Run the pipeline with the processed data
+  run_pipeline(input_data$met_data_filtered, processed_data_fig2)
+}
+
+# Run the main function
+main()
