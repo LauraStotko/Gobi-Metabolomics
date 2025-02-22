@@ -208,7 +208,7 @@ generate_metabolite_plot <- function(filtered_data, selected_metabolites) {
     )  # Ensure automatic ticks are shown on the x-axis
 
   # Save the plot
-  ggsave("results/plots/fig_unique_challenge_fumarate.png", width = 15, height = 6, units = "in", dpi = 300, bg = "white")
+  ggsave("results/plots/fig_unique_challenge_o-acetylhomoserine.png", width = 15, height = 6, units = "in", dpi = 300, bg = "white")
 }
 
 
@@ -225,10 +225,10 @@ main <- function() {
   top_metabolites <- find_top_metabolites(unique_data)
 
   # Prepare the selected metabolites data
-  filtered_data <- prepare_selected_metabolites_data(input_data$met_data_filtered, c("fumarate"))
+  filtered_data <- prepare_selected_metabolites_data(input_data$met_data_filtered, c("o-acetylhomoserine"))
 
   # Generate the metabolite plot for 'fumarate'
-  generate_metabolite_plot(filtered_data, "fumarate")
+  generate_metabolite_plot(filtered_data, "o-acetylhomoserine")
 }
 
 # Run the main function

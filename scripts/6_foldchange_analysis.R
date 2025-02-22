@@ -127,6 +127,12 @@ process_and_save_figure2_data <- function(all_metabolites, anova_results_combine
   # Order the data by platform and absolute log2 fold change
   setorder(all_metabolites_fig, -abs_log2_foldchange)
 
+  # Remove the unnecessary column if it exists
+  col_to_remove <- "significant_any_challenge"
+  if (col_to_remove %in% names(all_metabolites_fig)) {
+    all_metabolites_fig[, (col_to_remove) := NULL]
+  }
+
   # Save the table to a CSV file
   fwrite(all_metabolites_fig, output_path)
   
