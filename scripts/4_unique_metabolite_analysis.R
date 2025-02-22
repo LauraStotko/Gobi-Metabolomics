@@ -179,9 +179,24 @@ generate_metabolite_plot <- function(filtered_data, selected_metabolites) {
 }
 
 
-# Main script execution
-input_data <- load_input_data()
-unique_data <- generate_log2foldchange_pvalue_data(input_data$anova_results_combined, input_data$all_metabolites, input_data$met_data_filtered)
-top_metabolites <- find_top_metabolites(unique_data)
-filtered_data <- prepare_selected_metabolites_data(input_data$met_data_filtered, c("fumarate"))
-generate_metabolite_plot(filtered_data, "fumarate")
+main <- function() {
+  # Load the input data
+  input_data <- load_input_data()
+
+  # Generate the log2 fold change and p-value data
+  unique_data <- generate_log2foldchange_pvalue_data(input_data$anova_results_combined, 
+                                                     input_data$all_metabolites, 
+                                                     input_data$met_data_filtered)
+
+  # Find the top metabolites
+  top_metabolites <- find_top_metabolites(unique_data)
+
+  # Prepare the selected metabolites data
+  filtered_data <- prepare_selected_metabolites_data(input_data$met_data_filtered, c("fumarate"))
+
+  # Generate the metabolite plot for 'fumarate'
+  generate_metabolite_plot(filtered_data, "fumarate")
+}
+
+# Run the main function
+main()
