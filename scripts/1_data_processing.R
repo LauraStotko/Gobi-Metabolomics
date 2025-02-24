@@ -1,11 +1,10 @@
 # Load necessary libraries
 source("scripts/0_load_libraries.R")
 
-# Load data 
-load_data <- function(met_file, info_file) {
+# Load data without needing info_file
+load_data <- function(met_file) {
   met_data <- fread(met_file, sep = ",", fill = TRUE)
-  info_data <- fread(info_file, sep = ",", fill = TRUE)
-  return(list(met_data = met_data, info_data = info_data))
+  return(met_data)
 }
 
 # Add challenge information
@@ -145,7 +144,7 @@ impute_data <- function(metabolite_datasets) {
   metabolite_datasets <- lapply(metabolite_datasets, convert_to_factors)
   
   # Perform imputation with automatic parallelization adjustment
-  imputed_data <- lapply(metabolite_datasets, perform_missForest, ntree_val = 10) 
+  imputed_data <- lapply(metabolite_datasets, perform_missForest, ntree_val = 400) 
   
   return(imputed_data)
 }
@@ -161,12 +160,11 @@ calculate_z_scores <- function(combined_data) {
 
 
 # Main function to execute the pipeline
-run_analysis_pipeline <- function(met_file, info_file) {
+run_analysis_pipeline <- function(met_file) {
   load_libraries()
   # Load data
-  data <- load_data(met_file, info_file)
+  data <- load_data(met_file)
   met_data <- data$met_data
-  info_data <- data$info_data
   
   # Process data
   met_data <- remove_high_na_metabolites(met_data)
@@ -207,5 +205,13 @@ run_analysis_pipeline <- function(met_file, info_file) {
   return(imputed_z_score_data)
 }
 
-imputed_z_score_data <- run_analysis_pipeline("input/raw/humet_data_raw_none_subjects15_tp57.csv", "input/humet_info.csv")
-fwrite(imputed_z_score_data, "data/processed/humet_imputed_400trees_z_score.csv")
+main <- function() {
+  # Run the analysis pipeline with input files
+  imputed_z_score_data <- run_analysis_pipeline("input/raw/humet_data_raw_none_subjects15_tp57.csv")
+  
+  # Save the resulting data to a CSV file
+  fwrite(imputed_z_score_data, "data/processed/humet_imputed_400trees_z_score.csv")
+}
+
+# Call the main function
+main()

@@ -66,8 +66,7 @@ merge_met_data_info <- function(met_data, info_data) {
   return(met_data)
 }
 
-# Main function to execute the pipeline
-main <- function(z_score_file, info_file) {
+run_pipeline <- function(z_score_file, info_file) {
   # Load data
   data <- load_data(z_score_file, info_file)
   z_score_data <- data$z_score_data
@@ -85,11 +84,14 @@ main <- function(z_score_file, info_file) {
   # Merge met_data with info_data
   met_data <- merge_met_data_info(met_data, info_data)
 
-  # Return final met_data
+  fwrite(met_data, "data/processed/reshaped_met_data.csv")
   return(met_data)
 }
 
-met_data <- main("data/processed/humet_imputed_400trees_z_score.csv", "input/humet_info.csv")
+main <- function() {
+  met_data <- run_pipeline("data/processed/humet_imputed_400trees_z_score.csv", "input/humet_info.csv")
+  # Save the processed data to a CSV file
+  fwrite(met_data, "data/processed/reshaped_met_data.csv")
+}
 
-# Optionally, save the final merged data
-fwrite(met_data, "data/processed/reshaped_met_data.csv")
+main()

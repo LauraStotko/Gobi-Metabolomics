@@ -1,0 +1,184 @@
+metabolite,platform_name,super_pathway,challenge
+1-arachidonoyl-gpc (20:4n6),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-arachidonoyl-gpi (20:4),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-arachidoyl-gpc (20:0),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-dihomo-linolenoyl-gpc (20:3n3 or 6),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-dihomo-linolenoyl-gpe (20:3n3 or 6),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-dihomo-linoleoyl-gpc (20:2),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-docosapentaenoyl-gpc (22:5n6),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-linoleoyl-gpi (18:2),Metabolon HD4 [nt-ms],Lipids,Fasting
+1-methylguanidine,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+1-methylnicotinamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Fasting
+1-methylxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Fasting
+1-nonadecanoyl-gpc (19:0),Metabolon HD4 [nt-ms],Lipids,Fasting
+2-aminoadipate,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+2-aminoheptanoate,Metabolon HD4 [nt-ms],Lipids,Fasting
+2-arachidonoyl-gpe (20:4),Metabolon HD4 [nt-ms],Lipids,Fasting
+2-docosahexaenoyl-gpc (22:6),Metabolon HD4 [nt-ms],Lipids,Fasting
+2-docosahexaenoyl-gpe (22:6),Metabolon HD4 [nt-ms],Lipids,Fasting
+21-hydroxypregnenolone monosulfate (1),Metabolon HD4 [nt-ms],Lipids,Fasting
+"5alpha-androstan-3alpha,17alpha-diol monosulfate",Metabolon HD4 [nt-ms],Lipids,Fasting
+"5alpha-androstan-3alpha,17beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Fasting
+"5alpha-androstan-3beta,17beta-diol monosulfate (2)",Metabolon HD4 [nt-ms],Lipids,Fasting
+"5alpha-pregnan-3(alpha or beta),20beta-diol disulfate",Metabolon HD4 [nt-ms],Lipids,Fasting
+beta-hydroxyisovalerate,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+c18 (octadecanoylcarnitine),Biocrates p150 [t-ms],Lipids,Fasting
+cysteine-glutathione disulfide,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+dimethyl sulfone,Metabolon HD4 [nt-ms],Xenobiotics,Fasting
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Peptides,Fasting
+gamma-glutamylglutamate,Metabolon HD4 [nt-ms],Peptides,Fasting
+hyocholate,Metabolon HD4 [nt-ms],Lipids,Fasting
+imidazole lactate,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+methylsuccinoylcarnitine (1),Metabolon HD4 [nt-ms],Amino Acids,Fasting
+n-acetyl-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+n-acetyl-beta-alanine,Metabolon HD4 [nt-ms],Nucleotides,Fasting
+n1-methyladenosine,Metabolon HD4 [nt-ms],Nucleotides,Fasting
+"n6,n6,n6-trimethyllysine",Metabolon HD4 [nt-ms],Amino Acids,Fasting
+nicotinamide,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Fasting
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+p-cresol-glucuronide,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+pc aa c32:3,Biocrates p150 [t-ms],Lipids,Fasting
+pregn steroid monosulfate,Metabolon HD4 [nt-ms],Lipids,Fasting
+pyroglutamine,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+retinol (vitamin a),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Fasting
+sm (oh) c22:1,Biocrates p150 [t-ms],Lipids,Fasting
+stearoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fasting
+tigloylglycine,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+trans-4-hydroxyproline,Metabolon HD4 [nt-ms],Amino Acids,Fasting
+1-stearoyl-gpe (18:0),Metabolon HD4 [nt-ms],Lipids,PAT
+1-stearoyl-gpi (18:0),Metabolon HD4 [nt-ms],Lipids,PAT
+4-hydroxyphenylacetatoylcarnitine,Metabolon HD4 [nt-ms],Amino Acids,PAT
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],Nucleotides,PAT
+adenosine 5'-monophosphate (amp),Metabolon HD4 [nt-ms],Nucleotides,PAT
+butyrylcarnitine,Metabolon HD4 [nt-ms],Lipids,PAT
+dihydroorotate,Metabolon HD4 [nt-ms],Nucleotides,PAT
+ethylmalonate,Metabolon HD4 [nt-ms],Amino Acids,PAT
+fumarate,Metabolon HD4 [nt-ms],Energy,PAT
+glucuronate,Metabolon HD4 [nt-ms],Carbohydrates,PAT
+glycerophosphorylcholine (gpc),Metabolon HD4 [nt-ms],Lipids,PAT
+glycine,Biocrates p150 [t-ms],Amino Acids,PAT
+hypoxanthine,Metabolon HD4 [nt-ms],Nucleotides,PAT
+inosine,Metabolon HD4 [nt-ms],Nucleotides,PAT
+lysopc a c17:0,Biocrates p150 [t-ms],Lipids,PAT
+maltotriose,Metabolon HD4 [nt-ms],Carbohydrates,PAT
+methylsuccinate,Metabolon HD4 [nt-ms],Amino Acids,PAT
+n-acetylleucine,Metabolon HD4 [nt-ms],Amino Acids,PAT
+n-acetylmethionine,Metabolon HD4 [nt-ms],Amino Acids,PAT
+n-formylmethionine,Metabolon HD4 [nt-ms],Amino Acids,PAT
+o-sulfo-l-tyrosine,Metabolon HD4 [nt-ms],Xenobiotics,PAT
+pantothenate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,PAT
+pc aa c32:0,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c34:1,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c36:5,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c38:0,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c38:3,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c40:3,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c40:4,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c42:1,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c42:2,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c42:4,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c42:5,Biocrates p150 [t-ms],Lipids,PAT
+pc aa c42:6,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c32:1,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c34:0,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c34:1,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c36:1,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c36:3,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c36:4,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c36:5,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c38:0,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c38:2,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c38:3,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c38:5,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c38:6,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c40:1,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c40:3,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c40:4,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c40:5,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c42:2,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c42:3,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c42:4,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c42:5,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c44:4,Biocrates p150 [t-ms],Lipids,PAT
+pc ae c44:6,Biocrates p150 [t-ms],Lipids,PAT
+phenylacetylglutamate,Metabolon HD4 [nt-ms],Amino Acids,PAT
+sm (oh) c14:1,Biocrates p150 [t-ms],Lipids,PAT
+sm (oh) c24:1,Biocrates p150 [t-ms],Lipids,PAT
+sm c16:0,Biocrates p150 [t-ms],Lipids,PAT
+sm c16:1,Biocrates p150 [t-ms],Lipids,PAT
+threonate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,PAT
+xanthosine,Metabolon HD4 [nt-ms],Nucleotides,PAT
+"1,7-dimethylurate",Metabolon HD4 [nt-ms],Xenobiotics,OLTT
+1-(1-enyl-palmitoyl)-gpc (p-16:0),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-linoleoylglycerol (18:2),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-margaroyl-gpc (17:0),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-methylimidazoleacetate,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+1-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-palmitoyl-gpc (16:0),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-palmityl-gpc (o-16:0),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-pentadecanoyl-gpc (15:0),Metabolon HD4 [nt-ms],Lipids,OLTT
+1-stearyl-gpc (o-18:0),Metabolon HD4 [nt-ms],Lipids,OLTT
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,OLTT
+2-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],Lipids,OLTT
+2-methylbutyrylcarnitine (c5),Metabolon HD4 [nt-ms],Amino Acids,OLTT
+2-oleoyl-gpc (18:1),Metabolon HD4 [nt-ms],Lipids,OLTT
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,OLTT
+"3,7-dimethylurate",Metabolon HD4 [nt-ms],Xenobiotics,OLTT
+3-ureidopropionate,Metabolon HD4 [nt-ms],Nucleotides,OLTT
+"5alpha-androstan-3alpha,17alpha-diol disulfate",Metabolon HD4 [nt-ms],Lipids,OLTT
+alpha-tocopherol,Metabolon HD4 [nt-ms],Cofactors and Vitamins,OLTT
+andro steroid monosulfate (1),Metabolon HD4 [nt-ms],Lipids,OLTT
+arginine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+argininosuccinate,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+asparagine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+azelate (nonanedioate),Metabolon HD4 [nt-ms],Lipids,OLTT
+betaine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+c10 (decanoylcarnitine),Biocrates p150 [t-ms],Lipids,OLTT
+c10:1 (decenoylcarnitine),Biocrates p150 [t-ms],Lipids,OLTT
+c8 (octanoylcarnitine),Biocrates p150 [t-ms],Lipids,OLTT
+cis-4-decenoyl carnitine,Metabolon HD4 [nt-ms],Lipids,OLTT
+citrulline,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+decanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,OLTT
+erythronate,Metabolon HD4 [nt-ms],Carbohydrates,OLTT
+fructose,Metabolon HD4 [nt-ms],Carbohydrates,OLTT
+gamma-glutamylphenylalanine,Metabolon HD4 [nt-ms],Peptides,OLTT
+gamma-glutamylvaline,Metabolon HD4 [nt-ms],Peptides,OLTT
+gamma-tocopherol/beta-tocopherol,Metabolon HD4 [nt-ms],Cofactors and Vitamins,OLTT
+glucose,Metabolon HD4 [nt-ms],Carbohydrates,OLTT
+glycerate,Metabolon HD4 [nt-ms],Carbohydrates,OLTT
+glycerol 3-phosphate,Metabolon HD4 [nt-ms],Lipids,OLTT
+glycine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+glycochenodeoxycholate sulfate,Metabolon HD4 [nt-ms],Lipids,OLTT
+glycodeoxycholate sulfate,Metabolon HD4 [nt-ms],Lipids,OLTT
+glycohyocholate,Metabolon HD4 [nt-ms],Lipids,OLTT
+glycolithocholate,Metabolon HD4 [nt-ms],Lipids,OLTT
+glycolithocholate sulfate,Metabolon HD4 [nt-ms],Lipids,OLTT
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],Lipids,OLTT
+histidine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+homocitrulline,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+indolin-2-one,Metabolon HD4 [nt-ms],Xenobiotics,OLTT
+isobutyrylglycine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+isovalerylglycine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+lanthionine,Metabolon HD4 [nt-ms],Xenobiotics,OLTT
+methyl indole-3-acetate,Metabolon HD4 [nt-ms],Xenobiotics,OLTT
+n-acetylcarnosine,Metabolon HD4 [nt-ms],Peptides,OLTT
+n-acetylcitrulline,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+n-acetylthreonine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+n-acetylvaline,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+n-delta-acetylornithine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+n-formylphenylalanine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+octanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,OLTT
+phenylalanine,Biocrates p150 [t-ms],Amino Acids,OLTT
+phenylalanine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+pregnanediol-3-glucuronide,Metabolon HD4 [nt-ms],Lipids,OLTT
+pregnanolone/allopregnanolone sulfate,Metabolon HD4 [nt-ms],Lipids,OLTT
+ribonate,Metabolon HD4 [nt-ms],Carbohydrates,OLTT
+spermidine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,OLTT
+taurocholate,Metabolon HD4 [nt-ms],Lipids,OLTT
+thymol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,OLTT
+tryptophan,Biocrates p150 [t-ms],Amino Acids,OLTT
+tryptophan,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+tyramine o-sulfate,Metabolon HD4 [nt-ms],Amino Acids,OLTT
+tyrosine,Biocrates p150 [t-ms],Amino Acids,OLTT
+tyrosine,Metabolon HD4 [nt-ms],Amino Acids,OLTT
