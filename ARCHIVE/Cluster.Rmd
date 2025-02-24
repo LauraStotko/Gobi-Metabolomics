@@ -1,0 +1,108 @@
+---
+title: "Cluster"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Libraries
+library(tidyverse)
+library(Mfuzz)
+library(Biobase)
+```
+
+## **2. Daten einlesen**
+
+```{r}
+# Dateipfade anpassen
+file_path <- "/Users/laura.stotko/Documents/Gobi-Metabolomics/input/raw/humet_data_zscore_none_subjects15_tp57.csv"
+info_file_path <- "/Users/laura.stotko/Downloads/humet_info.csv"
+
+# CSV-Dateien laden
+df <- read.csv(file_path, stringsAsFactors = FALSE)
+info_df <- read.csv(info_file_path, stringsAsFactors = FALSE)
+
+# Entfernen der ersten drei Spalten
+df <- df[, -(1:3)]
+
+# Entfernen von Spalten mit nur NA-Werten
+df <- df[, colSums(is.na(df)) < nrow(df)]
+
+# Fehlende Werte mit Mittelwert ersetzen
+df <- df %>% mutate(across(where(is.numeric), ~ifelse(is.na(.), mean(., na.rm = TRUE), .)))
+```
+
+## **3. Metaboliten-Mapping mit Pathway-Informationen**
+
+```{r}
+# Spaltennamen bereinigen
+colnames(info_df) <- trimws(colnames(info_df))
+
+# Sicherstellen, dass die richtige Spalte verwendet wird
+if("col_code" %in% colnames(info_df) & "SUPER.PATHWAY" %in% colnames(info_df)) {
+    pathway_mapping <- info_df %>% select(col_code, SUPER.PATHWAY) %>% rename(metabolite = col_code)
+    
+    # Metaboliten-Spalten extrahieren
+    metabolites <- colnames(df)
+    
+    # Pathway-Informationen hinzufügen
+    pathway_info <- pathway_mapping %>% filter(metabolite %in% metabolites)
+    
+    # Metaboliten in df umbenennen (optional)
+    df <- df %>% rename_with(~ pathway_mapping$SUPER.PATHWAY[match(., pathway_mapping$metabolite)], .cols = metabolites)
+}
+```
+
+## **4. Daten für Mfuzz vorbereiten**
+
+```{r}
+# Konvertiere in numerische Matrix
+df_numeric <- as.matrix(df)
+
+# ExpressionSet erstellen
+expr_set <- new("ExpressionSet", exprs = df_numeric)
+
+# Daten normalisieren (z-transformieren)
+expr_set <- standardise(expr_set)
+```
+
+## **5. Mfuzz-Clustering ausführen**
+
+```{r}
+# Anzahl der Cluster bestimmen
+c_num <- 8  # Muss mit der Anzahl aus dem Report übereinstimmen
+
+# Mitgliedschafts-Parameter optimieren
+m <- mestimate(expr_set)
+
+# Fuzzy C-Means Clustering durchführen
+cl <- mfuzz(expr_set, c = c_num, m = 1.25)
+```
+
+## **6. Ergebnisse formatieren und speichern**
+
+```{r}
+# Cluster-Zuordnung abrufen
+cluster_assignments <- data.frame(metabolite = rownames(cl$membership), cl$membership)
+
+# Bestimme den Cluster mit der höchsten Wahrscheinlichkeit für jeden Metaboliten
+cluster_assignments$Assigned_Cluster <- apply(cl$membership, 1, which.max)
+
+# Formatierung: erste Spalte = Metaboliten, zweite Spalte = Zugehöriger Cluster, nachfolgende Spalten = Cluster-Zugehörigkeitswahrscheinlichkeit
+cluster_assignments <- cluster_assignments %>%
+  select(metabolite, Assigned_Cluster, everything())
+
+# Spaltennamen anpassen
+colnames(cluster_assignments) <- c("Metabolite", "Assigned_Cluster", paste0("Cluster_", 1:c_num))
+
+# Ergebnisse speichern
+write.csv(cluster_assignments, "/Users/laura.stotko/Downloads/mfuzz_clusters_formatted_3.csv", row.names = FALSE)
+print("Clustering abgeschlossen! Ergebnisse gespeichert.")
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

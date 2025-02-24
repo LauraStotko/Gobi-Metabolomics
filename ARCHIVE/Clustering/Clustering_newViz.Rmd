@@ -1,0 +1,198 @@
+---
+title: "Cluster Response Visualization"
+author: ""
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(zoo)
+```
+
+challenge_colors <- c(
+	"Fasting" = "#e55050", 
+	"PAT" = "#6160f2", 
+	"OLTT" = "#ba8e23"
+)
+
+```{r load_data}
+# Daten laden
+df <- read_csv("/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/mfuzz_clusters_corrected.csv")
+
+# Timepoints für jede Challenge spezifisch filtern
+df <- df %>% 
+  filter((Challenge == "PAT" & Timepoint <= 120) |
+         (Challenge == "OLTT" & Timepoint <= 480) |
+         (Challenge == "Fasting" & Timepoint <= 1920))
+
+# Fehlende Werte mit Gruppenmittelwert ersetzen für alle Challenges
+df <- df %>%
+  group_by(Assigned_Cluster, Challenge, Metabolite) %>%
+  mutate(Response = ifelse(is.na(Response), mean(Response, na.rm = TRUE), Response)) %>%
+  ungroup()
+
+# Reihenfolge der Challenges festlegen
+#df$Challenge <- factor(df$Challenge, levels = c("Fasting", "OLTT", "PAT"))
+
+#show(df)
+```
+
+
+```{r save_plots}
+# Funktion zum Speichern von Plots
+dpi_value <- 300  # Auflösung für die Speicherung
+plot_width <- 8   # Breite in Zoll
+plot_height <- 6  # Höhe in Zoll
+
+save_dir <- "/Users/laura.stotko/Documents/Gobi-Metabolomics/Clustering/plots_sep"
+dir.create(save_dir, showWarnings = FALSE, recursive = TRUE)  # Ordner erstellen falls nicht vorhanden
+
+# Funktion zum Speichern der Plots
+save_plot <- function(plot_list, prefix) {
+  for (cluster in names(plot_list)) {
+    ggsave(filename = paste0(save_dir, "/", prefix, "_Cluster_", cluster, ".png"),
+           plot = plot_list[[cluster]],
+           dpi = dpi_value, width = plot_width, height = plot_height)
+  }
+}
+
+# Alle Plots speichern
+save_plot(fasting_plots, "fasting")
+save_plot(oltt_plots, "oltt")
+save_plot(pat_plots, "pat")
+save_plot(donut_plots, "donut")
+```
+
+```{r plot_donut}
+# Donut-Plots für Superpathway-Anteile pro Cluster
+donut_plots <- list()
+
+# Sicherstellen, dass die Spalte "Superpathway" existiert
+if("Super_Pathway" %in% colnames(df)) {
+  for (cluster in unique(df$Assigned_Cluster)) {
+    pathway_data <- df %>%
+      filter(Assigned_Cluster == cluster) %>%
+      group_by(Super_Pathway) %>%
+      summarise(count = n()) %>%
+      mutate(percentage = count / sum(count) * 100)
+    
+    p <- ggplot(pathway_data, aes(x = "", y = percentage, fill = Super_Pathway)) +
+      geom_bar(width = 1, stat = "identity", color = "white") +
+      coord_polar(theta = "y") +
+      theme_void() +
+      labs(title = paste("Cluster", cluster, "- Super_Pathway Distribution")) +
+      theme(legend.position = "right")
+    
+    donut_plots[[as.character(cluster)]] <- p
+  }
+}
+
+# Alle Donut-Plots anzeigen
+donut_plots
+```
+
+```{r plot_fasting}
+# Nur Fasting Challenge für jedes Cluster anzeigen
+fasting_plots <- list()
+
+for (cluster in unique(df$Assigned_Cluster)) {
+  fasting_data <- df %>% filter(Assigned_Cluster == cluster & Challenge == "Fasting")
+  
+  p <- ggplot(fasting_data, aes(x = Timepoint, y = Response)) +
+    geom_line(aes(group = Metabolite), color = "grey", alpha = 0.3) +
+    geom_smooth(color = "#e55050", method = "loess", se = FALSE, size = 1) +
+    labs(title = paste("Cluster", cluster, "- Fasting"), x = "", y = "") +
+    theme_minimal() +
+    theme(
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.title.x = element_blank(),
+      axis.text.x = element_text(size = 10, color = "black"),
+      axis.ticks.x = element_line(color = "black"),
+      axis.line.x = element_line(color = "black")
+    ) +
+    scale_x_continuous(limits = c(0, 1920))
+  
+  fasting_plots[[as.character(cluster)]] <- p
+}
+
+# Alle Fasting Plots anzeigen
+fasting_plots
+```
+
+```{r plot_oltt}
+# Alle OLTT Plots anzeigen
+oltt_plots <- list()
+
+for (cluster in unique(df$Assigned_Cluster)) {
+  oltt_data <- df %>% filter(Assigned_Cluster == cluster & Challenge == "OLTT")
+  
+  p <- ggplot(oltt_data, aes(x = Timepoint, y = Response)) +
+    geom_line(aes(group = Metabolite), color = "grey", alpha = 0.3, na.rm = TRUE) +
+    geom_smooth(color = "#ba8e23", method = "loess", se = FALSE, size = 1) +
+    labs(title = paste("Cluster", cluster, "- OLTT"), x = "Challenge Time [min]", y = "") +
+    theme_minimal() +
+    theme(
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.title.x = element_text(size = 12, color = "black"),
+      axis.text.x = element_text(size = 10, color = "black"),
+      axis.ticks.x = element_line(color = "black"),
+      axis.line.x = element_line(color = "black")
+    ) +
+    scale_x_continuous(limits = c(0, 480))
+  
+  oltt_plots[[as.character(cluster)]] <- p
+}
+
+# Alle OLTT Plots anzeigen
+oltt_plots
+```
+
+
+```{r plot_pat}
+# Nur PAT Challenge für jedes Cluster anzeigen
+pat_plots <- list()
+
+for (cluster in unique(df$Assigned_Cluster)) {
+  pat_data <- df %>% filter(Assigned_Cluster == cluster & Challenge == "PAT")
+  
+  p <- ggplot(pat_data, aes(x = Timepoint, y = Response)) +
+    geom_line(aes(group = Metabolite), color = "grey", alpha = 0.3, na.rm = TRUE) +
+    geom_smooth(color = "#6160f2", method = "loess", se = FALSE, size = 1) +
+    labs(title = paste("Cluster", cluster, "- PAT"), x = "   ", y = "Metabolite Response") +
+    theme_minimal() +
+    theme(
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.title.y = element_text(size = 12, color = "black"),
+      axis.text.y = element_text(size = 10, color = "black"),
+      axis.ticks.y = element_line(color = "black"),
+      axis.line.y = element_line(color = "black"),
+      axis.title.x = element_blank(),
+      axis.text.x = element_text(size = 10, color = "black"),
+      axis.ticks.x = element_line(color = "black"),
+      axis.line.x = element_line(color = "black")
+    ) +
+    scale_x_continuous(limits = c(0, 120))
+  
+  pat_plots[[as.character(cluster)]] <- p
+}
+
+# Alle PAT Plots anzeigen
+pat_plots
+```
+
