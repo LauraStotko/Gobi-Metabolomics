@@ -76,10 +76,9 @@ generate_log2foldchange_pvalue_data <- function(anova_results_combined, all_meta
   return(all_metabolites_fig)
 }
 
-# Function to process and save Figure 2 data
-process_and_save_figure2_data <- function(all_metabolites, anova_results_combined, met_data, output_path = "results/figure_2_table.csv") {
+process_and_save_figure2_data <- function(all_metabolites, anova_results_combined, met_data) {
   
-  # Generate figure 2 data
+  # Generate figure 2 data (this includes the log2_foldchange)
   all_metabolites_fig <- generate_log2foldchange_pvalue_data(anova_results_combined, all_metabolites, met_data)
 
   # Remove the unnecessary column if it exists
@@ -90,10 +89,10 @@ process_and_save_figure2_data <- function(all_metabolites, anova_results_combine
   
   # Filter rows where platform is 'Metabolon'
   all_metabolites_fig <- all_metabolites_fig[platform_name %in% c("Metabolon HD4 [nt-ms]")]
-  
+
   # Filter rows based on log2 fold change or p-value thresholds
   all_metabolites_fig <- all_metabolites_fig[neg_log10_p_value > 40 | (significant_any_challenge == TRUE & abs_log2_foldchange > 2)]
-  
+
   # Order the data by platform and absolute log2 fold change
   setorder(all_metabolites_fig, -abs_log2_foldchange)
 
@@ -102,15 +101,11 @@ process_and_save_figure2_data <- function(all_metabolites, anova_results_combine
   if (col_to_remove %in% names(all_metabolites_fig)) {
     all_metabolites_fig[, (col_to_remove) := NULL]
   }
-
-  # Save the table to a CSV file
-  fwrite(all_metabolites_fig, output_path)
-  
-  message("Processed data saved to: ", output_path)
   
   # Return the processed data table
   return(all_metabolites_fig)
 }
+
 
 # Function to preprocess the data
 preprocess_data <- function(met_data_filtered, processed_data_fig2) {
@@ -139,13 +134,19 @@ split_data_by_challenge <- function(met_data_fig2_filtered) {
 }
 
 # Prepare plot data
-prepare_plot_data <- function(met_data_combined) {
+prepare_plot_data <- function(met_data_combined, challenge_name) {
   variance_data <- met_data_combined %>%
     group_by(metabolite, platform_name, challenge, challenge_time) %>%
-    summarise(variance_log2fc = var(log2_foldchange, na.rm = TRUE)) %>%
+    summarise(variance_log2fc = var(log2_foldchange, na.rm = TRUE), .groups = 'drop') %>%
     ungroup()
 
-   # Print max variance for each challenge
+  # Add a column to store the challenge (for merging later)
+  variance_data$challenge <- challenge_name
+
+  # Save variance data to CSV (appending each time)
+  fwrite(variance_data, "results/variance_table_combined.csv", append = TRUE)  # Append the variance data to the table
+  
+  # Print max variance for each challenge
   max_variance_by_challenge <- variance_data %>%
     group_by(challenge) %>%
     summarise(max_variance = max(variance_log2fc, na.rm = TRUE))
@@ -164,8 +165,8 @@ prepare_plot_data <- function(met_data_combined) {
 
   variance_long$time_point <- factor(variance_long$time_point, 
                                       levels = c("0", "15", "30", "45", "60", "90", "120", "180", 
-                                                "240", "300", "360", "420", "480", "600", "720", 
-                                                "840", "960", "1920"))
+                                                 "240", "300", "360", "420", "480", "600", "720", 
+                                                 "840", "960", "1920"))
 
   return(variance_long)
 }
@@ -269,10 +270,19 @@ save_plot <- function(plot, filename) {
 run_pipeline <- function(met_data_filtered, processed_data_fig2) {
   met_data_fig2_filtered <- preprocess_data(met_data_filtered, processed_data_fig2)
   met_data_fig2_filtered_split <- split_data_by_challenge(met_data_fig2_filtered)
-  variance_long <- bind_rows(lapply(met_data_fig2_filtered_split, prepare_plot_data))
-  save_plot(create_heatmap(variance_long), "results/plots/sup_fig_1_heatmap.png")
-  #save_plot(plot_histogram_by_challenge(variance_long), "results/plots/sup_fig_1_variance_histogram_all.png")
+
+  variance_combined_list <- list()
+  for (challenge_name in names(met_data_fig2_filtered_split)) {
+    variance_long <- prepare_plot_data(met_data_fig2_filtered_split[[challenge_name]], challenge_name)
+    variance_combined_list[[challenge_name]] <- variance_long
+  }
+  
+  variance_combined <- bind_rows(variance_combined_list)
+  fwrite(variance_combined, "results/inter_individual_analysis_table.csv")
+  save_plot(create_heatmap(variance_combined), "results/plots/sup_fig_1_heatmap.png")
+  #save_plot(plot_histogram_by_challenge(variance_combined), "results/plots/sup_fig_1_variance_histogram_all.png")
 }
+
 
 main <- function() {
   # Load the input data
@@ -281,8 +291,7 @@ main <- function() {
   # Process and save Figure 2 data
   processed_data_fig2 <- process_and_save_figure2_data(input_data$all_metabolites, 
                                                        input_data$anova_results_combined, 
-                                                       input_data$met_data_filtered, 
-                                                       output_path = "results/inter_individual_analysis_table.csv")
+                                                       input_data$met_data_filtered)
   
   # Run the pipeline with the processed data
   run_pipeline(input_data$met_data_filtered, processed_data_fig2)

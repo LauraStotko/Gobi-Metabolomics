@@ -1,576 +1,1016 @@
-metabolite,platform_name,super_pathway,sub_pathway,challenge_time,challenge,mean_response,log2_foldchange,p_value,neg_log10_p_value,abs_log2_foldchange
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,3.60430350245274,4.16131058127829,1.41493016963943e-114,113.849264993135,4.16131058127829
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,30,PAT,3.85813376039068,4.1349735152855,4.27261022007753e-77,76.3693067250135,4.1349735152855
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",30,PAT,3.56155270495292,3.84221578648686,1.4515217677995e-44,43.8381764468703,3.84221578648686
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",1920,Fasting,2.83205680672697,3.80254510374176,2.93072275304911e-77,76.5330252639621,3.80254510374176
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",1920,Fasting,-0.465019290222077,-3.65664098856637,2.6495403138587e-50,49.5768294681281,3.65664098856637
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,30,PAT,3.00375317876001,3.62809401369178,1.60825157388787e-50,49.7936460149125,3.62809401369178
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",960,Fasting,-0.415018337462696,-3.60664003580699,2.6495403138587e-50,49.5768294681281,3.60664003580699
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",840,Fasting,-0.320520699557446,-3.51214239790174,2.6495403138587e-50,49.5768294681281,3.51214239790174
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,1920,Fasting,2.83102554028438,3.48266792694022,3.53079378918527e-105,104.452127646026,3.48266792694022
-3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,120,OLTT,2.64564622450787,3.46930013818219,9.66999705213077e-40,39.0145736583103,3.46930013818219
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",720,Fasting,-0.231688444566785,-3.42331014291108,2.6495403138587e-50,49.5768294681281,3.42331014291108
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",1920,Fasting,-0.779249682141279,-3.37807693470978,1.12230387151151e-75,74.9498895389326,3.37807693470978
-fumarate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,30,PAT,2.99118068431461,3.35342651509667,1.34945731772201e-20,19.8698408472845,3.35342651509667
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,2.54664653832552,3.3303719120514,6.75315919025682e-43,42.1704930126617,3.3303719120514
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,2.90174344372915,3.32160455958191,2.0093166038302e-52,51.6969516269834,3.32160455958191
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",600,Fasting,-0.104569487960622,-3.29619118630492,2.6495403138587e-50,49.5768294681281,3.29619118630492
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",960,Fasting,-0.683928246478885,-3.28275549904738,1.12230387151151e-75,74.9498895389326,3.28275549904738
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,1920,Fasting,-0.486080150957453,-3.25350579303323,2.76861567710467e-91,90.5577373262684,3.25350579303323
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",840,Fasting,-0.604104320515917,-3.20293157308441,1.12230387151151e-75,74.9498895389326,3.20293157308441
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,2.46878587722335,3.19791814896146,8.2488898650323e-56,55.0836044948357,3.19791814896146
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,1920,Fasting,-1.59071979084372,-3.17226685392654,1.20508850451912e-230,229.918981056315,3.17226685392654
-glycocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,90,OLTT,2.64358670268233,3.13313763786172,5.60749432256877e-21,20.2512311574558,3.13313763786172
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,960,Fasting,-0.349549037466942,-3.11697467954272,2.76861567710467e-91,90.5577373262684,3.11697467954272
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",720,Fasting,-0.509087028665643,-3.10791428123414,1.12230387151151e-75,74.9498895389326,3.10791428123414
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,1920,Fasting,2.4597349305577,3.10735817707143,5.04110482025306e-80,79.2974742721345,3.10735817707143
-3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,2.15772475737664,3.0513096012647,4.80761158291138e-22,21.318070627156,3.0513096012647
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,960,Fasting,-1.46473721394408,-3.0462842770269,1.20508850451912e-230,229.918981056315,3.0462842770269
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,840,Fasting,-0.277549254279432,-3.04497489635521,2.76861567710467e-91,90.5577373262684,3.04497489635521
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",480,Fasting,0.170732892777039,-3.02088880556726,2.6495403138587e-50,49.5768294681281,3.02088880556726
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",1920,Fasting,2.43609543786792,2.99353495623498,9.50891327156272e-56,55.0218691136758,2.99353495623498
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,2.04499118781564,2.9882578042296,8.87166345168411e-89,88.0519949415939,2.9882578042296
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",1920,Fasting,2.7389395042126,2.97666870742198,2.70684885537318e-54,53.5675359936237,2.97666870742198
-taurocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,90,OLTT,2.5336313456027,2.97552129539576,2.60312171543397e-20,19.5845055248967,2.97552129539576
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,840,Fasting,-1.38842242360988,-2.9699694866927,1.20508850451912e-230,229.918981056315,2.9699694866927
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",600,Fasting,-0.346321702665469,-2.94514895523397,1.12230387151151e-75,74.9498895389326,2.94514895523397
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,720,Fasting,-0.164310097448648,-2.93173573952443,2.76861567710467e-91,90.5577373262684,2.93173573952443
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,2.8028041156809,2.9058395960276,6.02975998400467e-41,40.2196999747084,2.9058395960276
-hypoxanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",45,PAT,2.38772350179691,2.8778745493289,1.05824296946626e-36,35.9754146081194,2.8778745493289
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,720,Fasting,-1.28210301749574,-2.86365008057857,1.20508850451912e-230,229.918981056315,2.86365008057857
-hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,1920,Fasting,2.06238194556267,2.81068578430886,1.13149301349022e-19,18.946348123293,2.81068578430886
-2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",240,OLTT,1.75732260311402,2.8078889820629,3.99387675505015e-24,23.3986053409244,2.8078889820629
-glycolithocholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,90,OLTT,2.44879728039426,2.74712469686737,1.86218146684365e-22,21.7299779999343,2.74712469686737
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,600,Fasting,0.0287178099404656,-2.73870783213531,2.76861567710467e-91,90.5577373262684,2.73870783213531
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",480,Fasting,-0.137264305988641,-2.73609155855714,1.12230387151151e-75,74.9498895389326,2.73609155855714
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",360,Fasting,0.483792109902063,-2.70782958844223,2.6495403138587e-50,49.5768294681281,2.70782958844223
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,600,Fasting,-1.12459868161111,-2.70614574469393,1.20508850451912e-230,229.918981056315,2.70614574469393
-4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,2.07015397730549,2.70097753644476,4.2231239995126e-34,33.3743661666183,2.70097753644476
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,960,Fasting,2.05305907114659,2.70068231766032,5.04110482025306e-80,79.2974742721345,2.70068231766032
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,1920,Fasting,-1.50491522029201,-2.70042413327193,7.80303044979663e-79,78.1077366983321,2.70042413327193
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",960,Fasting,1.7265468344079,2.69703513142269,2.93072275304911e-77,76.5330252639621,2.69703513142269
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,1920,Fasting,-0.6045923060724,-2.67533938416603,2.58077070457667e-81,80.5882505797881,2.67533938416603
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,360,OLTT,1.75184903709479,2.6732185523279,2.12195673370515e-60,59.6732634755264,2.6732185523279
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,420,OLTT,2.03786570847414,2.67027146183458,4.46337938423793e-116,115.350336196852,2.67027146183458
-glycochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,60,OLTT,2.1417159591664,2.66981917925661,1.3267344288499e-18,17.8772160007434,2.66981917925661
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",15,PAT,2.37610662516351,2.65676970669745,1.4515217677995e-44,43.8381764468703,2.65676970669745
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,360,OLTT,2.02108516523106,2.65349091859151,4.46337938423793e-116,115.350336196852,2.65349091859151
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,420,OLTT,1.71335955035394,2.63472906558705,2.12195673370515e-60,59.6732634755264,2.63472906558705
-hexanoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,2.14061597286926,2.60299359599403,3.01379064315445e-25,24.5208869197987,2.60299359599403
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,960,Fasting,-1.40299397890513,-2.59850289188505,7.80303044979663e-79,78.1077366983321,2.59850289188505
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,1920,Fasting,-0.622330494707811,-2.58100375759199,7.97402868472517e-52,51.0983222063968,2.58100375759199
-isoleucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,2.45772262048607,2.57910550185129,3.36113440022851e-28,27.4735141212376,2.57910550185129
-2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",300,OLTT,1.52688134579027,2.57744772473915,3.99387675505015e-24,23.3986053409244,2.57744772473915
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,1920,Fasting,-1.18255063514045,-2.57616178812276,2.31878367589272e-30,29.6347397656993,2.57616178812276
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,840,Fasting,-1.35208816864493,-2.54759708162485,7.80303044979663e-79,78.1077366983321,2.54759708162485
-glycochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,90,OLTT,2.01117497213392,2.53927819222412,1.3267344288499e-18,17.8772160007434,2.53927819222412
-myristoleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,1.91572276347372,2.51697984673163,3.4961034548937e-23,22.4564157244287,2.51697984673163
-3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,90,OLTT,1.68939476066625,2.51304867434057,9.66999705213077e-40,39.0145736583103,2.51304867434057
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",360,Fasting,0.11250744034492,-2.48631981222358,1.12230387151151e-75,74.9498895389326,2.48631981222358
-alpha-ketoglutarate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,30,PAT,1.7550647553043,2.4718757458846,6.68533148107315e-11,10.1748770540966,2.4718757458846
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,480,Fasting,0.29850840264007,-2.46891723943571,2.76861567710467e-91,90.5577373262684,2.46891723943571
-trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,1920,Fasting,-0.378010158304924,-2.46721463477984,2.70510634457073e-14,13.5678156570075,2.46721463477984
-pyruvate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",30,PAT,2.02828689875588,2.46588620210266,2.38005441859401e-22,21.623413112933,2.46588620210266
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,960,Fasting,-1.05865812959235,-2.45226928257465,2.31878367589272e-30,29.6347397656993,2.45226928257465
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,720,Fasting,-1.24503793311555,-2.44054684609547,7.80303044979663e-79,78.1077366983321,2.44054684609547
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",840,Fasting,1.46768270087755,2.43817099789234,2.93072275304911e-77,76.5330252639621,2.43817099789234
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,960,Fasting,1.78526301513671,2.43690540179255,3.53079378918527e-105,104.452127646026,2.43690540179255
-2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",360,OLTT,1.37508286509396,2.42564924404284,3.99387675505015e-24,23.3986053409244,2.42564924404284
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,480,Fasting,-0.842235947070584,-2.42378301015341,1.20508850451912e-230,229.918981056315,2.42378301015341
-n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",720,Fasting,1.59874620589598,2.42300931405499,1.67824593966112e-30,29.7751443948714,2.42300931405499
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,1920,Fasting,-0.865483721857114,-2.42108701826136,7.0990812449561e-52,51.1487978535435,2.42108701826136
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,840,Fasting,-0.986106101950232,-2.37971725493254,2.31878367589272e-30,29.6347397656993,2.37971725493254
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),960,Fasting,1.91513327875112,2.37574239194583,1.00578918364837e-76,75.9974930391338,2.37574239194583
-glycerol,Metabolon HD4 [nt-ms],Lipids,Glycerolipid Metabolism,1920,Fasting,1.70144812749262,2.3738357141199,5.94194254596722e-09,8.22607155180702,2.3738357141199
-glycocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,60,OLTT,1.88396010966686,2.37351104484625,5.60749432256877e-21,20.2512311574558,2.37351104484625
-glucose,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",90,OLTT,2.65025654416349,2.36312794783656,1.95153046965543e-18,17.7096246635988,2.36312794783656
-isovalerylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",120,OLTT,1.81724535991256,2.36278227218253,2.3334922905088e-21,20.6319936296171,2.36278227218253
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,480,OLTT,1.42871069421426,2.35008020944737,2.12195673370515e-60,59.6732634755264,2.35008020944737
-valine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,2.32764511595315,2.34649710871574,2.61300104173525e-12,11.5828604171308,2.34649710871574
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,480,OLTT,1.71171640528026,2.34412215864071,4.46337938423793e-116,115.350336196852,2.34412215864071
-n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",840,Fasting,1.51357462399954,2.33783773215855,1.67824593966112e-30,29.7751443948714,2.33783773215855
-fructose,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",90,OLTT,2.14237060363629,2.33100110050863,8.02037948710527e-09,8.09580508243196,2.33100110050863
-taurocholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,60,OLTT,1.87754085414633,2.31943080393938,2.60312171543397e-20,19.5845055248967,2.31943080393938
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",120,OLTT,2.24050149266364,2.31810649972069,9.57492557154863e-54,53.0188645932331,2.31810649972069
-taurochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,60,OLTT,1.87504256662349,2.30039244644132,3.65356611103864e-18,17.4372830297176,2.30039244644132
-hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,1920,Fasting,-0.491164441393915,-2.28882501701604,5.43197755476206e-14,13.2650420332532,2.28882501701604
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,600,Fasting,-1.09104950349122,-2.28655841647114,7.80303044979663e-79,78.1077366983321,2.28655841647114
-trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,960,Fasting,-0.192391613584064,-2.28159609005898,2.70510634457073e-14,13.5678156570075,2.28159609005898
-1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,480,OLTT,2.03545899815096,2.27563605365241,1.74058251843287e-27,26.7593053826351,2.27563605365241
-n-acetyltryptophan,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,30,PAT,2.27722035942692,2.26701135506181,2.64482247177276e-16,15.5776034737675,2.26701135506181
-n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",600,Fasting,1.42510841343039,2.24937152158939,1.67824593966112e-30,29.7751443948714,2.24937152158939
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,960,Fasting,-0.172526204706921,-2.24327328280055,2.58077070457667e-81,80.5882505797881,2.24327328280055
-3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",45,PAT,1.05526706080262,2.22437204685741,7.65715941298415e-07,6.11593231131553,2.22437204685741
-5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,1920,Fasting,1.87551481736849,2.22340894038511,3.6025691921595e-11,10.4433876692275,2.22340894038511
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",960,Fasting,1.65799448897529,2.21543400734234,9.50891327156272e-56,55.0218691136758,2.21543400734234
-cortisone,Metabolon HD4 [nt-ms],Lipids,Steroid,840,Fasting,-1.28667608551982,-2.20390191225702,6.47495437666516e-15,14.1887632873289,2.20390191225702
-gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Peptides,Gamma-glutamyl Amino Acid,1920,Fasting,2.00302363811963,2.19573809670911,8.650462430809e-17,16.0629606756819,2.19573809670911
-cortisone,Metabolon HD4 [nt-ms],Lipids,Steroid,960,Fasting,-1.27710781757723,-2.19433364431443,6.47495437666516e-15,14.1887632873289,2.19433364431443
-pantothenate,Metabolon HD4 [nt-ms],Cofactors and Vitamins,Pantothenate and CoA Metabolism,30,PAT,1.71880872710665,2.19055111026085,2.92356428880344e-19,18.5340873516418,2.19055111026085
-trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,840,Fasting,-0.0994598476833432,-2.18866432415826,2.70510634457073e-14,13.5678156570075,2.18866432415826
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",960,Fasting,1.75171226961308,2.18527647902083,2.5378246319385e-62,61.5955383917026,2.18527647902083
-hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,720,Fasting,-0.386468923046949,-2.18412949866907,5.43197755476206e-14,13.2650420332532,2.18412949866907
-paraxanthine,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,1920,Fasting,-0.559634168212446,-2.18215788395104,4.43249897480295e-13,12.3533513561754,2.18215788395104
-citrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,300,OLTT,-1.1450033590107,-2.17664296161534,6.97509720568242e-13,12.156449735639,2.17664296161534
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,180,OLTT,1.36863581039101,2.17302275278964,2.10745233800531e-55,54.6762422385658,2.17302275278964
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,1.23989467612673,2.17013410315681,3.4272565781269e-42,41.4650533813322,2.17013410315681
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,240,OLTT,1.36531828263118,2.1697052250298,2.10745233800531e-55,54.6762422385658,2.1697052250298
-citrulline,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,240,OLTT,-1.13599794329322,-2.16763754589786,6.97509720568242e-13,12.156449735639,2.16763754589786
-hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,840,Fasting,-0.36845331092542,-2.16611388654754,5.43197755476206e-14,13.2650420332532,2.16611388654754
-3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,1.54865635266568,2.1604627877726,9.80155895157669e-25,24.0087048436726,2.1604627877726
-13-hode + 9-hode,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",1920,Fasting,1.97347495078874,2.15792712860128,2.18723349715815e-07,6.66010485156944,2.15792712860128
-xanthine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",45,PAT,0.936816477713891,2.15581287515841,3.40513338417293e-26,25.4678658714529,2.15581287515841
-n-acetylalliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,1920,Fasting,-0.278843983959611,-2.15472231926785,4.36117669114375e-30,29.3603963177214,2.15472231926785
-hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,960,Fasting,-0.352487379224904,-2.15014795484702,5.43197755476206e-14,13.2650420332532,2.15014795484702
-xanthosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",60,PAT,1.88996540596363,2.14959031842989,2.42752684645526e-15,14.6148359584527,2.14959031842989
-cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,360,OLTT,-0.569922563809252,-2.14362468405012,5.34502225118752e-21,20.2720504824949,2.14362468405012
-"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, Adenine containing",30,PAT,1.54533619285859,2.14160065395264,2.91961747104392e-11,10.5346740461877,2.14160065395264
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,960,Fasting,-0.584648737932015,-2.14025203433626,7.0990812449561e-52,51.1487978535435,2.14025203433626
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",960,Fasting,1.62571331876957,2.13885892690378,1.8426762695343e-51,50.7345509570784,2.13885892690378
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,840,Fasting,1.4906702888843,2.13829353539803,5.04110482025306e-80,79.2974742721345,2.13829353539803
-laurate (12:0),Metabolon HD4 [nt-ms],Lipids,Medium Chain Fatty Acid,1920,Fasting,1.77892321484206,2.13583056380616,3.04546784470759e-13,12.5163459815967,2.13583056380616
-hippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,600,Fasting,-0.337417664064749,-2.13507823968687,5.43197755476206e-14,13.2650420332532,2.13507823968687
-fructose,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",120,OLTT,1.94284253804768,2.13147303492002,8.02037948710527e-09,8.09580508243196,2.13147303492002
-n-acetylglycine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",960,Fasting,1.30693623774071,2.13119934589972,1.67824593966112e-30,29.7751443948714,2.13119934589972
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,360,Fasting,0.637192176341757,-2.13023346573402,2.76861567710467e-91,90.5577373262684,2.13023346573402
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",240,Fasting,1.06371423069789,-2.1279074676464,2.6495403138587e-50,49.5768294681281,2.1279074676464
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),1920,Fasting,1.65901236694799,2.1196214801427,1.00578918364837e-76,75.9974930391338,2.1196214801427
-16-hydroxypalmitate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",1920,Fasting,1.5790839532738,2.11818460454524,1.4623515327949e-23,22.8349482153387,2.11818460454524
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,240,OLTT,-0.702722190468744,-2.11665890642089,1.2426623685817e-64,63.9056468531604,2.11665890642089
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,300,OLTT,-0.701339175109755,-2.1152758910619,1.2426623685817e-64,63.9056468531604,2.1152758910619
-glycoursodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Secondary Bile Acid Metabolism,90,OLTT,1.68960467954098,2.11403810299385,2.74685458192847e-16,15.5611643314559,2.11403810299385
-n-acetylmethionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",30,PAT,1.15080977359715,2.10791615421236,5.71487066644503e-18,17.2429935937,2.10791615421236
-3-aminoisobutyrate,Metabolon HD4 [nt-ms],Nucleotides,"Pyrimidine Metabolism, Thymine containing",1920,Fasting,1.89593919355687,2.10623217353041,8.82270876728057e-23,22.0543980563565,2.10623217353041
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,45,PAT,1.47423235583712,2.0985731907689,1.60825157388787e-50,49.7936460149125,2.0985731907689
-12-hete,Metabolon HD4 [nt-ms],Lipids,Eicosanoid,1920,Fasting,1.46620871031235,2.09834850331691,1.0759200272162e-08,7.9682200084368,2.09834850331691
-2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",180,OLTT,1.0458348263735,2.09640120532238,3.99387675505015e-24,23.3986053409244,2.09640120532238
-vanillylmandelate (vma),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,45,PAT,1.64886888601775,2.08860609344767,3.30538544428774e-17,16.4807778897134,2.08860609344767
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),960,Fasting,1.52417646366437,2.08118354248992,1.41493016963943e-114,113.849264993135,2.08118354248992
-cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,420,OLTT,-0.507402754604845,-2.08110487484571,5.34502225118752e-21,20.2720504824949,2.08110487484571
-3-hydroxyhippurate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,1920,Fasting,-0.367973594611087,-2.0752113649593,1.18351671913219e-17,16.9268256025633,2.0752113649593
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",360,OLTT,1.69054938347188,2.07358300366052,6.65129080123635e-46,45.1770940639518,2.07358300366052
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",960,Fasting,1.69049243380115,2.06862902306513,1.1915017066962e-44,43.9239053312376,2.06862902306513
-taurochenodeoxycholate,Metabolon HD4 [nt-ms],Lipids,Primary Bile Acid Metabolism,90,OLTT,1.63916205086936,2.06451193068719,3.65356611103864e-18,17.4372830297176,2.06451193068719
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",420,OLTT,1.6800405032795,2.06307412346814,6.65129080123635e-46,45.1770940639518,2.06307412346814
-3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],Lipids,Mevalonate Metabolism,180,OLTT,1.23790332336876,2.06155723704308,9.66999705213077e-40,39.0145736583103,2.06155723704308
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),960,Fasting,1.11709439183156,2.06036100824552,8.87166345168411e-89,88.0519949415939,2.06036100824552
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,480,Fasting,-0.853350131247744,-2.04885904422766,7.80303044979663e-79,78.1077366983321,2.04885904422766
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,960,Fasting,-0.0843426676303749,-2.04301593051456,7.97402868472517e-52,51.0983222063968,2.04301593051456
-2-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",420,OLTT,0.990529872024008,2.04109625097289,3.99387675505015e-24,23.3986053409244,2.04109625097289
-2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",1920,Fasting,1.8144977684295,2.0410114936986,4.63184426410282e-20,19.334246051262,2.0410114936986
-methylsuccinate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",30,PAT,1.28270861750066,2.03711434448124,6.3788363693502e-05,4.19525853827903,2.03711434448124
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,840,Fasting,0.0340054980324092,-2.03674158006122,2.58077070457667e-81,80.5882505797881,2.03674158006122
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,360,Fasting,-0.450951868512452,-2.03249893159527,1.20508850451912e-230,229.918981056315,2.03249893159527
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,840,Fasting,1.3788048839443,2.03044727060014,3.53079378918527e-105,104.452127646026,2.03044727060014
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),960,Fasting,1.29764721569566,2.02677948743376,8.2488898650323e-56,55.0836044948357,2.02677948743376
-trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,720,Fasting,0.0626273738616272,-2.02657710261329,2.70510634457073e-14,13.5678156570075,2.02657710261329
-inosine,Metabolon HD4 [nt-ms],Nucleotides,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",45,PAT,1.69965964052786,2.02505691459566,1.58037824895858e-13,12.8012389562256,2.02505691459566
-palmitoyl ethanolamide,Metabolon HD4 [nt-ms],Lipids,Endocannabinoid,120,OLTT,-0.853877856816609,-2.02076481815848,6.42883241378505e-12,11.1918678952398,2.02076481815848
-5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Xenobiotics,Xanthine Metabolism,1920,Fasting,-0.496152816343701,-2.01258729918728,3.97830240265949e-08,7.40030220793488,2.01258729918728
-3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",960,Fasting,1.11523142522668,2.00881626911474,4.80761158291138e-22,21.318070627156,2.00881626911474
-cortisol,Metabolon HD4 [nt-ms],Lipids,Steroid,240,OLTT,-0.428997829140728,-2.00269994938159,5.34502225118752e-21,20.2720504824949,2.00269994938159
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",240,Fasting,0.609862410913053,-1.98896484165544,1.12230387151151e-75,74.9498895389326,1.98896484165544
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,840,Fasting,-0.432291735101863,-1.98789503150611,7.0990812449561e-52,51.1487978535435,1.98789503150611
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),840,Fasting,1.51632792522499,1.97693703841971,1.00578918364837e-76,75.9974930391338,1.97693703841971
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),840,Fasting,1.03253974029215,1.97580635670611,8.87166345168411e-89,88.0519949415939,1.97580635670611
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,360,OLTT,-0.530131093769294,-1.94406780972144,1.2426623685817e-64,63.9056468531604,1.94406780972144
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),960,Fasting,1.50666179997245,1.9265229158252,2.0093166038302e-52,51.6969516269834,1.9265229158252
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),960,Fasting,0.983095074219302,1.91333450124938,3.4272565781269e-42,41.4650533813322,1.91333450124938
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,300,OLTT,1.26780621895191,1.90021197231236,4.46337938423793e-116,115.350336196852,1.90021197231236
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,840,Fasting,0.0710210775007403,-1.88765218538344,7.97402868472517e-52,51.0983222063968,1.88765218538344
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,180,OLTT,-0.472901918214325,-1.88683863416647,1.2426623685817e-64,63.9056468531604,1.88683863416647
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,120,OLTT,1.074439612254,1.87882655465262,2.10745233800531e-55,54.6762422385658,1.87882655465262
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",960,Fasting,1.08474677998847,1.86847215371435,6.75315919025682e-43,42.1704930126617,1.86847215371435
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),840,Fasting,1.11248296965907,1.84161524139718,8.2488898650323e-56,55.0836044948357,1.84161524139718
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),840,Fasting,0.908721995639239,1.83896142266932,3.4272565781269e-42,41.4650533813322,1.83896142266932
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,720,Fasting,0.233335982027394,-1.83741109606624,2.58077070457667e-81,80.5882505797881,1.83741109606624
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,1920,Fasting,-1.32564277236553,-1.82642153576693,1.3303531603168e-44,43.8760330543583,1.82642153576693
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,300,OLTT,0.896009129253663,1.81737864448677,2.12195673370515e-60,59.6732634755264,1.81737864448677
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,720,Fasting,-0.259971055925536,-1.81557435232978,7.0990812449561e-52,51.1487978535435,1.81557435232978
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,360,OLTT,1.78307720106656,1.78358172555135,2.52276308252692e-44,43.5981235329872,1.78358172555135
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",960,Fasting,1.54244834539688,1.78017754860627,2.70684885537318e-54,53.5675359936237,1.78017754860627
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",1920,Fasting,1.2624502512682,1.77559585940241,1.8426762695343e-51,50.7345509570784,1.77559585940241
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",840,Fasting,1.20838427086516,1.76582378923222,9.50891327156272e-56,55.0218691136758,1.76582378923222
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,420,OLTT,-0.349232684813517,-1.76316940076566,1.2426623685817e-64,63.9056468531604,1.76316940076566
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,960,Fasting,-1.25826437377313,-1.75904313717453,1.3303531603168e-44,43.8760330543583,1.75904313717453
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,15,PAT,1.47871725224479,1.75555700713961,4.27261022007753e-77,76.3693067250135,1.75555700713961
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),720,Fasting,0.82193581713881,1.75217524416889,3.4272565781269e-42,41.4650533813322,1.75217524416889
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",480,OLTT,1.350153175985,1.73318679617364,6.65129080123635e-46,45.1770940639518,1.73318679617364
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",720,Fasting,0.742265845977537,1.71275414299233,2.93072275304911e-77,76.5330252639621,1.71275414299233
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,1920,Fasting,-0.334498840138967,-1.71131410296212,6.60733033482753e-84,83.1799739800077,1.71131410296212
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",1920,Fasting,1.32243954667539,1.70057613593937,1.1915017066962e-44,43.9239053312376,1.70057613593937
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",840,Fasting,1.18380470585405,1.69695031398826,1.8426762695343e-51,50.7345509570784,1.69695031398826
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,360,Fasting,-0.500368256010323,-1.69587716899024,7.80303044979663e-79,78.1077366983321,1.69587716899024
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,240,OLTT,1.04163798510224,1.67404373846269,4.46337938423793e-116,115.350336196852,1.67404373846269
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),840,Fasting,1.10039162316534,1.65739870199089,1.41493016963943e-114,113.849264993135,1.65739870199089
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,720,Fasting,0.30354715640918,-1.655126106475,7.97402868472517e-52,51.0983222063968,1.655126106475
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",1920,Fasting,1.21510527816427,1.64866948757201,2.5378246319385e-62,61.5955383917026,1.64866948757201
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,840,Fasting,-1.13818730751795,-1.63896607091934,1.3303531603168e-44,43.8760330543583,1.63896607091934
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,300,OLTT,0.824465097553325,1.62885203995195,2.10745233800531e-55,54.6762422385658,1.62885203995195
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,1920,Fasting,-0.475690857266216,-1.62333511145455,2.49615717487145e-55,54.6027280720224,1.62333511145455
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",180,OLTT,1.53876741970288,1.61637242675993,9.57492557154863e-54,53.0188645932331,1.61637242675993
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,600,Fasting,0.462311795333058,-1.60843528276057,2.58077070457667e-81,80.5882505797881,1.60843528276057
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,420,OLTT,1.59821841082403,1.59872293530882,2.52276308252692e-44,43.5981235329872,1.59872293530882
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,240,OLTT,0.657187501970718,1.57855701720383,2.12195673370515e-60,59.6732634755264,1.57855701720383
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",840,Fasting,0.788222663730997,1.57194803745688,6.75315919025682e-43,42.1704930126617,1.57194803745688
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),720,Fasting,0.617696841498498,1.56096345791246,8.87166345168411e-89,88.0519949415939,1.56096345791246
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,120,OLTT,-0.134385858845753,-1.5483225747979,1.2426623685817e-64,63.9056468531604,1.5483225747979
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,15,PAT,0.923858009922068,1.54819884485384,1.60825157388787e-50,49.7936460149125,1.54819884485384
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,240,Fasting,1.2541998584277,-1.51322578364808,2.76861567710467e-91,90.5577373262684,1.51322578364808
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,600,Fasting,0.0498152480501972,-1.50578804835405,7.0990812449561e-52,51.1487978535435,1.50578804835405
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,600,Fasting,0.464479707926666,-1.49419355495752,7.97402868472517e-52,51.0983222063968,1.49419355495752
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,480,OLTT,-0.0769815013453107,-1.49091821729746,1.2426623685817e-64,63.9056468531604,1.49091821729746
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",840,Fasting,1.05192812612488,1.48549233553262,2.5378246319385e-62,61.5955383917026,1.48549233553262
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",840,Fasting,1.09126459162631,1.46940118089029,1.1915017066962e-44,43.9239053312376,1.46940118089029
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",960,Fasting,1.35773724374702,1.46077272409372,6.02975998400467e-41,40.2196999747084,1.46077272409372
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,240,Fasting,0.132284724930657,-1.44926233815216,1.20508850451912e-230,229.918981056315,1.44926233815216
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",840,Fasting,1.20052195688636,1.43825116009575,2.70684885537318e-54,53.5675359936237,1.43825116009575
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,720,Fasting,0.766134350061663,1.4177767367175,3.53079378918527e-105,104.452127646026,1.4177767367175
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,480,OLTT,1.41463050639902,1.4151350308838,2.52276308252692e-44,43.5981235329872,1.4151350308838
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,480,Fasting,0.664945569200693,-1.40580150889294,2.58077070457667e-81,80.5882505797881,1.40580150889294
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,960,Fasting,-0.00958756634651741,-1.38640282916967,6.60733033482753e-84,83.1799739800077,1.38640282916967
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,960,Fasting,-0.230101322813339,-1.37774557700167,2.49615717487145e-55,54.6027280720224,1.37774557700167
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),720,Fasting,0.639532474968898,1.368664746707,8.2488898650323e-56,55.0836044948357,1.368664746707
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),840,Fasting,0.945477898004862,1.36533901385762,2.0093166038302e-52,51.6969516269834,1.36533901385762
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,360,OLTT,-0.964593937472762,-1.35292554786972,7.0145163669061e-46,45.1540022671053,1.35292554786972
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),600,Fasting,0.41411656140887,1.34435598843895,3.4272565781269e-42,41.4650533813322,1.34435598843895
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",600,Fasting,0.356892510223587,1.32738080723838,2.93072275304911e-77,76.5330252639621,1.32738080723838
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,Fasting,0.381817560302321,1.3120569873324,3.4272565781269e-42,41.4650533813322,1.3120569873324
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,480,Fasting,0.64859667786904,-1.31007658501514,7.97402868472517e-52,51.0983222063968,1.31007658501514
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",360,OLTT,0.905668616020859,1.30947977961675,1.00309449620178e-44,43.9986581524772,1.30947977961675
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",90,OLTT,1.23186868353333,1.30947369059037,9.57492557154863e-54,53.0188645932331,1.30947369059037
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",720,Fasting,0.524972186114038,1.30869755983992,6.75315919025682e-43,42.1704930126617,1.30869755983992
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),600,Fasting,0.358011190628207,1.30127780704217,8.87166345168411e-89,88.0519949415939,1.30127780704217
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,420,OLTT,-0.907369573605808,-1.29570118400277,7.0145163669061e-46,45.1540022671053,1.29570118400277
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,180,OLTT,0.660893400525524,1.29329915388597,4.46337938423793e-116,115.350336196852,1.29329915388597
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,360,Fasting,0.669112764019083,-1.2895604988651,7.97402868472517e-52,51.0983222063968,1.2895604988651
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,180,OLTT,0.367885238273612,1.28925475350672,2.12195673370515e-60,59.6732634755264,1.28925475350672
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",45,PAT,0.999700277689196,1.28036335922314,1.4515217677995e-44,43.8381764468703,1.28036335922314
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,120,OLTT,-1.62001487706463,-1.27805698888702,4.17081800212746e-46,45.3797787606208,1.27805698888702
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,180,OLTT,0.699777562922427,1.27638948869501,1.51069920651912e-42,41.8208219988993,1.27638948869501
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,840,Fasting,-0.120320736167294,-1.26796499035562,2.49615717487145e-55,54.6027280720224,1.26796499035562
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,240,Fasting,-0.0405736740887533,-1.23608258706867,7.80303044979663e-79,78.1077366983321,1.23608258706867
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",120,Fasting,1.36361628323367,-1.23521096933483,1.12230387151151e-75,74.9498895389326,1.23521096933483
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,90,OLTT,0.179051522013149,-1.234885193939,1.2426623685817e-64,63.9056468531604,1.234885193939
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",720,Fasting,0.852842391388636,1.23097898065262,1.1915017066962e-44,43.9239053312376,1.23097898065262
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",420,OLTT,0.82579825259084,1.22960941618673,1.00309449620178e-44,43.9986581524772,1.22960941618673
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,300,OLTT,1.21193156466611,1.21243608915089,2.52276308252692e-44,43.5981235329872,1.21243608915089
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",840,Fasting,1.10930213851923,1.21233761886594,6.02975998400467e-41,40.2196999747084,1.21233761886594
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",720,Fasting,0.774195207475321,1.20775941688306,2.5378246319385e-62,61.5955383917026,1.20775941688306
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,840,Fasting,0.180782650035257,-1.19603261278789,6.60733033482753e-84,83.1799739800077,1.19603261278789
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",360,OLTT,-0.624736057169152,-1.18938035653748,1.98963860174699e-45,44.7012258017414,1.18938035653748
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,120,OLTT,0.264685617506266,1.18605513273938,2.12195673370515e-60,59.6732634755264,1.18605513273938
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",300,OLTT,0.801908729103586,1.18494234929223,6.65129080123635e-46,45.1770940639518,1.18494234929223
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),720,Fasting,0.72151027263161,1.18211938582632,1.00578918364837e-76,75.9974930391338,1.18211938582632
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,300,OLTT,-0.79242529467965,-1.18075690507661,7.0145163669061e-46,45.1540022671053,1.18075690507661
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",720,Fasting,0.666851691560983,1.17999729969519,1.8426762695343e-51,50.7345509570784,1.17999729969519
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,90,OLTT,-1.52131632185502,-1.17935843367741,4.17081800212746e-46,45.3797787606208,1.17935843367741
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",420,OLTT,-0.609945051963721,-1.17458935133205,1.98963860174699e-45,44.7012258017414,1.17458935133205
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",120,Fasting,2.01798627581077,-1.17363542253352,2.6495403138587e-50,49.5768294681281,1.17363542253352
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,360,Fasting,0.898661580062625,-1.17208549803101,2.58077070457667e-81,80.5882505797881,1.17208549803101
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,480,Fasting,0.389731816940827,-1.16587147946342,7.0990812449561e-52,51.1487978535435,1.16587147946342
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,360,OLTT,0.348568144410769,1.15295508680939,2.10745233800531e-55,54.6762422385658,1.15295508680939
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,480,OLTT,-0.750751799179015,-1.13908340957598,7.0145163669061e-46,45.1540022671053,1.13908340957598
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),420,OLTT,0.64772467504116,1.13147851793447,1.5407899356222e-48,47.8122565670044,1.13147851793447
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,45,PAT,0.847766716132469,1.12460647102729,4.27261022007753e-77,76.3693067250135,1.12460647102729
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",300,OLTT,-0.554748691297467,-1.11939299066579,1.98963860174699e-45,44.7012258017414,1.11939299066579
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,720,Fasting,0.0315576223018733,-1.11608663188646,2.49615717487145e-55,54.6027280720224,1.11608663188646
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,720,Fasting,0.46000279748475,1.10762604399847,5.04110482025306e-80,79.2974742721345,1.10762604399847
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,720,Fasting,0.296230811949699,-1.08058445087345,6.60733033482753e-84,83.1799739800077,1.08058445087345
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,Fasting,0.135468294169833,1.07873491058379,8.87166345168411e-89,88.0519949415939,1.07873491058379
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,720,Fasting,-0.574042800713098,-1.0748215641145,1.3303531603168e-44,43.8760330543583,1.0748215641145
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",480,OLTT,0.66637300033186,1.07018416392775,1.00309449620178e-44,43.9986581524772,1.07018416392775
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,120,OLTT,0.489813810160163,1.06642573593274,1.51069920651912e-42,41.8208219988993,1.06642573593274
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",120,PAT,0.130866124412546,1.02088668978698,3.69392234043529e-51,50.4325122392355,1.02088668978698
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,90,OLTT,0.216203594804641,1.02059053720326,2.10745233800531e-55,54.6762422385658,1.02059053720326
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,420,OLTT,0.588805126837395,1.00860148886607,4.48738178609901e-53,52.3480069791537,1.00860148886607
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",720,Fasting,0.440982556273344,0.998422074640397,9.50891327156272e-56,55.0218691136758,0.998422074640397
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),720,Fasting,0.431276398938045,0.988283477763595,1.41493016963943e-114,113.849264993135,0.988283477763595
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,OLTT,0.504117972458439,0.987871815351743,1.5407899356222e-48,47.8122565670044,0.987871815351743
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,480,Fasting,-0.482097562106024,-0.982876325507423,1.3303531603168e-44,43.8760330543583,0.982876325507423
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,420,OLTT,-0.393647697527732,-0.978799199291354,2.05063369425717e-41,40.6881119109484,0.978799199291354
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,OLTT,0.49373233859513,0.977486181488435,1.5407899356222e-48,47.8122565670044,0.977486181488435
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,600,Fasting,0.176222461245959,-0.971421792942371,2.49615717487145e-55,54.6027280720224,0.971421792942371
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",720,Fasting,0.726003322457777,0.96373252566716,2.70684885537318e-54,53.5675359936237,0.96373252566716
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,600,Fasting,0.413524407575984,-0.963290855247166,6.60733033482753e-84,83.1799739800077,0.963290855247166
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",240,OLTT,0.882828774199199,0.960433781256246,9.57492557154863e-54,53.0188645932331,0.960433781256246
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,60,PAT,0.334833575464847,0.959174410396618,1.60825157388787e-50,49.7936460149125,0.959174410396618
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",480,Fasting,-0.0162238566157832,0.954264440399009,2.93072275304911e-77,76.5330252639621,0.954264440399009
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,240,OLTT,0.372951065428896,0.949562991201478,1.51069920651912e-42,41.8208219988993,0.949562991201478
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",480,OLTT,-0.363045927663204,-0.927690227031529,1.98963860174699e-45,44.7012258017414,0.927690227031529
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,120,OLTT,0.283533732396978,0.915939485757423,4.46337938423793e-116,115.350336196852,0.915939485757423
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,600,Fasting,0.240736852566965,0.892379239222804,3.53079378918527e-105,104.452127646026,0.892379239222804
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,Fasting,-0.0378918191695385,0.892347607860543,3.4272565781269e-42,41.4650533813322,0.892347607860543
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,120,PAT,0.34485893162944,0.892281926270063,1.63973125484242e-49,48.7852273251858,0.892281926270063
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),420,OLTT,-0.9472139393583,-0.890019511568786,4.7234667217736e-64,63.3257391400307,0.890019511568786
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",90,PAT,-0.00239108247008877,0.887629482904341,3.69392234043529e-51,50.4325122392355,0.887629482904341
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),120,OLTT,0.823168248547972,0.880362676337486,4.7234667217736e-64,63.3257391400307,0.880362676337486
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,240,OLTT,-0.491177365143347,-0.879508975540309,7.0145163669061e-46,45.1540022671053,0.879508975540309
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,480,OLTT,-0.293989865985097,-0.879141367748719,2.05063369425717e-41,40.6881119109484,0.879141367748719
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,600,Fasting,-0.375921633261622,-0.876700396663021,1.3303531603168e-44,43.8760330543583,0.876700396663021
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,60,OLTT,-1.2169415283074,-0.874983640129788,4.17081800212746e-46,45.3797787606208,0.874983640129788
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),600,Fasting,0.137356181961375,0.866488453699479,8.2488898650323e-56,55.0836044948357,0.866488453699479
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),480,OLTT,-0.923207227474883,-0.866012799685369,4.7234667217736e-64,63.3257391400307,0.866012799685369
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,360,Fasting,0.694214161646019,-0.861389134758227,7.0990812449561e-52,51.1487978535435,0.861389134758227
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,360,OLTT,-0.273581336285845,-0.858732838049467,2.05063369425717e-41,40.6881119109484,0.858732838049467
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",720,Fasting,0.751825380770655,0.854860861117357,6.02975998400467e-41,40.2196999747084,0.854860861117357
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",600,Fasting,0.0701437591756776,0.853869132901557,6.75315919025682e-43,42.1704930126617,0.853869132901557
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,180,OLTT,-1.18107087125591,-0.8391129830783,4.17081800212746e-46,45.3797787606208,0.8391129830783
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",600,Fasting,0.314276131491195,0.827421739625405,1.8426762695343e-51,50.7345509570784,0.827421739625405
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,360,OLTT,0.406628328381602,0.826424690410272,4.48738178609901e-53,52.3480069791537,0.826424690410272
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,120,Fasting,1.94678977428467,-0.82063586779111,2.76861567710467e-91,90.5577373262684,0.82063586779111
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,240,Fasting,1.25398639908764,-0.816760679005988,2.58077070457667e-81,80.5882505797881,0.816760679005988
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,240,Fasting,1.1469429918622,-0.811730271021978,7.97402868472517e-52,51.0983222063968,0.811730271021978
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,480,Fasting,0.57741041523848,-0.799404847584669,6.60733033482753e-84,83.1799739800077,0.799404847584669
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,120,Fasting,0.799551764318065,-0.781995298764757,1.20508850451912e-230,229.918981056315,0.781995298764757
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",480,OLTT,-0.840142353980973,-0.762537346923926,9.57492557154863e-54,53.0188645932331,0.762537346923926
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",600,Fasting,0.520405794310594,0.758134997519977,2.70684885537318e-54,53.5675359936237,0.758134997519977
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),600,Fasting,0.297207386799467,0.757816499994181,1.00578918364837e-76,75.9974930391338,0.757816499994181
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),90,OLTT,0.697787329435054,0.754981757224568,4.7234667217736e-64,63.3257391400307,0.754981757224568
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,120,Fasting,0.446024914957808,-0.749483998022113,7.80303044979663e-79,78.1077366983321,0.749483998022113
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,600,Fasting,0.101418284257716,0.749041530771441,5.04110482025306e-80,79.2974742721345,0.749041530771441
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",240,OLTT,-0.183381098922412,-0.748025398290738,1.98963860174699e-45,44.7012258017414,0.748025398290738
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),300,OLTT,0.261440029157223,0.745193872050528,1.5407899356222e-48,47.8122565670044,0.745193872050528
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,360,Fasting,0.416549774220946,-0.731094479967384,2.49615717487145e-55,54.6027280720224,0.731094479967384
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,480,Fasting,0.417380559436029,-0.730263694752301,2.49615717487145e-55,54.6027280720224,0.730263694752301
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",60,PAT,-0.161642721612732,0.728377843761698,3.69392234043529e-51,50.4325122392355,0.728377843761698
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,OLTT,-1.21164429907666,-0.727890456183359,1.5407899356222e-48,47.8122565670044,0.727890456183359
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),720,Fasting,0.301317286878907,0.721178402731661,2.0093166038302e-52,51.6969516269834,0.721178402731661
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",300,OLTT,0.315035116536171,0.718846280132061,1.00309449620178e-44,43.9986581524772,0.718846280132061
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),360,OLTT,-0.767761511759848,-0.710567083970334,4.7234667217736e-64,63.3257391400307,0.710567083970334
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",600,Fasting,0.276878025456966,0.710442234864708,2.5378246319385e-62,61.5955383917026,0.710442234864708
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,240,OLTT,0.707801280117002,0.708305804601787,2.52276308252692e-44,43.5981235329872,0.708305804601787
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",600,Fasting,0.323148928725998,0.701285517989982,1.1915017066962e-44,43.9239053312376,0.701285517989982
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",240,OLTT,0.317804996271705,0.700838616460344,6.65129080123635e-46,45.1770940639518,0.700838616460344
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),180,OLTT,0.623905771105874,0.681100198895388,4.7234667217736e-64,63.3257391400307,0.681100198895388
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,480,OLTT,0.259904028794286,0.679700390822956,4.48738178609901e-53,52.3480069791537,0.679700390822956
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,420,OLTT,-0.141770872512369,0.662616069886254,2.10745233800531e-55,54.6762422385658,0.662616069886254
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),180,OLTT,-1.14597017432758,-0.662216331434279,1.5407899356222e-48,47.8122565670044,0.662216331434279
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,300,OLTT,0.0773886967332401,0.654000622505822,1.51069920651912e-42,41.8208219988993,0.654000622505822
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",600,Fasting,0.0960517075425411,0.653491225909594,9.50891327156272e-56,55.0218691136758,0.653491225909594
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,30,OLTT,-0.989549270972636,-0.647591382795028,4.17081800212746e-46,45.3797787606208,0.647591382795028
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,90,OLTT,0.0643753452281822,0.640987271000765,1.51069920651912e-42,41.8208219988993,0.640987271000765
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,480,Fasting,-0.0133709001846788,0.63827148647116,3.53079378918527e-105,104.452127646026,0.63827148647116
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",120,OLTT,1.19797193010344,0.633327630735116,1.98963860174699e-45,44.7012258017414,0.633327630735116
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",480,Fasting,-0.154615273463185,0.629110100262695,6.75315919025682e-43,42.1704930126617,0.629110100262695
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,Fasting,-0.102466535958616,0.626665735779488,8.2488898650323e-56,55.0836044948357,0.626665735779488
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",360,OLTT,0.361222630057522,0.619227973210157,3.33874078687543e-44,43.4764172973876,0.619227973210157
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,90,PAT,0.0673682665192442,0.614791261159868,1.63973125484242e-49,48.7852273251858,0.614791261159868
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",120,OLTT,-0.863630802618408,-0.605625459465773,3.33874078687543e-44,43.4764172973876,0.605625459465773
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),600,Fasting,0.0471502081389734,0.604157286964523,1.41493016963943e-114,113.849264993135,0.604157286964523
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,300,OLTT,-0.00455563917167013,-0.589707140935292,2.05063369425717e-41,40.6881119109484,0.589707140935292
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,360,Fasting,-0.0861137014768024,-0.586892464878201,1.3303531603168e-44,43.8760330543583,0.586892464878201
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",480,Fasting,0.023594692339056,0.581034210706109,9.50891327156272e-56,55.0218691136758,0.581034210706109
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,Fasting,-0.362880679018623,0.580385937395334,8.87166345168411e-89,88.0519949415939,0.580385937395334
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,60,OLTT,-0.579672168473258,-0.579167643988473,2.52276308252692e-44,43.5981235329872,0.579167643988473
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",360,Fasting,-0.391329137464898,0.579159159549895,2.93072275304911e-77,76.5330252639621,0.579159159549895
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,60,OLTT,1.16389765708516,0.57874615532154,2.05063369425717e-41,40.6881119109484,0.57874615532154
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",480,Fasting,0.0622371834921317,0.575382791626342,1.8426762695343e-51,50.7345509570784,0.575382791626342
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,360,Fasting,0.805509574003307,-0.571305688819842,6.60733033482753e-84,83.1799739800077,0.571305688819842
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",420,OLTT,-0.647277847350893,-0.569672840293846,9.57492557154863e-54,53.0188645932331,0.569672840293846
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,180,OLTT,-0.174166188158331,-0.562497798555293,7.0145163669061e-46,45.1540022671053,0.562497798555293
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,60,OLTT,0.852893485322224,-0.56104323062992,1.2426623685817e-64,63.9056468531604,0.56104323062992
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",600,Fasting,0.454233206564055,0.557268686910757,6.02975998400467e-41,40.2196999747084,0.557268686910757
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,60,OLTT,-0.247444949688384,0.556941992710239,2.10745233800531e-55,54.6762422385658,0.556941992710239
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,480,Fasting,-0.0949870630667746,0.552636183446951,5.04110482025306e-80,79.2974742721345,0.552636183446951
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",45,PAT,-0.338399777738097,0.551620787636332,3.69392234043529e-51,50.4325122392355,0.551620787636332
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,180,OLTT,0.541958027092036,0.542462551576821,2.52276308252692e-44,43.5981235329872,0.542462551576821
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",480,OLTT,0.278144091001491,0.536149434154126,3.33874078687543e-44,43.4764172973876,0.536149434154126
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,90,PAT,-0.0959741755398986,0.528366659391873,1.60825157388787e-50,49.7936460149125,0.528366659391873
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,30,OLTT,-0.521622805872063,-0.521118281387278,2.52276308252692e-44,43.5981235329872,0.521118281387278
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",90,OLTT,-0.773085648308691,-0.515080305156055,3.33874078687543e-44,43.4764172973876,0.515080305156055
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),90,OLTT,-0.998797050452715,-0.515043207559411,1.5407899356222e-48,47.8122565670044,0.515043207559411
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),60,OLTT,0.452542071148592,0.509736498938106,4.7234667217736e-64,63.3257391400307,0.509736498938106
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,90,OLTT,-0.427325733850888,0.494043781382224,2.12195673370515e-60,59.6732634755264,0.494043781382224
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",90,OLTT,1.05795671203195,0.493312412663628,1.98963860174699e-45,44.7012258017414,0.493312412663628
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",480,Fasting,0.0578716499754953,0.491435859383237,2.5378246319385e-62,61.5955383917026,0.491435859383237
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,60,PAT,-0.0617173652912998,0.485705629349324,1.63973125484242e-49,48.7852273251858,0.485705629349324
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,240,Fasting,1.07111935826954,-0.48448393813471,7.0990812449561e-52,51.1487978535435,0.48448393813471
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",60,OLTT,0.404463437550833,0.482068444607879,9.57492557154863e-54,53.0188645932331,0.482068444607879
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",420,OLTT,0.213625898218294,0.471631241370929,3.33874078687543e-44,43.4764172973876,0.471631241370929
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",480,Fasting,0.0875396847110676,0.465676273975051,1.1915017066962e-44,43.9239053312376,0.465676273975051
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,Fasting,-0.46601848428543,0.464220942744652,3.4272565781269e-42,41.4650533813322,0.464220942744652
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,Fasting,0.00171368094013172,0.462322794134846,1.00578918364837e-76,75.9974930391338,0.462322794134846
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",60,OLTT,-0.715201128366435,-0.4571957852138,3.33874078687543e-44,43.4764172973876,0.4571957852138
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,240,Fasting,0.691437712873084,-0.456206541315245,2.49615717487145e-55,54.6027280720224,0.456206541315245
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,480,OLTT,0.103879826966738,0.445837715144346,4.17081800212746e-46,45.3797787606208,0.445837715144346
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,120,Fasting,1.63200416403021,-0.438742914063424,2.58077070457667e-81,80.5882505797881,0.438742914063424
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,120,Fasting,1.52033405776227,-0.43833920512191,7.97402868472517e-52,51.0983222063968,0.43833920512191
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,300,OLTT,0.0176622004443317,0.437458562473002,4.48738178609901e-53,52.3480069791537,0.437458562473002
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,240,OLTT,-0.759152491409274,-0.417194603231665,4.17081800212746e-46,45.3797787606208,0.417194603231665
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,120,OLTT,0.416132984997217,0.416637509482002,2.52276308252692e-44,43.5981235329872,0.416637509482002
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,480,OLTT,-0.395932999733043,0.40845394266558,2.10745233800531e-55,54.6762422385658,0.40845394266558
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),600,Fasting,-0.0150833746515884,0.404777741201166,2.0093166038302e-52,51.6969516269834,0.404777741201166
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",480,Fasting,0.164150483739618,0.401879686949002,2.70684885537318e-54,53.5675359936237,0.401879686949002
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,240,Fasting,0.977043060564082,-0.399772202259068,6.60733033482753e-84,83.1799739800077,0.399772202259068
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",180,OLTT,-0.648784756060967,-0.390779412908331,3.33874078687543e-44,43.4764172973876,0.390779412908331
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,420,OLTT,0.0378971804685866,0.379855068646195,4.17081800212746e-46,45.3797787606208,0.379855068646195
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,60,PAT,0.0949442535293026,0.371784008424123,4.27261022007753e-77,76.3693067250135,0.371784008424123
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",60,PAT,0.0805433968412806,0.361206478375221,1.4515217677995e-44,43.8381764468703,0.361206478375221
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",30,OLTT,0.282339040754167,0.359944047811214,9.57492557154863e-54,53.0188645932331,0.359944047811214
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,90,OLTT,-0.275292566859407,0.357113186501038,4.46337938423793e-116,115.350336196852,0.357113186501038
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",300,OLTT,0.275763337174348,0.353368344231395,9.57492557154863e-54,53.0188645932331,0.353368344231395
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,120,PAT,-0.281791558564083,0.342549276367688,1.60825157388787e-50,49.7936460149125,0.342549276367688
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,Fasting,-0.215248958509431,0.341758120316119,1.41493016963943e-114,113.849264993135,0.341758120316119
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",30,OLTT,-0.598828122270295,-0.340822779117659,3.33874078687543e-44,43.4764172973876,0.340822779117659
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",360,Fasting,-0.448376873639129,0.33534850008675,6.75315919025682e-43,42.1704930126617,0.33534850008675
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",360,Fasting,-0.225482755051394,0.331956763315659,9.50891327156272e-56,55.0218691136758,0.331956763315659
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,Fasting,-0.40207820552199,0.327054066216114,8.2488898650323e-56,55.0836044948357,0.327054066216114
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,240,OLTT,0.258401004541303,-0.326750497222319,2.05063369425717e-41,40.6881119109484,0.326750497222319
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,30,OLTT,1.10167950819958,-0.312257207752564,1.2426623685817e-64,63.9056468531604,0.312257207752564
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),300,OLTT,-0.361080141137066,-0.303885713347552,4.7234667217736e-64,63.3257391400307,0.303885713347552
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,120,OLTT,-0.714683107626306,-0.294886745597636,4.48738178609901e-53,52.3480069791537,0.294886745597636
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",120,OLTT,-0.698022126076803,-0.294210962480914,1.00309449620178e-44,43.9986581524772,0.294210962480914
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",240,Fasting,-0.490541029530451,0.293184344195429,6.75315919025682e-43,42.1704930126617,0.293184344195429
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,30,OLTT,0.874295270101928,0.289143768338306,2.05063369425717e-41,40.6881119109484,0.289143768338306
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,90,OLTT,0.864282096354356,0.279130594590734,2.05063369425717e-41,40.6881119109484,0.279130594590734
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",360,OLTT,-0.35590480655776,-0.278299799500713,9.57492557154863e-54,53.0188645932331,0.278299799500713
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",90,OLTT,-0.105512426168321,0.277521194020319,6.65129080123635e-46,45.1770940639518,0.277521194020319
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,90,OLTT,-0.695862782566254,-0.276066420537584,4.48738178609901e-53,52.3480069791537,0.276066420537584
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",180,OLTT,-0.108516236706771,0.274517383481868,6.65129080123635e-46,45.1770940639518,0.274517383481868
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",240,OLTT,-0.130704476230921,0.273106687364969,1.00309449620178e-44,43.9986581524772,0.273106687364969
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),60,OLTT,-0.755823398853407,-0.272069555960102,1.5407899356222e-48,47.8122565670044,0.272069555960102
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,240,Fasting,0.243102606696922,-0.257676156704477,1.3303531603168e-44,43.8760330543583,0.257676156704477
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,90,OLTT,-0.257734017798141,-0.257229493313356,2.52276308252692e-44,43.5981235329872,0.257229493313356
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,120,OLTT,0.831368564936762,0.246217063173139,2.05063369425717e-41,40.6881119109484,0.246217063173139
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",180,OLTT,0.319796482359072,-0.244847817009253,1.98963860174699e-45,44.7012258017414,0.244847817009253
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",360,Fasting,0.00568388362793213,0.243413086837316,2.70684885537318e-54,53.5675359936237,0.243413086837316
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,360,OLTT,-0.335385849526732,0.24122607624585,1.51069920651912e-42,41.8208219988993,0.24122607624585
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,360,Fasting,-0.410981730441179,0.24066065621466,3.53079378918527e-105,104.452127646026,0.24066065621466
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,180,OLTT,-0.659958473560052,-0.240162111531381,4.48738178609901e-53,52.3480069791537,0.240162111531381
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,60,OLTT,-0.657024488034919,-0.237228126006249,4.48738178609901e-53,52.3480069791537,0.237228126006249
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,120,Fasting,1.32053343762078,-0.235069858783465,7.0990812449561e-52,51.1487978535435,0.235069858783465
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,60,OLTT,-0.341900183612506,0.234711742160076,1.51069920651912e-42,41.8208219988993,0.234711742160076
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",60,OLTT,0.798884698410909,0.234240399042584,1.98963860174699e-45,44.7012258017414,0.234240399042584
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",240,Fasting,-0.741062095532494,0.229426201482299,2.93072275304911e-77,76.5330252639621,0.229426201482299
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",120,Fasting,-0.320829720624609,-0.217794240277907,6.02975998400467e-41,40.2196999747084,0.217794240277907
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,45,PAT,-0.330963538026799,0.216459456613824,1.63973125484242e-49,48.7852273251858,0.216459456613824
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,360,Fasting,-0.432011360234212,0.215611886279513,5.04110482025306e-80,79.2974742721345,0.215611886279513
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,120,Fasting,1.16183500656094,-0.214980256262205,6.60733033482753e-84,83.1799739800077,0.214980256262205
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,360,OLTT,-0.127318158524252,0.214639729653356,4.17081800212746e-46,45.3797787606208,0.214639729653356
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",60,OLTT,-0.196348726457201,0.186684893731438,6.65129080123635e-46,45.1770940639518,0.186684893731438
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",480,Fasting,0.0827207486235512,0.185756228970253,6.02975998400467e-41,40.2196999747084,0.185756228970253
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",360,Fasting,-0.247853780339003,0.185710429068739,2.5378246319385e-62,61.5955383917026,0.185710429068739
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",360,Fasting,-0.192480059141777,0.185656530122206,1.1915017066962e-44,43.9239053312376,0.185656530122206
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",300,OLTT,-0.0732215488543746,0.184783794298261,3.33874078687543e-44,43.4764172973876,0.184783794298261
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,30,OLTT,-0.621496204609661,0.182890737788962,2.10745233800531e-55,54.6762422385658,0.182890737788962
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",30,PAT,-0.710667354245672,0.179353211128758,3.69392234043529e-51,50.4325122392355,0.179353211128758
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,120,Fasting,0.968393617298679,-0.17925063688965,2.49615717487145e-55,54.6027280720224,0.17925063688965
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),240,OLTT,0.112973449113425,0.170167876902939,4.7234667217736e-64,63.3257391400307,0.170167876902939
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",240,OLTT,-0.426256392031398,-0.168251048878763,3.33874078687543e-44,43.4764172973876,0.168251048878763
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),30,OLTT,0.109859796632305,0.167054224421819,4.7234667217736e-64,63.3257391400307,0.167054224421819
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,300,OLTT,-0.179680304252736,0.162277583924872,4.17081800212746e-46,45.3797787606208,0.162277583924872
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,Fasting,-0.298648783895464,0.16196032929925,1.00578918364837e-76,75.9974930391338,0.16196032929925
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,Fasting,-0.781717230388736,0.161549386025221,8.87166345168411e-89,88.0519949415939,0.161549386025221
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",120,Fasting,-0.624819453445096,0.158905920280783,6.75315919025682e-43,42.1704930126617,0.158905920280783
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,90,PAT,-0.123895427618492,0.152944327276328,4.27261022007753e-77,76.3693067250135,0.152944327276328
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,Fasting,-0.778596240367676,0.151643186662406,3.4272565781269e-42,41.4650533813322,0.151643186662406
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,30,OLTT,-0.57019075011935,-0.15039438809068,4.48738178609901e-53,52.3480069791537,0.15039438809068
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),480,Fasting,-0.272541086591698,0.147320029261056,2.0093166038302e-52,51.6969516269834,0.147320029261056
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,420,OLTT,-0.432542201555899,0.144069724216683,1.51069920651912e-42,41.8208219988993,0.144069724216683
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",360,Fasting,-0.373069518998236,0.140076089135974,1.8426762695343e-51,50.7345509570784,0.140076089135974
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",120,OLTT,-0.243937285699899,0.13909633448874,6.65129080123635e-46,45.1770940639518,0.13909633448874
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,Fasting,-0.422237213539173,0.134769865286377,1.41493016963943e-114,113.849264993135,0.134769865286377
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",240,Fasting,-0.231587518944064,-0.128552038597362,6.02975998400467e-41,40.2196999747084,0.128552038597362
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",360,Fasting,-0.228491354289885,-0.125455873943183,6.02975998400467e-41,40.2196999747084,0.125455873943183
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,Fasting,-1.0682168136443,-0.124950197230342,8.87166345168411e-89,88.0519949415939,0.124950197230342
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",90,OLTT,-0.527109695560846,-0.123298531964957,1.00309449620178e-44,43.9986581524772,0.123298531964957
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",30,OLTT,0.685415016141505,0.120770716773179,1.98963860174699e-45,44.7012258017414,0.120770716773179
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,OLTT,-0.37185961506662,0.111894227826685,1.5407899356222e-48,47.8122565670044,0.111894227826685
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,120,Fasting,0.392395829264049,-0.10838293413735,1.3303531603168e-44,43.8760330543583,0.10838293413735
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",120,Fasting,-0.662167363241592,-0.104727844874539,9.50891327156272e-56,55.0218691136758,0.104727844874539
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",120,Fasting,-0.868207100219552,0.102281196795241,2.93072275304911e-77,76.5330252639621,0.102281196795241
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,Fasting,-0.830989572302442,-0.101857300564338,8.2488898650323e-56,55.0836044948357,0.101857300564338
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",240,Fasting,-0.651466899740724,-0.0940273813736711,9.50891327156272e-56,55.0218691136758,0.0940273813736711
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,60,OLTT,0.297079397995514,-0.0912522124014475,7.0145163669061e-46,45.1540022671053,0.0912522124014475
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",240,Fasting,-0.425407594722031,0.087738013412179,1.8426762695343e-51,50.7345509570784,0.087738013412179
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,15,PAT,-0.633950196755059,-0.0865272021144359,1.63973125484242e-49,48.7852273251858,0.0865272021144359
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,120,PAT,-0.190463526297223,0.0863762285975976,4.27261022007753e-77,76.3693067250135,0.0863762285975976
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",60,OLTT,-0.484823089757561,-0.0810119261616712,1.00309449620178e-44,43.9986581524772,0.0810119261616712
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,480,OLTT,-0.496822754210136,0.0797891715624468,1.51069920651912e-42,41.8208219988993,0.0797891715624468
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",240,Fasting,-0.299328721440612,0.0788078678233716,1.1915017066962e-44,43.9239053312376,0.0788078678233716
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,60,OLTT,-0.847015972416718,0.0743535428163941,2.12195673370515e-60,59.6732634755264,0.0743535428163941
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,Fasting,-0.489696065585197,-0.0698349497324431,2.0093166038302e-52,51.6969516269834,0.0698349497324431
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",180,OLTT,-0.471355251376434,-0.0675440877805447,1.00309449620178e-44,43.9986581524772,0.0675440877805447
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",240,Fasting,-0.372840738527002,0.0607234708807397,2.5378246319385e-62,61.5955383917026,0.0607234708807397
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",30,OLTT,-0.322782112860009,0.0602515073286303,6.65129080123635e-46,45.1770940639518,0.0602515073286303
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,Fasting,-0.470997396344176,-0.0511362804914218,2.0093166038302e-52,51.6969516269834,0.0511362804914218
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",30,OLTT,-0.452725988336808,-0.0489148247409181,1.00309449620178e-44,43.9986581524772,0.0489148247409181
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",120,Fasting,-0.285970256369815,-0.048241053160432,2.70684885537318e-54,53.5675359936237,0.048241053160432
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",240,Fasting,-0.190192271604328,0.047536931605055,2.70684885537318e-54,53.5675359936237,0.047536931605055
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,Fasting,-0.413288415371795,0.0473206978229194,1.00578918364837e-76,75.9974930391338,0.0473206978229194
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",120,PAT,-0.235434067047685,0.0452290144862555,1.4515217677995e-44,43.8381764468703,0.0452290144862555
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,30,OLTT,0.34488828920972,-0.0434433211872419,7.0145163669061e-46,45.1540022671053,0.0434433211872419
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,120,OLTT,0.431279380391955,0.0429477699949929,7.0145163669061e-46,45.1540022671053,0.0429477699949929
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,240,Fasting,-0.610234355932406,0.0414080307234331,3.53079378918527e-105,104.452127646026,0.0414080307234331
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,240,OLTT,-0.460573964689623,-0.040777602660953,4.48738178609901e-53,52.3480069791537,0.040777602660953
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",90,PAT,-0.241427216656145,0.039235864877795,1.4515217677995e-44,43.8381764468703,0.039235864877795
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,Fasting,-0.690208671384317,0.0389236003537863,8.2488898650323e-56,55.0836044948357,0.0389236003537863
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,30,PAT,-0.58475096260399,-0.0373279679633665,1.63973125484242e-49,48.7852273251858,0.0373279679633665
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),360,Fasting,-0.383237478679437,0.0366236371733176,2.0093166038302e-52,51.6969516269834,0.0366236371733176
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,180,OLTT,0.62168812047614,0.0365366187125182,2.05063369425717e-41,40.6881119109484,0.0365366187125182
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",120,Fasting,-0.547332169694581,-0.034186561560371,1.8426762695343e-51,50.7345509570784,0.034186561560371
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,60,OLTT,-0.607523016491421,0.0248827368690236,4.46337938423793e-116,115.350336196852,0.0248827368690236
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),240,Fasting,-0.53411061770094,0.0228964611246103,1.41493016963943e-114,113.849264993135,0.0228964611246103
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,30,OLTT,-0.653286906821986,-0.0208811534615415,4.46337938423793e-116,115.350336196852,0.0208811534615415
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,Fasting,-0.576766348770587,-0.0197592699450366,1.41493016963943e-114,113.849264993135,0.0197592699450366
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",120,Fasting,-0.363948417739271,0.0141881715247131,1.1915017066962e-44,43.9239053312376,0.0141881715247131
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,120,Fasting,-0.660453598545968,-0.0128303520322427,5.04110482025306e-80,79.2974742721345,0.0128303520322427
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,120,Fasting,-0.664067165443268,-0.0124247787874293,3.53079378918527e-105,104.452127646026,0.0124247787874293
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",15,PAT,-0.898833637372627,-0.00881307199819781,3.69392234043529e-51,50.4325122392355,0.00881307199819781
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",120,Fasting,-0.425438317682981,0.0081258917247608,2.5378246319385e-62,61.5955383917026,0.0081258917247608
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,90,OLTT,0.395764878280711,0.00743326788374904,7.0145163669061e-46,45.1540022671053,0.00743326788374904
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,30,OLTT,-0.56989427529129,0.00671765048129258,1.51069920651912e-42,41.8208219988993,0.00671765048129258
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),120,Fasting,-0.458089602143128,0.00251951105158615,1.00578918364837e-76,75.9974930391338,0.00251951105158615
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,240,Fasting,-0.645235622044366,0.00238762446935936,5.04110482025306e-80,79.2974742721345,0.00238762446935936
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,30,OLTT,-0.923128217185198,-0.00175870195208594,2.12195673370515e-60,59.6732634755264,0.00175870195208594
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),30,OLTT,-0.48530407124391,-0.00155022835060553,1.5407899356222e-48,47.8122565670044,0.00155022835060553
-1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],Lipids,Lysolipid,0,OLTT,-0.921369515233112,0,2.12195673370515e-60,59.6732634755264,0
-1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,0,OLTT,-0.632405753360445,0,4.46337938423793e-116,115.350336196852,0
-"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,0,OLTT,-0.576611925772582,0,1.51069920651912e-42,41.8208219988993,0
-2-aminobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0,Fasting,-0.237729203209383,0,2.70684885537318e-54,53.5675359936237,0
-2-aminophenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Chemical,0,Fasting,2.76742564207578,0,2.76861567710467e-91,90.5577373262684,0
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0,Fasting,-0.970488297014792,0,2.93072275304911e-77,76.5330252639621,0
-2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0,PAT,-0.890020565374429,0,3.69392234043529e-51,50.4325122392355,0
-2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],Lipids,Lysolipid,0,OLTT,-0.000504524484784819,0,2.52276308252692e-44,43.5981235329872,0
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0,Fasting,-0.651642386655839,0,3.53079378918527e-105,104.452127646026,0
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0,PAT,-0.547422994640623,0,1.63973125484242e-49,48.7852273251858,0
-3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0,OLTT,-0.41979636202867,0,4.48738178609901e-53,52.3480069791537,0
-3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,Fasting,-0.55700707882555,0,1.41493016963943e-114,113.849264993135,0
-3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,Fasting,-0.729132271738104,0,8.2488898650323e-56,55.0836044948357,0
-3-hydroxydecanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0,OLTT,-0.403811163595889,0,1.00309449620178e-44,43.9986581524772,0
-3-hydroxylaurate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0,OLTT,-0.258005343152635,0,3.33874078687543e-44,43.4764172973876,0
-3-hydroxyoctanoate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Monohydroxy",0,OLTT,-0.383033620188639,0,6.65129080123635e-46,45.1770940639518,0
-3-methylhistidine,Metabolon HD4 [nt-ms],Amino Acids,Histidine Metabolism,0,Fasting,1.95867326288418,0,7.97402868472517e-52,51.0983222063968,0
-4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,0,Fasting,1.14764425418833,0,2.49615717487145e-55,54.6027280720224,0
-acetoacetate,Metabolon HD4 [nt-ms],Lipids,Ketone Bodies,0,Fasting,-0.647623246513725,0,5.04110482025306e-80,79.2974742721345,0
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,Fasting,-0.943266616413958,0,8.87166345168411e-89,88.0519949415939,0
-acetylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,OLTT,-0.483753842893305,0,1.5407899356222e-48,47.8122565670044,0
-adipoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,Fasting,-0.419861115852754,0,2.0093166038302e-52,51.6969516269834,0
-alliin,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,0,Fasting,1.37681526282315,0,6.60733033482753e-84,83.1799739800077,0
-alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",0,Fasting,-0.783725373725879,0,6.75315919025682e-43,42.1704930126617,0
-alpha-ketobutyrate,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0,Fasting,-0.557439518367053,0,9.50891327156272e-56,55.0218691136758,0
-arginine,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,0,OLTT,0.388331610396962,0,7.0145163669061e-46,45.1540022671053,0
-catechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,0,Fasting,1.58154706308282,0,1.20508850451912e-230,229.918981056315,0
-dopamine sulfate (2),Metabolon HD4 [nt-ms],Amino Acids,Phenylalanine and Tyrosine Metabolism,0,OLTT,-0.804386942398623,0,2.10745233800531e-55,54.6762422385658,0
-hexadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0,Fasting,-0.433564209407742,0,2.5378246319385e-62,61.5955383917026,0
-indolepropionate,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,0,Fasting,1.55560329640425,0,7.0990812449561e-52,51.1487978535435,0
-kynurenine,Metabolon HD4 [nt-ms],Amino Acids,Tryptophan Metabolism,0,OLTT,0.585151501763622,0,2.05063369425717e-41,40.6881119109484,0
-lactate,Metabolon HD4 [nt-ms],Carbohydrates,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",0,PAT,-0.28066308153394,0,1.4515217677995e-44,43.8381764468703,0
-leucine,Metabolon HD4 [nt-ms],Amino Acids,"Leucine, Isoleucine and Valine Metabolism",0,Fasting,-0.103035480346702,0,6.02975998400467e-41,40.2196999747084,0
-malate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,0,PAT,-0.624340834931771,0,1.60825157388787e-50,49.7936460149125,0
-mannitol/sorbitol,Metabolon HD4 [nt-ms],Carbohydrates,"Fructose, Mannose and Galactose Metabolism",0,Fasting,2.5988272525685,0,1.12230387151151e-75,74.9498895389326,0
-methionine,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0,OLTT,0.564644299368325,0,1.98963860174699e-45,44.7012258017414,0
-methionine sulfoxide,Metabolon HD4 [nt-ms],Amino Acids,"Methionine, Cysteine, SAM and Taurine Metabolism",0,OLTT,-0.0776050070570468,0,9.57492557154863e-54,53.0188645932331,0
-o-acetylhomoserine,Metabolon HD4 [nt-ms],Amino Acids,"Glycine, Serine and Threonine Metabolism",0,Fasting,3.19162169834429,0,2.6495403138587e-50,49.5768294681281,0
-o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Xenobiotics,Benzoate Metabolism,0,Fasting,1.19550891297992,0,7.80303044979663e-79,78.1077366983321,0
-octadecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0,Fasting,-0.51314560813421,0,1.8426762695343e-51,50.7345509570784,0
-oleoylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,Fasting,-0.930239427030082,0,3.4272565781269e-42,41.4650533813322,0
-phosphate,Metabolon HD4 [nt-ms],Energy,Oxidative Phosphorylation,0,OLTT,-0.341957888177609,0,4.17081800212746e-46,45.3797787606208,0
-pro-hydroxy-pro,Metabolon HD4 [nt-ms],Amino Acids,Urea cycle; Arginine and Proline Metabolism,0,OLTT,1.41393671595214,0,1.2426623685817e-64,63.9056468531604,0
-propionylcarnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (also BCAA Metabolism),0,OLTT,-0.057194427789514,0,4.7234667217736e-64,63.3257391400307,0
-s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Amino Acids,Glutamate Metabolism,0,Fasting,0.500778763401399,0,1.3303531603168e-44,43.8760330543583,0
-s-allylcysteine,Metabolon HD4 [nt-ms],Xenobiotics,Food Component/Plant,0,Fasting,2.07074707809363,0,2.58077070457667e-81,80.5882505797881,0
-suberoyl carnitine,Metabolon HD4 [nt-ms],Lipids,Fatty Acid Metabolism (Acyl Carnitine),0,Fasting,-0.460609113194714,0,1.00578918364837e-76,75.9974930391338,0
-succinate,Metabolon HD4 [nt-ms],Energy,TCA Cycle,0,PAT,-0.276839754894821,0,4.27261022007753e-77,76.3693067250135,0
-tetradecanedioate,Metabolon HD4 [nt-ms],Lipids,"Fatty Acid, Dicarboxylate",0,Fasting,-0.378136589263984,0,1.1915017066962e-44,43.9239053312376,0
+metabolite,platform_name,challenge,time_point,variance_log2fc
+12-hete,Metabolon HD4 [nt-ms],Fasting,0,0
+12-hete,Metabolon HD4 [nt-ms],Fasting,120,0.243110127757748
+12-hete,Metabolon HD4 [nt-ms],Fasting,240,0.184988247794805
+12-hete,Metabolon HD4 [nt-ms],Fasting,360,0.364371977493368
+12-hete,Metabolon HD4 [nt-ms],Fasting,480,0.438307880824754
+12-hete,Metabolon HD4 [nt-ms],Fasting,600,0.615068242517668
+12-hete,Metabolon HD4 [nt-ms],Fasting,720,0.79754410392419
+12-hete,Metabolon HD4 [nt-ms],Fasting,840,0.820929177366727
+12-hete,Metabolon HD4 [nt-ms],Fasting,960,1.01726298943681
+12-hete,Metabolon HD4 [nt-ms],Fasting,1920,5.7463395163576
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,0,0
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,120,0.564234011997834
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,240,0.771832077286061
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,360,0.995846617479293
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,480,1.20160782382182
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,600,1.2796347272181
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,720,1.43547088787503
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,840,1.70028633332586
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,960,1.72177425254723
+13-hode + 9-hode,Metabolon HD4 [nt-ms],Fasting,1920,7.29004750251693
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,0,0
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,120,0.055857987351166
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,240,0.0776366480342941
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,360,0.123871275572969
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,480,0.493060729750415
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,600,0.633909628490016
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,720,0.801139894158954
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,840,1.00568713751468
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,960,2.30067619481048
+16-hydroxypalmitate,Metabolon HD4 [nt-ms],Fasting,1920,3.29497551216603
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,0,0
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,120,0.426959938742007
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,240,0.832466894380753
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,360,1.25969926861611
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,480,2.3928693019741
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,600,1.60596863671871
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,720,4.05091393048317
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,840,2.46265026599771
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,960,2.44327542636915
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],Fasting,1920,2.44035967507325
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,0,0
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,120,0.0308793596550028
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,240,0.0590259670568999
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,360,0.0964873879726187
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,480,0.0771224842082246
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,600,0.149249640687457
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,720,0.21252192945983
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,840,0.332357724596957
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,960,0.499121441292154
+2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,1920,0.844604095513772
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,0,0
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,120,0.43104270953342
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,240,1.01321465889211
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,360,1.46104965596058
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,480,2.16845636107238
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,600,2.63476864011903
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,720,2.9172692965777
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,840,3.15889506040409
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,960,3.28280670314951
+2-aminophenol sulfate,Metabolon HD4 [nt-ms],Fasting,1920,3.56874546843798
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,0,0
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,120,0.0726328978152263
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,240,0.186551859028913
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,360,0.208050435027277
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,480,0.247743450624393
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,600,0.162234938501086
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,720,0.255383991009306
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,840,0.330900132487955
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,960,0.541321346603534
+2-hydroxy-3-methylvalerate,Metabolon HD4 [nt-ms],Fasting,1920,1.84126636954948
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,0,0
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,120,0.0268082944908254
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,240,0.0451442337394466
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,360,0.107487098660751
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,480,0.163401655702627
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,600,0.255892194174355
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,720,0.32921432811709
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,840,0.486536316632836
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,960,0.866760402399086
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,1920,2.8988272883868
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,0,0
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,120,0.0939389347503541
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,240,0.63984661396304
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,360,0.877934692931082
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,480,0.7317036497972
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,600,0.666267271387073
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,720,0.777304757320193
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,840,0.841605382632797
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,960,1.0259713735887
+3-aminoisobutyrate,Metabolon HD4 [nt-ms],Fasting,1920,1.26248006633739
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,0,0
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,120,0.00559405707202854
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,240,0.0164245402014311
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,360,0.0325063421672625
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,480,0.112716965442633
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,600,0.199900423840562
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,720,0.362262529479158
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,840,0.552686001222463
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,960,1.55795207720315
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],Fasting,1920,3.79218079212904
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,0,0
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,120,0.00141778724713862
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,240,0.00848371663623076
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,360,0.0233664220751188
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,480,0.0277670800429751
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,600,0.0777244152977275
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,720,0.193474522613256
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,840,0.45449087460361
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,960,0.64969190658993
+3-hydroxybutyrylcarnitine (1),Metabolon HD4 [nt-ms],Fasting,1920,4.87990511648259
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,0,0
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,120,0.0195488596464398
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,240,0.0613604966121413
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,360,0.166604731567096
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,480,0.14122336115954
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,600,0.254387270672608
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,720,0.45123684370176
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,840,0.722302158364844
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,960,1.21047651133053
+3-hydroxybutyrylcarnitine (2),Metabolon HD4 [nt-ms],Fasting,1920,5.06436069525689
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,0,0
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,120,0.924146116414702
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,240,3.60629785229364
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,360,5.87984970026563
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,480,7.1336553864839
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,600,7.78867373355187
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,720,8.33921977184142
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,840,8.66429858786175
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,960,8.88110970661052
+3-hydroxyhippurate,Metabolon HD4 [nt-ms],Fasting,1920,9.84570152407262
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,0,0
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,120,0.0392148667576198
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,240,0.0655680333279897
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,360,0.179577146303472
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,480,0.435045210617758
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,600,0.468906101959406
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,720,0.828395528149389
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,840,1.22548661826902
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,960,1.9726716147862
+3-hydroxyisobutyrate,Metabolon HD4 [nt-ms],Fasting,1920,4.98338904895926
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,0,0
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,120,0.190503993658723
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,240,0.217304023541265
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,360,0.271432028623959
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,480,0.545354899902068
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,600,0.609972595279719
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,720,0.577198252982223
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,840,0.776549585477163
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,960,0.768733242380282
+3-methyl-2-oxovalerate,Metabolon HD4 [nt-ms],Fasting,1920,1.62656243360424
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,0,0
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,120,0.056649729840261
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,240,0.588006487266933
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,360,0.691618447610623
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,480,0.267518737482894
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,600,0.267941363039859
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,720,0.219214307453115
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,840,0.399434833689648
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,960,0.392511456621876
+3-methylhistidine,Metabolon HD4 [nt-ms],Fasting,1920,0.512807097548092
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,0,0
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,120,0.128018678138405
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,240,0.245802106121278
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,360,0.297522735956549
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,480,0.801821069329954
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,600,0.917806655377905
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,720,0.72038165557376
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,840,0.869951828355242
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,960,1.05968300710692
+4-methyl-2-oxopentanoate,Metabolon HD4 [nt-ms],Fasting,1920,1.67701170321503
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,0,0
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,120,0.0257347627752356
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,240,0.170568261298345
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,360,0.413000362865114
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,480,0.316734779658596
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,600,0.624576081466629
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,720,0.808455750167269
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,840,1.01644112992107
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,960,1.14988410165795
+4-vinylphenol sulfate,Metabolon HD4 [nt-ms],Fasting,1920,1.73676305788007
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,0,0
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,120,0.143992099664739
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,240,6.06593304722042
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,360,6.11024180158845
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,480,1.97691052326377
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,600,2.89799919162989
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,720,2.91821218787485
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,840,3.21490792966828
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,960,3.99722148298414
+5-acetylamino-6-amino-3-methyluracil,Metabolon HD4 [nt-ms],Fasting,1920,5.53710332421961
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,0,0
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,120,0.122895064132299
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,240,0.431741326905749
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,360,0.445808960086298
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,480,0.487453405313669
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,600,0.901334666775586
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,720,1.0272889905447
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,840,1.12889136180207
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,960,0.998815019633509
+5-dodecenoate (12:1n7),Metabolon HD4 [nt-ms],Fasting,1920,5.70563460004265
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,0,0
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,120,0.0182681199360915
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,240,0.0197072180375623
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,360,0.062395001492976
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,480,0.197641164228549
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,600,0.200473184945649
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,720,0.354224980154183
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,840,0.996372436380346
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,960,2.61001775019615
+acetoacetate,Metabolon HD4 [nt-ms],Fasting,1920,2.34552935795955
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,0,0
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,120,0.0576771096054701
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,240,0.1347946287647
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,360,0.283898599993524
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,480,0.251105952149056
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,600,0.370526735166805
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,720,0.422940070215109
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,840,0.54813855270026
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,960,0.817217561077418
+acetylcarnitine,Metabolon HD4 [nt-ms],Fasting,1920,1.59671686910527
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,0,0
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,120,0.0120409836020166
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,240,0.010348465249947
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,360,0.0210818790751156
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,480,0.0264486559480528
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,600,0.122621677292489
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,720,0.22534608039366
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,840,0.939126633761749
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,960,1.70711805567278
+adipoylcarnitine,Metabolon HD4 [nt-ms],Fasting,1920,6.46734076901202
+alliin,Metabolon HD4 [nt-ms],Fasting,0,0
+alliin,Metabolon HD4 [nt-ms],Fasting,120,0.0525379836094595
+alliin,Metabolon HD4 [nt-ms],Fasting,240,0.0568591095005238
+alliin,Metabolon HD4 [nt-ms],Fasting,360,0.0789877095957019
+alliin,Metabolon HD4 [nt-ms],Fasting,480,0.126451968829879
+alliin,Metabolon HD4 [nt-ms],Fasting,600,0.176062619765294
+alliin,Metabolon HD4 [nt-ms],Fasting,720,0.122587541997761
+alliin,Metabolon HD4 [nt-ms],Fasting,840,0.267206499035794
+alliin,Metabolon HD4 [nt-ms],Fasting,960,0.321753566712183
+alliin,Metabolon HD4 [nt-ms],Fasting,1920,0.474296058780616
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,0,0
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,120,0.301882971267424
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,240,0.29920886357716
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,360,0.288537400624394
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,480,0.453178973399011
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,600,0.430964184784663
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,720,0.486960794810196
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,840,0.710751374023586
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,960,0.712011906893131
+alpha-hydroxyisocaproate,Metabolon HD4 [nt-ms],Fasting,1920,2.08533509317176
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,0,0
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,120,0.419697725969503
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,240,0.298924720998433
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,360,0.367834449488258
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,480,0.242137791680192
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,600,0.386184324417466
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,720,0.371288961820043
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,840,1.28740878297925
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,960,0.912923889907209
+alpha-ketobutyrate,Metabolon HD4 [nt-ms],Fasting,1920,2.24383218914296
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,0,0
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,120,0.222206186613563
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,240,0.62498682682101
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,360,0.951507293945653
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,480,1.18353322235102
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,600,1.39294075921649
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,720,1.593212137481
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,840,1.67341323511259
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,960,1.74656613742461
+catechol sulfate,Metabolon HD4 [nt-ms],Fasting,1920,1.90149609271436
+cortisone,Metabolon HD4 [nt-ms],Fasting,0,0
+cortisone,Metabolon HD4 [nt-ms],Fasting,120,0.839021814403884
+cortisone,Metabolon HD4 [nt-ms],Fasting,240,1.60225624235361
+cortisone,Metabolon HD4 [nt-ms],Fasting,360,1.91767039018408
+cortisone,Metabolon HD4 [nt-ms],Fasting,480,1.36604572601938
+cortisone,Metabolon HD4 [nt-ms],Fasting,600,1.30300603620882
+cortisone,Metabolon HD4 [nt-ms],Fasting,720,2.65058929577074
+cortisone,Metabolon HD4 [nt-ms],Fasting,840,3.2150989771416
+cortisone,Metabolon HD4 [nt-ms],Fasting,960,2.60539883257987
+cortisone,Metabolon HD4 [nt-ms],Fasting,1920,0.5866554423831
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,0,0
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,120,0.0675650952711149
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,240,0.861949544875616
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,360,0.325910492351296
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,480,0.240633990847161
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,600,0.370216898956078
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,720,0.819936700644112
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,840,0.501431054953418
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,960,0.33082257864509
+gamma-glutamyl-2-aminobutyrate,Metabolon HD4 [nt-ms],Fasting,1920,1.45285011135543
+glycerol,Metabolon HD4 [nt-ms],Fasting,0,0
+glycerol,Metabolon HD4 [nt-ms],Fasting,120,0.174261906359631
+glycerol,Metabolon HD4 [nt-ms],Fasting,240,0.66785591791647
+glycerol,Metabolon HD4 [nt-ms],Fasting,360,0.260047045970599
+glycerol,Metabolon HD4 [nt-ms],Fasting,480,0.463519515275397
+glycerol,Metabolon HD4 [nt-ms],Fasting,600,0.451772811160872
+glycerol,Metabolon HD4 [nt-ms],Fasting,720,0.661063326562336
+glycerol,Metabolon HD4 [nt-ms],Fasting,840,0.920407217981266
+glycerol,Metabolon HD4 [nt-ms],Fasting,960,0.593464351387076
+glycerol,Metabolon HD4 [nt-ms],Fasting,1920,6.83053535660253
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,0,0
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,120,0.00538225247176749
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,240,0.0150300521044254
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,360,0.0184605048428614
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,480,0.0921238049106072
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,600,0.475863969525797
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,720,1.51104589622578
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,840,3.06920722541931
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,960,9.88342907012181
+hexadecanedioate,Metabolon HD4 [nt-ms],Fasting,1920,1.93843167505604
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,0,0
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,120,0.288261327623254
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,240,0.329473645012586
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,360,0.359013376435212
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,480,0.363891874093616
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,600,0.955906534784743
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,720,0.848498035962928
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,840,0.892202211802173
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,960,1.45676715305875
+hexanoylcarnitine,Metabolon HD4 [nt-ms],Fasting,1920,2.08527213715503
+hippurate,Metabolon HD4 [nt-ms],Fasting,0,0
+hippurate,Metabolon HD4 [nt-ms],Fasting,120,0.513033804923249
+hippurate,Metabolon HD4 [nt-ms],Fasting,240,1.05571235711137
+hippurate,Metabolon HD4 [nt-ms],Fasting,360,1.35211622560707
+hippurate,Metabolon HD4 [nt-ms],Fasting,480,1.77390242784839
+hippurate,Metabolon HD4 [nt-ms],Fasting,600,1.97431750309452
+hippurate,Metabolon HD4 [nt-ms],Fasting,720,2.09581042100275
+hippurate,Metabolon HD4 [nt-ms],Fasting,840,2.21748755378019
+hippurate,Metabolon HD4 [nt-ms],Fasting,960,2.30249162803799
+hippurate,Metabolon HD4 [nt-ms],Fasting,1920,2.1193384946383
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,0,0
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,120,0.235600190896323
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,240,0.0741990333531604
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,360,0.100444676898449
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,480,0.148590140627909
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,600,0.113937027172
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,720,0.182082101402522
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,840,0.204129589649653
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,960,0.414246902958224
+hydantoin-5-propionic acid,Metabolon HD4 [nt-ms],Fasting,1920,1.77464556547379
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,0,0
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,120,0.0783138828389498
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,240,0.265393382550282
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,360,0.611440239634487
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,480,1.0532820659929
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,600,1.44655764213886
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,720,2.01251771455122
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,840,2.32336507219401
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,960,2.64494756777947
+indolepropionate,Metabolon HD4 [nt-ms],Fasting,1920,3.37608554298822
+isoleucine,Metabolon HD4 [nt-ms],Fasting,0,0
+isoleucine,Metabolon HD4 [nt-ms],Fasting,120,0.0474517262538023
+isoleucine,Metabolon HD4 [nt-ms],Fasting,240,0.139884223253676
+isoleucine,Metabolon HD4 [nt-ms],Fasting,360,0.216593425617083
+isoleucine,Metabolon HD4 [nt-ms],Fasting,480,0.207075404052799
+isoleucine,Metabolon HD4 [nt-ms],Fasting,600,0.280907062567645
+isoleucine,Metabolon HD4 [nt-ms],Fasting,720,0.299808081949544
+isoleucine,Metabolon HD4 [nt-ms],Fasting,840,0.578063313745781
+isoleucine,Metabolon HD4 [nt-ms],Fasting,960,0.626822724401107
+isoleucine,Metabolon HD4 [nt-ms],Fasting,1920,2.40888083111258
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,0,0
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,120,0.111459314034281
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,240,0.301926515908549
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,360,0.256642602845446
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,480,0.559879950730801
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,600,1.06856255932216
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,720,0.70111037786076
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,840,1.39426927135573
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,960,0.772465703145429
+laurate (12:0),Metabolon HD4 [nt-ms],Fasting,1920,6.18313812150145
+leucine,Metabolon HD4 [nt-ms],Fasting,0,0
+leucine,Metabolon HD4 [nt-ms],Fasting,120,0.0494137565055536
+leucine,Metabolon HD4 [nt-ms],Fasting,240,0.152391939739238
+leucine,Metabolon HD4 [nt-ms],Fasting,360,0.178029617012752
+leucine,Metabolon HD4 [nt-ms],Fasting,480,0.244328758226346
+leucine,Metabolon HD4 [nt-ms],Fasting,600,0.195172547394018
+leucine,Metabolon HD4 [nt-ms],Fasting,720,0.272074555722409
+leucine,Metabolon HD4 [nt-ms],Fasting,840,0.476677503410277
+leucine,Metabolon HD4 [nt-ms],Fasting,960,0.635322404096317
+leucine,Metabolon HD4 [nt-ms],Fasting,1920,2.2554057290515
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,0,0
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,120,1.00374690138515
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,240,2.89416799026918
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,360,4.38987439149332
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,480,4.66943689417507
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,600,5.64421158705128
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,720,6.22803909350543
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,840,6.65159203148563
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,960,6.3778923212222
+mannitol/sorbitol,Metabolon HD4 [nt-ms],Fasting,1920,6.66647544451042
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,0,0
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,120,0.106417488570262
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,240,0.111897177924861
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,360,0.155412415880681
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,480,0.209996580228263
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,600,0.925329933701963
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,720,1.53140907381757
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,840,1.39824940279252
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,960,2.91043456895852
+myristoleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,1920,3.80559751839093
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,0,0
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,120,0.168175892214678
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,240,0.41469262429963
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,360,0.741965769225915
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,480,0.795228059079194
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,600,1.16518629536081
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,720,1.2055054168134
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,840,1.36689666696609
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,960,1.58584913987206
+n-acetylalliin,Metabolon HD4 [nt-ms],Fasting,1920,2.07571684276263
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,0,0
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,120,0.0412301970748668
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,240,0.121241183384407
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,360,0.3988022737636
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,480,0.92547711811803
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,600,0.779995311412434
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,720,0.535537289318383
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,840,0.512317452094259
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,960,0.515257948640964
+n-acetylglycine,Metabolon HD4 [nt-ms],Fasting,1920,0.66765277177575
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,0,0
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,120,0.334206253069595
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,240,1.04248896176756
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,360,1.75241557113601
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,480,2.35731907606449
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,600,2.86522214661293
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,720,3.10195907017908
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,840,3.29995102611271
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,960,3.43235006624667
+o-acetylhomoserine,Metabolon HD4 [nt-ms],Fasting,1920,4.20339219704911
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,0,0
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,120,0.218309804152907
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,240,0.577580250789814
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,360,1.09756741810825
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,480,1.18653064144695
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,600,1.37502503362969
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,720,1.55287853921723
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,840,1.59658000552058
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,960,1.77597105491258
+o-methylcatechol sulfate,Metabolon HD4 [nt-ms],Fasting,1920,1.98763324584819
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,0,0
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,120,0.173267799366716
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,240,0.0598760916725158
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,360,0.211950854703665
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,480,0.185622895641681
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,600,0.430038044056967
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,720,0.924047964347529
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,840,2.05942673540147
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,960,4.03886779661441
+octadecanedioate,Metabolon HD4 [nt-ms],Fasting,1920,2.73076996998949
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,0,0
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,120,0.0930882670312534
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,240,0.211641564206914
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,360,0.399193638380337
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,480,0.451140441555043
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,600,0.607969055873298
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,720,0.636355992008283
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,840,1.13039748222431
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,960,0.715401745043396
+oleoylcarnitine,Metabolon HD4 [nt-ms],Fasting,1920,0.954854844450317
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,0,0
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,120,0.430605886333079
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,240,6.31257437291672
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,360,6.16343821682779
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,480,3.20500760333804
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,600,4.22263301606639
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,720,4.366113952006
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,840,5.02779515023265
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,960,5.47865283963712
+paraxanthine,Metabolon HD4 [nt-ms],Fasting,1920,6.85803037098643
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,0,0
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,120,0.33078601589936
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,240,0.419393549318848
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,360,0.34652407208365
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,480,0.253675685112525
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,600,0.392411020578534
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,720,0.551150766067665
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,840,0.367163422347273
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,960,0.22290550135004
+s-1-pyrroline-5-carboxylate,Metabolon HD4 [nt-ms],Fasting,1920,0.416741207809451
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,0,0
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,120,0.0875745108424181
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,240,0.231085751382662
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,360,0.375745631504847
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,480,0.483941356438123
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,600,0.593973117876086
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,720,0.683835289923068
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,840,0.913467105670005
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,960,1.06329749021707
+s-allylcysteine,Metabolon HD4 [nt-ms],Fasting,1920,1.37903849995499
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,0,0
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,120,0.00519748824004855
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,240,0.00915210246665666
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,360,0.0342504909996119
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,480,0.153147773441027
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,600,0.341229792404682
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,720,1.19764191090345
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,840,4.03257854706227
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,960,5.95164749571057
+suberoyl carnitine,Metabolon HD4 [nt-ms],Fasting,1920,4.20834388365989
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,0,0
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,120,0.00631781023402393
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,240,0.0328945192058957
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,360,0.0278897264554961
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,480,0.0960865728539956
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,600,0.688665058215807
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,720,1.78816151994732
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,840,4.12902332425075
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,960,11.099435932923
+tetradecanedioate,Metabolon HD4 [nt-ms],Fasting,1920,1.92603614699589
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,0,0
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,120,0.285913703437206
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,240,4.86101479468877
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,360,4.72313277754673
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,480,1.51593900794971
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,600,1.6596456555508
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,720,1.95943853587447
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,840,2.25701952976581
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,960,2.49626790780809
+trigonelline (n'-methylnicotinate),Metabolon HD4 [nt-ms],Fasting,1920,2.66008900183019
+valine,Metabolon HD4 [nt-ms],Fasting,0,0
+valine,Metabolon HD4 [nt-ms],Fasting,120,0.343617443915384
+valine,Metabolon HD4 [nt-ms],Fasting,240,0.503946690876449
+valine,Metabolon HD4 [nt-ms],Fasting,360,0.53747064027491
+valine,Metabolon HD4 [nt-ms],Fasting,480,0.748349849308931
+valine,Metabolon HD4 [nt-ms],Fasting,600,0.596437083549287
+valine,Metabolon HD4 [nt-ms],Fasting,720,0.827049461208802
+valine,Metabolon HD4 [nt-ms],Fasting,840,0.677784210094302
+valine,Metabolon HD4 [nt-ms],Fasting,960,2.17989048402102
+valine,Metabolon HD4 [nt-ms],Fasting,1920,5.01686961042677
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,0,0
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,30,0.0677898556766848
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,60,0.0966979532007807
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,90,0.167255484327919
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,120,0.431022191697954
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,180,0.496900441066571
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,240,0.601700648717155
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,300,0.596513057834235
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,360,0.651613244353454
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,420,0.422509089444591
+1-linoleoyl-gpc (18:2),Metabolon HD4 [nt-ms],OLTT,480,1.21173081022936
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,0,0
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,30,0.0435140899452755
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,60,0.0698718618778925
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,90,0.285776224273576
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,120,0.397188895938892
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,180,0.562063224610494
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,240,0.573087290452501
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,300,0.781784332755507
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,360,0.430498309398165
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,420,0.503216938183931
+1-linoleoyl-gpe (18:2),Metabolon HD4 [nt-ms],OLTT,480,0.672335264817677
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,0,0
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,30,0.00934925135671046
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,60,0.0320912514205453
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,90,0.126968413327289
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,120,0.240528180655226
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,180,0.315655877478469
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,240,0.414426153610606
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,300,0.558998260531365
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,360,0.470784482533411
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,420,0.219030977704039
+1-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,480,0.324653142390842
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,0,0
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,30,0.127876447462378
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,60,0.0955398012149843
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,90,0.248516368566658
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,120,0.210209586707128
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,180,0.205434313259168
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,240,0.127975864665606
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,300,0.114682111735677
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,360,0.11566080063344
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,420,0.110876563309719
+"2,3-dihydroxyisovalerate",Metabolon HD4 [nt-ms],OLTT,480,0.130791581552982
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,0,0
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,30,0.156714408178802
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,60,0.164641942977742
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,90,0.258153814882333
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,120,0.501725269118248
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,180,0.787316399437918
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,240,0.482030292804285
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,300,0.481896243960511
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,360,0.271222819681867
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,420,0.283486123069343
+2-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,480,0.324362677580438
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,0,0
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,30,0.745614962974007
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,60,0.735619845898699
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,90,0.793193640987695
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,120,0.479495895304544
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,180,0.776121832446282
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,240,0.796097784715163
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,300,0.535732619789996
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,360,0.964518599941914
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,420,2.00105588238486
+2-oleoyl-gpe (18:1),Metabolon HD4 [nt-ms],OLTT,480,1.0817331790039
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,0,0
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,30,0.215803385280455
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,60,0.509562930202614
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,90,1.60146275938305
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,120,1.35500019521146
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,180,0.792358439058269
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,240,0.165904831356021
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,300,0.198590366575549
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,360,0.0771165769364433
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,420,0.338412233572536
+3-hydroxy-3-methylglutarate,Metabolon HD4 [nt-ms],OLTT,480,0.127233471022594
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,0,0
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,30,0.035080681907023
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,60,0.0849681196524264
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,90,0.101475632183385
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,120,0.112231404320558
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,180,0.120549696103184
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,240,0.0731472198127543
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,300,0.209661707858642
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,360,0.376177469594992
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,420,0.30921200255148
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],OLTT,480,0.216036404140552
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,0,0
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,30,0.0752525838459635
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,60,0.210242376774931
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,90,0.18859943094605
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,120,0.17810955117351
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,180,0.152998785737649
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,240,0.19045233510335
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,300,0.298706905722877
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,360,0.664517350447702
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,420,0.561672263740327
+3-hydroxydecanoate,Metabolon HD4 [nt-ms],OLTT,480,0.431802452948216
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,0,0
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,30,0.278042532532161
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,60,0.355924438243547
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,90,0.223515893364143
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,120,0.182080725673285
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,180,0.290237643121969
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,240,0.306726970171984
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,300,0.271222400376263
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,360,0.239046343604967
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,420,0.232691974949286
+3-hydroxylaurate,Metabolon HD4 [nt-ms],OLTT,480,0.301971364295004
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,0,0
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,30,0.0487786442773092
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,60,0.0825962757500865
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,90,0.190059618418395
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,120,0.166365177775037
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,180,0.0625013958746662
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,240,0.297406623855512
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,300,0.775025459970136
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,360,3.79728609165433
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,420,2.04417407549569
+3-hydroxyoctanoate,Metabolon HD4 [nt-ms],OLTT,480,1.96359333949342
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,0,0
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,30,0.0396634808109395
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,60,0.109217974971412
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,90,0.177398052323211
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,120,0.229845390326839
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,180,0.346409947465795
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,240,0.40564090559813
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,300,0.390960717023559
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,360,0.350294216221912
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,420,0.19784802331361
+acetylcarnitine,Metabolon HD4 [nt-ms],OLTT,480,0.193515231355189
+arginine,Metabolon HD4 [nt-ms],OLTT,0,0
+arginine,Metabolon HD4 [nt-ms],OLTT,30,0.155920937435258
+arginine,Metabolon HD4 [nt-ms],OLTT,60,0.260590517201805
+arginine,Metabolon HD4 [nt-ms],OLTT,90,0.266820373848794
+arginine,Metabolon HD4 [nt-ms],OLTT,120,0.476891811021635
+arginine,Metabolon HD4 [nt-ms],OLTT,180,0.286631613721453
+arginine,Metabolon HD4 [nt-ms],OLTT,240,0.304273125363426
+arginine,Metabolon HD4 [nt-ms],OLTT,300,0.248164840189423
+arginine,Metabolon HD4 [nt-ms],OLTT,360,0.483406056289716
+arginine,Metabolon HD4 [nt-ms],OLTT,420,0.323403631251492
+arginine,Metabolon HD4 [nt-ms],OLTT,480,0.293995979677153
+citrulline,Metabolon HD4 [nt-ms],OLTT,0,0
+citrulline,Metabolon HD4 [nt-ms],OLTT,30,0.999412923074128
+citrulline,Metabolon HD4 [nt-ms],OLTT,60,1.71540900945547
+citrulline,Metabolon HD4 [nt-ms],OLTT,90,1.40797565696458
+citrulline,Metabolon HD4 [nt-ms],OLTT,120,0.860076984031534
+citrulline,Metabolon HD4 [nt-ms],OLTT,180,1.74952841580647
+citrulline,Metabolon HD4 [nt-ms],OLTT,240,2.1504700960489
+citrulline,Metabolon HD4 [nt-ms],OLTT,300,1.09971605886663
+citrulline,Metabolon HD4 [nt-ms],OLTT,360,1.29525610270679
+citrulline,Metabolon HD4 [nt-ms],OLTT,420,1.01630380222631
+citrulline,Metabolon HD4 [nt-ms],OLTT,480,0.981406679476551
+cortisol,Metabolon HD4 [nt-ms],OLTT,0,0
+cortisol,Metabolon HD4 [nt-ms],OLTT,30,0.65713180016408
+cortisol,Metabolon HD4 [nt-ms],OLTT,60,1.29524418649513
+cortisol,Metabolon HD4 [nt-ms],OLTT,90,0.78165460708696
+cortisol,Metabolon HD4 [nt-ms],OLTT,120,0.781517007843262
+cortisol,Metabolon HD4 [nt-ms],OLTT,180,0.709784041241161
+cortisol,Metabolon HD4 [nt-ms],OLTT,240,0.898719326161776
+cortisol,Metabolon HD4 [nt-ms],OLTT,300,0.822994990426612
+cortisol,Metabolon HD4 [nt-ms],OLTT,360,0.837003245536208
+cortisol,Metabolon HD4 [nt-ms],OLTT,420,1.2124823036983
+cortisol,Metabolon HD4 [nt-ms],OLTT,480,1.30951505797572
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,0,0
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,30,0.0203636858321349
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,60,0.0530211546714212
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,90,0.131021577614999
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,120,0.359698426973079
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,180,0.468616181428028
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,240,0.285369908348126
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,300,0.178117917936066
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,360,0.142504024483052
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,420,0.0847680901737259
+dopamine sulfate (2),Metabolon HD4 [nt-ms],OLTT,480,0.0854778717619509
+fructose,Metabolon HD4 [nt-ms],OLTT,0,0
+fructose,Metabolon HD4 [nt-ms],OLTT,30,0.136203617103055
+fructose,Metabolon HD4 [nt-ms],OLTT,60,0.585820892098593
+fructose,Metabolon HD4 [nt-ms],OLTT,90,2.40927842541609
+fructose,Metabolon HD4 [nt-ms],OLTT,120,4.65375142200657
+fructose,Metabolon HD4 [nt-ms],OLTT,180,1.75789167514097
+fructose,Metabolon HD4 [nt-ms],OLTT,240,0.541470865993278
+fructose,Metabolon HD4 [nt-ms],OLTT,300,0.367995092655561
+fructose,Metabolon HD4 [nt-ms],OLTT,360,0.616122135381923
+fructose,Metabolon HD4 [nt-ms],OLTT,420,0.532483344797217
+fructose,Metabolon HD4 [nt-ms],OLTT,480,0.363922456393007
+glucose,Metabolon HD4 [nt-ms],OLTT,0,0
+glucose,Metabolon HD4 [nt-ms],OLTT,30,0.744187192184054
+glucose,Metabolon HD4 [nt-ms],OLTT,60,1.24951191019595
+glucose,Metabolon HD4 [nt-ms],OLTT,90,1.6510117859325
+glucose,Metabolon HD4 [nt-ms],OLTT,120,1.24879214878628
+glucose,Metabolon HD4 [nt-ms],OLTT,180,0.982286709381031
+glucose,Metabolon HD4 [nt-ms],OLTT,240,0.686949622121295
+glucose,Metabolon HD4 [nt-ms],OLTT,300,0.798314401012345
+glucose,Metabolon HD4 [nt-ms],OLTT,360,0.923601343315116
+glucose,Metabolon HD4 [nt-ms],OLTT,420,0.792729541383856
+glucose,Metabolon HD4 [nt-ms],OLTT,480,0.523598559364241
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,0,0
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,30,1.26301758571171
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,60,1.88582115109806
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,90,1.09269748158783
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,120,0.805015799950657
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,180,0.64127657422199
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,240,0.80028107195676
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,300,0.760596664108987
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,360,0.165975282891772
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,420,0.169065688394616
+glycochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,480,0.213682541370692
+glycocholate,Metabolon HD4 [nt-ms],OLTT,0,0
+glycocholate,Metabolon HD4 [nt-ms],OLTT,30,0.66883754913414
+glycocholate,Metabolon HD4 [nt-ms],OLTT,60,1.75045453719339
+glycocholate,Metabolon HD4 [nt-ms],OLTT,90,2.72310011169983
+glycocholate,Metabolon HD4 [nt-ms],OLTT,120,1.50814178870223
+glycocholate,Metabolon HD4 [nt-ms],OLTT,180,0.290943645447914
+glycocholate,Metabolon HD4 [nt-ms],OLTT,240,0.503507964789612
+glycocholate,Metabolon HD4 [nt-ms],OLTT,300,0.604824645659982
+glycocholate,Metabolon HD4 [nt-ms],OLTT,360,0.189762556350454
+glycocholate,Metabolon HD4 [nt-ms],OLTT,420,0.146480822790256
+glycocholate,Metabolon HD4 [nt-ms],OLTT,480,0.150820431291702
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,0,0
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,30,1.43946506094278
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,60,1.72089877625902
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,90,5.774892435058
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,120,1.38877290493176
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,180,0.837777784672118
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,240,0.783269848420284
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,300,0.645401387929485
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,360,0.922644746595212
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,420,0.244532586462012
+glycolithocholate,Metabolon HD4 [nt-ms],OLTT,480,0.21684890940438
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,0,0
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,30,0.645332986656968
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,60,1.66076268239995
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,90,3.52113675751983
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,120,1.40136433550156
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,180,0.579118758497238
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,240,0.67202875888915
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,300,0.8726089537481
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,360,0.965832160380239
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,420,0.757916875980739
+glycoursodeoxycholate,Metabolon HD4 [nt-ms],OLTT,480,0.785545515700741
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,0,0
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,30,0.14683358521018
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,60,0.542431854808447
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,90,1.12323550232581
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,120,0.790125411158044
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,180,0.514507530132125
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,240,0.513100290177283
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,300,0.362525021901614
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,360,0.457823033319898
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,420,0.345079699346315
+isovalerylglycine,Metabolon HD4 [nt-ms],OLTT,480,0.626995497211142
+kynurenine,Metabolon HD4 [nt-ms],OLTT,0,0
+kynurenine,Metabolon HD4 [nt-ms],OLTT,30,0.111768479791199
+kynurenine,Metabolon HD4 [nt-ms],OLTT,60,0.119765705438965
+kynurenine,Metabolon HD4 [nt-ms],OLTT,90,0.0890621224432871
+kynurenine,Metabolon HD4 [nt-ms],OLTT,120,0.18354275262765
+kynurenine,Metabolon HD4 [nt-ms],OLTT,180,0.2608739961461
+kynurenine,Metabolon HD4 [nt-ms],OLTT,240,0.259233149450405
+kynurenine,Metabolon HD4 [nt-ms],OLTT,300,0.180368032111765
+kynurenine,Metabolon HD4 [nt-ms],OLTT,360,0.423551928007782
+kynurenine,Metabolon HD4 [nt-ms],OLTT,420,0.374007274632937
+kynurenine,Metabolon HD4 [nt-ms],OLTT,480,0.289644545042577
+methionine,Metabolon HD4 [nt-ms],OLTT,0,0
+methionine,Metabolon HD4 [nt-ms],OLTT,30,0.0909473082447097
+methionine,Metabolon HD4 [nt-ms],OLTT,60,0.205764581870379
+methionine,Metabolon HD4 [nt-ms],OLTT,90,0.312230092550964
+methionine,Metabolon HD4 [nt-ms],OLTT,120,0.348997272648608
+methionine,Metabolon HD4 [nt-ms],OLTT,180,0.188093733049769
+methionine,Metabolon HD4 [nt-ms],OLTT,240,0.236670761142491
+methionine,Metabolon HD4 [nt-ms],OLTT,300,0.310492109477868
+methionine,Metabolon HD4 [nt-ms],OLTT,360,0.493526578820755
+methionine,Metabolon HD4 [nt-ms],OLTT,420,0.403034464814713
+methionine,Metabolon HD4 [nt-ms],OLTT,480,0.366035065020003
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,0,0
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,30,0.22770052983422
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,60,0.316737825026134
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,90,0.389920346126817
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,120,0.771562230841052
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,180,0.736732339888445
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,240,0.338887621605271
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,300,0.292828554214757
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,360,0.323271170341669
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,420,0.227343772541646
+methionine sulfoxide,Metabolon HD4 [nt-ms],OLTT,480,0.232145855623775
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,0,0
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,30,3.79351598664391
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,60,2.61678266351125
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,90,2.77748190280308
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,120,2.56134760420743
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,180,2.02194050601553
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,240,2.15081462085652
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,300,2.59417229295221
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,360,2.87900081898615
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,420,2.94084802451766
+palmitoyl ethanolamide,Metabolon HD4 [nt-ms],OLTT,480,3.49765184778563
+phosphate,Metabolon HD4 [nt-ms],OLTT,0,0
+phosphate,Metabolon HD4 [nt-ms],OLTT,30,0.165143189648663
+phosphate,Metabolon HD4 [nt-ms],OLTT,60,0.393239609089268
+phosphate,Metabolon HD4 [nt-ms],OLTT,90,0.287633954530501
+phosphate,Metabolon HD4 [nt-ms],OLTT,120,0.399766914757028
+phosphate,Metabolon HD4 [nt-ms],OLTT,180,0.404285130025126
+phosphate,Metabolon HD4 [nt-ms],OLTT,240,0.240354055485595
+phosphate,Metabolon HD4 [nt-ms],OLTT,300,0.209147528613932
+phosphate,Metabolon HD4 [nt-ms],OLTT,360,0.386298890225186
+phosphate,Metabolon HD4 [nt-ms],OLTT,420,0.563255396064321
+phosphate,Metabolon HD4 [nt-ms],OLTT,480,0.444433888008189
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,0,0
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,30,0.132266311650768
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,60,0.245979855481121
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,90,0.286681614130913
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,120,0.414401654874291
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,180,0.395562902911269
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,240,0.545948451590549
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,300,0.484261035965027
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,360,0.493893534773084
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,420,0.335957760555142
+pro-hydroxy-pro,Metabolon HD4 [nt-ms],OLTT,480,0.289006885544223
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,0,0
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,30,0.0648118648908324
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,60,0.20278991675911
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,90,0.251717986607953
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,120,0.331334133535359
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,180,0.266556605870651
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,240,0.187414365407614
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,300,0.237557013690517
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,360,0.369873833113785
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,420,0.322488744961963
+propionylcarnitine,Metabolon HD4 [nt-ms],OLTT,480,0.326036121019367
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,0,0
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,30,0.913339803427335
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,60,4.12694972232518
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,90,2.17567750019332
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,120,0.537559931603236
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,180,2.17251536265198
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,240,2.64445694280961
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,300,0.695674629386472
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,360,0.231223011556582
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,420,0.111592584586768
+taurochenodeoxycholate,Metabolon HD4 [nt-ms],OLTT,480,0.061181844999513
+taurocholate,Metabolon HD4 [nt-ms],OLTT,0,0
+taurocholate,Metabolon HD4 [nt-ms],OLTT,30,0.691734851586597
+taurocholate,Metabolon HD4 [nt-ms],OLTT,60,2.35159857352596
+taurocholate,Metabolon HD4 [nt-ms],OLTT,90,4.14855434914087
+taurocholate,Metabolon HD4 [nt-ms],OLTT,120,1.02883218197209
+taurocholate,Metabolon HD4 [nt-ms],OLTT,180,1.12864264299575
+taurocholate,Metabolon HD4 [nt-ms],OLTT,240,1.35748153533966
+taurocholate,Metabolon HD4 [nt-ms],OLTT,300,0.779953795095625
+taurocholate,Metabolon HD4 [nt-ms],OLTT,360,0.272824522832887
+taurocholate,Metabolon HD4 [nt-ms],OLTT,420,0.166833073095207
+taurocholate,Metabolon HD4 [nt-ms],OLTT,480,0.104357693036236
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,0,0
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,15,0.040815545589034
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,30,0.0763849757893724
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,45,0.049952338089568
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,60,0.153910179020298
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,90,0.179124182410242
+2-hydroxybutyrate/2-hydroxyisobutyrate,Metabolon HD4 [nt-ms],PAT,120,0.180327203829063
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,0,0
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,15,0.0406258574820408
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,30,0.0414609983539068
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,45,0.0532713694201783
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,60,0.264714315018033
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,90,0.238914722140861
+3-hydroxybutyrate (bhba),Metabolon HD4 [nt-ms],PAT,120,0.244127152835222
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,0,0
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,15,0.389160287035517
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,30,0.53410204384036
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,45,1.86936027929647
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,60,0.785796827437371
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,90,0.508653038665181
+3-methyl-2-oxobutyrate,Metabolon HD4 [nt-ms],PAT,120,1.59085868806876
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,0,0
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,15,0.749761113768831
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,30,0.753559445084331
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,45,0.785310919211363
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,60,0.491316984893886
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,90,0.802036151323951
+"adenosine 3',5'-cyclic monophosphate (camp)",Metabolon HD4 [nt-ms],PAT,120,0.375991400638256
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,0,0
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,15,0.765952716300356
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,30,3.91901090896854
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,45,1.18180933181936
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,60,0.479086267939202
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,90,1.05400015949164
+alpha-ketoglutarate,Metabolon HD4 [nt-ms],PAT,120,0.811137193949701
+fumarate,Metabolon HD4 [nt-ms],PAT,0,0
+fumarate,Metabolon HD4 [nt-ms],PAT,15,1.01327282882113
+fumarate,Metabolon HD4 [nt-ms],PAT,30,6.4940156695631
+fumarate,Metabolon HD4 [nt-ms],PAT,45,2.30965918901598
+fumarate,Metabolon HD4 [nt-ms],PAT,60,0.84585258727013
+fumarate,Metabolon HD4 [nt-ms],PAT,90,0.28316141520536
+fumarate,Metabolon HD4 [nt-ms],PAT,120,0.291428927146347
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,0,0
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,15,0.281967353259407
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,30,3.32849714297025
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,45,5.97862923338303
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,60,2.27766910552435
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,90,0.738291567903493
+hypoxanthine,Metabolon HD4 [nt-ms],PAT,120,0.437340199457539
+inosine,Metabolon HD4 [nt-ms],PAT,0,0
+inosine,Metabolon HD4 [nt-ms],PAT,15,0.375611788331656
+inosine,Metabolon HD4 [nt-ms],PAT,30,2.1911915238136
+inosine,Metabolon HD4 [nt-ms],PAT,45,4.91121339045714
+inosine,Metabolon HD4 [nt-ms],PAT,60,6.29723425968
+inosine,Metabolon HD4 [nt-ms],PAT,90,0.318422668410388
+inosine,Metabolon HD4 [nt-ms],PAT,120,0.708997369910918
+lactate,Metabolon HD4 [nt-ms],PAT,0,0
+lactate,Metabolon HD4 [nt-ms],PAT,15,1.05776082896405
+lactate,Metabolon HD4 [nt-ms],PAT,30,3.05280747609964
+lactate,Metabolon HD4 [nt-ms],PAT,45,0.914240571617934
+lactate,Metabolon HD4 [nt-ms],PAT,60,0.236533530922494
+lactate,Metabolon HD4 [nt-ms],PAT,90,0.102147757402158
+lactate,Metabolon HD4 [nt-ms],PAT,120,0.0958019209847932
+malate,Metabolon HD4 [nt-ms],PAT,0,0
+malate,Metabolon HD4 [nt-ms],PAT,15,1.6261991716888
+malate,Metabolon HD4 [nt-ms],PAT,30,6.14159156149692
+malate,Metabolon HD4 [nt-ms],PAT,45,2.53748935456929
+malate,Metabolon HD4 [nt-ms],PAT,60,0.505640441692159
+malate,Metabolon HD4 [nt-ms],PAT,90,0.215076081021966
+malate,Metabolon HD4 [nt-ms],PAT,120,0.148676326720757
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,0,0
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,15,1.64603510046256
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,30,4.19573335109881
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,45,0.22119373057065
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,60,0.828677873991941
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,90,0.504634996806113
+methylsuccinate,Metabolon HD4 [nt-ms],PAT,120,0.559344292565744
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,0,0
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,15,0.651055694363954
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,30,0.913180200198825
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,45,1.63858735790936
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,60,0.877183460610072
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,90,0.730176095057367
+n-acetylmethionine,Metabolon HD4 [nt-ms],PAT,120,0.632634571007702
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,0,0
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,15,0.275060874239675
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,30,3.91250336933723
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,45,1.10481226998439
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,60,0.395131754076107
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,90,0.291590714092318
+n-acetyltryptophan,Metabolon HD4 [nt-ms],PAT,120,0.168617901481149
+pantothenate,Metabolon HD4 [nt-ms],PAT,0,0
+pantothenate,Metabolon HD4 [nt-ms],PAT,15,0.425977326595785
+pantothenate,Metabolon HD4 [nt-ms],PAT,30,1.84158251273618
+pantothenate,Metabolon HD4 [nt-ms],PAT,45,0.427622237883715
+pantothenate,Metabolon HD4 [nt-ms],PAT,60,0.200542159891597
+pantothenate,Metabolon HD4 [nt-ms],PAT,90,0.336155461613472
+pantothenate,Metabolon HD4 [nt-ms],PAT,120,0.353624926082667
+pyruvate,Metabolon HD4 [nt-ms],PAT,0,0
+pyruvate,Metabolon HD4 [nt-ms],PAT,15,0.808455882741795
+pyruvate,Metabolon HD4 [nt-ms],PAT,30,0.924766616311141
+pyruvate,Metabolon HD4 [nt-ms],PAT,45,1.66536422246024
+pyruvate,Metabolon HD4 [nt-ms],PAT,60,1.05555644476301
+pyruvate,Metabolon HD4 [nt-ms],PAT,90,0.42709617003026
+pyruvate,Metabolon HD4 [nt-ms],PAT,120,0.209546643756121
+succinate,Metabolon HD4 [nt-ms],PAT,0,0
+succinate,Metabolon HD4 [nt-ms],PAT,15,1.14554195982805
+succinate,Metabolon HD4 [nt-ms],PAT,30,6.48054410091104
+succinate,Metabolon HD4 [nt-ms],PAT,45,0.637199133419387
+succinate,Metabolon HD4 [nt-ms],PAT,60,0.109437613284556
+succinate,Metabolon HD4 [nt-ms],PAT,90,0.0349362616169173
+succinate,Metabolon HD4 [nt-ms],PAT,120,0.0447182289736647
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,0,0
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,15,0.736290902677961
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,30,1.12216352563615
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,45,1.11239649649814
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,60,0.475704102323999
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,90,0.849240620699157
+vanillylmandelate (vma),Metabolon HD4 [nt-ms],PAT,120,0.362714553232855
+xanthine,Metabolon HD4 [nt-ms],PAT,0,0
+xanthine,Metabolon HD4 [nt-ms],PAT,15,1.19867345781044
+xanthine,Metabolon HD4 [nt-ms],PAT,30,1.91714704642887
+xanthine,Metabolon HD4 [nt-ms],PAT,45,2.13962814910742
+xanthine,Metabolon HD4 [nt-ms],PAT,60,1.29012860002788
+xanthine,Metabolon HD4 [nt-ms],PAT,90,1.02497990429215
+xanthine,Metabolon HD4 [nt-ms],PAT,120,1.23157895599529
+xanthosine,Metabolon HD4 [nt-ms],PAT,0,0
+xanthosine,Metabolon HD4 [nt-ms],PAT,15,0.292188796848677
+xanthosine,Metabolon HD4 [nt-ms],PAT,30,1.73153653651882
+xanthosine,Metabolon HD4 [nt-ms],PAT,45,3.98896233466443
+xanthosine,Metabolon HD4 [nt-ms],PAT,60,2.66685944872271
+xanthosine,Metabolon HD4 [nt-ms],PAT,90,2.37845741444707
+xanthosine,Metabolon HD4 [nt-ms],PAT,120,1.97595259475018
